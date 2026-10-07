@@ -105,7 +105,7 @@ const libRes = await build({
   ...common, entryPoints: ids.map((id) => ({ in: join(ROOT, `src/gen/${id}.lib.tsx`), out: id })), outdir: join(TMP, 'libs'),
   plugins: [sharedReact, atlasPlugin({ urls, libIds: ids })],
 });
-const libJs = Object.fromEntries(libRes.outputFiles.map((f) => [f.path.split('/').pop().replace(/\.js$/, ''), f.text]));
+const libJs = Object.fromEntries(libRes.outputFiles.map((f) => [f.path.split(/[\\/]/).pop().replace(/\.js$/, ''), f.text]));
 
 // fontes pedidas via next/font/google → @fontsource (se instalado) embutido em base64
 let extraFonts = '';

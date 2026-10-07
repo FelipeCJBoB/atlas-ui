@@ -43,7 +43,7 @@ const report = [];
 for (const [id, s] of Object.entries(lock.sources)) {
   if (ids.length && !ids.includes(id)) continue;
   const dir = join(CACHE, id);
-  if (!existsSync(join(dir, '.git'))) { console.log(`↓ clonando ${id}`); run(`git clone --quiet ${s.repo} ${JSON.stringify(dir)}`); }
+  if (!existsSync(join(dir, '.git'))) { console.log(`↓ clonando ${id}`); run(`git clone --quiet -c core.autocrlf=false -c core.eol=lf ${s.repo} ${JSON.stringify(dir)}`); }
   if (update) { run('git fetch --quiet origin', dir); const head = run('git rev-parse origin/HEAD', dir); s.commit = head; console.log(`↑ ${id} → ${head}`); }
   try { run(`git checkout --quiet ${s.commit}`, dir); } catch { run('git fetch --quiet origin', dir); run(`git checkout --quiet ${s.commit}`, dir); }
   const got = run('git rev-parse HEAD', dir);

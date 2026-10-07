@@ -22,7 +22,7 @@ export function generate(id) {
   // categoryFrom: "content/docs" → subpastas = categorias; cada <slug>.mdx associa o componente <slug> à categoria
   const catMap = new Map();
   if (cfg.categoryFrom && existsSync(join(vd, cfg.categoryFrom))) for (const f of walk(join(vd, cfg.categoryFrom)).filter((f) => f.endsWith('.mdx'))) {
-    const parts = relative(join(vd, cfg.categoryFrom), f).split('/'); if (parts.length === 2) catMap.set(parts[1].replace(/\.mdx$/, ''), title(parts[0]));
+    const parts = relative(join(vd, cfg.categoryFrom), f).split(/[\\/]/); if (parts.length === 2) catMap.set(parts[1].replace(/\.mdx$/, ''), title(parts[0]));
   }
   const meta = [], mods = [];
   for (const d of cfg.demos) {

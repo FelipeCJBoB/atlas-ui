@@ -13,7 +13,7 @@ const _findCache = {};
 function findIdx(id, dir) {
   const k = id + ':' + dir; if (_findCache[k]) return _findCache[k];
   const m = new Map();
-  for (const f of walk(join(vendorDir(id), dir))) { const mm = f.match(/([^/]+)\.(tsx?|jsx?)$/); if (mm && !/\.(test|spec|stories)\./.test(f) && !m.has(mm[1])) m.set(mm[1], f); }
+  for (const f of walk(join(vendorDir(id), dir))) { const mm = f.match(/([^/\\]+)\.(tsx?|jsx?)$/); if (mm && !/\.(test|spec|stories)\./.test(f) && !m.has(mm[1])) m.set(mm[1], f); }
   return (_findCache[k] = m);
 }
 
@@ -29,7 +29,7 @@ export function atlasPlugin({ urls, libIds }) {
         const aliases = lock[id].aliases || [['@/', '']];
         for (const [from, to] of [...aliases].sort((x, y) => y[0].length - x[0].length)) {
           if (!a.path.startsWith(from)) continue;
-          const r = await b.resolve('./' + join(to, a.path.slice(from.length)), { resolveDir: vendorDir(id), kind: a.kind, importer: a.importer });
+          const r = await b.resolve('./' + join(to, a.path.slice(from.length)).replace(/\\/g, '/'), { resolveDir: vendorDir(id), kind: a.kind, importer: a.importer });
           if (!r.errors.length) return r;
         }
         // aliasFind: [[prefixo, pasta]] → procura <nome>.tsx recursivamente na pasta (ex.: @/components/motiq/<nome>)
