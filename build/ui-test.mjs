@@ -1,10 +1,11 @@
 // Smoke de interface: sidebar, busca, ⌘K, detalhe (preview claro, código, licença), favoritos.
 import { chromium } from 'playwright-core';
+import { browserExe } from './browser.mjs';
 import { readdirSync, mkdirSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 const ROOT = resolve(import.meta.dirname, '..');
 const file = resolve(ROOT, process.argv[2] || 'out/atlas.html'); const out = join(ROOT, 'out/qa/ui'); mkdirSync(out, { recursive: true });
-const base = '/opt/pw-browsers'; const exe = join(base, readdirSync(base).find((x) => x.startsWith('chromium_headless_shell')), 'chrome-linux/headless_shell');
+const exe = browserExe();
 const b = await chromium.launch({ executablePath: exe, args: ['--enable-unsafe-swiftshader', '--no-sandbox'] });
 const p = await b.newPage({ viewport: { width: 1500, height: 900 } });
 const errs = []; p.on('pageerror', (e) => errs.push(e.message)); p.on('console', (m) => m.type() === 'error' && errs.push(m.text()));

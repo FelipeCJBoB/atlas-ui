@@ -1,8 +1,9 @@
 // Teste de overlays: abre cada componente, clica no primeiro gatilho e confere se o conteúdo do portal herdou os tokens da lib.
 import { chromium } from 'playwright-core';
+import { browserExe } from './browser.mjs';
 import { readdirSync, readFileSync, mkdirSync } from 'node:fs'; import { join, resolve } from 'node:path';
 const file = resolve(process.argv[2]), uids = JSON.parse(readFileSync(process.argv[3], 'utf8')), out = process.argv[4] || '/tmp/portal'; mkdirSync(out, { recursive: true });
-const base = '/opt/pw-browsers'; const exe = join(base, readdirSync(base).find((x) => x.startsWith('chromium_headless_shell')), 'chrome-linux/headless_shell');
+const exe = browserExe();
 const b = await chromium.launch({ executablePath: exe, args: ['--disable-gpu', '--no-sandbox', '--allow-file-access-from-files'] });
 const p = await b.newPage({ viewport: { width: 1400, height: 900 }, locale: 'en-US' });
 await p.goto('file://' + file); await p.waitForFunction(() => window.__atlasCount > 0, null, { timeout: 90000 });

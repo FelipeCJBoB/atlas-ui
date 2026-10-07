@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // QA em Chromium headless via file://:  node build/qa.mjs [out/atlas.html] [--libs=a,b] [--shots] [--only=substr]
 import { chromium } from 'playwright-core';
+import { browserExe } from './browser.mjs';
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import sharp from 'sharp';
@@ -10,7 +11,7 @@ const file = resolve(ROOT, process.argv.find((a) => a.endsWith('.html')) || 'out
 const arg = (k, d = '') => (process.argv.find((a) => a.startsWith(`--${k}=`)) || '').split('=')[1] ?? d;
 const libs = arg('libs').split(',').filter(Boolean), onlyStr = arg('only'), shots = process.argv.includes('--shots');
 const QA = join(ROOT, 'out/qa'); mkdirSync(join(QA, 'shots'), { recursive: true });
-const exe = (() => { const base = '/opt/pw-browsers'; const d = readdirSync(base).find((x) => x.startsWith('chromium_headless_shell')); return d ? join(base, d, 'chrome-linux/headless_shell') : undefined; })();
+const exe = browserExe();
 
 const browser = await chromium.launch({ executablePath: exe, args: [...(process.argv.includes('--webgl') ? ['--enable-unsafe-swiftshader'] : ['--disable-gpu', '--disable-3d-apis']), '--no-sandbox', '--allow-file-access-from-files'] });
 let cur = '(boot)'; const errs = {}, ext = {}, types = {};
