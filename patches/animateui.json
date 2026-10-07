@@ -1,0 +1,56 @@
+[
+  {
+    "file": "app/globals.css",
+    "find": "@source \"../../../apps/**/*.{ts,tsx}\";\n",
+    "replace": "",
+    "why": "docs/fumadocs: n\u00e3o necess\u00e1rio (escopo do compile \u00e9 por lib)"
+  },
+  {
+    "file": "app/globals.css",
+    "find": "@source \"../../../components/**/*.{ts,tsx}\";\n",
+    "replace": "",
+    "why": "docs/fumadocs: n\u00e3o necess\u00e1rio (escopo do compile \u00e9 por lib)"
+  },
+  {
+    "file": "app/globals.css",
+    "find": "@source \"../../../packages/**/*.{ts,tsx}\";\n",
+    "replace": "",
+    "why": "docs/fumadocs: n\u00e3o necess\u00e1rio (escopo do compile \u00e9 por lib)"
+  },
+  {
+    "file": "app/globals.css",
+    "find": "@source \"./**/*.{ts,tsx,mdx}\";\n",
+    "replace": "",
+    "why": "docs/fumadocs: n\u00e3o necess\u00e1rio (escopo do compile \u00e9 por lib)"
+  },
+  {
+    "file": "app/globals.css",
+    "find": "@source \"../**/*.{ts,tsx,mdx}\";\n",
+    "replace": "",
+    "why": "docs/fumadocs: n\u00e3o necess\u00e1rio (escopo do compile \u00e9 por lib)"
+  },
+  {
+    "file": "app/globals.css",
+    "find": "@source \"./(playground)/**/*.{ts,tsx,mdx}\";\n",
+    "replace": "",
+    "why": "docs/fumadocs: n\u00e3o necess\u00e1rio (escopo do compile \u00e9 por lib)"
+  },
+  {
+    "file": "app/globals.css",
+    "find": "@import 'fumadocs-ui/css/black.css';\n",
+    "replace": "",
+    "why": "docs/fumadocs: n\u00e3o necess\u00e1rio (escopo do compile \u00e9 por lib)"
+  },
+  {
+    "file": "app/globals.css",
+    "find": "@import 'fumadocs-ui/css/preset.css';\n",
+    "replace": "",
+    "why": "docs/fumadocs: n\u00e3o necess\u00e1rio (escopo do compile \u00e9 por lib)"
+  },
+  {
+    "file": "app/globals.css",
+    "find": "@source '../node_modules/fumadocs-ui/dist/**/*.js';\n",
+    "replace": "",
+    "why": "docs/fumadocs: n\u00e3o necess\u00e1rio (escopo do compile \u00e9 por lib)"
+  }
+]

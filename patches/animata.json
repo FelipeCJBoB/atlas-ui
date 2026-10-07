@@ -1,0 +1,6 @@
+[
+  { "file": "animata/preloader/split-reveal.stories.tsx", "find": "lockScroll: true,", "replace": "lockScroll: false,", "why": "lockScroll congela o scroll do body da vitrine" },
+  { "file": "animata/text/mask-text.tsx", "find": "maskImage: \"url(/circle.svg)\"", "replace": "maskImage: \"url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI1MCIvPjwvc3ZnPg==)\"", "why": "file:///circle.svg é bloqueado por CORS; SVG inline" },
+  { "file": "animata/widget/music-stack-interaction.tsx", "find": "src={`${album.cover}?w=200&h=200`}", "replace": "src={album.cover}", "why": "sufixo de query quebra data URL" },
+  { "file": "lib/utils.ts", "find": "export function absoluteUrl(path: string) {\n  return `${process.env.NEXT_PUBLIC_APP_URL}${path}`;\n}", "replace": "import jumpingMan from \"@/public/jumping-man.png\";\nimport musicCover from \"@/public/widget/music.jpg\";\nconst LOCAL: Record<string, string> = {\n  \"/jumping-man.png\": (jumpingMan as any).src,\n  \"/widget/music.jpg\": (musicCover as any).src,\n};\nexport function absoluteUrl(path: string) {\n  return LOCAL[path] ?? path;\n}", "why": "assets de /public viram data URLs (offline)" }
+]

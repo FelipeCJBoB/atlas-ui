@@ -1,0 +1,8 @@
+[
+  {
+    "file": "lib/utils.ts",
+    "find": "import process from \"process\"\n",
+    "replace": "const process = { env: {} as Record<string, string | undefined> };\n",
+    "why": "shim de process no navegador"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "file": "apps/docs/app/globals.css",
+    "find": "@import \"tailwindcss\";",
+    "replace": "@import \"tailwindcss\";\n@import \"../../../packages/tokens/styles.css\";",
+    "why": "tokens de design (--color-*) vêm de @scope/tokens, importado no layout.tsx do site"
+  }
+]

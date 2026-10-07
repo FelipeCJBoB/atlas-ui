@@ -1,0 +1,381 @@
+{
+  "animateui:components/radix/toggle-group": {
+    "props": {
+      "type": "single",
+      "variant": "default",
+      "size": "default"
+    }
+  },
+  "smoothui:transition-demo-frame": {
+    "exclude": true
+  },
+  "reactbits:TextAnimations/MaskedHeadingDemo": {
+    "flags": [
+      "needs-network"
+    ]
+  },
+  "animateui:primitives/texts/counting-number": {
+    "props": {
+      "number": 12840,
+      "fromNumber": 0,
+      "padStart": false,
+      "decimalSeparator": ".",
+      "decimalPlaces": 0,
+      "delay": 0
+    }
+  },
+  "animateui:components/base/preview-link-card": {
+    "flags": [
+      "needs-network"
+    ]
+  },
+  "uitripled:components/cards/tweet-card": {
+    "exclude": true
+  },
+  "uitripled:grid/grid-cell": {
+    "exclude": true
+  },
+  "uitripled:grid/grid-preview": {
+    "exclude": true
+  },
+  "eldoraui:logo-cloud-04/components/animated-logo-column": {
+    "exclude": true
+  },
+  "uitripled:native/native-action-dropdown-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/native-avatar-expand-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/native-avatar-with-name-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/native-flip-text-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/native-hover-card-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/native-hover-card": {
+    "exclude": true
+  },
+  "uitripled:native/native-image-checkbox-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/native-likes-counter-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/native-marquee-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/native-nested-list-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/native-profile-notch-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/native-tabs-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/native-tooltip-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/native-user-card-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/native-typewriter-shadcnui": {
+    "exclude": true
+  },
+  "uitripled:native/social-login-button-shadcnui": {
+    "exclude": true
+  },
+  "spectrumui:avatar-stack": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/agent-plan": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/agent-steps": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/citation-sources": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/code-block": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/conversation-list": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/diff-view": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/insight-cards": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/memory-chips": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/model-selector": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/reasoning-trace": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/status-tracker": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/streaming-text": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/task-rows": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/tool-chips": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/usage-meter": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/ai-assistants/web-search": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/footers/ask-docs-footer": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/footers/careers-footer": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/footers/link-search-footer": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/footers/mega-sitemap-footer": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/footers/minimal-footer": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/footers/policy-footer": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/footers/region-picker-footer": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/footers/release-feed-footer": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/footers/service-status-footer": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/footers/social-proof-footer": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/footers/token-stream-footer": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/footers/trust-center-footer": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/footers/wordmark-spotlight-footer": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/pricing/banner-tiers": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/pricing/blueprint-tiers": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/pricing/dark-matrix": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/pricing/gradient-tiers": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/pricing/offset-tiers": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/pricing/receipt-tiers": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:blocks/pricing/serif-tiers": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:data-table": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:kbd-key": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:tree-nav": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "reui:stepper/c-stepper-7": {
+    "exclude": true
+  },
+  "motiq:catalog/mobile-filter-sheet": {
+    "layout": "frame"
+  },
+  "smoothui:tweet-card-top": {
+    "flags": [
+      "needs-network"
+    ]
+  },
+  "eldoraui:cobe-globe-demo": {
+    "flags": [
+      "needs-network"
+    ]
+  },
+  "kibo:snippet-npm": {
+    "flags": [
+      "needs-network"
+    ]
+  },
+  "magicui:android-demo": {
+    "flags": [
+      "needs-network"
+    ]
+  },
+  "threeui:matrix-field/atmospheric-blade": {
+    "flags": [
+      "needs-network"
+    ]
+  },
+  "spectrumui:scratch-card": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:swipe-to-delete": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:tilt-card": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:skeleton-reveal": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "spectrumui:text-states": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "eldoraui:header-02/components/plus-grid": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "eldoraui:pricing-02/components/text": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "eldoraui:testimonal-01/components/carousel": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "eldoraui:pricing-02/components/container": {
+    "flags": [
+      "needs-props"
+    ]
+  },
+  "kibo:reel-images": {
+    "flags": [
+      "needs-network"
+    ]
+  },
+  "eldoraui:map-demo": {
+    "flags": [
+      "needs-network"
+    ]
+  },
+  "uitripled:native/native-magnetic-shadcnui": {
+    "exclude": true
+  }
+}

@@ -1,0 +1,1041 @@
+{
+  "$comment": "Fonte da verdade das bibliotecas. 'commit' é fixo (reprodutível). Mude só com `npm run sync -- --update <id>`.",
+  "sources": {
+    "animata": {
+      "name": "Animata",
+      "repo": "https://github.com/codse/animata.git",
+      "commit": "36674e4e9cfdc0f237693d8b736a2bf41065ca1d",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "copy": [
+        "animata",
+        "components",
+        "hooks",
+        "lib",
+        "styles/globals.css",
+        "public/*.png",
+        "public/*.jpg",
+        "public/*.webp",
+        "public/*.svg",
+        "public/widget/music.jpg"
+      ],
+      "licenseFile": "LICENSE.md",
+      "aliasRoot": "",
+      "kind": "stories",
+      "cssSources": [
+        "animata",
+        "components"
+      ]
+    },
+    "magicui": {
+      "name": "Magic UI",
+      "repo": "https://github.com/magicuidesign/magicui.git",
+      "commit": "cdb348cb4c72a9b54b554d8617801e479fbc8714",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "apps/www",
+      "copy": [
+        "registry/magicui",
+        "registry/example",
+        "registry/lib",
+        "lib",
+        "components",
+        "hooks",
+        "styles/globals.css",
+        "public/pixel-image-demo.jpg",
+        "public/placeholder.svg",
+        "public/placeholder-dark.svg",
+        "registry/registry-examples.ts",
+        "registry/registry-ui.ts"
+      ],
+      "licenseFile": "LICENSE.md",
+      "aliasRoot": "",
+      "kind": "demos",
+      "cssSources": [
+        "registry",
+        "components"
+      ]
+    },
+    "cultui": {
+      "name": "Cult UI",
+      "repo": "https://github.com/nolly-studio/cult-ui.git",
+      "commit": "67a66c6ac1cd240914ba688a907611b3437a7a2b",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "apps/www",
+      "licenseFile": "LICENSE.md",
+      "copy": [
+        "registry/default",
+        "components",
+        "hooks",
+        "lib",
+        "config",
+        "styles/globals.css",
+        "public/avatars",
+        "public/component-images",
+        "public/placeholders",
+        "public/images",
+        "public/*.png",
+        "public/*.jpg",
+        "public/*.webp",
+        "public/*.svg",
+        "public/textures"
+      ],
+      "cssSources": [
+        "registry",
+        "components"
+      ],
+      "aliases": [
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "registry/default/example",
+            "category": "keywords"
+          },
+          {
+            "dir": "registry/default/block",
+            "category": "Blocks",
+            "prefix": "block/"
+          }
+        ],
+        "related": [
+          "registry/default/ui"
+        ]
+      },
+      "pkgAlias": {
+        "react-resizable-panels": "react-resizable-panels-v2"
+      }
+    },
+    "kokonutui": {
+      "name": "Kokonut UI",
+      "repo": "https://github.com/kokonut-labs/kokonutui.git",
+      "commit": "83eec6d982d400a18438001a8efdbac1f159dd43",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE",
+      "globals": "app/globals.css",
+      "copy": [
+        "components",
+        "hooks",
+        "lib",
+        "content/docs",
+        "app/globals.css",
+        "public/*.png",
+        "public/*.jpg",
+        "public/*.webp",
+        "public/*.svg"
+      ],
+      "cssSources": [
+        "components"
+      ],
+      "aliases": [
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "components/kokonutui",
+            "category": "keywords"
+          }
+        ],
+        "categoryFrom": "content/docs",
+        "related": [
+          "components/ui",
+          "components/icons",
+          "hooks",
+          "lib/"
+        ]
+      }
+    },
+    "motionprimitives": {
+      "name": "Motion Primitives",
+      "repo": "https://github.com/ibelick/motion-primitives.git",
+      "commit": "120f64f6ca60348e251f929e9c81f11ccbe45eda",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENCE.md",
+      "globals": "app/globals.css",
+      "copy": [
+        "components/core",
+        "components/ui",
+        "lib",
+        "hooks",
+        "app/docs",
+        "app/globals.css",
+        "public/*.png",
+        "public/*.jpg",
+        "public/*.webp",
+        "public/*.svg",
+        "components/website"
+      ],
+      "cssSources": [
+        "components",
+        "app/docs"
+      ],
+      "aliases": [
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "app/docs",
+            "category": "keywords"
+          }
+        ],
+        "related": [
+          "components/core",
+          "components/ui",
+          "hooks",
+          "lib/"
+        ],
+        "exclude": "(^|/)(layout|page|template|loading|not-found|error)\\.tsx$"
+      }
+    },
+    "fancy": {
+      "name": "Fancy Components",
+      "repo": "https://github.com/danielpetho/fancy.git",
+      "commit": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "src",
+      "licenseFile": "LICENSE",
+      "globals": "app/globals.css",
+      "copy": [
+        "fancy",
+        "components/ui",
+        "hooks",
+        "lib",
+        "utils",
+        "app/globals.css",
+        "../public/fonts>public/fonts"
+      ],
+      "cssSources": [
+        "fancy",
+        "components"
+      ],
+      "aliases": [
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "fancy/examples",
+            "category": "subdir"
+          }
+        ],
+        "related": [
+          "fancy/components",
+          "components/ui",
+          "hooks",
+          "lib/",
+          "utils"
+        ]
+      }
+    },
+    "animateui": {
+      "name": "Animate UI",
+      "repo": "https://github.com/imskyleen/animate-ui.git",
+      "commit": "efeb96ffd7a3b7a4868667e4ac3c346620fb3044",
+      "license": "MIT + Commons Clause",
+      "profile": [
+        "pessoal"
+      ],
+      "root": "apps/www",
+      "licenseFile": "LICENSE.md",
+      "globals": "app/globals.css",
+      "copy": [
+        "registry",
+        "app/globals.css",
+        "../../packages/ui/src>packages-ui",
+        "public/*.png",
+        "public/*.webp",
+        "public/*.svg"
+      ],
+      "cssSources": [
+        "registry",
+        "packages-ui"
+      ],
+      "aliases": [
+        [
+          "@workspace/ui/",
+          "packages-ui/"
+        ],
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "registry/demo",
+            "category": "subdir",
+            "depth": 2,
+            "allowIndex": true
+          }
+        ],
+        "related": [
+          "registry/components",
+          "registry/primitives",
+          "registry/hooks",
+          "registry/lib",
+          "packages-ui"
+        ]
+      },
+      "pkgAlias": {
+        "react-resizable-panels": "react-resizable-panels-v2"
+      }
+    },
+    "smoothui": {
+      "name": "SmoothUI",
+      "repo": "https://github.com/educlopez/smoothui.git",
+      "commit": "b6312bce2b6f2ed95d8a6e98a592857884f5ea9e",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE",
+      "globals": "apps/docs/app/smoothui.css",
+      "copy": [
+        "apps/docs/examples",
+        "apps/docs/app/smoothui.css",
+        "apps/docs/lib",
+        "apps/docs/hooks",
+        "packages/smoothui",
+        "packages/data",
+        "packages/shadcn-ui",
+        "apps/docs/public>public"
+      ],
+      "cssSources": [
+        "apps/docs/examples",
+        "packages/smoothui",
+        "packages/shadcn-ui"
+      ],
+      "aliases": [
+        [
+          "@repo/smoothui/",
+          "packages/smoothui/"
+        ],
+        [
+          "@repo/shadcn-ui/",
+          "packages/shadcn-ui/"
+        ],
+        [
+          "@smoothui/data/",
+          "packages/data/"
+        ],
+        [
+          "@smoothui/data",
+          "packages/data/index"
+        ],
+        [
+          "@docs/",
+          "apps/docs/"
+        ],
+        [
+          "@/components/",
+          "packages/shadcn-ui/components/"
+        ],
+        [
+          "@/lib/",
+          "packages/shadcn-ui/lib/"
+        ],
+        [
+          "@/hooks/",
+          "packages/shadcn-ui/hooks/"
+        ],
+        [
+          "@/",
+          "apps/docs/"
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "apps/docs/examples",
+            "category": "keywords"
+          }
+        ],
+        "related": [
+          "packages/smoothui",
+          "packages/shadcn-ui"
+        ]
+      }
+    },
+    "reactbits": {
+      "name": "React Bits",
+      "repo": "https://github.com/DavidHDev/react-bits.git",
+      "commit": "ca44b3f9ee180676a06d7de8ec6bea84cddff85b",
+      "license": "MIT + Commons Clause",
+      "profile": [
+        "pessoal"
+      ],
+      "root": "src",
+      "licenseFile": "LICENSE.md",
+      "globals": "@atlas/stubs/reactbits/globals.css",
+      "copy": [
+        "demo",
+        "content",
+        "hooks",
+        "assets",
+        "constants",
+        "utils",
+        "../public/assets/demo>public/assets/demo",
+        "../public/assets/3d>public/assets/3d",
+        "../public/assets/images>public/assets/images",
+        "../public/assets/fonts>public/assets/fonts",
+        "../public/assets/gif>public/assets/gif"
+      ],
+      "cssSources": [
+        "content"
+      ],
+      "aliases": [
+        [
+          "@content/",
+          "content/"
+        ],
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "stubs": {
+        "match": "(components/(common|code|context|setup)/|hooks/(useComponentProps|useForceRerender)$|constants/code/)",
+        "chakra": "stubs/reactbits/chakra.tsx",
+        "preview": "stubs/reactbits/preview.tsx"
+      },
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "demo",
+            "category": "subdir",
+            "strip": "Demo$",
+            "wide": true,
+            "layout": "fill"
+          }
+        ],
+        "related": [
+          "content/"
+        ]
+      },
+      "viteAssets": true
+    },
+    "eldoraui": {
+      "name": "Eldora UI",
+      "repo": "https://github.com/karthikmudunuri/eldoraui.git",
+      "commit": "6bb8fd211ecbdfa983f5780bead27d9f3890f20a",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "apps/www",
+      "licenseFile": "LICENSE.md",
+      "globals": "styles/globals.css",
+      "copy": [
+        "registry",
+        "components",
+        "lib",
+        "hooks",
+        "styles",
+        "config",
+        "public/images"
+      ],
+      "cssSources": [
+        "registry",
+        "components"
+      ],
+      "aliases": [
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "registry/example",
+            "category": "Componentes",
+            "strip": "-demo$"
+          },
+          {
+            "dir": "registry/blocks",
+            "category": "subdir",
+            "depth": 1,
+            "allowIndex": true,
+            "wide": true
+          }
+        ],
+        "related": [
+          "registry/eldoraui",
+          "registry/lib",
+          "components/ui",
+          "lib/"
+        ]
+      },
+      "pkgAlias": {
+        "react-resizable-panels": "react-resizable-panels-v2"
+      }
+    },
+    "uitripled": {
+      "name": "UI TripleD",
+      "repo": "https://github.com/moumen-soliman/uitripled.git",
+      "commit": "05d18376db775072ed61d0cab8ea184f8f527429",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE.md",
+      "globals": "apps/docs/app/globals.css",
+      "copy": [
+        "packages/components/react-shadcn/src",
+        "packages/utils/src",
+        "apps/docs/app/globals.css",
+        "apps/docs/lib",
+        "apps/docs/hooks"
+      ],
+      "cssSources": [
+        "packages/components/react-shadcn/src"
+      ],
+      "aliases": [
+        [
+          "@uitripled/react-shadcn/src/",
+          "packages/components/react-shadcn/src/"
+        ],
+        [
+          "@uitripled/react-shadcn/",
+          "packages/components/react-shadcn/src/"
+        ],
+        [
+          "@uitripled/utils/",
+          "packages/utils/src/"
+        ],
+        [
+          "@uitripled/utils",
+          "packages/utils/src/index"
+        ],
+        [
+          "@/components/ui/",
+          "packages/components/react-shadcn/src/ui/"
+        ],
+        [
+          "@/lib/utils",
+          "packages/components/react-shadcn/src/lib/utils"
+        ],
+        [
+          "@/",
+          "apps/docs/"
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "packages/components/react-shadcn/src/components",
+            "category": "subdir",
+            "depth": 2
+          }
+        ],
+        "related": [
+          "packages/components/react-shadcn/src/ui",
+          "packages/utils"
+        ]
+      }
+    },
+    "kibo": {
+      "name": "Kibo UI",
+      "repo": "https://github.com/haydenbleasel/kibo.git",
+      "commit": "3d63cdb15b79d972e3dc38a10997987672f9b263",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "license.md",
+      "globals": "apps/docs/app/global.css",
+      "copy": [
+        "apps/docs/examples",
+        "apps/docs/app/global.css",
+        "apps/docs/lib",
+        "apps/docs/hooks",
+        "packages"
+      ],
+      "cssSources": [
+        "apps/docs/examples",
+        "packages"
+      ],
+      "aliases": [
+        [
+          "@repo/shadcn-ui/",
+          "packages/shadcn-ui/"
+        ],
+        [
+          "@repo/",
+          "packages/"
+        ],
+        [
+          "@/components/",
+          "packages/shadcn-ui/components/"
+        ],
+        [
+          "@/lib/",
+          "packages/shadcn-ui/lib/"
+        ],
+        [
+          "@/",
+          "apps/docs/"
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "apps/docs/examples",
+            "category": "keywords"
+          },
+          {
+            "dir": "packages/patterns",
+            "category": "subdir",
+            "depth": 2,
+            "prefix": "pattern/",
+            "strip": "$^"
+          }
+        ],
+        "related": [
+          "packages/"
+        ]
+      },
+      "pkgAlias": {
+        "@tanstack/react-table": "@tanstack/react-table-v8",
+        "react-resizable-panels": "react-resizable-panels-v2"
+      }
+    },
+    "reui": {
+      "name": "ReUI",
+      "repo": "https://github.com/keenthemes/reui.git",
+      "commit": "ef0fe1252d9b24d69bdedee48a69ec9b29d1f217",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE.md",
+      "globals": "styles/globals.css",
+      "copy": [
+        "registry-reui/bases/radix",
+        "registry/bases",
+        "registry/icons",
+        "registry/styles",
+        "lib",
+        "hooks",
+        "styles",
+        "config",
+        "components/ui",
+        "app/(create)/components/icon-placeholder.tsx",
+        "app/(create)/components/types.ts"
+      ],
+      "cssSources": [
+        "registry-reui/bases/radix",
+        "registry/bases/radix"
+      ],
+      "aliases": [
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "registry-reui/bases/radix/components",
+            "category": "subdir",
+            "strip": "^c-"
+          }
+        ],
+        "related": [
+          "registry-reui/bases/radix/reui",
+          "registry/bases/radix/ui",
+          "lib/",
+          "hooks/"
+        ]
+      },
+      "wrapClass": "style-vega"
+    },
+    "spectrumui": {
+      "name": "Spectrum UI",
+      "repo": "https://github.com/arihantcodes/spectrum-ui.git",
+      "commit": "acdc998c64829f8ae037be48e3c273ccc8d71f60",
+      "license": "Apache-2.0",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE",
+      "globals": "app/globals.css",
+      "copy": [
+        "components/spectrumui",
+        "components/ui",
+        "components/motion",
+        "lib",
+        "hooks",
+        "config",
+        "app/globals.css",
+        "public/avatars",
+        "public/examples",
+        "app/typeset.css",
+        "components/copy.tsx",
+        "components/icon.tsx",
+        "components/icons"
+      ],
+      "cssSources": [
+        "components"
+      ],
+      "aliases": [
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "components/spectrumui",
+            "category": "keywords"
+          }
+        ],
+        "related": [
+          "components/ui",
+          "lib/",
+          "hooks/"
+        ]
+      },
+      "pkgAlias": {
+        "react-resizable-panels": "react-resizable-panels-v2"
+      }
+    },
+    "lucideanimated": {
+      "name": "lucide-animated",
+      "repo": "https://github.com/pqoqubbw/icons.git",
+      "commit": "072c38b1b04ea738d90a084485ccaad4b890ddca",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE",
+      "globals": "app/globals.css",
+      "copy": [
+        "icons",
+        "lib",
+        "hooks",
+        "components/ui",
+        "app/globals.css"
+      ],
+      "cssSources": [
+        "icons"
+      ],
+      "aliases": [
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "icons",
+            "category": "Ícones animados",
+            "strip": "$^"
+          }
+        ],
+        "related": [
+          "lib/"
+        ]
+      }
+    },
+    "itshover": {
+      "name": "itshover",
+      "repo": "https://github.com/Aryan-205/itshover.git",
+      "commit": "0e21481bc2b22570056f7cc299e9ec10989855f5",
+      "license": "Apache-2.0",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE",
+      "globals": "app/globals.css",
+      "copy": [
+        "icons",
+        "lib",
+        "components/ui",
+        "app/globals.css"
+      ],
+      "cssSources": [
+        "icons"
+      ],
+      "aliases": [
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "icons",
+            "category": "Ícones animados",
+            "strip": "$^"
+          }
+        ],
+        "related": [
+          "lib/"
+        ]
+      }
+    },
+    "motiq": {
+      "name": "Motiq",
+      "repo": "https://github.com/rmahammad/motiq.git",
+      "commit": "7b1cf5e596b53be801b2a13a2b015678b71f2d44",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE",
+      "globals": "apps/docs/app/globals.css",
+      "copy": [
+        "apps/docs/app/_previews",
+        "apps/docs/app/globals.css",
+        "packages/registry/registry",
+        "apps/docs/app/_components",
+        "packages/tokens/styles.css"
+      ],
+      "cssSources": [
+        "apps/docs/app/_previews",
+        "packages/registry/registry"
+      ],
+      "aliases": [
+        [
+          "@/registry/",
+          "packages/registry/registry/"
+        ],
+        [
+          "@/lib/motiq",
+          "packages/registry/registry/lib/motion"
+        ],
+        [
+          "@/lib/utils",
+          "packages/registry/registry/lib/utils"
+        ],
+        [
+          "@/",
+          "apps/docs/"
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "apps/docs/app/_previews",
+            "category": "subdir",
+            "depth": 1,
+            "allowIndex": true,
+            "layout": "fill"
+          }
+        ],
+        "related": [
+          "packages/registry/registry"
+        ],
+        "exclude": "(^|/)catalog-previews\\.tsx$|\\.(test|spec)\\."
+      },
+      "aliasFind": [
+        [
+          "@/components/motiq/",
+          "packages/registry/registry"
+        ]
+      ]
+    },
+    "systaliko": {
+      "name": "Systaliko UI",
+      "repo": "https://github.com/YoucefBnm/systaliko-ui.git",
+      "commit": "ed82dae1ed03605ceea1415f92a45399eb76b111",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE",
+      "globals": "app/globals.css",
+      "copy": [
+        "registry",
+        "components/ui",
+        "components/docs",
+        "hooks",
+        "lib",
+        "app/globals.css"
+      ],
+      "cssSources": [
+        "registry",
+        "components/ui"
+      ],
+      "aliases": [
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "registry/demo",
+            "category": "subdir",
+            "depth": 1,
+            "allowIndex": true,
+            "layout": "fill"
+          }
+        ],
+        "related": [
+          "registry"
+        ],
+        "exclude": "\\.(test|spec)\\."
+      }
+    },
+    "bundui": {
+      "name": "Bundui",
+      "repo": "https://github.com/bundui/components.git",
+      "commit": "c07468613dfe7db776f1749a0921a1e5e7bd33d5",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENCE.md",
+      "globals": "app/globals.css",
+      "copy": [
+        "components/ui",
+        "components/core",
+        "components/examples",
+        "lib",
+        "hooks",
+        "app/globals.css"
+      ],
+      "cssSources": [
+        "components"
+      ],
+      "aliases": [
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "components/examples",
+            "category": "keywords"
+          }
+        ],
+        "related": [
+          "components/core",
+          "components/ui"
+        ],
+        "exclude": "\\.(test|spec)\\."
+      }
+    },
+    "threeui": {
+      "name": "ThreeUI (Community)",
+      "repo": "https://github.com/MengTo/threeui.git",
+      "commit": "68802d5428071ada5c20db8094b1649e6bb770ed",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE",
+      "copy": [
+        "src/shaders",
+        "src/data",
+        "src/package-components",
+        "src/theme.ts",
+        "src/shaderMetrics.ts",
+        "src/catalogPresentation.js",
+        "src/browseTaxonomy.js",
+        "src/mediaUrls.js",
+        "public/sketchbook",
+        "src/index.ts",
+        "ASSET-LICENSES.md",
+        "FONT-LICENSES.md",
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "adapter": {
+        "kind": "threeui"
+      },
+      "globals": "@atlas/stubs/threeui/globals.css",
+      "cssSources": [
+        "src/shaders"
+      ]
+    }
+  }
+}

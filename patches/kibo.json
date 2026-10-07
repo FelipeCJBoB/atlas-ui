@@ -1,0 +1,38 @@
+[
+  {
+    "file": "apps/docs/app/global.css",
+    "find": "@import \"fumadocs-ui/css/neutral.css\";\n@import \"fumadocs-ui/css/preset.css\";\n",
+    "replace": "",
+    "why": "CSS do framework de docs; tokens do Kibo são autocontidos"
+  },
+  {
+    "file": "apps/docs/app/global.css",
+    "find": "@source '../node_modules/fumadocs-ui/dist/**/*.js';\n@source '../node_modules/shadcn-ui/**/*.{js,jsx,ts,tsx}';\n@source '../node_modules/@repo/*/**/*.{js,jsx,ts,tsx}';\n",
+    "replace": "",
+    "why": "@source do monorepo; o build define os seus"
+  },
+  {
+    "file": "apps/docs/examples/typography.tsx",
+    "find": "import \"@repo/typography\";\n",
+    "replace": "",
+    "why": "pacote só de CSS (styles.css entra no compile da lib)"
+  },
+  {
+    "file": "packages/code-block/index.tsx",
+    "find": "  SiCss3,\n",
+    "replace": "  SiCss as SiCss3,\n",
+    "why": "react-icons renomeou SiCss3 → SiCss"
+  },
+  {
+    "file": "apps/docs/examples/ticker-inline.tsx",
+    "find": "`https://img.logo.dev/ticker/${ticker}?token=${process.env.NEXT_PUBLIC_LOGO_DEV_TOKEN}&size=20&retina=true`",
+    "replace": "`data:image/svg+xml,${encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><rect width='20' height='20' rx='10' fill='#52525b'/><text x='50%' y='60%' font-size='6' text-anchor='middle' fill='white' font-family='sans-serif'>${String(ticker).slice(0, 4)}</text></svg>`)}`",
+    "why": "logo.dev exige token; avatar SVG embutido"
+  },
+  {
+    "file": "apps/docs/examples/ticker.tsx",
+    "find": "`https://img.logo.dev/ticker/${ticker}?token=${process.env.NEXT_PUBLIC_LOGO_DEV_TOKEN}&size=26&retina=true`",
+    "replace": "`data:image/svg+xml,${encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='26' height='26'><rect width='26' height='26' rx='13' fill='#52525b'/><text x='50%' y='60%' font-size='8' text-anchor='middle' fill='white' font-family='sans-serif'>${String(ticker).slice(0, 4)}</text></svg>`)}`",
+    "why": "logo.dev exige token; avatar SVG embutido"
+  }
+]

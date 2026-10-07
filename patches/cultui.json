@@ -1,0 +1,8 @@
+[
+  {
+    "file": "registry/default/example/expandable-demo.tsx",
+    "find": ".jpg;maxHeight=640;maxWidth=550;format=webp",
+    "replace": ".jpg",
+    "why": "sufixo ';' quebra a data URL embutida"
+  }
+]

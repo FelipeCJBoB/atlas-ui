@@ -1,0 +1,74 @@
+[
+  {
+    "file": "demo/Backgrounds/GradientBlindsDemo.jsx",
+    "find": "../../ts-default/Backgrounds",
+    "replace": "../../content/Backgrounds",
+    "why": "demo importa a variante TS/Tailwind; usa a variante JS+CSS (content/)"
+  },
+  {
+    "file": "demo/Backgrounds/PlasmaDemo.jsx",
+    "find": "../../ts-default/Backgrounds",
+    "replace": "../../content/Backgrounds",
+    "why": "demo importa a variante TS/Tailwind; usa a variante JS+CSS (content/)"
+  },
+  {
+    "file": "demo/Backgrounds/LightfallDemo.jsx",
+    "find": "../../ts-default/Backgrounds",
+    "replace": "../../content/Backgrounds",
+    "why": "demo importa a variante TS/Tailwind; usa a variante JS+CSS (content/)"
+  },
+  {
+    "file": "demo/Backgrounds/FerrofluidDemo.jsx",
+    "find": "../../ts-default/Backgrounds",
+    "replace": "../../content/Backgrounds",
+    "why": "demo importa a variante TS/Tailwind; usa a variante JS+CSS (content/)"
+  },
+  {
+    "file": "demo/Components/InfiniteSpiralDemo.jsx",
+    "find": "../../tailwind/Components",
+    "replace": "../../content/Components",
+    "why": "demo importa a variante TS/Tailwind; usa a variante JS+CSS (content/)"
+  },
+  {
+    "file": "demo/Animations/AntigravityDemo.jsx",
+    "find": "../../ts-default/Animations",
+    "replace": "../../content/Animations",
+    "why": "demo importa a variante TS/Tailwind; usa a variante JS+CSS (content/)"
+  },
+  {
+    "file": "demo/Animations/BlobCursorDemo.jsx",
+    "find": "../../ts-tailwind/Animations",
+    "replace": "../../content/Animations",
+    "why": "demo importa a variante TS/Tailwind; usa a variante JS+CSS (content/)"
+  },
+  {
+    "file": "demo/Animations/ElectricLogoDemo.jsx",
+    "find": "import '../../css/preview-slider.css';",
+    "replace": "",
+    "why": "CSS do site (sliders do painel de props) não é copiado"
+  },
+  {
+    "file": "content/Components/FluidGlass/FluidGlass.jsx",
+    "find": "import * as THREE from 'three';",
+    "replace": "import * as THREE from 'three';\nimport lensGlb from '../../../public/assets/3d/lens.glb';\nimport cubeGlb from '../../../public/assets/3d/cube.glb';\nimport barGlb from '../../../public/assets/3d/bar.glb';",
+    "why": "modelos .glb embutidos (data URL) em vez de fetch de /assets/3d/"
+  },
+  {
+    "file": "content/Components/FluidGlass/FluidGlass.jsx",
+    "find": "glb=\"/assets/3d/lens.glb\"",
+    "replace": "glb={lensGlb}",
+    "why": "usa o modelo embutido"
+  },
+  {
+    "file": "content/Components/FluidGlass/FluidGlass.jsx",
+    "find": "glb=\"/assets/3d/cube.glb\"",
+    "replace": "glb={cubeGlb}",
+    "why": "usa o modelo embutido"
+  },
+  {
+    "file": "content/Components/FluidGlass/FluidGlass.jsx",
+    "find": "glb=\"/assets/3d/bar.glb\"",
+    "replace": "glb={barGlb}",
+    "why": "usa o modelo embutido"
+  }
+]

@@ -1,0 +1,17 @@
+/* Palco do React Bits: reproduz o contêiner de demo do site (category.css) */
+.demo-container {
+  color-scheme: dark;
+  --bg-body: #120f17; --bg-card: #1b1722; --bg-elevated: #1b1722; --bg-hover: #373044;
+  --border-primary: #2f293a; --border-secondary: #2f293a; --border-subtle: #2f293a;
+  --text-primary: #fff; --text-secondary: #f5f5f5; --text-muted: #aaa; --text-dimmed: #a1a1aa; --text-link: #fff;
+  --surface-ghost: rgba(255,255,255,.07); --surface-ghost-hover: rgba(255,255,255,.12); --surface-ghost-track: rgba(255,255,255,.04);
+  --color-primary: #a855f7; --color-accent: #b497cf; --radius-lg: 14px; --radius-md: 12px; --radius-sm: 10px; --radius-xl: 24px; --radius-full: 999px;
+  width: 100%; background: var(--bg-body); border: 1px solid var(--border-primary); padding: 1em; border-radius: var(--radius-lg);
+  display: flex; align-items: center; justify-content: center; color: var(--text-primary);
+}
+.demo-instruction { margin: 0; font-size: 13px; color: var(--text-muted, #aaa); text-align: center; }
+.lib-reactbits.light .demo-container {
+  color-scheme: light; --bg-body: #fff; --bg-card: #fff; --bg-elevated: #fff; --bg-hover: #f4f4f5;
+  --border-primary: #e4e4e7; --border-secondary: #e4e4e7; --border-subtle: #ededf0;
+  --text-primary: #18181b; --text-secondary: #27272a; --text-muted: #71717a; --text-dimmed: #a1a1aa;
+}

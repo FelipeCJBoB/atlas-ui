@@ -1,0 +1,32 @@
+[
+  {
+    "file": "lib/utils.ts",
+    "find": "import process from \"process\"\n",
+    "replace": "",
+    "why": "módulo node 'process' não existe no bundle (define process.env cobre)"
+  },
+  {
+    "file": "lib/utils.ts",
+    "find": "import { siteConfig } from \"@/config/site\"",
+    "replace": "const siteConfig = { url: \"https://magicui.design\", name: \"Magic UI\" }",
+    "why": "config do site de docs não é necessário"
+  },
+  {
+    "file": "registry/example/pixel-image-demo.tsx",
+    "find": "import { PixelImage } from \"@/registry/magicui/pixel-image\"",
+    "replace": "import { PixelImage } from \"@/registry/magicui/pixel-image\"\nimport pxImg from \"@/public/pixel-image-demo.jpg\"",
+    "why": "asset de /public → data URL embutida"
+  },
+  {
+    "file": "registry/example/pixel-image-demo.tsx",
+    "find": "src=\"/pixel-image-demo.jpg\"",
+    "replace": "src={(pxImg as any).src}",
+    "why": "idem"
+  },
+  {
+    "file": "registry/example/scroll-based-velocity-images-demo.tsx",
+    "find": "src={`${src}&ixlib=rb-4.0.3`}",
+    "replace": "src={src}",
+    "why": "sufixo de query quebra data URL embutida"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "app/globals.css",
+    "find": "@import \"fumadocs-ui/css/preset.css\";\n@import \"fumadocs-ui/css/neutral.css\";",
+    "replace": "",
+    "why": "preset de docs (fumadocs) n\u00e3o \u00e9 necess\u00e1rio e n\u00e3o existe offline"
+  },
+  {
+    "file": "app/globals.css",
+    "find": "@source \"../node_modules/fumadocs-ui/dist/**/*.js\";",
+    "replace": "",
+    "why": "idem"
+  }
+]

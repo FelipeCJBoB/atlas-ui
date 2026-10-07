@@ -1,0 +1,32 @@
+[
+  {
+    "file": "apps/docs/examples/ai-sources.tsx",
+    "find": "https://img.logo.dev/${domain}?token=${process.env.NEXT_PUBLIC_LOGO_DEV_TOKEN}&size=36&retina=true",
+    "replace": "https://cdn.simpleicons.org/${domain.split('.')[0]}",
+    "why": "logo.dev exige token; simple-icons é embutível/offline"
+  },
+  {
+    "file": "apps/docs/examples/ai-citation.tsx",
+    "find": "https://img.logo.dev/${domain}?token=${process.env.NEXT_PUBLIC_LOGO_DEV_TOKEN}&size=28&retina=true",
+    "replace": "https://cdn.simpleicons.org/${domain.split('.')[0]}",
+    "why": "logo.dev exige token; simple-icons é embutível/offline"
+  },
+  {
+    "file": "packages/data/index.ts",
+    "find": "  if (imagePath.startsWith(\"http://\") || imagePath.startsWith(\"https://\")) {\n    return processFullUrl(imagePath, transformations);",
+    "replace": "  if (imagePath.startsWith(\"data:\")) {\n    return imagePath;\n  }\n\n  if (imagePath.startsWith(\"http://\") || imagePath.startsWith(\"https://\")) {\n    return processFullUrl(imagePath, transformations);",
+    "why": "URLs já embutidas (data:) não passam pelo ImageKit"
+  },
+  {
+    "file": "packages/data/index.ts",
+    "find": "const imageKitPath = cleanPath.startsWith(\"images/\")",
+    "replace": "const imageKitPath = cleanPath.startsWith(\"smoothui/\")\n    ? cleanPath\n    : cleanPath.startsWith(\"images/\")",
+    "why": "evita smoothui/smoothui/ duplicado"
+  },
+  {
+    "file": "apps/docs/examples/shared/demo-fixtures.ts",
+    "find": "const src = (id: string, tr: string) => `${sceneById(id)?.src}?tr=${tr},f-auto`;",
+    "replace": "const src = (id: string, tr: string) => {\n  const s = String(sceneById(id)?.src ?? \"\");\n  return s.startsWith(\"data:\") ? s : `${s}?tr=${tr},f-auto`;\n};",
+    "why": "URL já embutida (data:) não aceita sufixo ?tr="
+  }
+]

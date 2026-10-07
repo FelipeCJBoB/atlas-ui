@@ -1,0 +1,15 @@
+node_modules/
+out/
+.cache/
+build/.tmp/
+*.log
+legacy/atlas1/node_modules/
+legacy/atlas1/*.html
+legacy/atlas1/out.css
+legacy/atlas1/main.css
+legacy/atlas1/fonts.gen.css
+legacy/atlas1/src/catalog.gen.tsx
+src/gen/
+vendor/
+cache/images.json
+legacy/

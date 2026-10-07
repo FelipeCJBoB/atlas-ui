@@ -1,0 +1,14 @@
+[
+  {
+    "file": "app/globals.css",
+    "find": "@import 'fumadocs-ui/css/shadcn.css';\n",
+    "replace": "",
+    "why": "CSS do site de docs (fumadocs) não faz parte da biblioteca"
+  },
+  {
+    "file": "app/globals.css",
+    "find": "@import 'fumadocs-ui/css/preset.css';\n",
+    "replace": "",
+    "why": "CSS do site de docs (fumadocs) não faz parte da biblioteca"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "app/(create)/components/icon-placeholder.tsx",
+    "find": "const iconLibraryValue = useIconLibrary()",
+    "replace": "const iconLibraryValue = \"lucide\" as IconLibraryName; void useIconLibrary",
+    "why": "só lucide-react no offline (evita empacotar 5 bibliotecas de ícones)"
+  },
+  {
+    "file": "app/(create)/components/icon-placeholder.tsx",
+    "find": "import(\"@/registry/icons/icon-tabler\").then((mod) => ({\n    default: mod.IconTabler,\n  }))",
+    "replace": "Promise.resolve({ default: (() => null) as any })",
+    "why": "biblioteca de ícones não usada"
+  },
+  {
+    "file": "app/(create)/components/icon-placeholder.tsx",
+    "find": "import(\"@/registry/icons/icon-hugeicons\").then((mod) => ({\n    default: mod.IconHugeicons,\n  }))",
+    "replace": "Promise.resolve({ default: (() => null) as any })",
+    "why": "biblioteca de ícones não usada"
+  },
+  {
+    "file": "app/(create)/components/icon-placeholder.tsx",
+    "find": "import(\"@/registry/icons/icon-phosphor\").then((mod) => ({\n    default: mod.IconPhosphor,\n  }))",
+    "replace": "Promise.resolve({ default: (() => null) as any })",
+    "why": "biblioteca de ícones não usada"
+  },
+  {
+    "file": "app/(create)/components/icon-placeholder.tsx",
+    "find": "import(\"@/registry/icons/icon-remixicon\").then((mod) => ({\n    default: mod.IconRemixicon,\n  }))",
+    "replace": "Promise.resolve({ default: (() => null) as any })",
+    "why": "biblioteca de ícones não usada"
+  },
+  {
+    "file": "registry/icons/create-icon-loader.tsx",
+    "find": "import(`./__${libraryName}__`)",
+    "replace": "(libraryName === \"lucide\" ? import(\"./__lucide__\") : Promise.resolve({} as any))",
+    "why": "import dinâmico com template não é empacotável; só lucide é embutido"
+  }
+]

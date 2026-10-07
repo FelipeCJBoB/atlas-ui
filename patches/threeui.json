@@ -1,0 +1,14 @@
+[
+  {
+    "file": "src/shaders/sketchbook/sketchbookDocument.js",
+    "find": "  const withAssets = CANONICAL_SKETCHBOOK_HTML.replaceAll(\"sketchbook/\", base);",
+    "replace": "  const A = { \"bg-wash.jpg\": \"/sketchbook/bg-wash.jpg\", \"bloom.png\": \"/sketchbook/bloom.png\", \"botanic-gardens.png\": \"/sketchbook/botanic-gardens.png\", \"botany-left.png\": \"/sketchbook/botany-left.png\", \"botany-right.png\": \"/sketchbook/botany-right.png\", \"buddha-tooth.png\": \"/sketchbook/buddha-tooth.png\", \"divider.png\": \"/sketchbook/divider.png\", \"gardens-by-the-bay.png\": \"/sketchbook/gardens-by-the-bay.png\", \"joo-chiat.png\": \"/sketchbook/joo-chiat.png\", \"lau-pa-sat.png\": \"/sketchbook/lau-pa-sat.png\", \"marina-bay-sands.png\": \"/sketchbook/marina-bay-sands.png\", \"marina-bay-skyline.png\": \"/sketchbook/marina-bay-skyline.png\", \"merlion.png\": \"/sketchbook/merlion.png\", \"singapore-river.png\": \"/sketchbook/singapore-river.png\", \"instrument-serif-italic.woff2\": FONT_IS_I, \"instrument-serif.woff2\": FONT_IS, \"newsreader.woff2\": FONT_NR };\n  const withAssets = CANONICAL_SKETCHBOOK_HTML.replace(/sketchbook\\/([\\w.-]+\\.(?:png|jpe?g|woff2))/g, (m, f) => A[f] || m).replace(\"PAGES.forEach(p=>p.url=DIR+p.file);\", () => \"PAGES.forEach(p=>p.url=\" + JSON.stringify(A) + \"[p.file]||DIR+p.file);\");",
+    "why": "Atlas offline: assets de /public/sketchbook embutidos (data URL) em vez de URL base"
+  },
+  {
+    "file": "src/shaders/sketchbook/sketchbookDocument.js",
+    "find": "export function createSketchbookDocument",
+    "replace": "import FONT_IS_I from \"../../../public/sketchbook/instrument-serif-italic.woff2\";\nimport FONT_IS from \"../../../public/sketchbook/instrument-serif.woff2\";\nimport FONT_NR from \"../../../public/sketchbook/newsreader.woff2\";\nexport function createSketchbookDocument",
+    "why": "fontes embutidas"
+  }
+]

@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "../../build/.tmp/fonts.gen.css";
+@source "./";
+@theme {
+  --font-sans: 'Inter Variable', system-ui, sans-serif;
+  --font-display: 'Space Grotesk Variable', 'Inter Variable', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, monospace;
+}
+html, body { background: #050509; color: #e4e4e7; font-family: var(--font-sans); }
+::selection { background: #fde68a; color: #111; }
+.atlas-stage { scrollbar-width: none; }
+.atlas-stage::-webkit-scrollbar { display: none; }
+.atlas-stage.dark { color-scheme: dark; border-color: rgba(255,255,255,.09); }
+.atlas-stage.light { color-scheme: light; border-color: rgba(0,0,0,.08); }
+.sb::-webkit-scrollbar { width: 8px; height: 8px; }
+.sb::-webkit-scrollbar-thumb { background: rgba(255,255,255,.14); border-radius: 4px; }
+.sb::-webkit-scrollbar-track { background: transparent; }
