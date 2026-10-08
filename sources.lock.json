@@ -1152,6 +1152,38 @@
           "static/"
         ]
       ]
+    },
+    "materialtailwind": {
+      "name": "Material Tailwind (HTML v2)",
+      "repo": "https://github.com/creativetimofficial/material-tailwind.git",
+      "commit": "1a343ad13d3caaa29032b653ee17b7f61c14f3a6",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE.md",
+      "globals": "@atlas/stubs/materialtailwind/globals.css",
+      "copy": [
+        "documentation/html",
+        "public/material-tailwind-html-v2.js",
+        "public/img",
+        "public/image",
+        "public/images",
+        "LICENSE.md"
+      ],
+      "cssSources": [],
+      "offlineHtml": true,
+      "rootAssets": [
+        [
+          "/",
+          "public/"
+        ]
+      ],
+      "adapter": {
+        "kind": "custom"
+      }
     }
   }
 }
