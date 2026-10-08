@@ -51,7 +51,7 @@ export function atlasPlugin({ urls, libIds }) {
           t = t.replace(URL_RE, (u) => {   // imagens remotas da página → mesma tabela de imagens embutidas dos .tsx
             if (/\.(mp4|webm|mov|m4v|mp3|ogg|wav)(\?|$)/i.test(u)) return u;
             if (!urls.has(u)) urls.set(u, urls.size);
-            return `@@IMG:${urls.get(u)}@@`;
+            return `@@IMGH:${urls.get(u)}@@`;
           });
         }
         return { contents: t, loader: 'text' };

@@ -1037,6 +1037,30 @@
       "cssSources": [
         "src/shaders"
       ]
+    },
+    "hyperui": {
+      "name": "HyperUI",
+      "repo": "https://github.com/markmead/hyperui.git",
+      "commit": "2b5aebbc50d2c9ac89650f51b554f53895b4803c",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE",
+      "globals": "@atlas/stubs/hyperui/globals.css",
+      "copy": [
+        "public/examples",
+        "src/content/collection"
+      ],
+      "cssSources": [
+        "public/examples"
+      ],
+      "offlineHtml": true,
+      "adapter": {
+        "kind": "custom"
+      }
     }
   }
 }

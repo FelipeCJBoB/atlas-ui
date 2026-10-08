@@ -1,0 +1,10 @@
+/* HyperUI (src/styles/component.css) sem preflight/fonte remota: o Atlas compila 1x por biblioteca e escopa em .lib-hyperui */
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+}

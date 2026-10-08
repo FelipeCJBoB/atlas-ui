@@ -141,7 +141,8 @@ const list = [...urls.keys()];
 const FALLBACK = 'data:image/svg+xml;base64,' + Buffer.from('<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#27272a"/><stop offset="1" stop-color="#52525b"/></linearGradient></defs><rect width="400" height="300" fill="url(#g)"/></svg>').toString('base64');
 const dataUrl = (u) => { const v = imgCache[u]; return v ? `data:${v.mime};base64,${v.b64}` : FALLBACK; };
 const fixImgs = (js) => js.replace(/(?<=[{,]\s*)(["'`])@@IMG:(\d+)@@\1(?=\s*:)/g, (_m, _q, n) => `[__I[${n}]]`)   // chave de objeto
-  .replace(/(["'`])@@IMG:(\d+)@@\1/g, (_m, _q, n) => `__I[${n}]`).replace(/@@IMG:(\d+)@@/g, (_m, n) => dataUrl(list[+n]));
+  .replace(/(["'`])@@IMG:(\d+)@@\1/g, (_m, _q, n) => `__I[${n}]`).replace(/@@IMG:(\d+)@@/g, (_m, n) => dataUrl(list[+n]))
+  .replace(/@@IMGH:(\d+)@@/g, (_m, n) => dataUrl(list[+n]));   // IMGH = dentro de HTML em texto (src="…"): sempre inline, nunca vira __I[n]
 // shim: <img src>/<image href> com URL aprendida → data URL embutida (cobre URLs montadas em runtime)
 const shim = `var __I={};window.__RES={};(function(){var R=window.__RES;var N=function(v){if(typeof v==='string'&&v.slice(0,5)==='data:'){var c=v.indexOf(','),i=v.slice(c).search(/[?&;]/);if(c>0&&i>0)v=v.slice(0,c+i);}return v;};var d=Object.getOwnPropertyDescriptor(HTMLImageElement.prototype,'src');if(d&&d.set){Object.defineProperty(HTMLImageElement.prototype,'src',{configurable:true,enumerable:d.enumerable,get:d.get,set:function(v){d.set.call(this,N(R[v]||v));}});}var sa=Element.prototype.setAttribute;Element.prototype.setAttribute=function(k,v){if((k==='src'||k==='href'||k==='xlink:href')&&typeof v==='string'&&R[v]){v=R[v];}if(k==='src')v=N(v);return sa.call(this,k,v);};})();\n`;
 
