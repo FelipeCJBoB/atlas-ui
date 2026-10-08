@@ -1060,7 +1060,8 @@
       "offlineHtml": true,
       "adapter": {
         "kind": "custom"
-      }
+      },
+      "stack": "html"
     },
     "uiverse": {
       "name": "Uiverse (Galaxy)",
@@ -1092,7 +1093,8 @@
       "offlineHtml": true,
       "adapter": {
         "kind": "custom"
-      }
+      },
+      "stack": "html"
     },
     "daisyui": {
       "name": "daisyUI",
@@ -1117,7 +1119,8 @@
       "offlineHtml": true,
       "adapter": {
         "kind": "custom"
-      }
+      },
+      "stack": "html"
     },
     "flowbite": {
       "name": "Flowbite",
@@ -1151,7 +1154,8 @@
           "/docs/",
           "static/"
         ]
-      ]
+      ],
+      "stack": "html"
     },
     "materialtailwind": {
       "name": "Material Tailwind (HTML v2)",
@@ -1183,7 +1187,8 @@
       ],
       "adapter": {
         "kind": "custom"
-      }
+      },
+      "stack": "html"
     }
   }
 }

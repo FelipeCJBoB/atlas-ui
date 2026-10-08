@@ -10,6 +10,7 @@ import { ROOT, TMP, lock, vendorDir, patchUsed } from './common.mjs';
 import { compileAll } from './css.mjs';
 import { atlasPlugin, fontsUsed } from './plugins.mjs';
 import { ensureImages } from './images.mjs';
+import { classify } from './taxonomy.mjs';
 import sharp from 'sharp';
 
 const arg = (k, d) => (process.argv.find((a) => a.startsWith(`--${k}=`)) || '').split('=')[1] ?? d;
@@ -53,11 +54,13 @@ for (const id of ids) {
     kept.push(e); loaders.push(`${JSON.stringify(e.uid)}:()=>import(${JSON.stringify(imp[m[2]])})`);
   }
   if (isCustom) for (const e of meta) { if (e.exclude) continue; if (lite && liteDrop(id, e)) { dropped++; continue; } kept.push(e); }
+  for (const e of kept) Object.assign(e, classify(e), { stack: lock[id].stack || 'react' });   // taxonomia unificada (app/fn/tags) + stack (react|html)
   CATALOG_META.push(...kept);
   if (!isCustom) writeFileSync(join(ROOT, `src/gen/${id}.lib.tsx`), `// @ts-nocheck — gerado por build/build.mjs\n((window).__ATLAS_REG ||= {})[${JSON.stringify(id)}] = {\n${loaders.join(',\n')}\n};\n`);
   lock[id]._kept = new Set(kept.map((e) => e.uid));
 }
 writeFileSync(join(ROOT, 'src/gen/catalog.gen.json'), JSON.stringify(CATALOG_META));
+writeFileSync(join(ROOT, `out/catalog.${profile}.json`), JSON.stringify(CATALOG_META));   // entrada do índice para o Claude Code (scripts/make-index.mjs)
 ids = ids.filter((id) => lock[id]._kept.size > 0);   // lib sem nenhum componente neste perfil não entra no bundle
 total = CATALOG_META.length;
 if (lite) console.log(`  lite: ${dropped} componentes removidos (WebGL/3D/rede)`);

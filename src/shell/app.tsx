@@ -6,15 +6,17 @@ import { CATALOG, LIBS, BY_UID, type Entry } from './catalog';
 import { Tile } from './stage';
 import { Detail } from './detail';
 import { cn, type StageTheme } from './ctx';
+import { APPS, FNS } from '../../build/taxonomy.mjs';
 
-type Sel = { lib: string | null; cat: string | null; fav: boolean };
+type Sel = { lib: string | null; cat: string | null; fav: boolean; app: string | null; fn: string | null; stack: string | null };
 const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 const readFavs = (): string[] => { try { return JSON.parse(localStorage.getItem('atlas:favs') || '[]'); } catch { return []; } };
-const parseHash = () => { const p = new URLSearchParams(location.hash.slice(1)); return { lib: p.get('lib'), cat: p.get('cat'), fav: p.get('fav') === '1', c: p.get('c'), q: p.get('q') || '' }; };
+const parseHash = () => { const p = new URLSearchParams(location.hash.slice(1)); return { lib: p.get('lib'), cat: p.get('cat'), fav: p.get('fav') === '1', c: p.get('c'), q: p.get('q') || '', app: p.get('app'), fn: p.get('fn'), stack: p.get('stack'), view: p.get('view') }; };
 
 export function App() {
   const h0 = useMemo(parseHash, []);
-  const [sel, setSel] = useState<Sel>({ lib: h0.lib, cat: h0.cat, fav: h0.fav });
+  const [sel, setSel] = useState<Sel>({ lib: h0.lib, cat: h0.cat, fav: h0.fav, app: h0.app, fn: h0.fn, stack: h0.stack });
+  const [view, setView] = useState<'app' | 'lib'>(h0.view === 'lib' || h0.lib ? 'lib' : 'app');
   const [q, setQ] = useState(h0.q);
   const [theme, setTheme] = useState<StageTheme>('dark');
   const [open, setOpen] = useState<string | null>(h0.c);
@@ -26,9 +28,9 @@ export function App() {
   useEffect(() => { try { localStorage.setItem('atlas:favs', JSON.stringify(favs)); } catch {} }, [favs]);
   useEffect(() => {
     const p = new URLSearchParams();
-    if (sel.lib) p.set('lib', sel.lib); if (sel.cat) p.set('cat', sel.cat); if (sel.fav) p.set('fav', '1'); if (open) p.set('c', open); if (q) p.set('q', q);
+    if (view === 'lib') p.set('view', 'lib'); if (sel.app) p.set('app', sel.app); if (sel.fn) p.set('fn', sel.fn); if (sel.stack) p.set('stack', sel.stack); if (sel.lib) p.set('lib', sel.lib); if (sel.cat) p.set('cat', sel.cat); if (sel.fav) p.set('fav', '1'); if (open) p.set('c', open); if (q) p.set('q', q);
     history.replaceState(null, '', '#' + p.toString());
-  }, [sel, open, q]);
+  }, [sel, open, q, view]);
   useEffect(() => {
     const k = (e: KeyboardEvent) => { if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); setPal((v) => !v); } };
     window.addEventListener('keydown', k); return () => window.removeEventListener('keydown', k);
@@ -44,10 +46,22 @@ export function App() {
     return m;
   }, []);
 
+  // facetas: contagem de tipo de aplicação / função considerando o outro filtro e a stack
+  const facets = useMemo(() => {
+    const a = new Map<string, number>(), f = new Map<string, number>();
+    for (const e of CATALOG) {
+      if (sel.stack && e.stack !== sel.stack) continue;
+      if ((!sel.fn || e.fn === sel.fn) && e.app) a.set(e.app, (a.get(e.app) || 0) + 1);
+      if ((!sel.app || e.app === sel.app) && e.fn) f.set(e.fn, (f.get(e.fn) || 0) + 1);
+    }
+    return { a, f };
+  }, [sel.app, sel.fn, sel.stack]);
+
   const list = useMemo(() => {
     const nq = norm(q.trim());
     return CATALOG.filter((e) => (!sel.lib || e.lib === sel.lib) && (!sel.cat || e.category === sel.cat) && (!sel.fav || favs.includes(e.uid)) &&
-      (!nq || norm(`${e.name} ${e.category} ${e.group || ''} ${e.lib} ${e.id} ${e.desc || ''}`).includes(nq)));
+      (!sel.app || e.app === sel.app) && (!sel.fn || e.fn === sel.fn) && (!sel.stack || e.stack === sel.stack) &&
+      (!nq || norm(`${e.name} ${e.category} ${e.group || ''} ${e.lib} ${e.id} ${e.desc || ''} ${e.app || ''} ${e.fn || ''} ${(e.tags || []).join(' ')}`).includes(nq)));
   }, [sel, q, favs]);
 
   // render progressivo: rolar até o fim libera mais cartões
@@ -58,30 +72,53 @@ export function App() {
     return () => el.removeEventListener('scroll', on);
   }, [list]);
 
-  const title = sel.fav ? 'Favoritos' : sel.cat ? `${LIBS.find((l) => l.id === sel.lib)?.name} · ${sel.cat}` : sel.lib ? LIBS.find((l) => l.id === sel.lib)?.name : 'Todas as bibliotecas';
-  const pick = (s: Sel) => { setSel(s); main.current?.scrollTo({ top: 0 }); };
+  const title = view === 'app' && !sel.fav ? [sel.app, sel.fn].filter(Boolean).join(' · ') || 'Todos os componentes' : sel.fav ? 'Favoritos' : sel.cat ? `${LIBS.find((l) => l.id === sel.lib)?.name} · ${sel.cat}` : sel.lib ? LIBS.find((l) => l.id === sel.lib)?.name : 'Todas as bibliotecas';
+  const pick = (s: Partial<Sel>) => { setSel((cur) => ({ ...cur, ...s })); main.current?.scrollTo({ top: 0 }); };
+  const NONE = { lib: null, cat: null, fav: false, app: null, fn: null };
   const entry: Entry | undefined = open ? BY_UID[open] : undefined;
 
   return (
     <div className="flex h-screen overflow-hidden">
       <aside className="sb hidden w-[264px] shrink-0 flex-col overflow-y-auto border-r border-white/10 bg-zinc-950/80 p-4 md:flex">
         <div className="mb-5 flex items-center gap-2 px-1"><Library size={18} className="text-amber-200" /><span className="font-display text-lg font-semibold tracking-tight">Atlas</span><span className="font-mono text-[10px] text-zinc-600">v2 · {(window as any).__PROFILE === 'compartilhavel' ? 'compartilhável' : (window as any).__PROFILE || 'full'}</span></div>
-        <NavBtn active={!sel.lib && !sel.fav} onClick={() => pick({ lib: null, cat: null, fav: false })} label="Tudo" n={CATALOG.length} />
-        <NavBtn active={sel.fav} onClick={() => pick({ lib: null, cat: null, fav: true })} label="★ Favoritos" n={favs.filter((f) => BY_UID[f]).length} />
-        <div className="mt-4 space-y-3">
+        <div className="mb-3 grid grid-cols-2 gap-1 rounded-lg border border-white/10 p-1 text-[12px]">
+          {([['app', 'Por aplicação'], ['lib', 'Por biblioteca']] as const).map(([v, l]) => (
+            <button key={v} onClick={() => { setView(v); pick(NONE); }} className={cn('rounded-md px-2 py-1.5 transition', view === v ? 'bg-white/10 text-white' : 'text-zinc-500 hover:text-zinc-200')}>{l}</button>
+          ))}
+        </div>
+        <div className="mb-3 flex gap-1 text-[11px]">
+          {([[null, 'Todos'], ['react', 'React'], ['html', 'HTML']] as const).map(([v, l]) => (
+            <button key={String(v)} onClick={() => pick({ stack: v })} className={cn('rounded-full border px-2.5 py-0.5 transition', sel.stack === v ? 'border-amber-200/50 text-amber-100' : 'border-white/10 text-zinc-500 hover:text-zinc-200')}>{l}</button>
+          ))}
+        </div>
+        <NavBtn active={!sel.lib && !sel.fav && !sel.app && !sel.fn} onClick={() => pick(NONE)} label="Tudo" n={CATALOG.length} />
+        <NavBtn active={sel.fav} onClick={() => pick({ ...NONE, fav: true })} label="★ Favoritos" n={favs.filter((f) => BY_UID[f]).length} />
+        {view === 'app' && (
+          <div className="mt-4 space-y-4">
+            <div>
+              <div className="mb-1 px-2.5 font-mono text-[10px] uppercase tracking-wider text-zinc-600">Tipo de aplicação</div>
+              {APPS.filter((a) => facets.a.get(a)).map((a) => <NavBtn key={a} active={sel.app === a} onClick={() => pick({ app: sel.app === a ? null : a, lib: null, cat: null, fav: false })} label={a} n={facets.a.get(a) || 0} strong />)}
+            </div>
+            <div>
+              <div className="mb-1 px-2.5 font-mono text-[10px] uppercase tracking-wider text-zinc-600">Função do componente</div>
+              {FNS.filter((f) => facets.f.get(f)).map((f) => <NavBtn key={f} active={sel.fn === f} onClick={() => pick({ fn: sel.fn === f ? null : f, lib: null, cat: null, fav: false })} label={f} n={facets.f.get(f) || 0} />)}
+            </div>
+          </div>
+        )}
+        {view === 'lib' && <div className="mt-4 space-y-3">
           {LIBS.map((l) => (
             <div key={l.id}>
-              <NavBtn active={sel.lib === l.id && !sel.cat && !sel.fav} onClick={() => pick({ lib: l.id, cat: null, fav: false })} label={l.name} n={l.count || 0} strong />
+              <NavBtn active={sel.lib === l.id && !sel.cat && !sel.fav} onClick={() => pick({ lib: l.id, cat: null, fav: false, app: null, fn: null })} label={l.name} n={l.count || 0} strong />
               {sel.lib === l.id && !sel.fav && (
                 <div className="ml-2 mt-1 space-y-0.5 border-l border-white/10 pl-2">
                   {[...(cats.get(l.id) || new Map()).entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([c, n]) => (
-                    <NavBtn key={c} active={sel.cat === c} onClick={() => pick({ lib: l.id, cat: c, fav: false })} label={c} n={n} />
+                    <NavBtn key={c} active={sel.cat === c} onClick={() => pick({ lib: l.id, cat: c, fav: false, app: null, fn: null })} label={c} n={n} />
                   ))}
                 </div>
               )}
             </div>
           ))}
-        </div>
+        </div>}
       </aside>
 
       <div className="flex min-w-0 flex-1 flex-col">

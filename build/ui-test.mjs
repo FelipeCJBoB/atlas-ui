@@ -10,6 +10,7 @@ const b = await chromium.launch({ executablePath: exe, args: ['--enable-unsafe-s
 const p = await b.newPage({ viewport: { width: 1500, height: 900 } });
 const errs = []; p.on('pageerror', (e) => errs.push(e.message)); p.on('console', (m) => m.type() === 'error' && errs.push(m.text()));
 await p.goto('file://' + file); await p.waitForFunction(() => window.__atlasCount > 0); await p.waitForTimeout(800);
+await p.getByRole('button', { name: 'Por biblioteca' }).click(); await p.waitForTimeout(300);   // vitrine abre em "Por aplicação"
 await p.getByRole('button', { name: /^Magic UI/ }).click(); await p.waitForTimeout(500);
 await p.getByRole('button', { name: /^Texto/ }).click(); await p.waitForTimeout(1500);
 await p.screenshot({ path: join(out, '1-magicui-texto.png') });

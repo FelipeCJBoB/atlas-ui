@@ -2,7 +2,7 @@ import * as React from 'react';
 import CATALOG_META from '../gen/catalog.gen.json';
 
 export type Entry = {
-  uid: string; lib: string; id: string; category: string; group?: string; name: string; desc?: string;
+  uid: string; app?: string; fn?: string; tags?: string[]; stack?: string; lib: string; id: string; category: string; group?: string; name: string; desc?: string;
   layout: string; noAutoFill?: boolean; kind: 'story' | 'demo'; wide: boolean; files: string[]; deps?: string[]; flags: string[];
   Comp: React.ComponentType; props?: any; export?: string;
 };

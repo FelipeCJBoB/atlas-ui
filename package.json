@@ -9,7 +9,9 @@
     "build": "node build/build.mjs --profile=full",
     "build:lite": "node build/build.mjs --profile=lite",
     "build:compartilhavel": "node build/build.mjs --profile=compartilhavel",
-    "qa": "node build/qa.mjs"
+    "qa": "node build/qa.mjs",
+    "index": "node scripts/make-index.mjs",
+    "find": "node scripts/atlas-find.mjs"
   },
   "dependencies": {
     "@base-ui-components/react": "^1.0.0-beta.4",
