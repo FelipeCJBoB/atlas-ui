@@ -180,3 +180,14 @@ Comandos úteis:
 2. **Atlas On**: validar online os 122 flagged (Playwright com rede/Claude in Chrome), listar dependências por tipo e decidir quais viram offline.
 3. **Atlas Low**: auditoria de licenças + prova de conceito com uma lib (ex.: HyperUI, a mais simples) para definir o adaptador de snippets HTML.
 4. Revisão visual dirigida (item 6) + readicionar excluídos (item 9).
+
+
+---
+
+## Atualização 08/10/2026 (pós Fase 5)
+
+- Repo no GitHub (privado): FelipeCJBoB/atlas-ui. Build no Windows funcional (sync com `core.autocrlf=false`; CLI do Tailwind v4 chamado pelo caminho porque `tailwindcss3` colide no bin; QA acha Chrome/Edge via `build/browser.mjs`).
+- **Atlas On**: `docs/ATLAS-ON.md` (123 `needs-network` classificados com internet real). 51 componentes ThreeUI ficaram offline (`build/offline-html.mjs`: Tailwind v3 compilado, Iconify, GSAP/three, fontes e imagens embutidos). Seguem online: vídeo, APIs ao vivo, fontes escolhidas em runtime (React Bits), `flux-vortex`.
+- **Atlas Low**: `docs/ATLAS-LOW.md` + `docs/ATLAS-LOW-LICENCAS.md`. Integradas HyperUI (306), Uiverse (3.802), daisyUI (588), Flowbite (628), Material Tailwind v2 (306). Fora: Preline, TW Elements, TailGrids (licença/snippets).
+- Totais: full 10.999 · compartilhavel 10.627 · lite 10.603 componentes.
+- Pendências: revisão visual ampla das fontes novas; licença das fotos de terceiros embutidas; Chart.js/scripts em HTML (flag needs-network); Uiverse/MT sem tema escuro.

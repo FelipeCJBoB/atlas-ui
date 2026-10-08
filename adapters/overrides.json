@@ -373,5 +373,20 @@
   },
   "uitripled:native/native-magnetic-shadcnui": {
     "exclude": true
+  },
+  "uiverse:Cards/Qasimsaifi_brown-cheetah-82": {
+    "flags": [
+      "needs-network"
+    ]
+  },
+  "magicui:animated-gradient-text-demo": {
+    "flags": [
+      "needs-network"
+    ]
+  },
+  "magicui:lens-demo-2": {
+    "flags": [
+      "needs-network"
+    ]
   }
 }

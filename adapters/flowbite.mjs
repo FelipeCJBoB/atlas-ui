@@ -37,7 +37,7 @@ export async function generate(id) {
         const needsJs = /\b(charts|datatables|javascript)\b\s*=/.test(attrs) || /<script[\s>]/i.test(html) || /esm\.sh|cdn\./i.test(html);
         const eid = `${sec}/${slug}/${n}`, rel = `${id}/${sec}-${slug}-${n}.html`;
         writeFileSync(join(ROOT, 'src/gen/snips', rel), html);
-        const e = { uid: `${id}:${eid}`, lib: id, id: eid, category: `${title(sec)} · ${pageTitle}`, name: head.replace(/[`*]/g, ''), desc: desc.slice(0, 180), layout: 'fill', kind: 'demo', wide: true, files: [`@gen/snips/${rel}`], deps: [], flags: [...(needsJs ? ['needs-network'] : []), ...(//docs/videos//.test(html) ? ['needs-files'] : [])] };
+        const e = { uid: `${id}:${eid}`, lib: id, id: eid, category: `${title(sec)} · ${pageTitle}`, name: head.replace(/[`*]/g, ''), desc: desc.slice(0, 180), layout: 'fill', kind: 'demo', wide: true, files: [`@gen/snips/${rel}`], deps: [], flags: [...(needsJs ? ['needs-network'] : []), ...(html.includes('/docs/videos/') ? ['needs-files'] : [])] };
         meta.push(applyOverride(e));
         loaders.push(`${JSON.stringify(e.uid)}:()=>import(${JSON.stringify(`./snips/${rel}?raw`)}).then((m)=>({default:C(m.default,${JSON.stringify(cls)})}))`);
       }
