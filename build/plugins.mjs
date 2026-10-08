@@ -53,6 +53,18 @@ export function atlasPlugin({ urls, libIds }) {
             if (!urls.has(u)) urls.set(u, urls.size);
             return `@@IMGH:${urls.get(u)}@@`;
           });
+          // assets locais servidos pela raiz do site original (lock.rootAssets: [["/docs/", "static/"]]) → imagens embutidas
+          const ra = lock[vm[1]].rootAssets;
+          if (ra) t = t.replace(/(["'(])(\/[\w./%@-]+\.(?:png|jpe?g|webp|gif|svg|avif))(?=["')])/g, (full, q, p) => {
+            for (const [from, to] of ra) {
+              if (!p.startsWith(from)) continue;
+              const f = join(vendorDir(vm[1]), to, decodeURIComponent(p.slice(from.length)));
+              if (!existsSync(f)) return full;
+              const key = 'local:' + f; if (!urls.has(key)) urls.set(key, urls.size);
+              return `${q}@@IMGH:${urls.get(key)}@@`;
+            }
+            return full;
+          });
         }
         return { contents: t, loader: 'text' };
       });

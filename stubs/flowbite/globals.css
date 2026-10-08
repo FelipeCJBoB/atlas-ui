@@ -1,0 +1,5 @@
+/* Flowbite 4 (Tailwind v4): tema padrao + plugin; dark = classe .dark (palco) */
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@custom-variant dark (&:where(.dark, .dark *));

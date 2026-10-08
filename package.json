@@ -145,6 +145,7 @@
     "emoji-picker-react": "^4.22.3",
     "esbuild": "^0.28.2",
     "face-api.js": "^0.22.2",
+    "flowbite": "^4.0.2",
     "framer-motion": "^14.0.0",
     "fuse.js": "^7.5.0",
     "geist": "^1.7.2",

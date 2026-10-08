@@ -1118,6 +1118,40 @@
       "adapter": {
         "kind": "custom"
       }
+    },
+    "flowbite": {
+      "name": "Flowbite",
+      "repo": "https://github.com/themesberg/flowbite.git",
+      "commit": "232ebdb33a9e37b31b293b9988d89b862ee121e5",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE.md",
+      "globals": "@atlas/stubs/flowbite/globals.css",
+      "copy": [
+        "content/components",
+        "content/forms",
+        "content/typography",
+        "content/plugins",
+        "LICENSE.md",
+        "static/images"
+      ],
+      "cssSources": [
+        "../../src/gen/snips/flowbite"
+      ],
+      "offlineHtml": true,
+      "adapter": {
+        "kind": "custom"
+      },
+      "rootAssets": [
+        [
+          "/docs/",
+          "static/"
+        ]
+      ]
     }
   }
 }
