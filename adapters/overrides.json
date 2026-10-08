@@ -315,11 +315,7 @@
       "needs-network"
     ]
   },
-  "threeui:matrix-field/atmospheric-blade": {
-    "flags": [
-      "needs-network"
-    ]
-  },
+  "threeui:matrix-field/atmospheric-blade": {},
   "spectrumui:scratch-card": {
     "flags": [
       "needs-props"

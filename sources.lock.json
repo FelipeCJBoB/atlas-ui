@@ -1008,6 +1008,7 @@
       "repo": "https://github.com/MengTo/threeui.git",
       "commit": "68802d5428071ada5c20db8094b1649e6bb770ed",
       "license": "MIT",
+      "offlineHtml": true,
       "profile": [
         "pessoal",
         "compartilhavel"

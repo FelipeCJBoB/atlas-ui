@@ -2,6 +2,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import { dirname, extname, join, relative, sep } from 'node:path';
 import sharp from 'sharp';
 import { ROOT, lock, applyPatches, vendorDir, walk } from './common.mjs';
+import { offlineHtml } from './offline-html.mjs';
 
 const HOSTS = 'images\\.unsplash\\.com|plus\\.unsplash\\.com|assets\\.lummi\\.ai|avatar\\.vercel\\.sh|upload\\.wikimedia\\.org|seeklogo\\.com|sm\\.ign\\.com|avatars\\.githubusercontent\\.com|github\\.com/[\\w.-]+\\.png|ik\\.imagekit\\.io|img\\.logo\\.dev|cdn\\.cosmos\\.so|images\\.beta\\.cosmos\\.so|i\\.scdn\\.co|randomuser\\.me|picsum\\.photos|fastly\\.picsum\\.photos|pbs\\.twimg\\.com|public\\.blob\\.vercel-storage\\.com|cdn\\.simpleicons\\.org|placehold\\.co|bundui-images\\.netlify\\.app|m\\.media-amazon\\.com|pkmncards\\.com|flagcdn\\.com|images\\.pexels\\.com|i\\.pravatar\\.cc|api\\.dicebear\\.com|ui-avatars\\.com';
 export const URL_RE = new RegExp(`https?:\\/\\/(?:${HOSTS})[^"'\`\\s)\\\\]*|https?:\\/\\/[^"'\`\\s)\\\\]+\\.(?:png|jpe?g|webp|gif|svg|avif)(?:\\?[^"'\`\\s)\\\\]*)?`, 'g');
@@ -42,7 +43,19 @@ export function atlasPlugin({ urls, libIds }) {
       });
       // Vite `?raw` (importa o arquivo como texto)
       b.onResolve({ filter: /\?raw$/ }, (a) => (a.namespace === 'file' && !/constants\/code\//.test(a.path) ? { path: join(a.resolveDir, a.path.replace(/\?raw$/, '')), namespace: 'raw' } : null));
-      b.onLoad({ filter: /.*/, namespace: 'raw' }, (a) => ({ contents: readFileSync(a.path, 'utf8'), loader: 'text' }));
+      b.onLoad({ filter: /.*/, namespace: 'raw' }, async (a) => {
+        let t = readFileSync(a.path, 'utf8');
+        const vm = a.path.split(sep).join('/').match(/\/vendor\/([^/]+)\//);
+        if (vm && lock[vm[1]]?.offlineHtml && /\.html?$/.test(a.path)) {
+          t = await offlineHtml(t);   // CDNs → embutido (build/offline-html.mjs)
+          t = t.replace(URL_RE, (u) => {   // imagens remotas da página → mesma tabela de imagens embutidas dos .tsx
+            if (/\.(mp4|webm|mov|m4v|mp3|ogg|wav)(\?|$)/i.test(u)) return u;
+            if (!urls.has(u)) urls.set(u, urls.size);
+            return `@@IMG:${urls.get(u)}@@`;
+          });
+        }
+        return { contents: t, loader: 'text' };
+      });
       b.onResolve({ filter: /^@faker-js\/faker$/ }, (a) => a.importer.endsWith('stubs/faker.ts') ? null : { path: join(ROOT, 'stubs/faker.ts') });
       // pkgAlias por biblioteca: troca um pacote npm por outro (ex.: Kibo usa @tanstack/react-table v8, ReUI v9)
       b.onResolve({ filter: /^(@tanstack\/react-table|react-resizable-panels)$/ }, async (a) => {

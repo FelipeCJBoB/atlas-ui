@@ -170,103 +170,10 @@
  "systaliko:scroll-animations/video-section": [
   "needs-network"
  ],
- "threeui:star-portal/ignition-button": [
-  "needs-network"
- ],
- "threeui:star-portal/induction-button": [
-  "needs-network"
- ],
- "threeui:star-portal/plasma-button": [
-  "needs-network"
- ],
- "threeui:star-portal/tactile-button": [
-  "needs-network"
- ],
- "threeui:star-portal/thinking-button": [
-  "needs-network"
- ],
- "threeui:liquid-metal-button/play-circle": [
-  "needs-network"
- ],
- "threeui:liquid-metal-button/pill": [
-  "needs-network"
- ],
- "threeui:liquid-metal-button/circle": [
-  "needs-network"
- ],
  "threeui:structure-flow/expanse-field": [
   "needs-network"
  ],
- "threeui:structure-flow/logic-core": [
-  "needs-network"
- ],
- "threeui:structure-flow/dimensional-field": [
-  "needs-network"
- ],
- "threeui:structure-flow/data-field": [
-  "needs-network"
- ],
- "threeui:structure-flow/topology-field": [
-  "needs-network"
- ],
- "threeui:structure-flow/nebula": [
-  "needs-network"
- ],
- "threeui:structure-flow/fluid-field": [
-  "needs-network"
- ],
- "threeui:structure-flow/ember-storm": [
-  "needs-network"
- ],
  "threeui:structure-flow/flux-vortex": [
-  "needs-network"
- ],
- "threeui:warp-field/streaks": [
-  "needs-network"
- ],
- "threeui:woven-cloth/iridescent": [
-  "needs-network"
- ],
- "threeui:woven-cloth/atelier": [
-  "needs-network"
- ],
- "threeui:woven-cloth/washi": [
-  "needs-network"
- ],
- "threeui:performance-gauges/tachometer": [
-  "needs-network"
- ],
- "threeui:performance-gauges/speedometer": [
-  "needs-network"
- ],
- "threeui:performance-gauges/boost": [
-  "needs-network"
- ],
- "threeui:performance-gauges/power": [
-  "needs-network"
- ],
- "threeui:constellation-field/particle-drift": [
-  "needs-network"
- ],
- "threeui:constellation-field/particle-network": [
-  "needs-network"
- ],
- "threeui:constellation-field/gateway-flow": [
-  "needs-network"
- ],
- "threeui:constellation-field/connectivity-graph": [
-  "needs-network"
- ],
- "threeui:constellation-field/interface-lines": [
-  "needs-network"
- ],
- "threeui:constellation-field/defense-lines": [
-  "needs-network"
- ],
- "threeui:constellation-field/topo-field": [
-  "needs-network"
- ],
- "threeui:portal-field/cloud-field": [
   "needs-network"
  ],
  "threeui:diagnostics-panel/layers": [
@@ -278,67 +185,10 @@
  "threeui:diagnostics-panel/flow": [
   "needs-network"
  ],
- "threeui:wireframe-forms/cube": [
-  "needs-network"
- ],
- "threeui:wireframe-forms/cylinders": [
-  "needs-network"
- ],
- "threeui:wireframe-forms/sphere": [
-  "needs-network"
- ],
  "threeui:star-portal/star-portal": [
   "needs-network"
  ],
- "threeui:rectangle-buttons/launch-button": [
-  "needs-network"
- ],
- "threeui:rectangle-buttons/dot-border-button": [
-  "needs-network"
- ],
- "threeui:rectangle-buttons/floating-dots-cta": [
-  "needs-network"
- ],
- "threeui:rectangle-buttons/sliding-text-cta": [
-  "needs-network"
- ],
- "threeui:rectangle-buttons/gradient-beam-cta": [
-  "needs-network"
- ],
- "threeui:rectangle-buttons/gradient-pill-button": [
-  "needs-network"
- ],
- "threeui:rectangle-buttons/generate-button": [
-  "needs-network"
- ],
- "threeui:rectangle-buttons/glassmorphism-cta": [
-  "needs-network"
- ],
- "threeui:rectangle-buttons/spinning-border-button": [
-  "needs-network"
- ],
- "threeui:rectangle-buttons/gradient-cta": [
-  "needs-network"
- ],
- "threeui:engraved-certificate": [
-  "needs-network"
- ],
- "threeui:woven-cloth/woven-cloth": [
-  "needs-network"
- ],
- "threeui:uplink-loader": [
-  "needs-network"
- ],
- "threeui:constellation-field/constellation-field": [
-  "needs-network"
- ],
  "threeui:portal-field/portal-field": [
-  "needs-network"
- ],
- "threeui:skeuomorphic-toggle/skeuomorphic-toggle": [
-  "needs-network"
- ],
- "threeui:matrix-field/matrix-field": [
   "needs-network"
  ]
 }

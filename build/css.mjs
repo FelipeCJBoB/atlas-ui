@@ -88,7 +88,7 @@ export async function compileAll(ids) {
   for (const id of ids) {
     const main = prepare(id);
     const out = join(TMP, id, 'out.css');
-    execSync(`npx @tailwindcss/cli -i ${JSON.stringify(main)} -o ${JSON.stringify(out)} --minify`, { cwd: ROOT, stdio: ['ignore', 'ignore', 'inherit'] });
+    execSync(`node ${JSON.stringify(join(ROOT, 'node_modules/@tailwindcss/cli/dist/index.mjs'))} -i ${JSON.stringify(main)} -o ${JSON.stringify(out)} --minify`, { cwd: ROOT, stdio: ['ignore', 'ignore', 'inherit'] });
     raw[id] = readFileSync(out, 'utf8');
   }
   // 1ª passada: detectar keyframes conflitantes entre libs

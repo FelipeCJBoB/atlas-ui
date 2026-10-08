@@ -76,7 +76,7 @@ for (const [fam, p, w] of fontDefs) { const f = join(ROOT, 'node_modules', p); i
 writeFileSync(join(TMP, 'fonts.gen.css'), fontCss);
 
 // ── 3) CSS: shell (preflight global) + um bloco escopado por biblioteca
-execSync(`npx @tailwindcss/cli -i src/shell/shell.css -o ${JSON.stringify(join(TMP, 'shell.out.css'))} --minify`, { cwd: ROOT, stdio: ['ignore', 'ignore', 'inherit'] });
+execSync(`node ${JSON.stringify(join(ROOT, 'node_modules/@tailwindcss/cli/dist/index.mjs'))} -i src/shell/shell.css -o ${JSON.stringify(join(TMP, 'shell.out.css'))} --minify`, { cwd: ROOT, stdio: ['ignore', 'ignore', 'inherit'] });
 const shellCss = readFileSync(join(TMP, 'shell.out.css'), 'utf8');
 const { css: libCss, conflicts } = await compileAll(ids);
 if (Object.keys(conflicts).length) console.log('  keyframes renomeados (conflito):', Object.keys(conflicts).join(', '));
