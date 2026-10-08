@@ -159,7 +159,7 @@ for (const id of ids) {
   const files = new Set();
   for (const m of JSON.parse(readFileSync(join(ROOT, `src/gen/${id}.meta.json`), 'utf8'))) if (!m.exclude && lock[id]._kept.has(m.uid)) m.files.forEach((f) => files.add(f));
   const map = {};
-  for (const f of files) { const p = join(vendorDir(id), f); if (existsSync(p)) map[f] = readFileSync(p, 'utf8'); }
+  for (const f of files) { const p = f.startsWith('@gen/') ? join(ROOT, 'src/gen', f.slice(5)) : join(vendorDir(id), f); if (existsSync(p)) map[f] = readFileSync(p, 'utf8'); }
   blobs.push(`<script type="text/plain" id="z:src:${id}">${gz(JSON.stringify(map))}</script>`);
   const meta = JSON.parse(readFileSync(join(vendorDir(id), '.atlas-source.json'), 'utf8'));
   LIBS.push({ id, name: meta.name, repo: meta.repo, commit: meta.commit, license: meta.license, status: meta.status, copyright: meta.copyright, licenseText: readFileSync(join(vendorDir(id), 'LICENSE'), 'utf8'), wrap: lock[id].wrapClass || '' });

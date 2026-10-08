@@ -45,7 +45,7 @@ export function atlasPlugin({ urls, libIds }) {
       b.onResolve({ filter: /\?raw$/ }, (a) => (a.namespace === 'file' && !/constants\/code\//.test(a.path) ? { path: join(a.resolveDir, a.path.replace(/\?raw$/, '')), namespace: 'raw' } : null));
       b.onLoad({ filter: /.*/, namespace: 'raw' }, async (a) => {
         let t = readFileSync(a.path, 'utf8');
-        const vm = a.path.split(sep).join('/').match(/\/vendor\/([^/]+)\//);
+        const vm = a.path.split(sep).join('/').match(/\/(?:vendor|src\/gen\/snips)\/([^/]+)\//);   // snips = trechos extraídos por adapters Atlas Low
         if (vm && lock[vm[1]]?.offlineHtml && /\.html?$/.test(a.path)) {
           t = await offlineHtml(t);   // CDNs → embutido (build/offline-html.mjs)
           t = t.replace(URL_RE, (u) => {   // imagens remotas da página → mesma tabela de imagens embutidas dos .tsx

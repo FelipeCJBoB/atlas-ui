@@ -1,0 +1,5 @@
+/* daisyUI 5 (plugin do Tailwind v4) — temas light/dark; o palco aplica data-theme conforme o tema da vitrine */
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}

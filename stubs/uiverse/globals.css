@@ -1,0 +1,2 @@
+/* Uiverse: nenhum utilitario global (cada item renderiza em Shadow DOM com o proprio CSS) */
+@import "tailwindcss";

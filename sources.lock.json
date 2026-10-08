@@ -1061,6 +1061,63 @@
       "adapter": {
         "kind": "custom"
       }
+    },
+    "uiverse": {
+      "name": "Uiverse (Galaxy)",
+      "repo": "https://github.com/uiverse-io/galaxy.git",
+      "commit": "adbd2adde0a299a3956ea288fb444ec01891ca41",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE",
+      "globals": "@atlas/stubs/uiverse/globals.css",
+      "copy": [
+        "Buttons",
+        "Cards",
+        "loaders",
+        "Toggle-switches",
+        "Inputs",
+        "Forms",
+        "Checkboxes",
+        "Patterns",
+        "Radio-buttons",
+        "Tooltips",
+        "Notifications",
+        "README.md"
+      ],
+      "cssSources": [],
+      "offlineHtml": true,
+      "adapter": {
+        "kind": "custom"
+      }
+    },
+    "daisyui": {
+      "name": "daisyUI",
+      "repo": "https://github.com/saadeghi/daisyui.git",
+      "commit": "9adbeaa259816be46b98bf497a09cd2ab127e3cf",
+      "license": "MIT",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "root": "",
+      "licenseFile": "LICENSE",
+      "globals": "@atlas/stubs/daisyui/globals.css",
+      "copy": [
+        "packages/docs/src/routes/(routes)/components",
+        "packages/daisyui/package.json",
+        "packages/daisyui/LICENSE"
+      ],
+      "cssSources": [
+        "../../src/gen/snips/daisyui"
+      ],
+      "offlineHtml": true,
+      "adapter": {
+        "kind": "custom"
+      }
     }
   }
 }
