@@ -6,6 +6,7 @@
 // Lê <índice>/catalog.jsonl (gerado por scripts/make-index.mjs; padrão: ../atlas-index ou $ATLAS_INDEX).
 import { existsSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
+import { registra } from './atlas-plan.mjs';
 
 const ROOT = resolve(import.meta.dirname, '..');
 const INDEX = process.env.ATLAS_INDEX ? resolve(process.env.ATLAS_INDEX) : resolve(ROOT, '../atlas-index');
@@ -49,21 +50,28 @@ function filtered() {
   return rows.filter((r) => (!app || norm(r.app) === norm(app) || norm(r.app).includes(norm(app))) && (!fn || norm(r.fn) === norm(fn) || norm(r.fn).includes(norm(fn))) && (!lib || r.lib === lib) && (!stack || r.stack === stack) && (prof !== 'compartilhavel' || r.share) && (!noNet || !r.flags.some((f) => /needs-/.test(f))));
 }
 
-if (cmd === 'find') {
+if (['survey', 'coverage', 'plan'].includes(cmd)) {
+  const m = await import('./atlas-plan.mjs'); await m.run(cmd, { rows, args, flag, rest, norm, tokens, score, filtered });
+} else if (cmd === 'find') {
   const toks = tokens(rest.join(' ')), limit = +flag('limit', 15), pool = filtered();
   let res = toks.length ? pool.map((r) => ({ r, s: score(r, toks) })).filter((x) => x.s > 0).sort((a, b) => b.s - a.s) : pool.map((r) => ({ r, s: 0 }));
   // diversidade: no máximo 4 por biblioteca no topo (evita 15 variações da mesma lib)
   const per = {}, top = [];
   for (const x of res) { per[x.r.lib] = (per[x.r.lib] || 0) + 1; if (per[x.r.lib] <= 4) top.push(x); if (top.length >= limit) break; }
+  registra({ cmd: 'find', q: rest.join(' '), app: flag('app') || '', fn: flag('fn') || '', apps: [...new Set(top.map((x) => x.r.app))], fns: [...new Set(top.map((x) => x.r.fn))], uids: top.map((x) => x.r.uid) });
   if (args.includes('--json')) console.log(JSON.stringify(top.map((x) => ({ ...x.r, score: +x.s.toFixed(1) })), null, 1));
   else {
     console.log(`${res.length} resultados (mostrando ${top.length}) para "${rest.join(' ')}" [termos: ${toks.map((g) => g.t + (g.syn.length ? '(' + g.syn.join('/') + ')' : '')).join(' ')}]`);
     for (const { r, s } of top) console.log(`${r.uid}  | ${r.name} | ${r.app} › ${r.fn} | ${r.stack}${r.share ? '' : ',pessoal'} | ${r.license}${r.flags.length ? ' | ⚠' + r.flags.join(',') : ''}${r.desc ? ' | ' + r.desc.slice(0, 90) : ''}`);
+    const dist = {}; for (const x of res) dist[x.r.app] = (dist[x.r.app] || 0) + 1;
+    console.log('\nDistribuição por tipo de aplicação: ' + Object.entries(dist).sort((a, b) => b[1] - a[1]).map(([k, n]) => k + ' ' + n).join(' · '));
+    if (!flag('app')) console.log('⚠ Isto é só o topo. Aprofunde nos outros tipos com resultados: ' + (Object.keys(dist).filter((a) => !top.some((x) => x.r.app === a)).map((a) => '--app="' + a + '"').join(' ') || '(todos já aparecem)') + '  — ou rode: atlas-find survey "<necessidades separadas por ;>"');
     console.log(`\nVer código: atlas-find code <uid>`);
   }
 } else if (cmd === 'code') {
   const uid = rest[0], r = rows.find((x) => x.uid === uid) || rows.find((x) => x.uid.endsWith(uid || '\0'));
   if (!r) { console.error(`uid não encontrado: ${uid}. Use: atlas-find find <termos>`); process.exit(1); }
+  registra({ cmd: 'code', uid: r.uid });
   const L = lock[r.lib] || {}, max = +flag('max', 60000);
   console.log(`# ${r.name}  (${r.uid})\napp: ${r.app} · função: ${r.fn} · biblioteca: ${L.name || r.lib} · stack: ${r.stack}\nlicença: ${r.license} (${L.repo ? L.repo.replace(/\.git$/, '') : ''} @ ${(L.commit || '').slice(0, 8)}) · redistribuível: ${r.share ? 'sim' : 'NÃO (uso pessoal)'}\n${r.flags.length ? `flags: ${r.flags.join(', ')}\n` : ''}${r.desc ? `descrição: ${r.desc}\n` : ''}layout sugerido no Atlas: ${r.layout}\n`);
   const deps = new Set(); let used = 0;
@@ -82,5 +90,5 @@ if (cmd === 'find') {
   const by = (k) => Object.entries(rows.reduce((m, r) => ((m[r[k]] = (m[r[k]] || 0) + 1), m), {})).sort((a, b) => b[1] - a[1]).map(([x, n]) => `${x} (${n})`).join(' · ');
   console.log(`apps: ${by('app')}\n\nfunções: ${by('fn')}\n\nbibliotecas: ${by('lib')}\n\nstacks: ${by('stack')}`);
 } else {
-  console.log('uso: atlas-find find <termos> [--app=] [--fn=] [--lib=] [--stack=react|html] [--profile=compartilhavel] [--offline] [--limit=15] [--json]\n     atlas-find code <uid> [--max=60000]\n     atlas-find facets');
+  console.log('uso: atlas-find find <termos> [--app=] [--fn=] [--lib=] [--stack=react|html] [--profile=compartilhavel] [--offline] [--limit=15] [--json]\n     atlas-find code <uid> [--max=60000]\n     atlas-find facets\n     atlas-find survey "<necessidade 1>; <necessidade 2>"   (pesquisa em TODOS os tipos de aplicação)\n     atlas-find coverage                        (mapa completo tipos × funções)\n     atlas-find plan init "<projeto>" | plan status | plan verify   (mapa de decisões obrigatório antes de codar)');
 }
