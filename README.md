@@ -56,4 +56,5 @@ React Bits e Animate UI (MIT + Commons Clause) são **somente uso pessoal**.
 - Overlays/portais (Dialog, Popover, Select, Tooltip, Sheet…): raiz `[data-atlas-portal]` com tema/escopo `lib-<id>` do último palco interagido; testado com cliques reais (`build/portal-test.mjs`)
 - Componentes com `needs-network` (vídeo, CDN de fontes/decoders, APIs) ficam sinalizados → **Atlas On**
 - Shaders WebGPU (AeroShards, ShapeWaves) e `Ballpit` só foram verificados até onde o GPU simulado do QA permite
+- Curadoria (2026-10-24): 10.999 → 3.208 componentes; saiu o que é "padrão" (a IA já faz sem instrução). Regras, decisões e como reverter: [`curadoria/LEIA-ME.md`](curadoria/LEIA-ME.md). `vendor/` de daisyui, flowbite, hyperui, materialtailwind e itshover apagado (`npm run sync -- <id>` restaura)
 - Próximas: Atlas On, Atlas Low

@@ -9,7 +9,7 @@ import sharp from 'sharp';
 const ROOT = resolve(import.meta.dirname, '..');
 const file = resolve(ROOT, process.argv.find((a) => a.endsWith('.html')) || 'out/atlas-full.html');
 const arg = (k, d = '') => (process.argv.find((a) => a.startsWith(`--${k}=`)) || '').split('=')[1] ?? d;
-const libs = arg('libs').split(',').filter(Boolean), onlyStr = arg('only'), shots = process.argv.includes('--shots');
+const libs = arg('libs').split(',').filter(Boolean), onlyStr = arg('only'), shots = process.argv.includes('--shots'), frames = shots ? +arg('frames', '0') : 0;
 const QA = join(ROOT, 'out/qa'); mkdirSync(join(QA, 'shots'), { recursive: true });
 const exe = browserExe();
 
@@ -52,7 +52,11 @@ for (const uid of list) {
   const renderErr = await T(page.evaluate(() => window.__atlasErrors || []), 8000, 'errs');
   let stdev = null, soft = null;
   try { const bb = await T(loc.evaluate((el) => { const r = el.getBoundingClientRect(); return { x: Math.max(0, r.x), y: Math.max(0, r.y), width: Math.min(r.width, innerWidth - Math.max(0, r.x)), height: Math.min(r.height, innerHeight - Math.max(0, r.y)) }; }), 8000, 'bbox');
-  const buf = await T(page.screenshot({ clip: bb, timeout: 9000, animations: 'allow', caret: 'initial' }), 11000, 'shot'); const st = await sharp(buf).greyscale().stats(); stdev = +st.channels[0].stdev.toFixed(1); if (shots) await sharp(buf).resize({ width: 480, withoutEnlargement: true }).jpeg({ quality: 70 }).toFile(join(QA, 'shots', uid.replace(/[:/]/g, '__') + '.jpg')); } catch (e) { soft = 'screenshot-timeout (GPU por software)'; }
+  const buf = await T(page.screenshot({ clip: bb, timeout: 9000, animations: 'allow', caret: 'initial' }), 11000, 'shot'); const st = await sharp(buf).greyscale().stats(); stdev = +st.channels[0].stdev.toFixed(1); if (shots) await sharp(buf).resize({ width: 480, withoutEnlargement: true }).jpeg({ quality: 70 }).toFile(join(QA, 'shots', uid.replace(/[:/]/g, '__') + '.jpg'));
+  // --frames=N: mais N quadros com o cursor sobre o centro do palco (mostra animação e efeito de hover na triagem)
+  for (let f = 1; f <= frames; f++) { if (f === 1) await page.mouse.move(bb.x + bb.width / 2, bb.y + bb.height / 2, { steps: 4 }); await page.waitForTimeout(f === 1 ? 350 : 550);
+    const b2 = await T(page.screenshot({ clip: bb, timeout: 9000, animations: 'allow', caret: 'initial' }), 11000, 'shot'); await sharp(b2).resize({ width: 480, withoutEnlargement: true }).jpeg({ quality: 70 }).toFile(join(QA, 'shots', uid.replace(/[:/]/g, '__') + `.f${f}.jpg`)); }
+  if (frames) await page.mouse.move(2, 2); } catch (e) { soft = 'screenshot-timeout (GPU por software)'; }
   rows.push({ uid, info, stdev, soft, renderErr, errs: [...(errs[uid] || [])], ext: [...(ext[uid] || [])] });
   } catch (e) { console.log('✗ HANG/ERRO', uid, e.message.slice(0, 80)); rows.push({ uid, info: null, stdev: null, renderErr: [], errs: ['HANG: ' + e.message.slice(0, 80)], ext: [] }); await openPage(true); }
 }

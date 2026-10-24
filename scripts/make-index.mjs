@@ -14,6 +14,8 @@ const OUT = resolve(ROOT, arg('out', '../atlas-index'));
 if (!existsSync(catalog)) { console.error(`catálogo não encontrado: ${catalog} (rode: npm run build)`); process.exit(1); }
 const lock = JSON.parse(readFileSync(join(ROOT, 'sources.lock.json'), 'utf8')).sources;
 const entries = JSON.parse(readFileSync(catalog, 'utf8'));
+const todos = join(ROOT, 'out/catalog.todos.json');
+const curados = existsSync(todos) ? JSON.parse(readFileSync(todos, 'utf8')).length - entries.length : 0;
 const slug = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/&/g, 'e').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 const NOTES = {
@@ -63,6 +65,7 @@ writeFileSync(join(OUT, 'README.md'), `# Atlas — índice para o Claude Code
 
 ${rows.length} componentes de UI de ${libs.length} bibliotecas, classificados por **tipo de aplicação** e **função**, independente da origem.
 Gerado em ${new Date().toISOString().slice(0, 10)} por \`scripts/make-index.mjs\` (rode de novo após cada rebuild do Atlas).
+${curados ? `\n**Curadoria:** ${curados} componentes "padrão" (que a IA já faz sem instrução) ficaram fora; o código original continua em \`atlas/vendor/\`. Critérios e decisões: \`atlas/curadoria/\` (\`proposta.json\` + \`decisoes.json\`).\n` : ''}
 
 ## Como achar componentes (use esta ordem)
 1. **Buscar**: \`node "${ATLAS}/scripts/atlas-find.mjs" find "<o que preciso>" [--app="Landing & Marketing"] [--fn=Pricing] [--stack=html|react] [--profile=compartilhavel] [--limit=15]\`

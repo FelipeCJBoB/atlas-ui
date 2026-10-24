@@ -11,6 +11,7 @@ import { compileAll } from './css.mjs';
 import { atlasPlugin, fontsUsed } from './plugins.mjs';
 import { ensureImages } from './images.mjs';
 import { classify } from './taxonomy.mjs';
+import { curadoriaAtiva, foraDaCuradoria } from './curadoria.mjs';
 import sharp from 'sharp';
 
 const arg = (k, d) => (process.argv.find((a) => a.startsWith(`--${k}=`)) || '').split('=')[1] ?? d;
@@ -34,7 +35,7 @@ for (const id of ids) { adapters[id] = await import(`../adapters/${lock[id].adap
 
 // ── 1b) catálogo (metadados, vai no shell) + um ponto de entrada por biblioteca (só carregadores: import() preguiçoso)
 const GL_RE = /from\s+['"](three|three-stdlib|ogl|postprocessing|cobe|vgpu|@react-three\/[^'"]+|@paper-design\/[^'"]+|@pixi\/[^'"]+|pixi\.js|@webgpu\/[^'"]+)['"]|\.(glb|hdr)['"]/;
-const CATALOG_META = []; let dropped = 0;
+const CATALOG_META = [], TODOS = []; let dropped = 0, curados = 0;
 // lite: sem GL/3D e sem componentes que precisam de rede/props/arquivos externos
 const liteDrop = (id, e) => {
   if (id === 'threeui') return true;   // ThreeUI = shaders WebGL/Three (lite não tem WebGL/3D)
@@ -50,10 +51,12 @@ for (const id of ids) {
   const kept = [], loaders = [];
   for (const m of gen.matchAll(/\{ \.\.\.M\[(\d+)\], mod: (s\d+) as any \}/g)) {
     const e = meta[+m[1]];
+    TODOS.push({ ...e, lib: e.lib || id });
+    if (foraDaCuradoria(e.uid)) { curados++; continue; }
     if (lite && liteDrop(id, e)) { dropped++; continue; }
     kept.push(e); loaders.push(`${JSON.stringify(e.uid)}:()=>import(${JSON.stringify(imp[m[2]])})`);
   }
-  if (isCustom) for (const e of meta) { if (e.exclude) continue; if (lite && liteDrop(id, e)) { dropped++; continue; } kept.push(e); }
+  if (isCustom) for (const e of meta) { if (e.exclude) continue; TODOS.push({ ...e, lib: e.lib || id }); if (foraDaCuradoria(e.uid)) { curados++; continue; } if (lite && liteDrop(id, e)) { dropped++; continue; } kept.push(e); }
   for (const e of kept) Object.assign(e, classify(e), { stack: lock[id].stack || 'react' });   // taxonomia unificada (app/fn/tags) + stack (react|html)
   CATALOG_META.push(...kept);
   if (!isCustom) writeFileSync(join(ROOT, `src/gen/${id}.lib.tsx`), `// @ts-nocheck — gerado por build/build.mjs\n((window).__ATLAS_REG ||= {})[${JSON.stringify(id)}] = {\n${loaders.join(',\n')}\n};\n`);
@@ -61,6 +64,8 @@ for (const id of ids) {
 }
 writeFileSync(join(ROOT, 'src/gen/catalog.gen.json'), JSON.stringify(CATALOG_META));
 writeFileSync(join(ROOT, `out/catalog.${profile}.json`), JSON.stringify(CATALOG_META));   // entrada do índice para o Claude Code (scripts/make-index.mjs)
+if (profile === 'full' && !only.length) writeFileSync(join(ROOT, 'out/catalog.todos.json'), JSON.stringify(TODOS.map((e) => ({ ...e, ...classify(e) }))));   // antes da curadoria: entrada de scripts/curadoria.mjs
+if (curadoriaAtiva) console.log(`  curadoria: ${curados} componentes fora (curadoria/proposta.json + decisoes.json; --sem-curadoria desliga)`);
 ids = ids.filter((id) => lock[id]._kept.size > 0);   // lib sem nenhum componente neste perfil não entra no bundle
 total = CATALOG_META.length;
 if (lite) console.log(`  lite: ${dropped} componentes removidos (WebGL/3D/rede)`);
