@@ -20,6 +20,8 @@ const previewRel = (uid) => { const [lib, ...r] = uid.split(':'); return `previe
 
 const NOTES = {
   uiverse: 'HTML + CSS puro (bloco <style> junto da marcação; seletores globais — namespace ao colar no projeto). Sem build. Alguns usam Tailwind v3.',
+  reactbits: 'React + Tailwind (+ motion/gsap/three/ogl). Licença MIT + Commons Clause: pode modificar e usar em projeto de cliente mantendo o aviso; não pode vender os componentes como produto.',
+  animateui: 'React + Tailwind + motion (shadcn). Licença MIT + Commons Clause: pode modificar e usar em projeto de cliente mantendo o aviso; não pode vender os componentes como produto.',
   atlas: 'React + Tailwind v4 (+ motion quando indicado). Autoria própria do Atlas: sem aviso de licença de terceiros; arquivos autocontidos.',
 };
 const REACT_NOTE = 'React + Tailwind (+ motion/shadcn conforme o componente). Os arquivos importam helpers do próprio repositório (ex.: `@/lib/utils` → cn); copie também os relacionados listados em `files` e instale as dependências de `deps`.';

@@ -14,17 +14,17 @@
 | 8 | Skew Image | `animata:image/skew-image` | Portfólio & Mídia |
 | 9 | Tilted Cover | `animata:image/tilted-cover` | Portfólio & Mídia |
 | 10 | Trailing Image | `animata:image/trailing-image` | Portfólio & Mídia |
-| 11 | HalftoneReveal | `atlas:Media/HalftoneReveal` | Portfólio & Mídia |
-| 12 | SpringCarousel | `atlas:Media/SpringCarousel` | Portfólio & Mídia |
-| 13 | Base | `bundui:marquee-effect/base` | Portfólio & Mídia |
-| 14 | Image Comparison | `bundui:image-comparison` | Portfólio & Mídia |
-| 15 | Reverse | `bundui:marquee-effect/reverse` | Portfólio & Mídia |
-| 16 | Vertical | `bundui:marquee-effect/vertical` | Portfólio & Mídia |
-| 17 | Globe | `cultui:globe-demo` | Portfólio & Mídia |
-| 18 | Hover Video Player | `cultui:hover-video-player-demo` | Portfólio & Mídia |
-| 19 | Illustration Globe Vercel | `cultui:illustration-globe-vercel-demo` | Portfólio & Mídia |
-| 20 | Three D Carousel | `cultui:three-d-carousel-demo` | Portfólio & Mídia |
-| 21 | Youtube Video Player | `cultui:youtube-video-player-demo` | Portfólio & Mídia |
-| 22 | Cobe Globe | `eldoraui:cobe-globe-demo` | Portfólio & Mídia |
-| 23 | Cobe Globe Demo 2 | `eldoraui:cobe-globe-demo-2` | Portfólio & Mídia |
-| 24 | Cobe Globe Demo 3 | `eldoraui:cobe-globe-demo-3` | Portfólio & Mídia |
+| 11 | Image Zoom | `animateui:primitives/effects/image-zoom` | Portfólio & Mídia |
+| 12 | Motion Carousel | `animateui:components/community/motion-carousel` | Portfólio & Mídia |
+| 13 | HalftoneReveal | `atlas:Media/HalftoneReveal` | Portfólio & Mídia |
+| 14 | SpringCarousel | `atlas:Media/SpringCarousel` | Portfólio & Mídia |
+| 15 | Base | `bundui:marquee-effect/base` | Portfólio & Mídia |
+| 16 | Image Comparison | `bundui:image-comparison` | Portfólio & Mídia |
+| 17 | Reverse | `bundui:marquee-effect/reverse` | Portfólio & Mídia |
+| 18 | Vertical | `bundui:marquee-effect/vertical` | Portfólio & Mídia |
+| 19 | Globe | `cultui:globe-demo` | Portfólio & Mídia |
+| 20 | Hover Video Player | `cultui:hover-video-player-demo` | Portfólio & Mídia |
+| 21 | Illustration Globe Vercel | `cultui:illustration-globe-vercel-demo` | Portfólio & Mídia |
+| 22 | Three D Carousel | `cultui:three-d-carousel-demo` | Portfólio & Mídia |
+| 23 | Youtube Video Player | `cultui:youtube-video-player-demo` | Portfólio & Mídia |
+| 24 | Cobe Globe | `eldoraui:cobe-globe-demo` | Portfólio & Mídia |

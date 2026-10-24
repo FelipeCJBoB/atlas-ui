@@ -1,5 +1,7 @@
 # Convenções dos componentes de autoria Atlas
 
+> **Encerrada em 2026-10-24** com 55 componentes próprios em `vendor/atlas/`. React Bits e Animate UI voltaram ao repositório com a licença original (MIT + Commons Clause); `lote.json` e `specs/` ficam como histórico.
+
 Componentes reescritos em **sala limpa**: o implementador recebe só a especificação (`reescrita/specs/<slug>.md`) e escreve o código do zero.
 
 ## Regras de sala limpa (obrigatórias)

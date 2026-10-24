@@ -1,9 +1,12 @@
-# Código & Terminal (27)
+# Código & Terminal (30)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
 | prévia | componente | tipo de aplicação | biblioteca · licença | dependências npm |
 |---|---|---|---|---|
+| <img src="../../previews/animateui/components__animate__code.webp" width="300"> | **Code**<br>`animateui:components/animate/code` | Docs & Dev tools | animateui · MIT + Commons Clause | @workspace/ui, lucide-react, next-themes |
+| <img src="../../previews/animateui/primitives__animate__code-block.webp" width="300"> | **Code Block**<br>`animateui:primitives/animate/code-block` | Docs & Dev tools | animateui · MIT + Commons Clause | @workspace/ui, clsx, next-themes, shiki, tailwind-merge |
+| <img src="../../previews/animateui/components__animate__code-tabs.webp" width="300"> | **Code Tabs**<br>`animateui:components/animate/code-tabs` | Docs & Dev tools | animateui · MIT + Commons Clause | @workspace/ui, next-themes, shiki |
 | <img src="../../previews/atlas/Text__CodeBlock.webp" width="300"> | **CodeBlock**<br>`atlas:Text/CodeBlock` | Docs & Dev tools | atlas (própria) · Proprietária (Atlas) | lucide-react, motion |
 | <img src="../../previews/atlas/Misc__CodeTabs.webp" width="300"> | **CodeTabs**<br>`atlas:Misc/CodeTabs` | Docs & Dev tools | atlas (própria) · Proprietária (Atlas) | lucide-react, motion |
 | <img src="../../previews/cultui/terminal-animation-demo.webp" width="300"> | **Terminal Animation**<br>`cultui:terminal-animation-demo` | Docs & Dev tools | cultui · MIT | @radix-ui/react-slot, @radix-ui/react-use-controllable-state |

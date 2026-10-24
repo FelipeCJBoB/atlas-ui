@@ -1,0 +1,11 @@
+{
+  "id": "animateui",
+  "name": "Animate UI",
+  "repo": "https://github.com/imskyleen/animate-ui.git",
+  "commit": "efeb96ffd7a3b7a4868667e4ac3c346620fb3044",
+  "license": "MIT + Commons Clause",
+  "declared": "MIT + Commons Clause",
+  "status": "RESTRITA(Commons Clause)",
+  "copyright": "Copyright (c) 2025 Elliot Sutton",
+  "files": 1221
+}

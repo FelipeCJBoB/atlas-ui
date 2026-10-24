@@ -1,4 +1,4 @@
-# Mídia & Galeria (114)
+# Mídia & Galeria (123)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -14,6 +14,8 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/animata/image__skew-image.webp" width="300"> | **Skew Image**<br>`animata:image/skew-image` | Portfólio & Mídia | animata · MIT | — |
 | <img src="../../previews/animata/image__tilted-cover.webp" width="300"> | **Tilted Cover**<br>`animata:image/tilted-cover` | Portfólio & Mídia | animata · MIT | — |
 | <img src="../../previews/animata/image__trailing-image.webp" width="300"> | **Trailing Image**<br>`animata:image/trailing-image` | Portfólio & Mídia | animata · MIT | motion |
+| <img src="../../previews/animateui/primitives__effects__image-zoom.webp" width="300"> | **Image Zoom**<br>`animateui:primitives/effects/image-zoom` | Portfólio & Mídia | animateui · MIT + Commons Clause | motion |
+| <img src="../../previews/animateui/components__community__motion-carousel.webp" width="300"> | **Motion Carousel**<br>`animateui:components/community/motion-carousel` | Portfólio & Mídia | animateui · MIT + Commons Clause | embla-carousel, embla-carousel-react, lucide-react, motion |
 | <img src="../../previews/atlas/Media__HalftoneReveal.webp" width="300"> | **HalftoneReveal**<br>`atlas:Media/HalftoneReveal` | Portfólio & Mídia | atlas (própria) · Proprietária (Atlas) | — |
 | <img src="../../previews/atlas/Media__SpringCarousel.webp" width="300"> | **SpringCarousel**<br>`atlas:Media/SpringCarousel` | Portfólio & Mídia | atlas (própria) · Proprietária (Atlas) | lucide-react, motion |
 | <img src="../../previews/bundui/marquee-effect__base.webp" width="300"> | **Base**<br>`bundui:marquee-effect/base` | Portfólio & Mídia | bundui · MIT | motion, react-use-measure |
@@ -85,6 +87,13 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/motiq/catalog__task-dependency-map.webp" width="300"> | **Task Dependency Map**<br>`motiq:catalog/task-dependency-map` | Portfólio & Mídia | motiq · MIT | motion |
 | <img src="../../previews/motiq/task-dependency-map.webp" width="300"> | **Task Dependency Map**<br>`motiq:task-dependency-map` | Portfólio & Mídia | motiq · MIT | motion |
 | <img src="../../previews/motiq/velocity-marquee.webp" width="300"> | **Velocity Marquee**<br>`motiq:velocity-marquee` | Portfólio & Mídia | motiq · MIT | — |
+| <img src="../../previews/reactbits/Components__CarouselDemo.webp" width="300"> | **Carousel**<br>`reactbits:Components/CarouselDemo` | Portfólio & Mídia | reactbits · MIT + Commons Clause | @chakra-ui/react, motion, react-icons |
+| <img src="../../previews/reactbits/Components__CircularCarouselDemo.webp" width="300"> | **CircularCarousel**<br>`reactbits:Components/CircularCarouselDemo` | Portfólio & Mídia | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/Components__CircularGalleryDemo.webp" width="300"> | **CircularGallery**<br>`reactbits:Components/CircularGalleryDemo` | Portfólio & Mídia | reactbits · MIT + Commons Clause · ⚠needs-network | @chakra-ui/react, ogl |
+| <img src="../../previews/reactbits/Components__DepthCarouselDemo.webp" width="300"> | **DepthCarousel**<br>`reactbits:Components/DepthCarouselDemo` | Portfólio & Mídia | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap |
+| <img src="../../previews/reactbits/Components__DomeGalleryDemo.webp" width="300"> | **DomeGallery**<br>`reactbits:Components/DomeGalleryDemo` | Portfólio & Mídia | reactbits · MIT + Commons Clause | @chakra-ui/react, @use-gesture/react, react-icons |
+| <img src="../../previews/reactbits/Components__FlexCarouselDemo.webp" width="300"> | **FlexCarousel**<br>`reactbits:Components/FlexCarouselDemo` | Portfólio & Mídia | reactbits · MIT + Commons Clause | @chakra-ui/react, ogl |
+| <img src="../../previews/reactbits/Components__MasonryDemo.webp" width="300"> | **Masonry**<br>`reactbits:Components/MasonryDemo` | Portfólio & Mídia | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap |
 | <img src="../../previews/smoothui/canvas__coverflow-carousel.webp" width="300"> | **Coverflow Carousel**<br>`smoothui:canvas/coverflow-carousel` | Portfólio & Mídia | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
 | <img src="../../previews/smoothui/coverflow-carousel.webp" width="300"> | **Coverflow Carousel**<br>`smoothui:coverflow-carousel` | Portfólio & Mídia | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
 | <img src="../../previews/smoothui/cursor-image-trail.webp" width="300"> | **Cursor Image Trail**<br>`smoothui:cursor-image-trail` | Portfólio & Mídia | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |

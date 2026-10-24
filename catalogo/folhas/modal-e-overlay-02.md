@@ -4,27 +4,27 @@
 
 | nº | nome | uid | tipo de aplicação |
 |---|---|---|---|
-| 25 | Country Dialog | `smoothui:country-dialog` | UI base |
-| 26 | Dialog | `smoothui:dialog` | UI base |
-| 27 | Drawer | `smoothui:drawer` | UI base |
-| 28 | Glow Hover Card | `smoothui:glow-hover-card` | UI base |
-| 29 | Gooey Popover | `smoothui:gooey-popover` | UI base |
-| 30 | Image Generation Panel | `smoothui:image-generation-panel` | UI base |
-| 31 | Rich Popover | `smoothui:rich-popover` | UI base |
-| 32 | Social Hover Card | `smoothui:social-hover-card` | UI base |
-| 33 | Swap Panel | `smoothui:swap-panel` | UI base |
-| 34 | Video Modal | `smoothui:video-modal` | UI base |
-| 35 | Diagnostics Panel · Flowing Mesh | `threeui:diagnostics-panel/flow` | UI base |
-| 36 | Diagnostics Panel · Layered Planes | `threeui:diagnostics-panel/layers` | UI base |
-| 37 | Diagnostics Panel · Node Cubes | `threeui:diagnostics-panel/nodes` | UI base |
-| 38 | Animated Dialog | `uitripled:modals/animated-dialog` | UI base |
-| 39 | Animated Tooltip | `uitripled:tooltips/animated-tooltip` | UI base |
-| 40 | Bottom Modal | `uitripled:modals/bottom-modal` | UI base |
-| 41 | Fade Slide | `uitripled:components/modal/fade-slide` | UI base |
-| 42 | Fluid Modal Transition | `uitripled:motion-core/fluid-modal-transition` | UI base |
-| 43 | Smart Hover Card | `uitripled:motion-core/smart-hover-card` | UI base |
-| 44 | Angry Dragonfly · iammar99 | `uiverse:Tooltips/iammar99_angry-dragonfly-22` | UI base |
-| 45 | Average Earwig · Yaya12085 | `uiverse:Tooltips/Yaya12085_average-earwig-11` | UI base |
-| 46 | Hard Starfish · Mohammad-Rahme-576 | `uiverse:Tooltips/Mohammad-Rahme-576_hard-starfish-64` | UI base |
-| 47 | Plastic Dolphin · barisdogansutcu | `uiverse:Tooltips/barisdogansutcu_plastic-dolphin-67` | UI base |
-| 48 | Serious Termite · Cobp | `uiverse:Tooltips/Cobp_serious-termite-83` | UI base |
+| 25 | Sheet | `animateui:primitives/radix/sheet` | UI base |
+| 26 | Tooltip | `animateui:components/animate/tooltip` | UI base |
+| 27 | Tooltip | `animateui:components/base/tooltip` | UI base |
+| 28 | Tooltip | `animateui:components/radix/tooltip` | UI base |
+| 29 | Tooltip | `animateui:primitives/animate/tooltip` | UI base |
+| 30 | Tooltip | `animateui:primitives/base/tooltip` | UI base |
+| 31 | Tooltip | `animateui:primitives/radix/tooltip` | UI base |
+| 32 | SharedTooltip | `atlas:Interactions/SharedTooltip` | UI base |
+| 33 | Family Drawer | `cultui:family-drawer-demo` | UI base |
+| 34 | Floating Panel | `cultui:floating-panel-demo` | UI base |
+| 35 | Popover | `cultui:popover-demo` | UI base |
+| 36 | Side Panel | `cultui:side-panel-demo` | UI base |
+| 37 | Card Flip Hover | `eldoraui:card-flip-hover-demo` | UI base |
+| 38 | Dialog Stack | `kibo:dialog-stack` | UI base |
+| 39 | Smooth Drawer | `kokonutui:smooth-drawer` | UI base |
+| 40 | Dialog Basic | `motionprimitives:dialog/dialog-basic` | UI base |
+| 41 | Dialog Controlled | `motionprimitives:dialog/dialog-controlled` | UI base |
+| 42 | Dialog Custom Backdrop | `motionprimitives:dialog/dialog-custom-backdrop` | UI base |
+| 43 | Dialog Custom Exit | `motionprimitives:dialog/dialog-custom-exit` | UI base |
+| 44 | Dialog Custom Variants Transtion | `motionprimitives:dialog/dialog-custom-variants-transtion` | UI base |
+| 45 | Transition Panel Card | `motionprimitives:transition-panel/transition-panel-card` | UI base |
+| 46 | Aurora Panel | `motiq:aurora-panel` | UI base |
+| 47 | Border Beam Panel | `motiq:border-beam-panel` | UI base |
+| 48 | Glass Refraction Panel | `motiq:glass-refraction-panel` | UI base |

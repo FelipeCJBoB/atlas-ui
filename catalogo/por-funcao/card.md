@@ -1,4 +1,4 @@
-# Card (226)
+# Card (236)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -19,6 +19,7 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/uiverse/Cards__Praashoo7_silent-sheep-14.webp" width="300"> | **Silent Sheep · Praashoo7**<br>`uiverse:Cards/Praashoo7_silent-sheep-14` | E-commerce | uiverse · MIT | — |
 | <img src="../../previews/animata/card__notify-user-info.webp" width="300"> | **Notify User Info**<br>`animata:card/notify-user-info` | Login & Conta | animata · MIT | motion |
 | <img src="../../previews/atlas/Cards__ProfileFlipCard.webp" width="300"> | **ProfileFlipCard**<br>`atlas:Cards/ProfileFlipCard` | Login & Conta | atlas (própria) · Proprietária (Atlas) | lucide-react, motion |
+| <img src="../../previews/reactbits/Components__ProfileCardDemo.webp" width="300"> | **ProfileCard**<br>`reactbits:Components/ProfileCardDemo` | Login & Conta | reactbits · MIT + Commons Clause | @chakra-ui/react |
 | <img src="../../previews/spectrumui/account-access-card.webp" width="300"> | **Account Access Card**<br>`spectrumui:account-access-card` | Login & Conta | spectrumui · Apache-2.0 | clsx, lucide-react, motion, tailwind-merge |
 | <img src="../../previews/spectrumui/github-profile-card.webp" width="300"> | **Github Profile Card**<br>`spectrumui:github-profile-card` | Login & Conta | spectrumui · Apache-2.0 | @radix-ui/react-avatar, @radix-ui/react-slot, class-variance-authority, lucide-react |
 | <img src="../../previews/uiverse/Cards__Spacious74_silent-quail-90.webp" width="300"> | **Silent Quail · Spacious74**<br>`uiverse:Cards/Spacious74_silent-quail-90` | Mobile & App | uiverse · MIT | — |
@@ -37,6 +38,8 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/animata/card__swap-card.webp" width="300"> | **Swap Card**<br>`animata:card/swap-card` | UI base | animata · MIT | lucide-react |
 | <img src="../../previews/animata/text__text-flip.webp" width="300"> | **Text Flip**<br>`animata:text/text-flip` | UI base | animata · MIT | — |
 | <img src="../../previews/animata/card__webhooks-card.webp" width="300"> | **Web Hooks**<br>`animata:card/webhooks-card` | UI base | animata · MIT | — |
+| <img src="../../previews/animateui/components__community__flip-card.webp" width="300"> | **Flip Card**<br>`animateui:components/community/flip-card` | UI base | animateui · MIT + Commons Clause | @workspace/ui, lucide-react, motion |
+| <img src="../../previews/animateui/primitives__effects__tilt.webp" width="300"> | **Tilt**<br>`animateui:primitives/effects/tilt` | UI base | animateui · MIT + Commons Clause | @workspace/ui, motion |
 | <img src="../../previews/atlas/Cards__ElectricBorder.webp" width="300"> | **ElectricBorder**<br>`atlas:Cards/ElectricBorder` | UI base | atlas (própria) · Proprietária (Atlas) | — |
 | <img src="../../previews/atlas/Cards__GlareCard.webp" width="300"> | **GlareCard**<br>`atlas:Cards/GlareCard` | UI base | atlas (própria) · Proprietária (Atlas) | — |
 | <img src="../../previews/atlas/Cards__PixelCard.webp" width="300"> | **PixelCard**<br>`atlas:Cards/PixelCard` | UI base | atlas (própria) · Proprietária (Atlas) | tailwind-merge |
@@ -75,6 +78,13 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/motionprimitives/tilt__tilt-card-1.webp" width="300"> | **Tilt Card 1**<br>`motionprimitives:tilt/tilt-card-1` | UI base | motionprimitives · MIT | motion |
 | <img src="../../previews/motionprimitives/tilt__tilt-spotlight.webp" width="300"> | **Tilt Spotlight**<br>`motionprimitives:tilt/tilt-spotlight` | UI base | motionprimitives · MIT | motion |
 | <img src="../../previews/motiq/holo-card.webp" width="300"> | **Holo Card**<br>`motiq:holo-card` | UI base | motiq · MIT | — |
+| <img src="../../previews/reactbits/Components__BounceCardsDemo.webp" width="300"> | **BounceCards**<br>`reactbits:Components/BounceCardsDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap |
+| <img src="../../previews/reactbits/Components__CardSwapDemo.webp" width="300"> | **CardSwap**<br>`reactbits:Components/CardSwapDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap, react-icons |
+| <img src="../../previews/reactbits/Components__DecayCardDemo.webp" width="300"> | **DecayCard**<br>`reactbits:Components/DecayCardDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap |
+| <img src="../../previews/reactbits/Components__PixelCardDemo.webp" width="300"> | **PixelCard**<br>`reactbits:Components/PixelCardDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/Components__ReflectiveCardDemo.webp" width="300"> | **ReflectiveCard**<br>`reactbits:Components/ReflectiveCardDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, lucide-react |
+| <img src="../../previews/reactbits/Components__SpotlightCardDemo.webp" width="300"> | **SpotlightCard**<br>`reactbits:Components/SpotlightCardDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, react-icons |
+| <img src="../../previews/reactbits/Components__TiltedCardDemo.webp" width="300"> | **TiltedCard**<br>`reactbits:Components/TiltedCardDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
 | <img src="../../previews/smoothui/card-swipe-deck.webp" width="300"> | **Card Swipe Deck**<br>`smoothui:card-swipe-deck` | UI base | smoothui · MIT | @radix-ui/react-slot, @repo/shadcn-ui, @repo/smoothui, @smoothui/data, class-variance-authority, lucide-react, motion |
 | <img src="../../previews/smoothui/expandable-cards.webp" width="300"> | **Expandable Cards**<br>`smoothui:expandable-cards` | UI base | smoothui · MIT | @docs/examples, @repo/smoothui, @smoothui/data, lucide-react, motion |
 | <img src="../../previews/smoothui/canvas__glass-card.webp" width="300"> | **Glass Card**<br>`smoothui:canvas/glass-card` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |

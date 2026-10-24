@@ -13,18 +13,18 @@
 | 31 | Top-Down Letters | `animata:text/top-down-letters` | Efeitos & Animação |
 | 32 | Typing Text | `animata:text/typing-text` | Efeitos & Animação |
 | 33 | Wave Reveal | `animata:text/wave-reveal` | Efeitos & Animação |
-| 34 | CipherRevealText | `atlas:Text/CipherRevealText` | Efeitos & Animação |
-| 35 | NumeroRolante | `atlas:Text/NumeroRolante` | Efeitos & Animação |
-| 36 | Image Reveal | `bundui:image-reveal` | Efeitos & Animação |
-| 37 | Text | `bundui:animated-text/text` | Efeitos & Animação |
-| 38 | Text Gradient Scroll | `bundui:text-gradient-scroll` | Efeitos & Animação |
-| 39 | Text Morph Animation | `bundui:text-morph-animation` | Efeitos & Animação |
-| 40 | Text Morph Animation Old | `bundui:text-morph-animation-old` | Efeitos & Animação |
-| 41 | Word | `bundui:animated-text/word` | Efeitos & Animação |
-| 42 | Bg Image Texture | `cultui:bg-image-texture-demo` | Efeitos & Animação |
-| 43 | Gradient Heading | `cultui:gradient-heading-demo` | Efeitos & Animação |
-| 44 | Morph Surface | `cultui:morph-surface-demo` | Efeitos & Animação |
-| 45 | Pixel Heading Character | `cultui:pixel-heading-character-demo` | Efeitos & Animação |
-| 46 | Pixel Heading Word | `cultui:pixel-heading-word-demo` | Efeitos & Animação |
-| 47 | Pixel Paragraph Words | `cultui:pixel-paragraph-words-demo` | Efeitos & Animação |
-| 48 | Pixel Paragraph Words Inverse | `cultui:pixel-paragraph-words-inverse-demo` | Efeitos & Animação |
+| 34 | Counting Number | `animateui:primitives/texts/counting-number` | Efeitos & Animação |
+| 35 | Highlight | `animateui:primitives/texts/highlight` | Efeitos & Animação |
+| 36 | Morphing | `animateui:primitives/texts/morphing` | Efeitos & Animação |
+| 37 | Rolling | `animateui:primitives/texts/rolling` | Efeitos & Animação |
+| 38 | Rotating | `animateui:primitives/texts/rotating` | Efeitos & Animação |
+| 39 | Scrolling Number | `animateui:primitives/texts/scrolling-number` | Efeitos & Animação |
+| 40 | Sliding Number | `animateui:primitives/texts/sliding-number` | Efeitos & Animação |
+| 41 | Splitting | `animateui:primitives/texts/splitting` | Efeitos & Animação |
+| 42 | Splitting | `animateui:primitives/texts/splitting-example` | Efeitos & Animação |
+| 43 | Typing | `animateui:primitives/texts/typing` | Efeitos & Animação |
+| 44 | CipherRevealText | `atlas:Text/CipherRevealText` | Efeitos & Animação |
+| 45 | NumeroRolante | `atlas:Text/NumeroRolante` | Efeitos & Animação |
+| 46 | Image Reveal | `bundui:image-reveal` | Efeitos & Animação |
+| 47 | Text | `bundui:animated-text/text` | Efeitos & Animação |
+| 48 | Text Gradient Scroll | `bundui:text-gradient-scroll` | Efeitos & Animação |

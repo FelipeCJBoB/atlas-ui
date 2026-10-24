@@ -1,4 +1,4 @@
-# Modal & Overlay (51)
+# Modal & Overlay (77)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -9,6 +9,32 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/uitripled/native__native-dialog-shadcnui.webp" width="300"> | **Native Dialog Shadcnui**<br>`uitripled:native/native-dialog-shadcnui` | Mobile & App | uitripled · MIT | @radix-ui/react-dialog, framer-motion, lucide-react |
 | <img src="../../previews/uitripled/native__demo__native-hover-card-demo.webp" width="300"> | **Native Hover Card**<br>`uitripled:native/demo/native-hover-card-demo` | Mobile & App | uitripled · MIT | @radix-ui/react-slot, class-variance-authority, lucide-react |
 | <img src="../../previews/animata/overlay__modal.webp" width="300"> | **Modal**<br>`animata:overlay/modal` | UI base | animata · MIT | lucide-react, motion |
+| <img src="../../previews/animateui/components__base__alert-dialog.webp" width="300"> | **Alert Dialog**<br>`animateui:components/base/alert-dialog` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, radix-ui |
+| <img src="../../previews/animateui/components__radix__alert-dialog.webp" width="300"> | **Alert Dialog**<br>`animateui:components/radix/alert-dialog` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, radix-ui |
+| <img src="../../previews/animateui/primitives__base__alert-dialog.webp" width="300"> | **Alert Dialog**<br>`animateui:primitives/base/alert-dialog` | UI base | animateui · MIT + Commons Clause | @base-ui-components/react, motion |
+| <img src="../../previews/animateui/primitives__radix__alert-dialog.webp" width="300"> | **Alert Dialog**<br>`animateui:primitives/radix/alert-dialog` | UI base | animateui · MIT + Commons Clause | motion, radix-ui |
+| <img src="../../previews/animateui/components__base__dialog.webp" width="300"> | **Dialog**<br>`animateui:components/base/dialog` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react, radix-ui |
+| <img src="../../previews/animateui/components__headless__dialog.webp" width="300"> | **Dialog**<br>`animateui:components/headless/dialog` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react, motion, radix-ui |
+| <img src="../../previews/animateui/components__radix__dialog.webp" width="300"> | **Dialog**<br>`animateui:components/radix/dialog` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react, radix-ui |
+| <img src="../../previews/animateui/primitives__base__dialog.webp" width="300"> | **Dialog**<br>`animateui:primitives/base/dialog` | UI base | animateui · MIT + Commons Clause | @base-ui-components/react, lucide-react, motion |
+| <img src="../../previews/animateui/primitives__headless__dialog.webp" width="300"> | **Dialog**<br>`animateui:primitives/headless/dialog` | UI base | animateui · MIT + Commons Clause | @headlessui/react, lucide-react, motion |
+| <img src="../../previews/animateui/primitives__radix__dialog.webp" width="300"> | **Dialog**<br>`animateui:primitives/radix/dialog` | UI base | animateui · MIT + Commons Clause | lucide-react, motion, radix-ui |
+| <img src="../../previews/animateui/components__radix__hover-card.webp" width="300"> | **Hover Card**<br>`animateui:components/radix/hover-card` | UI base | animateui · MIT + Commons Clause | @workspace/ui |
+| <img src="../../previews/animateui/primitives__radix__hover-card.webp" width="300"> | **Hover Card**<br>`animateui:primitives/radix/hover-card` | UI base | animateui · MIT + Commons Clause | motion, radix-ui |
+| <img src="../../previews/animateui/components__base__popover.webp" width="300"> | **Popover**<br>`animateui:components/base/popover` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, radix-ui |
+| <img src="../../previews/animateui/components__headless__popover.webp" width="300"> | **Popover**<br>`animateui:components/headless/popover` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, radix-ui |
+| <img src="../../previews/animateui/components__radix__popover.webp" width="300"> | **Popover**<br>`animateui:components/radix/popover` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, radix-ui |
+| <img src="../../previews/animateui/primitives__base__popover.webp" width="300"> | **Popover**<br>`animateui:primitives/base/popover` | UI base | animateui · MIT + Commons Clause | @base-ui-components/react, motion |
+| <img src="../../previews/animateui/primitives__headless__popover.webp" width="300"> | **Popover**<br>`animateui:primitives/headless/popover` | UI base | animateui · MIT + Commons Clause | @headlessui/react, motion |
+| <img src="../../previews/animateui/primitives__radix__popover.webp" width="300"> | **Popover**<br>`animateui:primitives/radix/popover` | UI base | animateui · MIT + Commons Clause | motion, radix-ui |
+| <img src="../../previews/animateui/components__radix__sheet.webp" width="300"> | **Sheet**<br>`animateui:components/radix/sheet` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react, radix-ui |
+| <img src="../../previews/animateui/primitives__radix__sheet.webp" width="300"> | **Sheet**<br>`animateui:primitives/radix/sheet` | UI base | animateui · MIT + Commons Clause | motion, radix-ui |
+| <img src="../../previews/animateui/components__animate__tooltip.webp" width="300"> | **Tooltip**<br>`animateui:components/animate/tooltip` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, motion, radix-ui |
+| <img src="../../previews/animateui/components__base__tooltip.webp" width="300"> | **Tooltip**<br>`animateui:components/base/tooltip` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, radix-ui |
+| <img src="../../previews/animateui/components__radix__tooltip.webp" width="300"> | **Tooltip**<br>`animateui:components/radix/tooltip` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, radix-ui |
+| <img src="../../previews/animateui/primitives__animate__tooltip.webp" width="300"> | **Tooltip**<br>`animateui:primitives/animate/tooltip` | UI base | animateui · MIT + Commons Clause | @floating-ui/react, motion |
+| <img src="../../previews/animateui/primitives__base__tooltip.webp" width="300"> | **Tooltip**<br>`animateui:primitives/base/tooltip` | UI base | animateui · MIT + Commons Clause | @base-ui-components/react, motion |
+| <img src="../../previews/animateui/primitives__radix__tooltip.webp" width="300"> | **Tooltip**<br>`animateui:primitives/radix/tooltip` | UI base | animateui · MIT + Commons Clause | motion, radix-ui |
 | <img src="../../previews/atlas/Interactions__SharedTooltip.webp" width="300"> | **SharedTooltip**<br>`atlas:Interactions/SharedTooltip` | UI base | atlas (própria) · Proprietária (Atlas) | motion |
 | <img src="../../previews/cultui/family-drawer-demo.webp" width="300"> | **Family Drawer**<br>`cultui:family-drawer-demo` | UI base | cultui · MIT | @radix-ui/react-slot, lucide-react, motion, react-use-measure, vaul |
 | <img src="../../previews/cultui/floating-panel-demo.webp" width="300"> | **Floating Panel**<br>`cultui:floating-panel-demo` | UI base | cultui · MIT | lucide-react, motion |

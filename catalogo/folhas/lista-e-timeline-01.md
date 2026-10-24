@@ -26,5 +26,5 @@
 | 20 | Orbiting Items 3 D | `animata:list/orbiting-items-3-d` | UI base |
 | 21 | Transaction List | `animata:list/transaction-list` | UI base |
 | 22 | Transition List | `animata:list/transition-list` | UI base |
-| 23 | PinList | `atlas:Lists/PinList` | UI base |
-| 24 | PlayfulTodolist | `atlas:Lists/PlayfulTodolist` | UI base |
+| 23 | Pin List | `animateui:components/community/pin-list` | UI base |
+| 24 | Pinned List | `animateui:primitives/animate/pinned-list` | UI base |

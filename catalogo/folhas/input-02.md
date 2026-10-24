@@ -25,6 +25,6 @@
 | 43 | File Upload Pipeline | `motiq:file-upload-pipeline` | UI base |
 | 44 | Workflow Topology Field | `motiq:catalog/workflow-topology-field` | UI base |
 | 45 | Workflow Topology Field | `motiq:workflow-topology-field` | UI base |
-| 46 | Attachment 1 | `reui:attachment/c-attachment-1` | UI base |
-| 47 | File Upload 1 | `reui:file-upload/c-file-upload-1` | UI base |
-| 48 | File Upload 6 | `reui:file-upload/c-file-upload-6` | UI base |
+| 46 | CurvedInput | `reactbits:Components/CurvedInputDemo` | UI base |
+| 47 | ElasticSlider | `reactbits:Components/ElasticSliderDemo` | UI base |
+| 48 | MorphSlider | `reactbits:Components/MorphSliderDemo` | UI base |

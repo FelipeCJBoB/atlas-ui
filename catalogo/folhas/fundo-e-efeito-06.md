@@ -4,27 +4,27 @@
 
 | nº | nome | uid | tipo de aplicação |
 |---|---|---|---|
-| 121 | Gravity Stars | `smoothui:gravity-stars` | Efeitos & Animação |
-| 122 | Grid Loader | `smoothui:grid-loader` | Efeitos & Animação |
-| 123 | Holographic Foil | `smoothui:canvas/holographic-foil` | Efeitos & Animação |
-| 124 | Holographic Foil | `smoothui:holographic-foil` | Efeitos & Animação |
-| 125 | Liquid Metal | `smoothui:canvas/liquid-metal` | Efeitos & Animação |
-| 126 | Liquid Metal | `smoothui:liquid-metal` | Efeitos & Animação |
-| 127 | Pixel Brush Canvas | `smoothui:pixel-brush-canvas` | Efeitos & Animação |
-| 128 | Pixel Flow Field | `smoothui:pixel-flow-field` | Efeitos & Animação |
-| 129 | Power Off Slide | `smoothui:canvas/power-off-slide` | Efeitos & Animação |
-| 130 | Sdf Blob Transition | `smoothui:sdf-blob-transition` | Efeitos & Animação |
-| 131 | Siri Orb | `smoothui:canvas/siri-orb` | Efeitos & Animação |
-| 132 | Warped Circle Transition | `smoothui:warped-circle-transition` | Efeitos & Animação |
-| 133 | Beam Card | `spectrumui:beam-card` | Efeitos & Animação |
-| 134 | Gradient Tiers | `spectrumui:blocks/pricing/gradient-tiers` | Efeitos & Animação |
-| 135 | Neural Grid Footer | `spectrumui:blocks/footers/neural-grid-footer` | Efeitos & Animação |
-| 136 | Expandable Grid | `systaliko:ecommerce/expandable-grid` | Efeitos & Animação |
-| 137 | Shader | `systaliko:blocks/shader` | Efeitos & Animação |
-| 138 | Shader Hurricane | `systaliko:blocks/shader-hurricane` | Efeitos & Animação |
-| 139 | Bookshelf | `threeui:bookshelf` | Efeitos & Animação |
-| 140 | Constellation Field · Connectivity Graph | `threeui:constellation-field/connectivity-graph` | Efeitos & Animação |
-| 141 | Constellation Field · Constellation Field | `threeui:constellation-field/constellation-field` | Efeitos & Animação |
-| 142 | Constellation Field · Defense Lines | `threeui:constellation-field/defense-lines` | Efeitos & Animação |
-| 143 | Constellation Field · Gateway Flow | `threeui:constellation-field/gateway-flow` | Efeitos & Animação |
-| 144 | Constellation Field · Interface Lines | `threeui:constellation-field/interface-lines` | Efeitos & Animação |
+| 121 | Adaptive Safe Zone Grid | `motiq:adaptive-safe-zone-grid` | Efeitos & Animação |
+| 122 | Adaptive Safe Zone Grid | `motiq:catalog/adaptive-safe-zone-grid` | Efeitos & Animação |
+| 123 | Copperplate Hatch | `motiq:catalog/copperplate-hatch` | Efeitos & Animação |
+| 124 | Copperplate Hatch | `motiq:copperplate-hatch` | Efeitos & Animação |
+| 125 | Core Strata | `motiq:catalog/core-strata` | Efeitos & Animação |
+| 126 | Core Strata | `motiq:core-strata` | Efeitos & Animação |
+| 127 | AcidSquares | `reactbits:Backgrounds/AcidSquaresDemo` | Efeitos & Animação |
+| 128 | AeroShards | `reactbits:Backgrounds/AeroShardsDemo` | Efeitos & Animação |
+| 129 | AnimatedContent | `reactbits:Animations/AnimatedContentDemo` | Efeitos & Animação |
+| 130 | Antigravity | `reactbits:Animations/AntigravityDemo` | Efeitos & Animação |
+| 131 | Aurora | `reactbits:Backgrounds/AuroraDemo` | Efeitos & Animação |
+| 132 | Balatro | `reactbits:Backgrounds/BalatroDemo` | Efeitos & Animação |
+| 133 | Ballpit | `reactbits:Backgrounds/BallpitDemo` | Efeitos & Animação |
+| 134 | Beams | `reactbits:Backgrounds/BeamsDemo` | Efeitos & Animação |
+| 135 | BlobCursor | `reactbits:Animations/BlobCursorDemo` | Efeitos & Animação |
+| 136 | ChromaGrid | `reactbits:Components/ChromaGridDemo` | Efeitos & Animação |
+| 137 | ClickSpark | `reactbits:Animations/ClickSparkDemo` | Efeitos & Animação |
+| 138 | ColorBends | `reactbits:Backgrounds/ColorBendsDemo` | Efeitos & Animação |
+| 139 | Crosshair | `reactbits:Animations/CrosshairDemo` | Efeitos & Animação |
+| 140 | CRTWarp | `reactbits:Backgrounds/CRTWarpDemo` | Efeitos & Animação |
+| 141 | Cubes | `reactbits:Animations/CubesDemo` | Efeitos & Animação |
+| 142 | CursorGrid | `reactbits:Animations/CursorGridDemo` | Efeitos & Animação |
+| 143 | DarkVeil | `reactbits:Backgrounds/DarkVeilDemo` | Efeitos & Animação |
+| 144 | Dither | `reactbits:Backgrounds/DitherDemo` | Efeitos & Animação |

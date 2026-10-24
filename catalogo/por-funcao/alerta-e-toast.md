@@ -1,10 +1,11 @@
-# Alerta & Toast (22)
+# Alerta & Toast (23)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
 | prévia | componente | tipo de aplicação | biblioteca · licença | dependências npm |
 |---|---|---|---|---|
 | <img src="../../previews/uitripled/native__native-notification-bell-shadcnui.webp" width="300"> | **Native Notification Bell Shadcnui**<br>`uitripled:native/native-notification-bell-shadcnui` | Mobile & App | uitripled · MIT | framer-motion, lucide-react |
+| <img src="../../previews/animateui/components__community__notification-list.webp" width="300"> | **Notification List**<br>`animateui:components/community/notification-list` | UI base | animateui · MIT + Commons Clause | lucide-react, motion |
 | <img src="../../previews/atlas/Lists__StackedNotifications.webp" width="300"> | **StackedNotifications**<br>`atlas:Lists/StackedNotifications` | UI base | atlas (própria) · Proprietária (Atlas) | lucide-react, motion |
 | <img src="../../previews/cultui/halo-notification-demo.webp" width="300"> | **Halo Notification**<br>`cultui:halo-notification-demo` | UI base | cultui · MIT | @base-ui/react, lucide-react, motion |
 | <img src="../../previews/cultui/halo-toast-demo.webp" width="300"> | **Halo Toast**<br>`cultui:halo-toast-demo` | UI base | cultui · MIT | lucide-react, motion, sonner |

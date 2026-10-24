@@ -1,4 +1,4 @@
-# Tabs & Accordion (19)
+# Tabs & Accordion (36)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -7,6 +7,22 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/animata/tabs__fluid-tabs.webp" width="300"> | **Fluid Tabs**<br>`animata:tabs/fluid-tabs` | UI base | animata · MIT | lucide-react, motion |
 | <img src="../../previews/animata/tabs__gooey-tabs.webp" width="300"> | **Gooey Tabs**<br>`animata:tabs/gooey-tabs` | UI base | animata · MIT | @phosphor-icons/react, motion |
 | <img src="../../previews/animata/tabs__shift-tabs.webp" width="300"> | **Shift Tabs**<br>`animata:tabs/shift-tabs` | UI base | animata · MIT | — |
+| <img src="../../previews/animateui/components__base__accordion.webp" width="300"> | **Accordion**<br>`animateui:components/base/accordion` | UI base | animateui · MIT + Commons Clause | @workspace/ui, lucide-react |
+| <img src="../../previews/animateui/components__headless__accordion.webp" width="300"> | **Accordion**<br>`animateui:components/headless/accordion` | UI base | animateui · MIT + Commons Clause | @workspace/ui, lucide-react, motion |
+| <img src="../../previews/animateui/components__radix__accordion.webp" width="300"> | **Accordion**<br>`animateui:components/radix/accordion` | UI base | animateui · MIT + Commons Clause | @workspace/ui, lucide-react |
+| <img src="../../previews/animateui/primitives__base__accordion.webp" width="300"> | **Accordion**<br>`animateui:primitives/base/accordion` | UI base | animateui · MIT + Commons Clause | @base-ui-components/react, motion |
+| <img src="../../previews/animateui/primitives__radix__accordion.webp" width="300"> | **Accordion**<br>`animateui:primitives/radix/accordion` | UI base | animateui · MIT + Commons Clause | motion, radix-ui |
+| <img src="../../previews/animateui/primitives__base__collapsible.webp" width="300"> | **Collapsible**<br>`animateui:primitives/base/collapsible` | UI base | animateui · MIT + Commons Clause | @base-ui-components/react, motion |
+| <img src="../../previews/animateui/primitives__radix__collapsible.webp" width="300"> | **Collapsible**<br>`animateui:primitives/radix/collapsible` | UI base | animateui · MIT + Commons Clause | motion, radix-ui |
+| <img src="../../previews/animateui/primitives__headless__disclosure.webp" width="300"> | **Disclosure**<br>`animateui:primitives/headless/disclosure` | UI base | animateui · MIT + Commons Clause | @headlessui/react, motion |
+| <img src="../../previews/animateui/components__animate__tabs.webp" width="300"> | **Tabs**<br>`animateui:components/animate/tabs` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, radix-ui |
+| <img src="../../previews/animateui/components__base__tabs.webp" width="300"> | **Tabs**<br>`animateui:components/base/tabs` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, radix-ui |
+| <img src="../../previews/animateui/components__headless__tabs.webp" width="300"> | **Tabs**<br>`animateui:components/headless/tabs` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, motion, radix-ui |
+| <img src="../../previews/animateui/components__radix__tabs.webp" width="300"> | **Tabs**<br>`animateui:components/radix/tabs` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, radix-ui |
+| <img src="../../previews/animateui/primitives__animate__tabs.webp" width="300"> | **Tabs**<br>`animateui:primitives/animate/tabs` | UI base | animateui · MIT + Commons Clause | motion |
+| <img src="../../previews/animateui/primitives__base__tabs.webp" width="300"> | **Tabs**<br>`animateui:primitives/base/tabs` | UI base | animateui · MIT + Commons Clause | @base-ui-components/react, motion |
+| <img src="../../previews/animateui/primitives__headless__tabs.webp" width="300"> | **Tabs**<br>`animateui:primitives/headless/tabs` | UI base | animateui · MIT + Commons Clause | @headlessui/react, motion |
+| <img src="../../previews/animateui/primitives__radix__tabs.webp" width="300"> | **Tabs**<br>`animateui:primitives/radix/tabs` | UI base | animateui · MIT + Commons Clause | motion, radix-ui |
 | <img src="../../previews/bundui/animated-tab.webp" width="300"> | **Animated Tab**<br>`bundui:animated-tab` | UI base | bundui · MIT | @radix-ui/react-slot, class-variance-authority, motion |
 | <img src="../../previews/cultui/direction-aware-tabs-demo.webp" width="300"> | **Direction Aware Tabs**<br>`cultui:direction-aware-tabs-demo` | UI base | cultui · MIT | @radix-ui/react-slot, class-variance-authority, motion, react-use-measure |
 | <img src="../../previews/cultui/halo-segmented-demo.webp" width="300"> | **Halo Segmented**<br>`cultui:halo-segmented-demo` | UI base | cultui · MIT | @base-ui/react, motion |
@@ -19,6 +35,7 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/motionprimitives/disclosure__disclosure-basic.webp" width="300"> | **Disclosure Basic**<br>`motionprimitives:disclosure/disclosure-basic` | UI base | motionprimitives · MIT | motion |
 | <img src="../../previews/motionprimitives/disclosure__disclosure-card.webp" width="300"> | **Disclosure Card**<br>`motionprimitives:disclosure/disclosure-card` | UI base | motionprimitives · MIT | motion |
 | <img src="../../previews/motionprimitives/transition-panel__transition-panel-tabs.webp" width="300"> | **Transition Panel Tabs**<br>`motionprimitives:transition-panel/transition-panel-tabs` | UI base | motionprimitives · MIT | motion |
+| <img src="../../previews/reactbits/Components__AccordionGalleryDemo.webp" width="300"> | **AccordionGallery**<br>`reactbits:Components/AccordionGalleryDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap |
 | <img src="../../previews/smoothui/animated-tabs.webp" width="300"> | **Animated Tabs**<br>`smoothui:animated-tabs` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
 | <img src="../../previews/smoothui/basic-accordion.webp" width="300"> | **Basic Accordion**<br>`smoothui:basic-accordion` | UI base | smoothui · MIT | @repo/smoothui, lucide-react, motion |
 | <img src="../../previews/uitripled/disclosure__animated-accordion.webp" width="300"> | **Animated Accordion**<br>`uitripled:disclosure/animated-accordion` | UI base | uitripled · MIT | framer-motion, lucide-react |

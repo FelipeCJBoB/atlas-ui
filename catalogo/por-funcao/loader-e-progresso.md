@@ -1,4 +1,4 @@
-# Loader & Progresso (305)
+# Loader & Progresso (309)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -9,6 +9,10 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/animata/preloader__split-reveal.webp" width="300"> | **Split Reveal**<br>`animata:preloader/split-reveal` | Efeitos & Animação | animata · MIT | — |
 | <img src="../../previews/animata/preloader__vertical-tiles.webp" width="300"> | **Vertical Tiles**<br>`animata:preloader/vertical-tiles` | Efeitos & Animação | animata · MIT | motion |
 | <img src="../../previews/animata/widget__weekly-progress.webp" width="300"> | **Weekly Progress**<br>`animata:widget/weekly-progress` | Efeitos & Animação | animata · MIT | lucide-react |
+| <img src="../../previews/animateui/components__base__progress.webp" width="300"> | **Progress**<br>`animateui:components/base/progress` | Efeitos & Animação | animateui · MIT + Commons Clause | @workspace/ui |
+| <img src="../../previews/animateui/primitives__base__progress.webp" width="300"> | **Progress**<br>`animateui:primitives/base/progress` | Efeitos & Animação | animateui · MIT + Commons Clause | @base-ui-components/react, motion |
+| <img src="../../previews/animateui/primitives__animate__scroll-progress.webp" width="300"> | **Scroll Progress**<br>`animateui:primitives/animate/scroll-progress` | Efeitos & Animação | animateui · MIT + Commons Clause | @workspace/ui, clsx, lucide-react, motion, tailwind-merge |
+| <img src="../../previews/animateui/primitives__texts__shimmering.webp" width="300"> | **Shimmering**<br>`animateui:primitives/texts/shimmering` | Efeitos & Animação | animateui · MIT + Commons Clause | motion |
 | <img src="../../previews/bundui/scroll-progress-bar__bar.webp" width="300"> | **Bar**<br>`bundui:scroll-progress-bar/bar` | Efeitos & Animação | bundui · MIT | motion |
 | <img src="../../previews/bundui/scroll-progress-bar__circle.webp" width="300"> | **Circle**<br>`bundui:scroll-progress-bar/circle` | Efeitos & Animação | bundui · MIT | motion |
 | <img src="../../previews/cultui/loading-carousel-demo.webp" width="300"> | **Loading Carousel**<br>`cultui:loading-carousel-demo` | Efeitos & Animação | cultui · MIT | embla-carousel-autoplay, lucide-react, motion |

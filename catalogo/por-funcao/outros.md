@@ -1,4 +1,4 @@
-# Outros (177)
+# Outros (195)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -38,6 +38,13 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/animata/widget__sleep-tracker.webp" width="300"> | **Sleep Tracker**<br>`animata:widget/sleep-tracker` | UI base | animata · MIT | — |
 | <img src="../../previews/animata/widget__storage-status.webp" width="300"> | **Storage Status**<br>`animata:widget/storage-status` | UI base | animata · MIT | — |
 | <img src="../../previews/animata/widget__vpn-widget.webp" width="300"> | **VPN Connection**<br>`animata:widget/vpn-widget` | UI base | animata · MIT | lucide-react |
+| <img src="../../previews/animateui/components__base__files.webp" width="300"> | **Files**<br>`animateui:components/base/files` | UI base | animateui · MIT + Commons Clause | @workspace/ui, lucide-react |
+| <img src="../../previews/animateui/components__radix__files.webp" width="300"> | **Files**<br>`animateui:components/radix/files` | UI base | animateui · MIT + Commons Clause | @workspace/ui, lucide-react |
+| <img src="../../previews/animateui/primitives__base__files.webp" width="300"> | **Files**<br>`animateui:primitives/base/files` | UI base | animateui · MIT + Commons Clause | lucide-react, motion |
+| <img src="../../previews/animateui/primitives__radix__files.webp" width="300"> | **Files**<br>`animateui:primitives/radix/files` | UI base | animateui · MIT + Commons Clause | lucide-react, motion |
+| <img src="../../previews/animateui/components__community__management-bar.webp" width="300"> | **Management Bar**<br>`animateui:components/community/management-bar` | UI base | animateui · MIT + Commons Clause | lucide-react, motion |
+| <img src="../../previews/animateui/components__community__radial-intro.webp" width="300"> | **Radial Intro**<br>`animateui:components/community/radial-intro` | UI base | animateui · MIT + Commons Clause | motion |
+| <img src="../../previews/animateui/primitives__animate__spring.webp" width="300"> | **Spring**<br>`animateui:primitives/animate/spring` | UI base | animateui · MIT + Commons Clause | motion |
 | <img src="../../previews/atlas/Misc__GradualBlur.webp" width="300"> | **GradualBlur**<br>`atlas:Misc/GradualBlur` | UI base | atlas (própria) · Proprietária (Atlas) | — |
 | <img src="../../previews/atlas/Interactions__ManagementBar.webp" width="300"> | **ManagementBar**<br>`atlas:Interactions/ManagementBar` | UI base | atlas (própria) · Proprietária (Atlas) | lucide-react, motion |
 | <img src="../../previews/atlas/Misc__RadialIntro.webp" width="300"> | **RadialIntro**<br>`atlas:Misc/RadialIntro` | UI base | atlas (própria) · Proprietária (Atlas) | motion |
@@ -137,6 +144,17 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/motiq/two-factor-setup-flow.webp" width="300"> | **Two Factor Setup Flow**<br>`motiq:two-factor-setup-flow` | UI base | motiq · MIT | motion |
 | <img src="../../previews/motiq/catalog__webhook-event-stream.webp" width="300"> | **Webhook Event Stream**<br>`motiq:catalog/webhook-event-stream` | UI base | motiq · MIT | motion |
 | <img src="../../previews/motiq/webhook-event-stream.webp" width="300"> | **Webhook Event Stream**<br>`motiq:webhook-event-stream` | UI base | motiq · MIT | motion |
+| <img src="../../previews/reactbits/Components__BorderGlowDemo.webp" width="300"> | **BorderGlow**<br>`reactbits:Components/BorderGlowDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, react-icons |
+| <img src="../../previews/reactbits/Components__DriftWallDemo.webp" width="300"> | **DriftWall**<br>`reactbits:Components/DriftWallDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/Components__FluidGlassDemo.webp" width="300"> | **FluidGlass**<br>`reactbits:Components/FluidGlassDemo` | UI base | reactbits · MIT + Commons Clause · ⚠needs-network | @chakra-ui/react, @react-three/drei, @react-three/fiber, maath, three |
+| <img src="../../previews/reactbits/Components__FlyingPostersDemo.webp" width="300"> | **FlyingPosters**<br>`reactbits:Components/FlyingPostersDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, ogl |
+| <img src="../../previews/reactbits/Components__FolderDemo.webp" width="300"> | **Folder**<br>`reactbits:Components/FolderDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/Components__GlassIconsDemo.webp" width="300"> | **GlassIcons**<br>`reactbits:Components/GlassIconsDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, react-icons |
+| <img src="../../previews/reactbits/Components__GlassSurfaceDemo.webp" width="300"> | **GlassSurface**<br>`reactbits:Components/GlassSurfaceDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, lenis, react-icons, three |
+| <img src="../../previews/reactbits/Components__InfiniteSpiralDemo.webp" width="300"> | **InfiniteSpiral**<br>`reactbits:Components/InfiniteSpiralDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/Components__LanyardDemo.webp" width="300"> | **Lanyard**<br>`reactbits:Components/LanyardDemo` | UI base | reactbits · MIT + Commons Clause · ⚠needs-network | @chakra-ui/react, @react-three/drei, @react-three/fiber, @react-three/rapier, meshline, three |
+| <img src="../../previews/reactbits/Components__ModelViewerDemo.webp" width="300"> | **ModelViewer**<br>`reactbits:Components/ModelViewerDemo` | UI base | reactbits · MIT + Commons Clause · ⚠needs-network | @chakra-ui/react, @react-three/drei, @react-three/fiber, three |
+| <img src="../../previews/reactbits/Components__OptionWheelDemo.webp" width="300"> | **OptionWheel**<br>`reactbits:Components/OptionWheelDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react |
 | <img src="../../previews/reui/questionnaire__c-questionnaire-1.webp" width="300"> | **Questionnaire 1**<br>`reui:questionnaire/c-questionnaire-1` | UI base | reui · MIT | @shadcn/react, class-variance-authority, cn, radix-ui |
 | <img src="../../previews/smoothui/apple-invites.webp" width="300"> | **Apple Invites**<br>`smoothui:apple-invites` | UI base | smoothui · MIT | @docs/examples, @repo/smoothui, lucide-react, motion, popmotion |
 | <img src="../../previews/smoothui/arcade-pixel.webp" width="300"> | **Arcade Pixel**<br>`smoothui:arcade-pixel` | UI base | smoothui · MIT | @radix-ui/react-slot, @repo/shadcn-ui, @repo/smoothui, class-variance-authority, motion |

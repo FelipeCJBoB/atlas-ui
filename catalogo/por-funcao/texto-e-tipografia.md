@@ -1,4 +1,4 @@
-# Texto & Tipografia (251)
+# Texto & Tipografia (294)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -37,6 +37,16 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/animata/text__top-down-letters.webp" width="300"> | **Top-Down Letters**<br>`animata:text/top-down-letters` | Efeitos & Animação | animata · MIT | — |
 | <img src="../../previews/animata/text__typing-text.webp" width="300"> | **Typing Text**<br>`animata:text/typing-text` | Efeitos & Animação | animata · MIT | — |
 | <img src="../../previews/animata/text__wave-reveal.webp" width="300"> | **Wave Reveal**<br>`animata:text/wave-reveal` | Efeitos & Animação | animata · MIT | — |
+| <img src="../../previews/animateui/primitives__texts__counting-number.webp" width="300"> | **Counting Number**<br>`animateui:primitives/texts/counting-number` | Efeitos & Animação | animateui · MIT + Commons Clause | motion |
+| <img src="../../previews/animateui/primitives__texts__highlight.webp" width="300"> | **Highlight**<br>`animateui:primitives/texts/highlight` | Efeitos & Animação | animateui · MIT + Commons Clause | motion |
+| <img src="../../previews/animateui/primitives__texts__morphing.webp" width="300"> | **Morphing**<br>`animateui:primitives/texts/morphing` | Efeitos & Animação | animateui · MIT + Commons Clause | motion |
+| <img src="../../previews/animateui/primitives__texts__rolling.webp" width="300"> | **Rolling**<br>`animateui:primitives/texts/rolling` | Efeitos & Animação | animateui · MIT + Commons Clause | motion |
+| <img src="../../previews/animateui/primitives__texts__rotating.webp" width="300"> | **Rotating**<br>`animateui:primitives/texts/rotating` | Efeitos & Animação | animateui · MIT + Commons Clause | motion |
+| <img src="../../previews/animateui/primitives__texts__scrolling-number.webp" width="300"> | **Scrolling Number**<br>`animateui:primitives/texts/scrolling-number` | Efeitos & Animação | animateui · MIT + Commons Clause | motion |
+| <img src="../../previews/animateui/primitives__texts__sliding-number.webp" width="300"> | **Sliding Number**<br>`animateui:primitives/texts/sliding-number` | Efeitos & Animação | animateui · MIT + Commons Clause | motion, react-use-measure |
+| <img src="../../previews/animateui/primitives__texts__splitting.webp" width="300"> | **Splitting**<br>`animateui:primitives/texts/splitting` | Efeitos & Animação | animateui · MIT + Commons Clause | @workspace/ui, clsx, motion, tailwind-merge |
+| <img src="../../previews/animateui/primitives__texts__splitting-example.webp" width="300"> | **Splitting**<br>`animateui:primitives/texts/splitting-example` | Efeitos & Animação | animateui · MIT + Commons Clause | motion |
+| <img src="../../previews/animateui/primitives__texts__typing.webp" width="300"> | **Typing**<br>`animateui:primitives/texts/typing` | Efeitos & Animação | animateui · MIT + Commons Clause | motion |
 | <img src="../../previews/atlas/Text__CipherRevealText.webp" width="300"> | **CipherRevealText**<br>`atlas:Text/CipherRevealText` | Efeitos & Animação | atlas (própria) · Proprietária (Atlas) | — |
 | <img src="../../previews/atlas/Text__NumeroRolante.webp" width="300"> | **NumeroRolante**<br>`atlas:Text/NumeroRolante` | Efeitos & Animação | atlas (própria) · Proprietária (Atlas) | motion |
 | <img src="../../previews/bundui/image-reveal.webp" width="300"> | **Image Reveal**<br>`bundui:image-reveal` | Efeitos & Animação | bundui · MIT | lucide-react, motion |
@@ -203,6 +213,39 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/motiq/catalog__typing-and-presence.webp" width="300"> | **Typing And Presence**<br>`motiq:catalog/typing-and-presence` | Efeitos & Animação | motiq · MIT | motion |
 | <img src="../../previews/motiq/typing-and-presence.webp" width="300"> | **Typing And Presence**<br>`motiq:typing-and-presence` | Efeitos & Animação | motiq · MIT | motion |
 | <img src="../../previews/motiq/word-cascade.webp" width="300"> | **Word Cascade**<br>`motiq:word-cascade` | Efeitos & Animação | motiq · MIT | — |
+| — | **ASCIIText**<br>`reactbits:TextAnimations/ASCIITextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause · ⚠needs-network | @chakra-ui/react, @content/TextAnimations, three |
+| <img src="../../previews/reactbits/TextAnimations__BlurTextDemo.webp" width="300"> | **BlurText**<br>`reactbits:TextAnimations/BlurTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, motion, sonner |
+| <img src="../../previews/reactbits/TextAnimations__CircularTextDemo.webp" width="300"> | **CircularText**<br>`reactbits:TextAnimations/CircularTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
+| <img src="../../previews/reactbits/TextAnimations__CountUpDemo.webp" width="300"> | **CountUp**<br>`reactbits:TextAnimations/CountUpDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
+| <img src="../../previews/reactbits/TextAnimations__CurvedLoopDemo.webp" width="300"> | **CurvedLoop**<br>`reactbits:TextAnimations/CurvedLoopDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/TextAnimations__DecryptedTextDemo.webp" width="300"> | **DecryptedText**<br>`reactbits:TextAnimations/DecryptedTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
+| <img src="../../previews/reactbits/TextAnimations__DepthTextDemo.webp" width="300"> | **DepthText**<br>`reactbits:TextAnimations/DepthTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/TextAnimations__EchoTextDemo.webp" width="300"> | **EchoText**<br>`reactbits:TextAnimations/EchoTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/TextAnimations__FallingTextDemo.webp" width="300"> | **FallingText**<br>`reactbits:TextAnimations/FallingTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, matter-js |
+| <img src="../../previews/reactbits/TextAnimations__FoldTextDemo.webp" width="300"> | **FoldText**<br>`reactbits:TextAnimations/FoldTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap |
+| <img src="../../previews/reactbits/TextAnimations__FuzzyTextDemo.webp" width="300"> | **FuzzyText**<br>`reactbits:TextAnimations/FuzzyTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/TextAnimations__GlitchTextDemo.webp" width="300"> | **GlitchText**<br>`reactbits:TextAnimations/GlitchTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/TextAnimations__GradientTextDemo.webp" width="300"> | **GradientText**<br>`reactbits:TextAnimations/GradientTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
+| <img src="../../previews/reactbits/TextAnimations__MaskedHeadingDemo.webp" width="300"> | **MaskedHeading**<br>`reactbits:TextAnimations/MaskedHeadingDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause · ⚠needs-network | @chakra-ui/react, gsap |
+| <img src="../../previews/reactbits/TextAnimations__ParticleTextDemo.webp" width="300"> | **ParticleText**<br>`reactbits:TextAnimations/ParticleTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/TextAnimations__RotatingTextDemo.webp" width="300"> | **RotatingText**<br>`reactbits:TextAnimations/RotatingTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
+| <img src="../../previews/reactbits/TextAnimations__ScrambledTextDemo.webp" width="300"> | **ScrambledText**<br>`reactbits:TextAnimations/ScrambledTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap |
+| <img src="../../previews/reactbits/TextAnimations__ScrollFloatDemo.webp" width="300"> | **ScrollFloat**<br>`reactbits:TextAnimations/ScrollFloatDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap |
+| <img src="../../previews/reactbits/TextAnimations__ScrollRevealDemo.webp" width="300"> | **ScrollReveal**<br>`reactbits:TextAnimations/ScrollRevealDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap |
+| <img src="../../previews/reactbits/TextAnimations__ScrollVelocityDemo.webp" width="300"> | **ScrollVelocity**<br>`reactbits:TextAnimations/ScrollVelocityDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
+| <img src="../../previews/reactbits/TextAnimations__ShinyTextDemo.webp" width="300"> | **ShinyText**<br>`reactbits:TextAnimations/ShinyTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
+| <img src="../../previews/reactbits/TextAnimations__ShuffleDemo.webp" width="300"> | **Shuffle**<br>`reactbits:TextAnimations/ShuffleDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, @content/TextAnimations, @gsap/react, gsap |
+| <img src="../../previews/reactbits/TextAnimations__SplitFlapTextDemo.webp" width="300"> | **SplitFlapText**<br>`reactbits:TextAnimations/SplitFlapTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/TextAnimations__SplitTextDemo.webp" width="300"> | **SplitText**<br>`reactbits:TextAnimations/SplitTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, @gsap/react, gsap, sonner |
+| <img src="../../previews/reactbits/TextAnimations__StrokeTextDemo.webp" width="300"> | **StrokeText**<br>`reactbits:TextAnimations/StrokeTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap |
+| <img src="../../previews/reactbits/TextAnimations__TechTextDemo.webp" width="300"> | **TechText**<br>`reactbits:TextAnimations/TechTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/TextAnimations__TextCursorDemo.webp" width="300"> | **TextCursor**<br>`reactbits:TextAnimations/TextCursorDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
+| <img src="../../previews/reactbits/TextAnimations__TextLoopDemo.webp" width="300"> | **TextLoop**<br>`reactbits:TextAnimations/TextLoopDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap |
+| <img src="../../previews/reactbits/TextAnimations__TextPressureDemo.webp" width="300"> | **TextPressure**<br>`reactbits:TextAnimations/TextPressureDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause · ⚠needs-network | @chakra-ui/react |
+| <img src="../../previews/reactbits/TextAnimations__TextTypeDemo.webp" width="300"> | **TextType**<br>`reactbits:TextAnimations/TextTypeDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap |
+| <img src="../../previews/reactbits/TextAnimations__TrueFocusDemo.webp" width="300"> | **TrueFocus**<br>`reactbits:TextAnimations/TrueFocusDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
+| <img src="../../previews/reactbits/TextAnimations__VariableProximityDemo.webp" width="300"> | **VariableProximity**<br>`reactbits:TextAnimations/VariableProximityDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
+| <img src="../../previews/reactbits/TextAnimations__WarpTextDemo.webp" width="300"> | **WarpText**<br>`reactbits:TextAnimations/WarpTextDemo` | Efeitos & Animação | reactbits · MIT + Commons Clause | @chakra-ui/react, ogl |
 | <img src="../../previews/smoothui/bottom-up-letters.webp" width="300"> | **Bottom Up Letters**<br>`smoothui:bottom-up-letters` | Efeitos & Animação | smoothui · MIT | @repo/smoothui, motion |
 | <img src="../../previews/smoothui/context-menu.webp" width="300"> | **Context Menu**<br>`smoothui:context-menu` | Efeitos & Animação | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
 | <img src="../../previews/smoothui/depth-parallax-words.webp" width="300"> | **Depth Parallax Words**<br>`smoothui:depth-parallax-words` | Efeitos & Animação | smoothui · MIT | @repo/smoothui, motion |

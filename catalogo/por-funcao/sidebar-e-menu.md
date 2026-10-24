@@ -1,11 +1,13 @@
-# Sidebar & Menu (7)
+# Sidebar & Menu (9)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
 | prévia | componente | tipo de aplicação | biblioteca · licença | dependências npm |
 |---|---|---|---|---|
+| <img src="../../previews/animateui/components__radix__sidebar.webp" width="300"> | **Sidebar**<br>`animateui:components/radix/sidebar` | Dashboard & Admin | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react, motion, radix-ui |
 | <img src="../../previews/kibo/tree.webp" width="300"> | **Tree**<br>`kibo:tree` | Dashboard & Admin | kibo · MIT | @repo/tree, lucide-react, motion |
 | <img src="../../previews/magicui/file-tree-demo.webp" width="300"> | **File Tree**<br>`magicui:file-tree-demo` | Dashboard & Admin | magicui · MIT | @radix-ui/react-accordion, lucide-react |
+| <img src="../../previews/reactbits/Components__LineSidebarDemo.webp" width="300"> | **LineSidebar**<br>`reactbits:Components/LineSidebarDemo` | Dashboard & Admin | reactbits · MIT + Commons Clause | @chakra-ui/react |
 | <img src="../../previews/reui/tree__c-tree-1.webp" width="300"> | **Tree 1**<br>`reui:tree/c-tree-1` | Dashboard & Admin | reui · MIT | @headless-tree/core, @headless-tree/react, cn, radix-ui |
 | <img src="../../previews/reui/tree__c-tree-2.webp" width="300"> | **Tree 2**<br>`reui:tree/c-tree-2` | Dashboard & Admin | reui · MIT | @headless-tree/core, @headless-tree/react, cn, radix-ui |
 | <img src="../../previews/smoothui/file-tree.webp" width="300"> | **File Tree**<br>`smoothui:file-tree` | Dashboard & Admin | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |

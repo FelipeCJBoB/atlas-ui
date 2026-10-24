@@ -1,4 +1,4 @@
-# Input (92)
+# Input (95)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -49,6 +49,9 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/motiq/file-upload-pipeline.webp" width="300"> | **File Upload Pipeline**<br>`motiq:file-upload-pipeline` | UI base | motiq · MIT | motion |
 | <img src="../../previews/motiq/catalog__workflow-topology-field.webp" width="300"> | **Workflow Topology Field**<br>`motiq:catalog/workflow-topology-field` | UI base | motiq · MIT | — |
 | <img src="../../previews/motiq/workflow-topology-field.webp" width="300"> | **Workflow Topology Field**<br>`motiq:workflow-topology-field` | UI base | motiq · MIT | — |
+| <img src="../../previews/reactbits/Components__CurvedInputDemo.webp" width="300"> | **CurvedInput**<br>`reactbits:Components/CurvedInputDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/Components__ElasticSliderDemo.webp" width="300"> | **ElasticSlider**<br>`reactbits:Components/ElasticSliderDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, motion, react-icons |
+| <img src="../../previews/reactbits/Components__MorphSliderDemo.webp" width="300"> | **MorphSlider**<br>`reactbits:Components/MorphSliderDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap, ogl |
 | <img src="../../previews/reui/attachment__c-attachment-1.webp" width="300"> | **Attachment 1**<br>`reui:attachment/c-attachment-1` | UI base | reui · MIT | class-variance-authority, cn, radix-ui |
 | <img src="../../previews/reui/file-upload__c-file-upload-1.webp" width="300"> | **File Upload 1**<br>`reui:file-upload/c-file-upload-1` | UI base | reui · MIT | class-variance-authority, cn, radix-ui |
 | <img src="../../previews/reui/file-upload__c-file-upload-6.webp" width="300"> | **File Upload 6**<br>`reui:file-upload/c-file-upload-6` | UI base | reui · MIT | class-variance-authority, cn, radix-ui |

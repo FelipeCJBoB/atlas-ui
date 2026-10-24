@@ -1,9 +1,15 @@
-# Depoimentos & Avaliações (20)
+# Depoimentos & Avaliações (26)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
 | prévia | componente | tipo de aplicação | biblioteca · licença | dependências npm |
 |---|---|---|---|---|
+| <img src="../../previews/animateui/components__base__preview-card.webp" width="300"> | **Preview Card**<br>`animateui:components/base/preview-card` | Landing & Marketing | animateui · MIT + Commons Clause | @workspace/ui |
+| <img src="../../previews/animateui/primitives__base__preview-card.webp" width="300"> | **Preview Card**<br>`animateui:primitives/base/preview-card` | Landing & Marketing | animateui · MIT + Commons Clause | @base-ui-components/react, motion |
+| <img src="../../previews/animateui/components__base__preview-link-card.webp" width="300"> | **Preview Link Card**<br>`animateui:components/base/preview-link-card` | Landing & Marketing | animateui · MIT + Commons Clause · ⚠needs-network | @workspace/ui |
+| <img src="../../previews/animateui/components__radix__preview-link-card.webp" width="300"> | **Preview Link Card**<br>`animateui:components/radix/preview-link-card` | Landing & Marketing | animateui · MIT + Commons Clause | @workspace/ui |
+| <img src="../../previews/animateui/primitives__base__preview-link-card.webp" width="300"> | **Preview Link Card**<br>`animateui:primitives/base/preview-link-card` | Landing & Marketing | animateui · MIT + Commons Clause | — |
+| <img src="../../previews/animateui/primitives__radix__preview-link-card.webp" width="300"> | **Preview Link Card**<br>`animateui:primitives/radix/preview-link-card` | Landing & Marketing | animateui · MIT + Commons Clause | — |
 | <img src="../../previews/eldoraui/testimonal-01__components__carousel.webp" width="300"> | **Carousel**<br>`eldoraui:testimonal-01/components/carousel` | Landing & Marketing | eldoraui · MIT · ⚠needs-props | @radix-ui/react-slot, class-variance-authority, clsx, embla-carousel-react, lucide-react, process, tailwind-merge |
 | <img src="../../previews/eldoraui/testimonal-01__page.webp" width="300"> | **Page**<br>`eldoraui:testimonal-01/page` | Landing & Marketing | eldoraui · MIT | react-icons |
 | <img src="../../previews/eldoraui/testimonal-02__page.webp" width="300"> | **Page**<br>`eldoraui:testimonal-02/page` | Landing & Marketing | eldoraui · MIT | — |

@@ -20,9 +20,10 @@
 | 14 | Kpi Number Morph | `motiq:catalog/kpi-number-morph` | Dashboard & Admin |
 | 15 | Kpi Number Morph | `motiq:kpi-number-morph` | Dashboard & Admin |
 | 16 | Scroll Count Stats | `motiq:scroll-count-stats` | Dashboard & Admin |
-| 17 | Number Flow | `smoothui:canvas/number-flow` | Dashboard & Admin |
-| 18 | Number Flow | `smoothui:number-flow` | Dashboard & Admin |
-| 19 | Stats 1 | `smoothui:stats-1` | Dashboard & Admin |
-| 20 | Stats 2 | `smoothui:stats-2` | Dashboard & Admin |
-| 21 | Native Counter Up Shadcnui | `uitripled:native/native-counter-up-shadcnui` | Dashboard & Admin |
-| 22 | Native Likes Counter | `uitripled:native/demo/native-likes-counter-demo` | Dashboard & Admin |
+| 17 | Counter | `reactbits:Components/CounterDemo` | Dashboard & Admin |
+| 18 | Number Flow | `smoothui:canvas/number-flow` | Dashboard & Admin |
+| 19 | Number Flow | `smoothui:number-flow` | Dashboard & Admin |
+| 20 | Stats 1 | `smoothui:stats-1` | Dashboard & Admin |
+| 21 | Stats 2 | `smoothui:stats-2` | Dashboard & Admin |
+| 22 | Native Counter Up Shadcnui | `uitripled:native/native-counter-up-shadcnui` | Dashboard & Admin |
+| 23 | Native Likes Counter | `uitripled:native/demo/native-likes-counter-demo` | Dashboard & Admin |

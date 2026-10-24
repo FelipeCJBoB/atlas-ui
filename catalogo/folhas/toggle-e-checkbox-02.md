@@ -4,27 +4,27 @@
 
 | nº | nome | uid | tipo de aplicação |
 |---|---|---|---|
-| 25 | Good Newt · Navarog21 | `uiverse:Radio-buttons/Navarog21_good-newt-78` | UI base |
-| 26 | Grumpy Wombat · milegelu | `uiverse:Checkboxes/milegelu_grumpy-wombat-18` | UI base |
-| 27 | Hard Eel · Shoh2008 | `uiverse:Checkboxes/Shoh2008_hard-eel-52` | UI base |
-| 28 | Itchy Turtle · JkHuger | `uiverse:Toggle-switches/JkHuger_itchy-turtle-45` | UI base |
-| 29 | Little Grasshopper · PriyanshuGupta28 | `uiverse:Toggle-switches/PriyanshuGupta28_little-grasshopper-46` | UI base |
-| 30 | Lovely Firefox · Yaya12085 | `uiverse:Toggle-switches/Yaya12085_lovely-firefox-94` | UI base |
-| 31 | Lucky Bobcat · andrew-demchenk0 | `uiverse:Radio-buttons/andrew-demchenk0_lucky-bobcat-25` | UI base |
-| 32 | Mean Dodo · Praashoo7 | `uiverse:Radio-buttons/Praashoo7_mean-dodo-99` | UI base |
-| 33 | Nasty Moth · MuhammadHasann | `uiverse:Toggle-switches/MuhammadHasann_nasty-moth-15` | UI base |
-| 34 | Nasty Octopus · shadowfax29 | `uiverse:Radio-buttons/shadowfax29_nasty-octopus-47` | UI base |
-| 35 | Nasty Seahorse · Praashoo7 | `uiverse:Toggle-switches/Praashoo7_nasty-seahorse-26` | UI base |
-| 36 | Pink Dragon · andrew-demchenk0 | `uiverse:Radio-buttons/andrew-demchenk0_pink-dragon-17` | UI base |
-| 37 | Selfish Starfish · SelfMadeSystem | `uiverse:Radio-buttons/SelfMadeSystem_selfish-starfish-40` | UI base |
-| 38 | Serious Monkey · wizard503 | `uiverse:Radio-buttons/wizard503_serious-monkey-58` | UI base |
-| 39 | Silent Owl · Nawsome | `uiverse:Toggle-switches/Nawsome_silent-owl-45` | UI base |
-| 40 | Smart Fox · Type-Delta | `uiverse:Toggle-switches/Type-Delta_smart-fox-47` | UI base |
-| 41 | Spicy Dingo · Yaya12085 | `uiverse:Radio-buttons/Yaya12085_spicy-dingo-98` | UI base |
-| 42 | Strange Frog · mobinkakei | `uiverse:Checkboxes/mobinkakei_strange-frog-14` | UI base |
-| 43 | Tender Badger · mobinkakei | `uiverse:Checkboxes/mobinkakei_tender-badger-3` | UI base |
-| 44 | Terrible Frog · csemszepp | `uiverse:Toggle-switches/csemszepp_terrible-frog-94` | UI base |
-| 45 | Tough Deer · 3bdel3ziz-T | `uiverse:Radio-buttons/3bdel3ziz-T_tough-deer-65` | UI base |
-| 46 | Warm Panther · JkHuger | `uiverse:Toggle-switches/JkHuger_warm-panther-53` | UI base |
-| 47 | Warm Panther · JkHuger | `uiverse:Checkboxes/JkHuger_warm-panther-74` | UI base |
-| 48 | Weak Deer · Mohammad-Rahme-576 | `uiverse:Toggle-switches/Mohammad-Rahme-576_weak-deer-13` | UI base |
+| 25 | Toggle Group | `animateui:primitives/radix/toggle-group` | UI base |
+| 26 | ThemeTogglerButton | `atlas:Buttons/ThemeTogglerButton` | UI base |
+| 27 | Environment Switcher | `motiq:catalog/environment-switcher` | UI base |
+| 28 | Environment Switcher | `motiq:environment-switcher` | UI base |
+| 29 | Skeuomorphic Toggle · Glass | `threeui:skeuomorphic-toggle/glass` | UI base |
+| 30 | Skeuomorphic Toggle · Modern | `threeui:skeuomorphic-toggle/modern` | UI base |
+| 31 | Skeuomorphic Toggle · Shader | `threeui:skeuomorphic-toggle/shader` | UI base |
+| 32 | Skeuomorphic Toggle · Skeuomorphic | `threeui:skeuomorphic-toggle/skeuomorphic-toggle` | UI base |
+| 33 | Elastic Switch | `uitripled:micro/toggles/elastic-switch` | UI base |
+| 34 | Brave Firefox · njesenberger | `uiverse:Toggle-switches/njesenberger_brave-firefox-90` | UI base |
+| 35 | Calm Grasshopper · csemszepp | `uiverse:Checkboxes/csemszepp_calm-grasshopper-57` | UI base |
+| 36 | Curly Parrot · csemszepp | `uiverse:Toggle-switches/csemszepp_curly-parrot-90` | UI base |
+| 37 | Curvy Eagle · TroyRandall | `uiverse:Toggle-switches/TroyRandall_curvy-eagle-61` | UI base |
+| 38 | Dry Rabbit · r7chardgh | `uiverse:Toggle-switches/r7chardgh_dry-rabbit-69` | UI base |
+| 39 | Dry Treefrog · Nawsome | `uiverse:Toggle-switches/Nawsome_dry-treefrog-99` | UI base |
+| 40 | Empty Snail · Nawsome | `uiverse:Toggle-switches/Nawsome_empty-snail-69` | UI base |
+| 41 | Evil Dragon · Na3ar-17 | `uiverse:Toggle-switches/Na3ar-17_evil-dragon-24` | UI base |
+| 42 | Friendly Panther · MijailVillegas | `uiverse:Radio-buttons/MijailVillegas_friendly-panther-39` | UI base |
+| 43 | Fuzzy Yak · WerlynRodriguez | `uiverse:Radio-buttons/WerlynRodriguez_fuzzy-yak-55` | UI base |
+| 44 | Gentle Firefox · Shoh2008 | `uiverse:Toggle-switches/Shoh2008_gentle-firefox-59` | UI base |
+| 45 | Giant Jellyfish · LilaRest | `uiverse:Radio-buttons/LilaRest_giant-jellyfish-3` | UI base |
+| 46 | Good Newt · Navarog21 | `uiverse:Radio-buttons/Navarog21_good-newt-78` | UI base |
+| 47 | Grumpy Wombat · milegelu | `uiverse:Checkboxes/milegelu_grumpy-wombat-18` | UI base |
+| 48 | Hard Eel · Shoh2008 | `uiverse:Checkboxes/Shoh2008_hard-eel-52` | UI base |

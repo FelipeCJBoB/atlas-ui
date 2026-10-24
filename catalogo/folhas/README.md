@@ -5,30 +5,33 @@ Cada folha mostra até 24 componentes com o cursor em cima, numerados. O `.md` d
 - [Hero · folha 1](hero-01.md) — itens 1–24
 - [Hero · folha 2](hero-02.md) — itens 25–30
 - [Pricing · folha 1](pricing-01.md) — itens 1–17
-- [Depoimentos & Avaliações · folha 1](depoimentos-e-avaliacoes-01.md) — itens 1–20
+- [Depoimentos & Avaliações · folha 1](depoimentos-e-avaliacoes-01.md) — itens 1–24
+- [Depoimentos & Avaliações · folha 2](depoimentos-e-avaliacoes-02.md) — itens 25–26
 - [CTA & Banner · folha 1](cta-e-banner-01.md) — itens 1–19
 - [Footer · folha 1](footer-01.md) — itens 1–21
 - [Equipe & Logos · folha 1](equipe-e-logos-01.md) — itens 1–24
 - [Equipe & Logos · folha 2](equipe-e-logos-02.md) — itens 25–39
 - [Features & Bento · folha 1](features-e-bento-01.md) — itens 1–24
 - [Features & Bento · folha 2](features-e-bento-02.md) — itens 25–48
-- [Features & Bento · folha 3](features-e-bento-03.md) — itens 49–55
+- [Features & Bento · folha 3](features-e-bento-03.md) — itens 49–56
 - [FAQ · folha 1](faq-01.md) — itens 1–8
 - [Navbar & Header · folha 1](navbar-e-header-01.md) — itens 1–24
-- [Navbar & Header · folha 2](navbar-e-header-02.md) — itens 25–43
-- [Sidebar & Menu · folha 1](sidebar-e-menu-01.md) — itens 1–7
+- [Navbar & Header · folha 2](navbar-e-header-02.md) — itens 25–48
+- [Sidebar & Menu · folha 1](sidebar-e-menu-01.md) — itens 1–9
 - [Dropdown & Menu · folha 1](dropdown-e-menu-01.md) — itens 1–24
-- [Tabs & Accordion · folha 1](tabs-e-accordion-01.md) — itens 1–19
-- [Paginação & Breadcrumb · folha 1](paginacao-e-breadcrumb-01.md) — itens 1–10
+- [Dropdown & Menu · folha 2](dropdown-e-menu-02.md) — itens 25–37
+- [Tabs & Accordion · folha 1](tabs-e-accordion-01.md) — itens 1–24
+- [Tabs & Accordion · folha 2](tabs-e-accordion-02.md) — itens 25–36
+- [Paginação & Breadcrumb · folha 1](paginacao-e-breadcrumb-01.md) — itens 1–11
 - [Tabela & Data grid · folha 1](tabela-e-data-grid-01.md) — itens 1–20
 - [Gráfico · folha 1](grafico-01.md) — itens 1–17
-- [Stats & KPI · folha 1](stats-e-kpi-01.md) — itens 1–22
+- [Stats & KPI · folha 1](stats-e-kpi-01.md) — itens 1–23
 - [Calendário & Data · folha 1](calendario-e-data-01.md) — itens 1–7
 - [Formulário · folha 1](formulario-01.md) — itens 1–22
 - [Input · folha 1](input-01.md) — itens 1–24
 - [Input · folha 2](input-02.md) — itens 25–48
 - [Input · folha 3](input-03.md) — itens 49–72
-- [Input · folha 4](input-04.md) — itens 73–92
+- [Input · folha 4](input-04.md) — itens 73–95
 - [Botão · folha 1](botao-01.md) — itens 1–24
 - [Botão · folha 2](botao-02.md) — itens 25–48
 - [Botão · folha 3](botao-03.md) — itens 49–72
@@ -37,15 +40,17 @@ Cada folha mostra até 24 componentes com o cursor em cima, numerados. O `.md` d
 - [Botão · folha 6](botao-06.md) — itens 121–144
 - [Botão · folha 7](botao-07.md) — itens 145–168
 - [Botão · folha 8](botao-08.md) — itens 169–192
-- [Botão · folha 9](botao-09.md) — itens 193–208
+- [Botão · folha 9](botao-09.md) — itens 193–216
+- [Botão · folha 10](botao-10.md) — itens 217–220
 - [Toggle & Checkbox · folha 1](toggle-e-checkbox-01.md) — itens 1–24
 - [Toggle & Checkbox · folha 2](toggle-e-checkbox-02.md) — itens 25–48
-- [Toggle & Checkbox · folha 3](toggle-e-checkbox-03.md) — itens 49–49
+- [Toggle & Checkbox · folha 3](toggle-e-checkbox-03.md) — itens 49–70
 - [Modal & Overlay · folha 1](modal-e-overlay-01.md) — itens 1–24
 - [Modal & Overlay · folha 2](modal-e-overlay-02.md) — itens 25–48
-- [Modal & Overlay · folha 3](modal-e-overlay-03.md) — itens 49–51
-- [Alerta & Toast · folha 1](alerta-e-toast-01.md) — itens 1–22
-- [Badge & Avatar · folha 1](badge-e-avatar-01.md) — itens 1–21
+- [Modal & Overlay · folha 3](modal-e-overlay-03.md) — itens 49–72
+- [Modal & Overlay · folha 4](modal-e-overlay-04.md) — itens 73–77
+- [Alerta & Toast · folha 1](alerta-e-toast-01.md) — itens 1–23
+- [Badge & Avatar · folha 1](badge-e-avatar-01.md) — itens 1–24
 - [Card · folha 1](card-01.md) — itens 1–24
 - [Card · folha 2](card-02.md) — itens 25–48
 - [Card · folha 3](card-03.md) — itens 49–72
@@ -55,15 +60,17 @@ Cada folha mostra até 24 componentes com o cursor em cima, numerados. O `.md` d
 - [Card · folha 7](card-07.md) — itens 145–168
 - [Card · folha 8](card-08.md) — itens 169–192
 - [Card · folha 9](card-09.md) — itens 193–216
-- [Card · folha 10](card-10.md) — itens 217–226
+- [Card · folha 10](card-10.md) — itens 217–236
 - [Mídia & Galeria · folha 1](midia-e-galeria-01.md) — itens 1–24
 - [Mídia & Galeria · folha 2](midia-e-galeria-02.md) — itens 25–48
 - [Mídia & Galeria · folha 3](midia-e-galeria-03.md) — itens 49–72
 - [Mídia & Galeria · folha 4](midia-e-galeria-04.md) — itens 73–96
-- [Mídia & Galeria · folha 5](midia-e-galeria-05.md) — itens 97–114
+- [Mídia & Galeria · folha 5](midia-e-galeria-05.md) — itens 97–120
+- [Mídia & Galeria · folha 6](midia-e-galeria-06.md) — itens 121–123
 - [Lista & Timeline · folha 1](lista-e-timeline-01.md) — itens 1–24
 - [Lista & Timeline · folha 2](lista-e-timeline-02.md) — itens 25–48
 - [Lista & Timeline · folha 3](lista-e-timeline-03.md) — itens 49–72
+- [Lista & Timeline · folha 4](lista-e-timeline-04.md) — itens 73–78
 - [Chat & IA · folha 1](chat-e-ia-01.md) — itens 1–24
 - [Chat & IA · folha 2](chat-e-ia-02.md) — itens 25–48
 - [Chat & IA · folha 3](chat-e-ia-03.md) — itens 49–72
@@ -80,7 +87,7 @@ Cada folha mostra até 24 componentes com o cursor em cima, numerados. O `.md` d
 - [Loader & Progresso · folha 10](loader-e-progresso-10.md) — itens 217–240
 - [Loader & Progresso · folha 11](loader-e-progresso-11.md) — itens 241–264
 - [Loader & Progresso · folha 12](loader-e-progresso-12.md) — itens 265–288
-- [Loader & Progresso · folha 13](loader-e-progresso-13.md) — itens 289–305
+- [Loader & Progresso · folha 13](loader-e-progresso-13.md) — itens 289–309
 - [Texto & Tipografia · folha 1](texto-e-tipografia-01.md) — itens 1–24
 - [Texto & Tipografia · folha 2](texto-e-tipografia-02.md) — itens 25–48
 - [Texto & Tipografia · folha 3](texto-e-tipografia-03.md) — itens 49–72
@@ -91,7 +98,9 @@ Cada folha mostra até 24 componentes com o cursor em cima, numerados. O `.md` d
 - [Texto & Tipografia · folha 8](texto-e-tipografia-08.md) — itens 169–192
 - [Texto & Tipografia · folha 9](texto-e-tipografia-09.md) — itens 193–216
 - [Texto & Tipografia · folha 10](texto-e-tipografia-10.md) — itens 217–240
-- [Texto & Tipografia · folha 11](texto-e-tipografia-11.md) — itens 241–251
+- [Texto & Tipografia · folha 11](texto-e-tipografia-11.md) — itens 241–264
+- [Texto & Tipografia · folha 12](texto-e-tipografia-12.md) — itens 265–288
+- [Texto & Tipografia · folha 13](texto-e-tipografia-13.md) — itens 289–293
 - [Fundo & Efeito · folha 1](fundo-e-efeito-01.md) — itens 1–24
 - [Fundo & Efeito · folha 2](fundo-e-efeito-02.md) — itens 25–48
 - [Fundo & Efeito · folha 3](fundo-e-efeito-03.md) — itens 49–72
@@ -100,11 +109,18 @@ Cada folha mostra até 24 componentes com o cursor em cima, numerados. O `.md` d
 - [Fundo & Efeito · folha 6](fundo-e-efeito-06.md) — itens 121–144
 - [Fundo & Efeito · folha 7](fundo-e-efeito-07.md) — itens 145–168
 - [Fundo & Efeito · folha 8](fundo-e-efeito-08.md) — itens 169–192
-- [Fundo & Efeito · folha 9](fundo-e-efeito-09.md) — itens 193–196
+- [Fundo & Efeito · folha 9](fundo-e-efeito-09.md) — itens 193–216
+- [Fundo & Efeito · folha 10](fundo-e-efeito-10.md) — itens 217–240
+- [Fundo & Efeito · folha 11](fundo-e-efeito-11.md) — itens 241–264
+- [Fundo & Efeito · folha 12](fundo-e-efeito-12.md) — itens 265–288
+- [Fundo & Efeito · folha 13](fundo-e-efeito-13.md) — itens 289–312
+- [Fundo & Efeito · folha 14](fundo-e-efeito-14.md) — itens 313–315
 - [Interação & Cursor · folha 1](interacao-e-cursor-01.md) — itens 1–24
 - [Interação & Cursor · folha 2](interacao-e-cursor-02.md) — itens 25–48
 - [Interação & Cursor · folha 3](interacao-e-cursor-03.md) — itens 49–72
-- [Interação & Cursor · folha 4](interacao-e-cursor-04.md) — itens 73–89
+- [Interação & Cursor · folha 4](interacao-e-cursor-04.md) — itens 73–96
+- [Interação & Cursor · folha 5](interacao-e-cursor-05.md) — itens 97–120
+- [Interação & Cursor · folha 6](interacao-e-cursor-06.md) — itens 121–127
 - [Ícone · folha 1](icone-01.md) — itens 1–24
 - [Ícone · folha 2](icone-02.md) — itens 25–48
 - [Ícone · folha 3](icone-03.md) — itens 49–72
@@ -128,7 +144,7 @@ Cada folha mostra até 24 componentes com o cursor em cima, numerados. O `.md` d
 - [Mockup · folha 1](mockup-01.md) — itens 1–14
 - [Layout · folha 1](layout-01.md) — itens 1–6
 - [Código & Terminal · folha 1](codigo-e-terminal-01.md) — itens 1–24
-- [Código & Terminal · folha 2](codigo-e-terminal-02.md) — itens 25–27
+- [Código & Terminal · folha 2](codigo-e-terminal-02.md) — itens 25–30
 - [Estado vazio · folha 1](estado-vazio-01.md) — itens 1–24
 - [Estado vazio · folha 2](estado-vazio-02.md) — itens 25–27
 - [Outros · folha 1](outros-01.md) — itens 1–24
@@ -138,4 +154,5 @@ Cada folha mostra até 24 componentes com o cursor em cima, numerados. O `.md` d
 - [Outros · folha 5](outros-05.md) — itens 97–120
 - [Outros · folha 6](outros-06.md) — itens 121–144
 - [Outros · folha 7](outros-07.md) — itens 145–168
-- [Outros · folha 8](outros-08.md) — itens 169–177
+- [Outros · folha 8](outros-08.md) — itens 169–192
+- [Outros · folha 9](outros-09.md) — itens 193–195

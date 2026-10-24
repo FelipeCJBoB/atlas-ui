@@ -18,6 +18,7 @@ Tudo é autocontido neste repositório: código (`vendor/<lib>/`), licenças, ca
 5. **Confira a licença** (campos `own`, `share`, `license`):
    - `own: true` → autoria própria do Atlas, sem aviso de terceiros.
    - MIT/Apache (`share: true`) → pode ir para cliente; mantenha o aviso de copyright da biblioteca no topo do arquivo copiado.
+   - MIT + Commons Clause (React Bits, Animate UI) → pode modificar e usar dentro do projeto do cliente, mantendo o aviso de licença; **não** pode vender os componentes como produto (biblioteca, template, kit de UI).
    - `share: false` (“pessoal”) → **não use em entrega para cliente**.
 6. **Adapte**, não reescreva: copie os arquivos de `files`, instale `deps`, troque cores/tokens/textos e substitua imagens de exemplo (licença não auditada) por imagens do projeto.
 

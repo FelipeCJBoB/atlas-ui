@@ -1,15 +1,18 @@
-# Badge & Avatar (21)
+# Badge & Avatar (24)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
 | prévia | componente | tipo de aplicação | biblioteca · licença | dependências npm |
 |---|---|---|---|---|
+| <img src="../../previews/animateui/components__community__user-presence-avatar.webp" width="300"> | **User Presence Avatar**<br>`animateui:components/community/user-presence-avatar` | Login & Conta | animateui · MIT + Commons Clause | @workspace/ui, motion |
 | <img src="../../previews/atlas/Misc__UserPresenceAvatar.webp" width="300"> | **UserPresenceAvatar**<br>`atlas:Misc/UserPresenceAvatar` | Login & Conta | atlas (própria) · Proprietária (Atlas) | motion |
 | <img src="../../previews/smoothui/user-account-avatar.webp" width="300"> | **User Account Avatar**<br>`smoothui:user-account-avatar` | Login & Conta | smoothui · MIT | @radix-ui/react-popover, @repo/smoothui, @smoothui/data, lucide-react, motion |
 | <img src="../../previews/uitripled/native__demo__native-avatar-expand-demo.webp" width="300"> | **Native Avatar Expand**<br>`uitripled:native/demo/native-avatar-expand-demo` | Mobile & App | uitripled · MIT | — |
 | <img src="../../previews/uitripled/native__demo__native-verified-badge-demo.webp" width="300"> | **Native Verified Badge**<br>`uitripled:native/demo/native-verified-badge-demo` | Mobile & App | uitripled · MIT | lucide-react |
 | <img src="../../previews/uitripled/native__native-verified-badge-shadcnui.webp" width="300"> | **Native Verified Badge Shadcnui**<br>`uitripled:native/native-verified-badge-shadcnui` | Mobile & App | uitripled · MIT | @radix-ui/react-tooltip |
 | <img src="../../previews/animata/list__avatar-list.webp" width="300"> | **Avatar List**<br>`animata:list/avatar-list` | UI base | animata · MIT | — |
+| <img src="../../previews/animateui/components__animate__avatar-group.webp" width="300"> | **Avatar Group**<br>`animateui:components/animate/avatar-group` | UI base | animateui · MIT + Commons Clause | @workspace/ui, motion, radix-ui |
+| <img src="../../previews/animateui/primitives__animate__avatar-group.webp" width="300"> | **Avatar Group**<br>`animateui:primitives/animate/avatar-group` | UI base | animateui · MIT + Commons Clause | @workspace/ui, motion, radix-ui |
 | <img src="../../previews/atlas/Lists__AvatarGroup.webp" width="300"> | **AvatarGroup**<br>`atlas:Lists/AvatarGroup` | UI base | atlas (própria) · Proprietária (Atlas) | motion |
 | <img src="../../previews/cultui/halo-badge-demo.webp" width="300"> | **Halo Badge**<br>`cultui:halo-badge-demo` | UI base | cultui · MIT | class-variance-authority, motion |
 | <img src="../../previews/eldoraui/animated-badge-demo.webp" width="300"> | **Animated Badge**<br>`eldoraui:animated-badge-demo` | UI base | eldoraui · MIT | lucide-react, motion |

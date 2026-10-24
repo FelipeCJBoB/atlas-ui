@@ -21,10 +21,10 @@
 | 15 | Shine Border | `magicui:shine-border-demo` | Landing & Marketing |
 | 16 | Shine Border 2 | `magicui:shine-border-demo-2` | Landing & Marketing |
 | 17 | Mask Wipe Sections | `motiq:mask-wipe-sections` | Landing & Marketing |
-| 18 | Features 1 | `smoothui:features-1` | Landing & Marketing |
-| 19 | Features 2 | `smoothui:features-2` | Landing & Marketing |
-| 20 | Features 3 | `smoothui:features-3` | Landing & Marketing |
-| 21 | Feature Flags Table | `spectrumui:blocks/tables/feature-flags-table` | Landing & Marketing |
-| 22 | Grid Bento | `systaliko:blocks/grid-bento` | Landing & Marketing |
-| 23 | Grid Bento Four Cells | `systaliko:blocks/grid-bento-four-cells` | Landing & Marketing |
-| 24 | Grid Bento Three Cells | `systaliko:blocks/grid-bento-three-cells` | Landing & Marketing |
+| 18 | MagicBento | `reactbits:Components/MagicBentoDemo` | Landing & Marketing |
+| 19 | Features 1 | `smoothui:features-1` | Landing & Marketing |
+| 20 | Features 2 | `smoothui:features-2` | Landing & Marketing |
+| 21 | Features 3 | `smoothui:features-3` | Landing & Marketing |
+| 22 | Feature Flags Table | `spectrumui:blocks/tables/feature-flags-table` | Landing & Marketing |
+| 23 | Grid Bento | `systaliko:blocks/grid-bento` | Landing & Marketing |
+| 24 | Grid Bento Four Cells | `systaliko:blocks/grid-bento-four-cells` | Landing & Marketing |

@@ -1,4 +1,4 @@
-# Navbar & Header (43)
+# Navbar & Header (48)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -12,6 +12,7 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/animata/container__animated-dock.webp" width="300"> | **Animated Dock**<br>`animata:container/animated-dock` | UI base | animata · MIT | lucide-react, motion |
 | <img src="../../previews/animata/container__nav-tabs.webp" width="300"> | **Nav Tabs**<br>`animata:container/nav-tabs` | UI base | animata · MIT | motion |
 | <img src="../../previews/animata/container__sibling-focus-nav.webp" width="300"> | **Sibling Focus Nav**<br>`animata:container/sibling-focus-nav` | UI base | animata · MIT | @phosphor-icons/react |
+| <img src="../../previews/animateui/components__community__radial-nav.webp" width="300"> | **Radial Nav**<br>`animateui:components/community/radial-nav` | UI base | animateui · MIT + Commons Clause | lucide-react, motion |
 | <img src="../../previews/atlas/Navigation__AnimatedTabs.webp" width="300"> | **AnimatedTabs**<br>`atlas:Navigation/AnimatedTabs` | UI base | atlas (própria) · Proprietária (Atlas) | motion |
 | <img src="../../previews/atlas/Navigation__MagnifyDock.webp" width="300"> | **MagnifyDock**<br>`atlas:Navigation/MagnifyDock` | UI base | atlas (própria) · Proprietária (Atlas) | motion |
 | <img src="../../previews/atlas/Navigation__RadialNav.webp" width="300"> | **RadialNav**<br>`atlas:Navigation/RadialNav` | UI base | atlas (própria) · Proprietária (Atlas) | motion |
@@ -30,6 +31,10 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/magicui/icon-cloud-demo-3.webp" width="300"> | **Icon Cloud 3**<br>`magicui:icon-cloud-demo-3` | UI base | magicui · MIT | lucide-react |
 | <img src="../../previews/motionprimitives/dock__apple-style-dock.webp" width="300"> | **Apple Style Dock**<br>`motionprimitives:dock/apple-style-dock` | UI base | motionprimitives · MIT | lucide-react, motion |
 | <img src="../../previews/motiq/magnetic-dock.webp" width="300"> | **Magnetic Dock**<br>`motiq:magnetic-dock` | UI base | motiq · MIT | — |
+| <img src="../../previews/reactbits/Components__CardNavDemo.webp" width="300"> | **CardNav**<br>`reactbits:Components/CardNavDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap, react-icons |
+| <img src="../../previews/reactbits/Components__DockDemo.webp" width="300"> | **Dock**<br>`reactbits:Components/DockDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, motion, react-icons |
+| <img src="../../previews/reactbits/Components__GooeyNavDemo.webp" width="300"> | **GooeyNav**<br>`reactbits:Components/GooeyNavDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react |
+| <img src="../../previews/reactbits/Components__PillNavDemo.webp" width="300"> | **PillNav**<br>`reactbits:Components/PillNavDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap, react-router-dom |
 | <img src="../../previews/smoothui/canvas__dock.webp" width="300"> | **Dock**<br>`smoothui:canvas/dock` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, @smoothui/data, motion |
 | <img src="../../previews/smoothui/dock.webp" width="300"> | **Dock**<br>`smoothui:dock` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, @smoothui/data, motion |
 | <img src="../../previews/smoothui/expandable-navbar.webp" width="300"> | **Expandable Navbar**<br>`smoothui:expandable-navbar` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |

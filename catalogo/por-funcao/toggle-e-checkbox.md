@@ -1,4 +1,4 @@
-# Toggle & Checkbox (49)
+# Toggle & Checkbox (70)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -8,6 +8,27 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/systaliko/ecommerce__toggle-layout.webp" width="300"> | **Toggle Layout**<br>`systaliko:ecommerce/toggle-layout` | E-commerce | systaliko · MIT | @radix-ui/react-slot, class-variance-authority, motion |
 | <img src="../../previews/uitripled/components__account-switcher__multiple-accounts.webp" width="300"> | **Multiple Accounts**<br>`uitripled:components/account-switcher/multiple-accounts` | Login & Conta | uitripled · MIT · ⚠needs-network | framer-motion, lucide-react |
 | <img src="../../previews/uitripled/native__demo__native-image-checkbox-demo.webp" width="300"> | **Native Image Checkbox**<br>`uitripled:native/demo/native-image-checkbox-demo` | Mobile & App | uitripled · MIT | — |
+| <img src="../../previews/animateui/components__base__checkbox.webp" width="300"> | **Checkbox**<br>`animateui:components/base/checkbox` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, radix-ui |
+| <img src="../../previews/animateui/components__headless__checkbox.webp" width="300"> | **Checkbox**<br>`animateui:components/headless/checkbox` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, motion, radix-ui |
+| <img src="../../previews/animateui/components__radix__checkbox.webp" width="300"> | **Checkbox**<br>`animateui:components/radix/checkbox` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, radix-ui |
+| <img src="../../previews/animateui/primitives__base__checkbox.webp" width="300"> | **Checkbox**<br>`animateui:primitives/base/checkbox` | UI base | animateui · MIT + Commons Clause | @base-ui-components/react, @workspace/ui, motion, radix-ui |
+| <img src="../../previews/animateui/primitives__headless__checkbox.webp" width="300"> | **Checkbox**<br>`animateui:primitives/headless/checkbox` | UI base | animateui · MIT + Commons Clause | @headlessui/react, motion |
+| <img src="../../previews/animateui/primitives__radix__checkbox.webp" width="300"> | **Checkbox**<br>`animateui:primitives/radix/checkbox` | UI base | animateui · MIT + Commons Clause | @workspace/ui, motion, radix-ui |
+| <img src="../../previews/animateui/primitives__base__radio.webp" width="300"> | **Radio**<br>`animateui:primitives/base/radio` | UI base | animateui · MIT + Commons Clause | @base-ui-components/react, @workspace/ui, motion, radix-ui |
+| <img src="../../previews/animateui/primitives__radix__radio-group.webp" width="300"> | **Radio Group**<br>`animateui:primitives/radix/radio-group` | UI base | animateui · MIT + Commons Clause | @workspace/ui, motion, radix-ui |
+| <img src="../../previews/animateui/primitives__base__switch.webp" width="300"> | **Switch**<br>`animateui:primitives/base/switch` | UI base | animateui · MIT + Commons Clause | @base-ui-components/react, @workspace/ui, clsx, motion, radix-ui, tailwind-merge |
+| <img src="../../previews/animateui/primitives__headless__switch.webp" width="300"> | **Switch**<br>`animateui:primitives/headless/switch` | UI base | animateui · MIT + Commons Clause | @headlessui/react, @workspace/ui, clsx, motion, tailwind-merge |
+| <img src="../../previews/animateui/primitives__radix__switch.webp" width="300"> | **Switch**<br>`animateui:primitives/radix/switch` | UI base | animateui · MIT + Commons Clause | @workspace/ui, clsx, motion, radix-ui, tailwind-merge |
+| <img src="../../previews/animateui/components__buttons__theme-toggler.webp" width="300"> | **Theme Toggler**<br>`animateui:components/buttons/theme-toggler` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react, next-themes |
+| <img src="../../previews/animateui/primitives__effects__theme-toggler.webp" width="300"> | **Theme Toggler**<br>`animateui:primitives/effects/theme-toggler` | UI base | animateui · MIT + Commons Clause | lucide-react, next-themes |
+| <img src="../../previews/animateui/components__base__toggle.webp" width="300"> | **Toggle**<br>`animateui:components/base/toggle` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react |
+| <img src="../../previews/animateui/components__radix__toggle.webp" width="300"> | **Toggle**<br>`animateui:components/radix/toggle` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react |
+| <img src="../../previews/animateui/primitives__base__toggle.webp" width="300"> | **Toggle**<br>`animateui:primitives/base/toggle` | UI base | animateui · MIT + Commons Clause | @base-ui-components/react, lucide-react, motion |
+| <img src="../../previews/animateui/primitives__radix__toggle.webp" width="300"> | **Toggle**<br>`animateui:primitives/radix/toggle` | UI base | animateui · MIT + Commons Clause | lucide-react, motion, radix-ui |
+| <img src="../../previews/animateui/components__base__toggle-group.webp" width="300"> | **Toggle Group**<br>`animateui:components/base/toggle-group` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react |
+| <img src="../../previews/animateui/components__radix__toggle-group.webp" width="300"> | **Toggle Group**<br>`animateui:components/radix/toggle-group` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react |
+| <img src="../../previews/animateui/primitives__base__toggle-group.webp" width="300"> | **Toggle Group**<br>`animateui:primitives/base/toggle-group` | UI base | animateui · MIT + Commons Clause | @base-ui-components/react, lucide-react, motion |
+| <img src="../../previews/animateui/primitives__radix__toggle-group.webp" width="300"> | **Toggle Group**<br>`animateui:primitives/radix/toggle-group` | UI base | animateui · MIT + Commons Clause | lucide-react, motion, radix-ui |
 | <img src="../../previews/atlas/Buttons__ThemeTogglerButton.webp" width="300"> | **ThemeTogglerButton**<br>`atlas:Buttons/ThemeTogglerButton` | UI base | atlas (própria) · Proprietária (Atlas) | lucide-react |
 | <img src="../../previews/motiq/catalog__environment-switcher.webp" width="300"> | **Environment Switcher**<br>`motiq:catalog/environment-switcher` | UI base | motiq · MIT | motion |
 | <img src="../../previews/motiq/environment-switcher.webp" width="300"> | **Environment Switcher**<br>`motiq:environment-switcher` | UI base | motiq · MIT | motion |

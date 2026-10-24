@@ -1,4 +1,4 @@
-# Stats & KPI (22)
+# Stats & KPI (23)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -20,6 +20,7 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/motiq/catalog__kpi-number-morph.webp" width="300"> | **Kpi Number Morph**<br>`motiq:catalog/kpi-number-morph` | Dashboard & Admin | motiq · MIT | — |
 | <img src="../../previews/motiq/kpi-number-morph.webp" width="300"> | **Kpi Number Morph**<br>`motiq:kpi-number-morph` | Dashboard & Admin | motiq · MIT | — |
 | <img src="../../previews/motiq/scroll-count-stats.webp" width="300"> | **Scroll Count Stats**<br>`motiq:scroll-count-stats` | Dashboard & Admin | motiq · MIT | — |
+| <img src="../../previews/reactbits/Components__CounterDemo.webp" width="300"> | **Counter**<br>`reactbits:Components/CounterDemo` | Dashboard & Admin | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
 | <img src="../../previews/smoothui/canvas__number-flow.webp" width="300"> | **Number Flow**<br>`smoothui:canvas/number-flow` | Dashboard & Admin | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
 | <img src="../../previews/smoothui/number-flow.webp" width="300"> | **Number Flow**<br>`smoothui:number-flow` | Dashboard & Admin | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react |
 | <img src="../../previews/smoothui/stats-1.webp" width="300"> | **Stats 1**<br>`smoothui:stats-1` | Dashboard & Admin | smoothui · MIT | @repo/smoothui, motion |

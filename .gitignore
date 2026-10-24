@@ -12,8 +12,6 @@ legacy/atlas1/src/catalog.gen.tsx
 src/gen/
 # vendor/ é versionado (cópia própria e podada). Fora do repositório público:
 .vendor-completo/
-vendor/reactbits/
-vendor/animateui/
 .atlas/
 legacy/
 reescrita/quarentena/

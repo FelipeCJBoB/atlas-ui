@@ -1,5 +1,5 @@
 # Atlas — notas para o Claude Code
-- `vendor/` é **verbatim** (gerado por `scripts/sync.mjs`): nunca edite à mão; use `patches/<id>.json`.
+- `vendor/<lib>/` é cópia **verbatim** e podada do código de cada biblioteca (versionada; não há mais sync): nunca edite à mão; use `patches/<id>.json`. Exceção: `vendor/atlas/` (autoria própria).
 - Nada de rede em runtime: imagens/fontes são embutidas; `file://` é o alvo. Teste com `node build/qa.mjs`.
 - Raiz da página NÃO pode ter classe `dark` (variante `dark:` das libs); cada palco recebe `lib-<id>` + `dark|light`.
 - Mudou CSS/keyframes? Veja conflitos impressos pelo build ("keyframes renomeados").

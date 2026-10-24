@@ -19,12 +19,12 @@
 | 13 | Silent Sheep · Praashoo7 | `uiverse:Cards/Praashoo7_silent-sheep-14` | E-commerce |
 | 14 | Notify User Info | `animata:card/notify-user-info` | Login & Conta |
 | 15 | ProfileFlipCard | `atlas:Cards/ProfileFlipCard` | Login & Conta |
-| 16 | Account Access Card | `spectrumui:account-access-card` | Login & Conta |
-| 17 | Github Profile Card | `spectrumui:github-profile-card` | Login & Conta |
-| 18 | Silent Quail · Spacious74 | `uiverse:Cards/Spacious74_silent-quail-90` | Mobile & App |
-| 19 | Tender Deer · escannord | `uiverse:Cards/escannord_tender-deer-30` | Mobile & App |
-| 20 | Card Spread | `animata:card/card-spread` | UI base |
-| 21 | Collab Card | `animata:card/collab-card` | UI base |
-| 22 | Delivery Card | `animata:widget/delivery-card` | UI base |
-| 23 | Direction Card | `animata:widget/direction-card` | UI base |
-| 24 | Flip Card | `animata:card/flip-card` | UI base |
+| 16 | ProfileCard | `reactbits:Components/ProfileCardDemo` | Login & Conta |
+| 17 | Account Access Card | `spectrumui:account-access-card` | Login & Conta |
+| 18 | Github Profile Card | `spectrumui:github-profile-card` | Login & Conta |
+| 19 | Silent Quail · Spacious74 | `uiverse:Cards/Spacious74_silent-quail-90` | Mobile & App |
+| 20 | Tender Deer · escannord | `uiverse:Cards/escannord_tender-deer-30` | Mobile & App |
+| 21 | Card Spread | `animata:card/card-spread` | UI base |
+| 22 | Collab Card | `animata:card/collab-card` | UI base |
+| 23 | Delivery Card | `animata:widget/delivery-card` | UI base |
+| 24 | Direction Card | `animata:widget/direction-card` | UI base |

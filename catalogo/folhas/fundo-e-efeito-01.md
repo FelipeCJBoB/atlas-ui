@@ -9,22 +9,22 @@
 | 3 | Boids Ecosystem | `animata:background/boids-ecosystem` | Efeitos & Animação |
 | 4 | Interactive Grid | `animata:background/interactive-grid` | Efeitos & Animação |
 | 5 | Shooting Stars | `animata:background/shooting-stars` | Efeitos & Animação |
-| 6 | Antigravity | `atlas:Backgrounds/Antigravity` | Efeitos & Animação |
-| 7 | BubbleBackground | `atlas:Backgrounds/BubbleBackground` | Efeitos & Animação |
-| 8 | FilmGrain | `atlas:Backgrounds/FilmGrain` | Efeitos & Animação |
-| 9 | Fireworks | `atlas:Backgrounds/Fireworks` | Efeitos & Animação |
-| 10 | FireworksRing | `atlas:Backgrounds/FireworksRing` | Efeitos & Animação |
-| 11 | GithubStarsWheel | `atlas:Misc/GithubStarsWheel` | Efeitos & Animação |
-| 12 | GravityStars | `atlas:Backgrounds/GravityStars` | Efeitos & Animação |
-| 13 | HoneycombGrid | `atlas:Backgrounds/HoneycombGrid` | Efeitos & Animação |
-| 14 | MagicRings | `atlas:Backgrounds/MagicRings` | Efeitos & Animação |
-| 15 | MetaBalls | `atlas:Backgrounds/MetaBalls` | Efeitos & Animação |
-| 16 | StarfieldBackground | `atlas:Backgrounds/StarfieldBackground` | Efeitos & Animação |
-| 17 | TunnelHole | `atlas:Backgrounds/TunnelHole` | Efeitos & Animação |
-| 18 | Colored | `bundui:ripple-effect/colored` | Efeitos & Animação |
-| 19 | Fireworks | `bundui:backgrounds/fireworks` | Efeitos & Animação |
-| 20 | Floating Paths | `bundui:backgrounds/floating-paths` | Efeitos & Animação |
-| 21 | Fluid Particles | `bundui:backgrounds/fluid-particles` | Efeitos & Animação |
-| 22 | Image | `bundui:ripple-effect/image` | Efeitos & Animação |
-| 23 | Meteor Shower | `bundui:backgrounds/meteor-shower` | Efeitos & Animação |
-| 24 | Snowfall | `bundui:backgrounds/snowfall` | Efeitos & Animação |
+| 6 | Auto Height | `animateui:primitives/effects/auto-height` | Efeitos & Animação |
+| 7 | Blur | `animateui:primitives/effects/blur` | Efeitos & Animação |
+| 8 | Bubble | `animateui:components/backgrounds/bubble` | Efeitos & Animação |
+| 9 | Effect | `animateui:primitives/effects/effect` | Efeitos & Animação |
+| 10 | Fade | `animateui:primitives/effects/fade` | Efeitos & Animação |
+| 11 | Fireworks | `animateui:components/backgrounds/fireworks` | Efeitos & Animação |
+| 12 | Fireworks Circle | `animateui:components/backgrounds/fireworks-circle` | Efeitos & Animação |
+| 13 | Github Stars | `animateui:primitives/animate/github-stars` | Efeitos & Animação |
+| 14 | Github Stars Wheel | `animateui:components/animate/github-stars-wheel` | Efeitos & Animação |
+| 15 | Gravity Stars | `animateui:components/backgrounds/gravity-stars` | Efeitos & Animação |
+| 16 | Hexagon | `animateui:components/backgrounds/hexagon` | Efeitos & Animação |
+| 17 | Highlight | `animateui:primitives/effects/highlight` | Efeitos & Animação |
+| 18 | Hole | `animateui:components/backgrounds/hole` | Efeitos & Animação |
+| 19 | Motion Grid | `animateui:primitives/animate/motion-grid` | Efeitos & Animação |
+| 20 | Particles | `animateui:primitives/effects/particles` | Efeitos & Animação |
+| 21 | Shine | `animateui:primitives/effects/shine` | Efeitos & Animação |
+| 22 | Slide | `animateui:primitives/effects/slide` | Efeitos & Animação |
+| 23 | Stars | `animateui:components/backgrounds/stars` | Efeitos & Animação |
+| 24 | Zoom | `animateui:primitives/effects/zoom` | Efeitos & Animação |

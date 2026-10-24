@@ -1,4 +1,4 @@
-# Features & Bento (55)
+# Features & Bento (56)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -21,6 +21,7 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/magicui/shine-border-demo.webp" width="300"> | **Shine Border**<br>`magicui:shine-border-demo` | Landing & Marketing | magicui · MIT | — |
 | <img src="../../previews/magicui/shine-border-demo-2.webp" width="300"> | **Shine Border 2**<br>`magicui:shine-border-demo-2` | Landing & Marketing | magicui · MIT | next-themes |
 | <img src="../../previews/motiq/mask-wipe-sections.webp" width="300"> | **Mask Wipe Sections**<br>`motiq:mask-wipe-sections` | Landing & Marketing | motiq · MIT | — |
+| <img src="../../previews/reactbits/Components__MagicBentoDemo.webp" width="300"> | **MagicBento**<br>`reactbits:Components/MagicBentoDemo` | Landing & Marketing | reactbits · MIT + Commons Clause | @chakra-ui/react, gsap |
 | <img src="../../previews/smoothui/features-1.webp" width="300"> | **Features 1**<br>`smoothui:features-1` | Landing & Marketing | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
 | <img src="../../previews/smoothui/features-2.webp" width="300"> | **Features 2**<br>`smoothui:features-2` | Landing & Marketing | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
 | <img src="../../previews/smoothui/features-3.webp" width="300"> | **Features 3**<br>`smoothui:features-3` | Landing & Marketing | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, @smoothui/data, motion |

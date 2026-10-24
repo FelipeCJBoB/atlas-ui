@@ -4,27 +4,27 @@
 
 | nº | nome | uid | tipo de aplicação |
 |---|---|---|---|
-| 193 | Compare Reveal | `motiq:compare-reveal` | Efeitos & Animação |
-| 194 | Decrypt Text | `motiq:decrypt-text` | Efeitos & Animação |
-| 195 | Liquid Fill Headline | `motiq:liquid-fill-headline` | Efeitos & Animação |
-| 196 | Torch Reveal | `motiq:torch-reveal` | Efeitos & Animação |
-| 197 | Typing And Presence | `motiq:catalog/typing-and-presence` | Efeitos & Animação |
-| 198 | Typing And Presence | `motiq:typing-and-presence` | Efeitos & Animação |
-| 199 | Word Cascade | `motiq:word-cascade` | Efeitos & Animação |
-| 200 | Bottom Up Letters | `smoothui:bottom-up-letters` | Efeitos & Animação |
-| 201 | Context Menu | `smoothui:context-menu` | Efeitos & Animação |
-| 202 | Depth Parallax Words | `smoothui:depth-parallax-words` | Efeitos & Animação |
-| 203 | Folder Reveal | `smoothui:canvas/folder-reveal` | Efeitos & Animação |
-| 204 | Folder Reveal | `smoothui:folder-reveal` | Efeitos & Animação |
-| 205 | Gravity Letters | `smoothui:gravity-letters` | Efeitos & Animação |
-| 206 | Mask Reveal Up | `smoothui:mask-reveal-up` | Efeitos & Animação |
-| 207 | Morph Icon | `smoothui:morph-icon` | Efeitos & Animação |
-| 208 | Morph Surface | `smoothui:canvas/morph-surface` | Efeitos & Animação |
-| 209 | Morph Surface | `smoothui:morph-surface` | Efeitos & Animação |
-| 210 | Per Word Crossfade | `smoothui:per-word-crossfade` | Efeitos & Animação |
-| 211 | Perspective Text 3d | `smoothui:perspective-text-3d` | Efeitos & Animação |
-| 212 | Reveal Text | `smoothui:reveal-text` | Efeitos & Animação |
-| 213 | Rolling Text | `smoothui:rolling-text` | Efeitos & Animação |
-| 214 | Scramble Hover | `smoothui:scramble-hover` | Efeitos & Animação |
-| 215 | Scroll Image Reveal | `smoothui:scroll-image-reveal` | Efeitos & Animação |
-| 216 | Scroll Reveal Paragraph | `smoothui:scroll-reveal-paragraph` | Efeitos & Animação |
+| 193 | Text Loop On Index | `motionprimitives:text-loop/text-loop-on-index` | Efeitos & Animação |
+| 194 | Text Roll Basic | `motionprimitives:text-roll/text-roll-basic` | Efeitos & Animação |
+| 195 | Text Roll Custom Transition Delay | `motionprimitives:text-roll/text-roll-custom-transition-delay` | Efeitos & Animação |
+| 196 | Text Roll Custom Variants | `motionprimitives:text-roll/text-roll-custom-variants` | Efeitos & Animação |
+| 197 | Text Scramble Basic | `motionprimitives:text-scramble/text-scramble-basic` | Efeitos & Animação |
+| 198 | Text Scramble Custom Char Duration | `motionprimitives:text-scramble/text-scramble-custom-char-duration` | Efeitos & Animação |
+| 199 | Text Scramble Custom Trigger | `motionprimitives:text-scramble/text-scramble-custom-trigger` | Efeitos & Animação |
+| 200 | Text Shimmer Basic | `motionprimitives:text-shimmer/text-shimmer-basic` | Efeitos & Animação |
+| 201 | Text Shimmer Wave Basic | `motionprimitives:text-shimmer-wave/text-shimmer-wave-basic` | Efeitos & Animação |
+| 202 | Text Shimmer Wave Color | `motionprimitives:text-shimmer-wave/text-shimmer-wave-color` | Efeitos & Animação |
+| 203 | Compare Reveal | `motiq:compare-reveal` | Efeitos & Animação |
+| 204 | Decrypt Text | `motiq:decrypt-text` | Efeitos & Animação |
+| 205 | Liquid Fill Headline | `motiq:liquid-fill-headline` | Efeitos & Animação |
+| 206 | Torch Reveal | `motiq:torch-reveal` | Efeitos & Animação |
+| 207 | Typing And Presence | `motiq:catalog/typing-and-presence` | Efeitos & Animação |
+| 208 | Typing And Presence | `motiq:typing-and-presence` | Efeitos & Animação |
+| 209 | Word Cascade | `motiq:word-cascade` | Efeitos & Animação |
+| 210 | BlurText | `reactbits:TextAnimations/BlurTextDemo` | Efeitos & Animação |
+| 211 | CircularText | `reactbits:TextAnimations/CircularTextDemo` | Efeitos & Animação |
+| 212 | CountUp | `reactbits:TextAnimations/CountUpDemo` | Efeitos & Animação |
+| 213 | CurvedLoop | `reactbits:TextAnimations/CurvedLoopDemo` | Efeitos & Animação |
+| 214 | DecryptedText | `reactbits:TextAnimations/DecryptedTextDemo` | Efeitos & Animação |
+| 215 | DepthText | `reactbits:TextAnimations/DepthTextDemo` | Efeitos & Animação |
+| 216 | EchoText | `reactbits:TextAnimations/EchoTextDemo` | Efeitos & Animação |

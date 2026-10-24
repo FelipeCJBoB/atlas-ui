@@ -1,4 +1,4 @@
-# Botão (208)
+# Botão (220)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -15,6 +15,17 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/animata/button__ripple-button.webp" width="300"> | **Ripple Button**<br>`animata:button/ripple-button` | UI base | animata · MIT | — |
 | <img src="../../previews/animata/fabs__speed-dial.webp" width="300"> | **Speed Dial**<br>`animata:fabs/speed-dial` | UI base | animata · MIT | lucide-react |
 | <img src="../../previews/animata/button__status-button.webp" width="300"> | **Status Button**<br>`animata:button/status-button` | UI base | animata · MIT | lucide-react, motion |
+| <img src="../../previews/animateui/components__buttons__button.webp" width="300"> | **Button**<br>`animateui:components/buttons/button` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react |
+| <img src="../../previews/animateui/components__buttons__copy.webp" width="300"> | **Copy**<br>`animateui:components/buttons/copy` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react, motion |
+| <img src="../../previews/animateui/components__buttons__flip.webp" width="300"> | **Flip**<br>`animateui:components/buttons/flip` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react |
+| <img src="../../previews/animateui/primitives__buttons__flip.webp" width="300"> | **Flip**<br>`animateui:primitives/buttons/flip` | UI base | animateui · MIT + Commons Clause | motion |
+| <img src="../../previews/animateui/components__buttons__github-stars.webp" width="300"> | **Github Stars**<br>`animateui:components/buttons/github-stars` | UI base | animateui · MIT + Commons Clause · ⚠needs-network | @workspace/ui, class-variance-authority, lucide-react |
+| <img src="../../previews/animateui/components__buttons__icon.webp" width="300"> | **Icon**<br>`animateui:components/buttons/icon` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react |
+| <img src="../../previews/animateui/components__buttons__liquid.webp" width="300"> | **Liquid**<br>`animateui:components/buttons/liquid` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react |
+| <img src="../../previews/animateui/primitives__buttons__liquid.webp" width="300"> | **Liquid**<br>`animateui:primitives/buttons/liquid` | UI base | animateui · MIT + Commons Clause | motion |
+| <img src="../../previews/animateui/components__buttons__ripple.webp" width="300"> | **Ripple**<br>`animateui:components/buttons/ripple` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react |
+| <img src="../../previews/animateui/primitives__buttons__ripple.webp" width="300"> | **Ripple**<br>`animateui:primitives/buttons/ripple` | UI base | animateui · MIT + Commons Clause | motion |
+| <img src="../../previews/animateui/components__community__share-button.webp" width="300"> | **Share Button**<br>`animateui:components/community/share-button` | UI base | animateui · MIT + Commons Clause | @workspace/ui, class-variance-authority, lucide-react, motion |
 | <img src="../../previews/atlas/Buttons__AnimatedButton.webp" width="300"> | **AnimatedButton**<br>`atlas:Buttons/AnimatedButton` | UI base | atlas (própria) · Proprietária (Atlas) | lucide-react, motion |
 | <img src="../../previews/atlas/Buttons__CopyButton.webp" width="300"> | **CopyButton**<br>`atlas:Buttons/CopyButton` | UI base | atlas (própria) · Proprietária (Atlas) | lucide-react, motion |
 | <img src="../../previews/atlas/Buttons__FlipButton.webp" width="300"> | **FlipButton**<br>`atlas:Buttons/FlipButton` | UI base | atlas (própria) · Proprietária (Atlas) | lucide-react, motion |
@@ -61,6 +72,7 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/magicui/shiny-button-demo.webp" width="300"> | **Shiny Button**<br>`magicui:shiny-button-demo` | UI base | magicui · MIT | motion |
 | <img src="../../previews/motionprimitives/glow-effect__glow-effect-button.webp" width="300"> | **Glow Effect Button**<br>`motionprimitives:glow-effect/glow-effect-button` | UI base | motionprimitives · MIT | lucide-react, motion |
 | <img src="../../previews/motionprimitives/text-morph__text-morph-button.webp" width="300"> | **Text Morph Button**<br>`motionprimitives:text-morph/text-morph-button` | UI base | motionprimitives · MIT | motion |
+| <img src="../../previews/reactbits/Components__SpecularButtonDemo.webp" width="300"> | **SpecularButton**<br>`reactbits:Components/SpecularButtonDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, ogl |
 | <img src="../../previews/smoothui/animated-toggle.webp" width="300"> | **Animated Toggle**<br>`smoothui:animated-toggle` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
 | <img src="../../previews/smoothui/button-copy.webp" width="300"> | **Button Copy**<br>`smoothui:button-copy` | UI base | smoothui · MIT | @repo/smoothui, lucide-react, motion |
 | <img src="../../previews/smoothui/clip-corners-button.webp" width="300"> | **Clip Corners Button**<br>`smoothui:clip-corners-button` | UI base | smoothui · MIT | @repo/smoothui, motion |

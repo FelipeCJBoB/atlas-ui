@@ -6,6 +6,12 @@
 - Stack: react
 - Como usar: React + Tailwind (+ motion/shadcn conforme o componente). Os arquivos importam helpers do próprio repositório (ex.: `@/lib/utils` → cn); copie também os relacionados listados em `files` e instale as dependências de `deps`.
 
+## Animate UI (`animateui`) — 149 componentes
+- Licença: MIT + Commons Clause · origem: https://github.com/imskyleen/animate-ui @ efeb96ff (cópia versionada em `vendor/animateui/`, texto da licença em `vendor/animateui/LICENSE`)
+- Pode ir em trabalho de cliente/redistribuir: sim (mantenha o aviso de licença no código, se houver)
+- Stack: react
+- Como usar: React + Tailwind + motion (shadcn). Licença MIT + Commons Clause: pode modificar e usar em projeto de cliente mantendo o aviso; não pode vender os componentes como produto.
+
 ## Atlas (`atlas`) — 55 componentes
 - Licença: Proprietária (Atlas) — autoria própria
 - Pode ir em trabalho de cliente/redistribuir: sim (mantenha o aviso de licença no código, se houver)
@@ -71,6 +77,12 @@
 - Pode ir em trabalho de cliente/redistribuir: sim (mantenha o aviso de licença no código, se houver)
 - Stack: react
 - Como usar: React + Tailwind (+ motion/shadcn conforme o componente). Os arquivos importam helpers do próprio repositório (ex.: `@/lib/utils` → cn); copie também os relacionados listados em `files` e instale as dependências de `deps`.
+
+## React Bits (`reactbits`) — 213 componentes
+- Licença: MIT + Commons Clause · origem: https://github.com/DavidHDev/react-bits @ ca44b3f9 (cópia versionada em `vendor/reactbits/`, texto da licença em `vendor/reactbits/LICENSE`)
+- Pode ir em trabalho de cliente/redistribuir: sim (mantenha o aviso de licença no código, se houver)
+- Stack: react
+- Como usar: React + Tailwind (+ motion/gsap/three/ogl). Licença MIT + Commons Clause: pode modificar e usar em projeto de cliente mantendo o aviso; não pode vender os componentes como produto.
 
 ## ReUI (`reui`) — 39 componentes
 - Licença: MIT · origem: https://github.com/keenthemes/reui @ ef0fe125 (cópia versionada em `vendor/reui/`, texto da licença em `vendor/reui/LICENSE`)

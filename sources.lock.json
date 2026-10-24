@@ -276,7 +276,10 @@
       "repo": "https://github.com/imskyleen/animate-ui.git",
       "commit": "efeb96ffd7a3b7a4868667e4ac3c346620fb3044",
       "license": "MIT + Commons Clause",
-      "profile": [],
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
       "root": "apps/www",
       "licenseFile": "LICENSE.md",
       "globals": "app/globals.css",
@@ -323,7 +326,7 @@
       "pkgAlias": {
         "react-resizable-panels": "react-resizable-panels-v2"
       },
-      "nota": "Fora do build: MIT + Commons Clause. Código só local (gitignored), usado como referência para a reescrita em sala limpa (reescrita/)."
+      "nota": "MIT + Commons Clause: pode copiar, modificar, redistribuir e usar em projetos de cliente mantendo o aviso de licença; não pode vender os componentes como produto (biblioteca, template, kit)."
     },
     "smoothui": {
       "name": "SmoothUI",
@@ -409,7 +412,10 @@
       "repo": "https://github.com/DavidHDev/react-bits.git",
       "commit": "ca44b3f9ee180676a06d7de8ec6bea84cddff85b",
       "license": "MIT + Commons Clause",
-      "profile": [],
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
       "root": "src",
       "licenseFile": "LICENSE.md",
       "globals": "@atlas/stubs/reactbits/globals.css",
@@ -460,7 +466,7 @@
         ]
       },
       "viteAssets": true,
-      "nota": "Fora do build: MIT + Commons Clause. Código só local (gitignored), usado como referência para a reescrita em sala limpa (reescrita/)."
+      "nota": "MIT + Commons Clause: pode copiar, modificar, redistribuir e usar em projetos de cliente mantendo o aviso de licença; não pode vender os componentes como produto (biblioteca, template, kit)."
     },
     "eldoraui": {
       "name": "Eldora UI",

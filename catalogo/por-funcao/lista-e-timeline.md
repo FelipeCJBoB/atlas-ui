@@ -1,4 +1,4 @@
-# Lista & Timeline (72)
+# Lista & Timeline (78)
 
 Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
 
@@ -26,6 +26,9 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/animata/list__orbiting-items-3-d.webp" width="300"> | **Orbiting Items 3 D**<br>`animata:list/orbiting-items-3-d` | UI base | animata · MIT | lucide-react |
 | <img src="../../previews/animata/list__transaction-list.webp" width="300"> | **Transaction List**<br>`animata:list/transaction-list` | UI base | animata · MIT | lucide-react, motion |
 | <img src="../../previews/animata/list__transition-list.webp" width="300"> | **Transition List**<br>`animata:list/transition-list` | UI base | animata · MIT | motion |
+| <img src="../../previews/animateui/components__community__pin-list.webp" width="300"> | **Pin List**<br>`animateui:components/community/pin-list` | UI base | animateui · MIT + Commons Clause | @workspace/ui, lucide-react, motion |
+| <img src="../../previews/animateui/primitives__animate__pinned-list.webp" width="300"> | **Pinned List**<br>`animateui:primitives/animate/pinned-list` | UI base | animateui · MIT + Commons Clause | lucide-react, motion |
+| <img src="../../previews/animateui/components__community__playful-todolist.webp" width="300"> | **Playful Todolist**<br>`animateui:components/community/playful-todolist` | UI base | animateui · MIT + Commons Clause | @workspace/ui, motion |
 | <img src="../../previews/atlas/Lists__PinList.webp" width="300"> | **PinList**<br>`atlas:Lists/PinList` | UI base | atlas (própria) · Proprietária (Atlas) | motion |
 | <img src="../../previews/atlas/Lists__PlayfulTodolist.webp" width="300"> | **PlayfulTodolist**<br>`atlas:Lists/PlayfulTodolist` | UI base | atlas (própria) · Proprietária (Atlas) | motion |
 | <img src="../../previews/cultui/choice-poll-demo.webp" width="300"> | **Choice Poll**<br>`cultui:choice-poll-demo` | UI base | cultui · MIT | @hugeicons/core-free-icons, @hugeicons/react, @radix-ui/react-use-controllable-state, class-variance-authority, lucide-react |
@@ -56,6 +59,9 @@ Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find
 | <img src="../../previews/motiq/catalog__tool-call-activity.webp" width="300"> | **Tool Call Activity**<br>`motiq:catalog/tool-call-activity` | UI base | motiq · MIT | motion |
 | <img src="../../previews/motiq/tool-call-activity.webp" width="300"> | **Tool Call Activity**<br>`motiq:tool-call-activity` | UI base | motiq · MIT | motion |
 | <img src="../../previews/motiq/velocity-skew-feed.webp" width="300"> | **Velocity Skew Feed**<br>`motiq:velocity-skew-feed` | UI base | motiq · MIT | — |
+| <img src="../../previews/reactbits/Components__AnimatedListDemo.webp" width="300"> | **AnimatedList**<br>`reactbits:Components/AnimatedListDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
+| <img src="../../previews/reactbits/Components__ScrollStackDemo.webp" width="300"> | **ScrollStack**<br>`reactbits:Components/ScrollStackDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, lenis, react-icons |
+| <img src="../../previews/reactbits/Components__StackDemo.webp" width="300"> | **Stack**<br>`reactbits:Components/StackDemo` | UI base | reactbits · MIT + Commons Clause | @chakra-ui/react, motion |
 | <img src="../../previews/reui/gantt__c-gantt-1.webp" width="300"> | **Gantt 1**<br>`reui:gantt/c-gantt-1` | UI base | reui · MIT | class-variance-authority, cn, date-fns, radix-ui |
 | <img src="../../previews/reui/gantt__c-gantt-2.webp" width="300"> | **Gantt 2**<br>`reui:gantt/c-gantt-2` | UI base | reui · MIT | cn, date-fns, radix-ui |
 | <img src="../../previews/reui/sortable__c-sortable-1.webp" width="300"> | **Sortable 1**<br>`reui:sortable/c-sortable-1` | UI base | reui · MIT | @dnd-kit/core, @dnd-kit/sortable, @dnd-kit/utilities, class-variance-authority, cn, radix-ui, sonner |

@@ -2,39 +2,39 @@
 
 - [Hero](hero.md) — 30
 - [Pricing](pricing.md) — 17
-- [Depoimentos & Avaliações](depoimentos-e-avaliacoes.md) — 20
+- [Depoimentos & Avaliações](depoimentos-e-avaliacoes.md) — 26
 - [CTA & Banner](cta-e-banner.md) — 19
 - [Footer](footer.md) — 21
 - [Equipe & Logos](equipe-e-logos.md) — 39
-- [Features & Bento](features-e-bento.md) — 55
+- [Features & Bento](features-e-bento.md) — 56
 - [FAQ](faq.md) — 8
-- [Navbar & Header](navbar-e-header.md) — 43
-- [Sidebar & Menu](sidebar-e-menu.md) — 7
-- [Dropdown & Menu](dropdown-e-menu.md) — 24
-- [Tabs & Accordion](tabs-e-accordion.md) — 19
-- [Paginação & Breadcrumb](paginacao-e-breadcrumb.md) — 10
+- [Navbar & Header](navbar-e-header.md) — 48
+- [Sidebar & Menu](sidebar-e-menu.md) — 9
+- [Dropdown & Menu](dropdown-e-menu.md) — 37
+- [Tabs & Accordion](tabs-e-accordion.md) — 36
+- [Paginação & Breadcrumb](paginacao-e-breadcrumb.md) — 11
 - [Tabela & Data grid](tabela-e-data-grid.md) — 20
 - [Gráfico](grafico.md) — 17
-- [Stats & KPI](stats-e-kpi.md) — 22
+- [Stats & KPI](stats-e-kpi.md) — 23
 - [Calendário & Data](calendario-e-data.md) — 7
 - [Formulário](formulario.md) — 22
-- [Input](input.md) — 92
-- [Botão](botao.md) — 208
-- [Toggle & Checkbox](toggle-e-checkbox.md) — 49
-- [Modal & Overlay](modal-e-overlay.md) — 51
-- [Alerta & Toast](alerta-e-toast.md) — 22
-- [Badge & Avatar](badge-e-avatar.md) — 21
-- [Card](card.md) — 226
-- [Mídia & Galeria](midia-e-galeria.md) — 114
-- [Lista & Timeline](lista-e-timeline.md) — 72
+- [Input](input.md) — 95
+- [Botão](botao.md) — 220
+- [Toggle & Checkbox](toggle-e-checkbox.md) — 70
+- [Modal & Overlay](modal-e-overlay.md) — 77
+- [Alerta & Toast](alerta-e-toast.md) — 23
+- [Badge & Avatar](badge-e-avatar.md) — 24
+- [Card](card.md) — 236
+- [Mídia & Galeria](midia-e-galeria.md) — 123
+- [Lista & Timeline](lista-e-timeline.md) — 78
 - [Chat & IA](chat-e-ia.md) — 87
-- [Loader & Progresso](loader-e-progresso.md) — 305
-- [Texto & Tipografia](texto-e-tipografia.md) — 251
-- [Fundo & Efeito](fundo-e-efeito.md) — 196
-- [Interação & Cursor](interacao-e-cursor.md) — 89
+- [Loader & Progresso](loader-e-progresso.md) — 309
+- [Texto & Tipografia](texto-e-tipografia.md) — 294
+- [Fundo & Efeito](fundo-e-efeito.md) — 315
+- [Interação & Cursor](interacao-e-cursor.md) — 127
 - [Ícone](icone.md) — 467
 - [Mockup](mockup.md) — 14
 - [Layout](layout.md) — 6
-- [Código & Terminal](codigo-e-terminal.md) — 27
+- [Código & Terminal](codigo-e-terminal.md) — 30
 - [Estado vazio](estado-vazio.md) — 27
-- [Outros](outros.md) — 177
+- [Outros](outros.md) — 195
