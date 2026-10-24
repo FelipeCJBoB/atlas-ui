@@ -1,0 +1,11 @@
+{
+  "id": "cultui",
+  "name": "Cult UI",
+  "repo": "https://github.com/nolly-studio/cult-ui.git",
+  "commit": "67a66c6ac1cd240914ba688a907611b3437a7a2b",
+  "license": "MIT",
+  "declared": "MIT",
+  "status": "OK",
+  "copyright": "Copyright (c) 2023 Jordan-Gilliam",
+  "files": 577
+}

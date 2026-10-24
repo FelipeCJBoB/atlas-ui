@@ -1,0 +1,11 @@
+{
+  "id": "eldoraui",
+  "name": "Eldora UI",
+  "repo": "https://github.com/karthikmudunuri/eldoraui.git",
+  "commit": "6bb8fd211ecbdfa983f5780bead27d9f3890f20a",
+  "license": "MIT",
+  "declared": "MIT",
+  "status": "OK",
+  "copyright": "Copyright (c) Mudunuri Bhaskara Karthikeya Varma",
+  "files": 277
+}

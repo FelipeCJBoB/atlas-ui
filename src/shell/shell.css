@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import "tailwindcss" source(none);   /* só as fontes do shell (vendor/ é versionado e não deve entrar aqui) */
 @import "../../build/.tmp/fonts.gen.css";
 @source "./";
 @theme {

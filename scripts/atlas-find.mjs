@@ -3,13 +3,13 @@
 //   atlas-find find <termos…> [--app=…] [--fn=…] [--lib=…] [--stack=react|html] [--profile=compartilhavel] [--limit=15] [--json]
 //   atlas-find code <uid> [--max=60000]      metadados + licença + dependências + código-fonte
 //   atlas-find facets                        tipos de aplicação / funções / bibliotecas com contagens
-// Lê <índice>/catalog.jsonl (gerado por scripts/make-index.mjs; padrão: ../atlas-index ou $ATLAS_INDEX).
+// Lê catalogo/catalog.jsonl (gerado por scripts/make-index.mjs; ou $ATLAS_INDEX).
 import { existsSync, readFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { registra } from './atlas-plan.mjs';
 
 const ROOT = resolve(import.meta.dirname, '..');
-const INDEX = process.env.ATLAS_INDEX ? resolve(process.env.ATLAS_INDEX) : resolve(ROOT, '../atlas-index');
+const INDEX = process.env.ATLAS_INDEX ? resolve(process.env.ATLAS_INDEX) : join(ROOT, 'catalogo');
 const args = process.argv.slice(2);
 const cmd = args[0];
 const flag = (k, d) => { const a = args.find((x) => x.startsWith(`--${k}=`)); return a ? a.slice(k.length + 3) : d; };
@@ -73,22 +73,38 @@ if (['survey', 'coverage', 'plan'].includes(cmd)) {
   if (!r) { console.error(`uid não encontrado: ${uid}. Use: atlas-find find <termos>`); process.exit(1); }
   registra({ cmd: 'code', uid: r.uid });
   const L = lock[r.lib] || {}, max = +flag('max', 60000);
-  console.log(`# ${r.name}  (${r.uid})\napp: ${r.app} · função: ${r.fn} · biblioteca: ${L.name || r.lib} · stack: ${r.stack}\nlicença: ${r.license} (${L.repo ? L.repo.replace(/\.git$/, '') : ''} @ ${(L.commit || '').slice(0, 8)}) · redistribuível: ${r.share ? 'sim' : 'NÃO (uso pessoal)'}\n${r.flags.length ? `flags: ${r.flags.join(', ')}\n` : ''}${r.desc ? `descrição: ${r.desc}\n` : ''}layout sugerido no Atlas: ${r.layout}\n`);
+  console.log(`# ${r.name}  (${r.uid})\napp: ${r.app} · função: ${r.fn} · biblioteca: ${L.name || r.lib} · stack: ${r.stack}\nlicença: ${r.license}${r.own ? ' — autoria própria do Atlas' : ` (origem ${L.repo ? L.repo.replace(/\.git$/, '') : ''} @ ${(L.commit || '').slice(0, 8)}; texto em vendor/${r.lib}/LICENSE)`} · pode ir para cliente: ${r.share ? 'sim' : 'NÃO (uso pessoal)'}\n${r.preview ? `prévia (abra a imagem para ver): ${join(ROOT, r.preview)}\n` : ''}${r.flags.length ? `flags: ${r.flags.join(', ')}\n` : ''}${r.desc ? `descrição: ${r.desc}\n` : ''}layout sugerido no Atlas: ${r.layout}\n`);
   const deps = new Set(); let used = 0;
   for (const f of r.files) {
-    const p = f.startsWith('@gen/') ? join(ROOT, 'src/gen', f.slice(5)) : join(ROOT, 'vendor', r.lib, f);
-    if (!existsSync(p)) { console.log(`--- ${f} (arquivo não encontrado: rode npm run sync)`); continue; }
+    const p = f.startsWith('@gen/') ? join(ROOT, 'src/gen', f.slice(5)) : join(ROOT, f);
+    if (!existsSync(p)) { console.log(`--- ${f} (arquivo não encontrado)`); continue; }
     const t = readFileSync(p, 'utf8');
     for (const m of t.matchAll(/(?:from\s+|import\s*\(\s*|require\(\s*)["']([^"'./@][^"']*|@[^"'/]+\/[^"']+)["']/g)) deps.add(m[1].split('/').slice(0, m[1].startsWith('@') ? 2 : 1).join('/'));
     if (used > max) { console.log(`--- ${f} (omitido: limite --max)`); continue; }
     const body = t.length > max - used ? t.slice(0, max - used) + '\n/* … truncado … */' : t; used += body.length;
     console.log(`--- ${f}\n${body}\n`);
   }
-  if (deps.size) console.log(`dependências npm detectadas nos imports: ${[...deps].filter((d) => !/^(react|react-dom)$/.test(d)).join(', ') || '(só react)'}`);
+  console.log(`dependências npm: ${(r.deps || []).join(', ') || '(só react)'}`);
   console.log(r.stack === 'html' ? `\nnota: HTML — leia a seção "${r.lib}" em libs.md para o CSS/JS exigido (versão do Tailwind, plugin, tema).` : `\nnota: React — arquivos importam helpers do repo (ex.: @/lib/utils → cn); copie também os relacionados.`);
+} else if (cmd === 'ver') {
+  // prévias de um ou mais componentes (abra as imagens para olhar): normal | com o cursor em cima
+  const us = rest.map((u) => rows.find((x) => x.uid === u) || rows.find((x) => x.uid.endsWith(u))).filter(Boolean);
+  if (!us.length) { console.error('uso: atlas-find ver <uid> [uid…]'); process.exit(1); }
+  registra({ cmd: 'ver', uids: us.map((r) => r.uid) });
+  for (const r of us) console.log(`${r.uid} | ${r.name} | ${r.fn}\n  ${r.preview ? join(ROOT, r.preview) : '(sem prévia)'}`);
+  console.log('\nAbra cada imagem (ferramenta de leitura de imagem) antes de decidir: à esquerda o estado normal, à direita com o cursor em cima.');
+} else if (cmd === 'folhas') {
+  // folhas de contato da função (24 componentes numerados por imagem) — para comparar visualmente
+  const fn = flag('fn'); if (!fn) { console.error('uso: atlas-find folhas --fn="<função>"'); process.exit(1); }
+  const dirF = join(ROOT, 'catalogo/folhas'), sl = norm(fn).replace(/&/g, 'e').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const fs = await import('node:fs'); const list = fs.existsSync(dirF) ? fs.readdirSync(dirF).filter((f) => f.startsWith(sl + '-') && f.endsWith('.webp')).sort() : [];
+  if (!list.length) { console.error(`sem folhas para "${fn}" (funções: atlas-find facets)`); process.exit(1); }
+  registra({ cmd: 'folha', fn });
+  for (const f of list) console.log(`${join(dirF, f)}\n  números → uids: ${join(dirF, f.replace(/\.webp$/, '.md'))}`);
+  console.log('\nAbra as imagens, anote os números que interessam e leia o .md correspondente para obter os uids.');
 } else if (cmd === 'facets') {
   const by = (k) => Object.entries(rows.reduce((m, r) => ((m[r[k]] = (m[r[k]] || 0) + 1), m), {})).sort((a, b) => b[1] - a[1]).map(([x, n]) => `${x} (${n})`).join(' · ');
   console.log(`apps: ${by('app')}\n\nfunções: ${by('fn')}\n\nbibliotecas: ${by('lib')}\n\nstacks: ${by('stack')}`);
 } else {
-  console.log('uso: atlas-find find <termos> [--app=] [--fn=] [--lib=] [--stack=react|html] [--profile=compartilhavel] [--offline] [--limit=15] [--json]\n     atlas-find code <uid> [--max=60000]\n     atlas-find facets\n     atlas-find survey "<necessidade 1>; <necessidade 2>"   (pesquisa em TODOS os tipos de aplicação)\n     atlas-find coverage                        (mapa completo tipos × funções)\n     atlas-find plan init "<projeto>" | plan status | plan verify   (mapa de decisões obrigatório antes de codar)');
+  console.log('uso: atlas-find find <termos> [--app=] [--fn=] [--lib=] [--stack=react|html] [--profile=compartilhavel] [--offline] [--limit=15] [--json]\n     atlas-find code <uid> [--max=60000]\n     atlas-find ver <uid> [uid…]                 (caminho das prévias para olhar)\n     atlas-find folhas --fn="<função>"           (folhas de prévias numeradas da função)\n     atlas-find facets\n     atlas-find survey "<necessidade 1>; <necessidade 2>"   (pesquisa em TODOS os tipos de aplicação)\n     atlas-find coverage                        (mapa completo tipos × funções)\n     atlas-find plan init "<projeto>" | plan status | plan verify   (mapa de decisões obrigatório antes de codar)');
 }

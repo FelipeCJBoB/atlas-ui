@@ -1,0 +1,11 @@
+{
+  "id": "motiq",
+  "name": "Motiq",
+  "repo": "https://github.com/rmahammad/motiq.git",
+  "commit": "7b1cf5e596b53be801b2a13a2b015678b71f2d44",
+  "license": "MIT",
+  "declared": "MIT",
+  "status": "OK",
+  "copyright": "Copyright (c) 2026 Mahammad Rustamov",
+  "files": 361
+}

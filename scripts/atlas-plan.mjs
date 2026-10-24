@@ -81,6 +81,7 @@ export async function run(cmd, ctx) {
     const txt = readFileSync(arq, 'utf8'), log = lerLog(), problemas = [], cont = { USAR: 0, DESCARTAR: 0, PENDENTE: 0 };
     const temSurvey = log.some((l) => l.cmd === 'survey');
     const leu = new Set(log.filter((l) => l.cmd === 'code').map((l) => l.uid));
+    const viu = new Set(log.filter((l) => l.cmd === 'ver').flatMap((l) => l.uids || [])), folhaFn = new Set(log.filter((l) => l.cmd === 'folha').map((l) => norm(l.fn || '')));
     if (!temSurvey) problemas.push('nenhuma pesquisa "survey" no histórico: rode  atlas-find survey "<necessidades separadas por ;>"');
     const tabelas = txt.split(/^## /m).slice(1);
     for (const t of tabelas) {
@@ -100,6 +101,9 @@ export async function run(cmd, ctx) {
         if (ok.length < minimo) p(`USAR precisa de ≥${minimo} candidatos válidos (há ${ok.length})`);
         if (uniq(ok.map((r) => r.lib)).length < minLib) p(`candidatos de ≥${minLib} bibliotecas diferentes (há ${uniq(ok.map((r) => r.lib)).length})`);
         if (!esc || !catUid.get(esc)) p('falta o "Escolhido" (uid existente)'); else if (!leu.has(esc)) p(`o código do escolhido (${esc}) não foi lido: rode  atlas-find code ${esc}`);
+        // decisão visual: ver a prévia do escolhido e comparar candidatos (folha da função ou ≥3 prévias)
+        if (esc && catUid.get(esc) && !viu.has(esc)) p(`a prévia do escolhido não foi vista: rode  atlas-find ver ${esc}  e abra a imagem`);
+        if (!folhaFn.has(norm(catUid.get(esc)?.fn || nome)) && ok.filter((r) => viu.has(r.uid)).length < Math.min(3, ok.length)) p(`compare visualmente: atlas-find folhas --fn="${catUid.get(esc)?.fn || nome}"  ou  atlas-find ver <3 candidatos>`);
         const prof = log.some((l) => l.cmd === 'find' && (ehApp ? norm(l.app || '') === norm(nome) : norm(l.fn || '') === norm(nome)));
         if (!prof) p(`sem busca aprofundada no histórico: rode  atlas-find find "<termo>" ${ehApp ? '--app=' : '--fn='}"${nome}"`);
       }

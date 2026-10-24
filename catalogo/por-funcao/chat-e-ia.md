@@ -1,0 +1,93 @@
+# Chat & IA (87)
+
+Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
+
+| prévia | componente | tipo de aplicação | biblioteca · licença | dependências npm |
+|---|---|---|---|---|
+| <img src="../../previews/animata/button__ai-button.webp" width="300"> | **Ai Button**<br>`animata:button/ai-button` | IA & Chat | animata · MIT | @tsparticles/engine, @tsparticles/react, lucide-react, tsparticles |
+| <img src="../../previews/animata/feature-cards__confirmation-message.webp" width="300"> | **Confirmation Message**<br>`animata:feature-cards/confirmation-message` | IA & Chat | animata · MIT | motion |
+| <img src="../../previews/animata/text__text-explode-imessage.webp" width="300"> | **Text Explode Imessage**<br>`animata:text/text-explode-imessage` | IA & Chat | animata · MIT | motion |
+| <img src="../../previews/animata/widget__video-chat.webp" width="300"> | **Video Chat**<br>`animata:widget/video-chat` | IA & Chat | animata · MIT | lucide-react, motion |
+| <img src="../../previews/cultui/agent-suggest-card-stack-demo.webp" width="300"> | **Agent Suggest Card Stack**<br>`cultui:agent-suggest-card-stack-demo` | IA & Chat | cultui · MIT | — |
+| <img src="../../previews/cultui/ai-blob-warp-demo.webp" width="300"> | **Ai Blob Warp**<br>`cultui:ai-blob-warp-demo` | IA & Chat | cultui · MIT | @paper-design/shaders-react, motion |
+| <img src="../../previews/cultui/ai-instructions-demo.webp" width="300"> | **Ai Instructions**<br>`cultui:ai-instructions-demo` | IA & Chat | cultui · MIT | @hugeicons/core-free-icons, @hugeicons/react |
+| <img src="../../previews/cultui/fluid-ai-workloads-demo.webp" width="300"> | **Fluid Ai Workloads**<br>`cultui:fluid-ai-workloads-demo` | IA & Chat | cultui · MIT | — |
+| <img src="../../previews/cultui/prompt-composer-demo.webp" width="300"> | **Prompt Composer**<br>`cultui:prompt-composer-demo` | IA & Chat | cultui · MIT | @base-ui/react, @paper-design/shaders-react, lucide-react, motion |
+| <img src="../../previews/cultui/prompt-library-demo.webp" width="300"> | **Prompt Library**<br>`cultui:prompt-library-demo` | IA & Chat | cultui · MIT | @hugeicons/core-free-icons, @hugeicons/react |
+| <img src="../../previews/kokonutui/ai-input-search.webp" width="300"> | **Ai Input Search**<br>`kokonutui:ai-input-search` | IA & Chat | kokonutui · MIT | clsx, lucide-react, motion, tailwind-merge |
+| <img src="../../previews/kokonutui/ai-loading.webp" width="300"> | **Ai Loading**<br>`kokonutui:ai-loading` | IA & Chat | kokonutui · MIT | — |
+| <img src="../../previews/kokonutui/ai-prompt.webp" width="300"> | **Ai Prompt**<br>`kokonutui:ai-prompt` | IA & Chat | kokonutui · MIT | @radix-ui/react-dropdown-menu, @radix-ui/react-slot, class-variance-authority, lucide-react, motion |
+| <img src="../../previews/kokonutui/ai-text-loading.webp" width="300"> | **Ai Text Loading**<br>`kokonutui:ai-text-loading` | IA & Chat | kokonutui · MIT | clsx, motion, tailwind-merge |
+| <img src="../../previews/kokonutui/ai-voice.webp" width="300"> | **Ai Voice**<br>`kokonutui:ai-voice` | IA & Chat | kokonutui · MIT | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/motiq/agent-operations-hero.webp" width="300"> | **Agent Operations Hero**<br>`motiq:agent-operations-hero` | IA & Chat | motiq · MIT | — |
+| <img src="../../previews/motiq/catalog__agent-operations-hero.webp" width="300"> | **Agent Operations Hero**<br>`motiq:catalog/agent-operations-hero` | IA & Chat | motiq · MIT | — |
+| <img src="../../previews/motiq/agent-run-timeline.webp" width="300"> | **Agent Run Timeline**<br>`motiq:agent-run-timeline` | IA & Chat | motiq · MIT | motion |
+| <img src="../../previews/motiq/catalog__agent-run-timeline.webp" width="300"> | **Agent Run Timeline**<br>`motiq:catalog/agent-run-timeline` | IA & Chat | motiq · MIT | motion |
+| <img src="../../previews/motiq/ai-agent-workspace.webp" width="300"> | **Ai Agent Workspace**<br>`motiq:ai-agent-workspace` | IA & Chat | motiq · MIT | — |
+| <img src="../../previews/motiq/catalog__ai-agent-workspace.webp" width="300"> | **Ai Agent Workspace**<br>`motiq:catalog/ai-agent-workspace` | IA & Chat | motiq · MIT | — |
+| <img src="../../previews/motiq/ai-response-stream.webp" width="300"> | **Ai Response Stream**<br>`motiq:ai-response-stream` | IA & Chat | motiq · MIT | motion |
+| <img src="../../previews/motiq/catalog__ai-response-stream.webp" width="300"> | **Ai Response Stream**<br>`motiq:catalog/ai-response-stream` | IA & Chat | motiq · MIT | motion |
+| <img src="../../previews/motiq/catalog__message-delivery-states.webp" width="300"> | **Message Delivery States**<br>`motiq:catalog/message-delivery-states` | IA & Chat | motiq · MIT | motion |
+| <img src="../../previews/motiq/message-delivery-states.webp" width="300"> | **Message Delivery States**<br>`motiq:message-delivery-states` | IA & Chat | motiq · MIT | motion |
+| <img src="../../previews/motiq/catalog__prompt-composer.webp" width="300"> | **Prompt Composer**<br>`motiq:catalog/prompt-composer` | IA & Chat | motiq · MIT | motion |
+| <img src="../../previews/motiq/prompt-composer.webp" width="300"> | **Prompt Composer**<br>`motiq:prompt-composer` | IA & Chat | motiq · MIT | @radix-ui/react-dialog, motion |
+| <img src="../../previews/reui/message-scroller__c-message-scroller-1.webp" width="300"> | **Message Scroller 1**<br>`reui:message-scroller/c-message-scroller-1` | IA & Chat | reui · MIT | @shadcn/react, class-variance-authority, cn, radix-ui |
+| <img src="../../previews/reui/message-scroller__c-message-scroller-4.webp" width="300"> | **Message Scroller 4**<br>`reui:message-scroller/c-message-scroller-4` | IA & Chat | reui · MIT | @shadcn/react, class-variance-authority, cn, radix-ui |
+| <img src="../../previews/smoothui/agent-avatar.webp" width="300"> | **Agent Avatar**<br>`smoothui:agent-avatar` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui |
+| <img src="../../previews/smoothui/ai-approval.webp" width="300"> | **Ai Approval**<br>`smoothui:ai-approval` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/ai-artifact.webp" width="300"> | **Ai Artifact**<br>`smoothui:ai-artifact` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/ai-branch.webp" width="300"> | **Ai Branch**<br>`smoothui:ai-branch` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/ai-citation.webp" width="300"> | **Ai Citation**<br>`smoothui:ai-citation` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/ai-context-meter.webp" width="300"> | **Ai Context Meter**<br>`smoothui:ai-context-meter` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/ai-conversation.webp" width="300"> | **Ai Conversation**<br>`smoothui:ai-conversation` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/ai-loader.webp" width="300"> | **Ai Loader**<br>`smoothui:ai-loader` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/ai-message.webp" width="300"> | **Ai Message**<br>`smoothui:ai-message` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/ai-orb-face.webp" width="300"> | **Ai Orb Face**<br>`smoothui:ai-orb-face` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/canvas__ai-orb-face.webp" width="300"> | **Ai Orb Face**<br>`smoothui:canvas/ai-orb-face` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/ai-prompt-input.webp" width="300"> | **Ai Prompt Input**<br>`smoothui:ai-prompt-input` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/ai-reasoning.webp" width="300"> | **Ai Reasoning**<br>`smoothui:ai-reasoning` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/ai-response.webp" width="300"> | **Ai Response**<br>`smoothui:ai-response` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/ai-sources.webp" width="300"> | **Ai Sources**<br>`smoothui:ai-sources` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/ai-suggestions.webp" width="300"> | **Ai Suggestions**<br>`smoothui:ai-suggestions` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/ai-task-list.webp" width="300"> | **Ai Task List**<br>`smoothui:ai-task-list` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/ai-tool-call.webp" width="300"> | **Ai Tool Call**<br>`smoothui:ai-tool-call` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/chat-template.webp" width="300"> | **Chat Template**<br>`smoothui:chat-template` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/orb.webp" width="300"> | **Orb**<br>`smoothui:orb` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui |
+| <img src="../../previews/smoothui/siri-orb.webp" width="300"> | **Siri Orb**<br>`smoothui:siri-orb` | IA & Chat | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__agent-plan.webp" width="300"> | **Agent Plan**<br>`spectrumui:blocks/ai-assistants/agent-plan` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__agent-steps.webp" width="300"> | **Agent Steps**<br>`spectrumui:blocks/ai-assistants/agent-steps` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/ai-chat-card.webp" width="300"> | **Ai Chat Card**<br>`spectrumui:ai-chat-card` | IA & Chat | spectrumui · Apache-2.0 | clsx, lucide-react, motion, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__approval-card.webp" width="300"> | **Approval Card**<br>`spectrumui:blocks/ai-assistants/approval-card` | IA & Chat | spectrumui · Apache-2.0 | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__citation-sources.webp" width="300"> | **Citation Sources**<br>`spectrumui:blocks/ai-assistants/citation-sources` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__conversation-list.webp" width="300"> | **Conversation List**<br>`spectrumui:blocks/ai-assistants/conversation-list` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__error-state.webp" width="300"> | **Error State**<br>`spectrumui:blocks/ai-assistants/error-state` | IA & Chat | spectrumui · Apache-2.0 | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__inline-edit.webp" width="300"> | **Inline Edit**<br>`spectrumui:blocks/ai-assistants/inline-edit` | IA & Chat | spectrumui · Apache-2.0 | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__insight-cards.webp" width="300"> | **Insight Cards**<br>`spectrumui:blocks/ai-assistants/insight-cards` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__tables__invoices-table.webp" width="300"> | **Invoices Table**<br>`spectrumui:blocks/tables/invoices-table` | IA & Chat | spectrumui · Apache-2.0 | — |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__loading-state.webp" width="300"> | **Loading State**<br>`spectrumui:blocks/ai-assistants/loading-state` | IA & Chat | spectrumui · Apache-2.0 | clsx, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__memory-chips.webp" width="300"> | **Memory Chips**<br>`spectrumui:blocks/ai-assistants/memory-chips` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__message-actions.webp" width="300"> | **Message Actions**<br>`spectrumui:blocks/ai-assistants/message-actions` | IA & Chat | spectrumui · Apache-2.0 | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/metal-prompt-bar.webp" width="300"> | **Metal Prompt Bar**<br>`spectrumui:metal-prompt-bar` | IA & Chat | spectrumui · Apache-2.0 | clsx, lucide-react, metal-fx, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__model-selector.webp" width="300"> | **Model Selector**<br>`spectrumui:blocks/ai-assistants/model-selector` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__prompt-composer.webp" width="300"> | **Prompt Composer**<br>`spectrumui:blocks/ai-assistants/prompt-composer` | IA & Chat | spectrumui · Apache-2.0 | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__quota-banner.webp" width="300"> | **Quota Banner**<br>`spectrumui:blocks/ai-assistants/quota-banner` | IA & Chat | spectrumui · Apache-2.0 | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__reasoning-trace.webp" width="300"> | **Reasoning Trace**<br>`spectrumui:blocks/ai-assistants/reasoning-trace` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__status-tracker.webp" width="300"> | **Status Tracker**<br>`spectrumui:blocks/ai-assistants/status-tracker` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__streaming-text.webp" width="300"> | **Streaming Text**<br>`spectrumui:blocks/ai-assistants/streaming-text` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__suggestion-banner.webp" width="300"> | **Suggestion Banner**<br>`spectrumui:blocks/ai-assistants/suggestion-banner` | IA & Chat | spectrumui · Apache-2.0 | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__task-rows.webp" width="300"> | **Task Rows**<br>`spectrumui:blocks/ai-assistants/task-rows` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__thinking-dots.webp" width="300"> | **Thinking Dots**<br>`spectrumui:blocks/ai-assistants/thinking-dots` | IA & Chat | spectrumui · Apache-2.0 | clsx, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__tool-chips.webp" width="300"> | **Tool Chips**<br>`spectrumui:blocks/ai-assistants/tool-chips` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__usage-meter.webp" width="300"> | **Usage Meter**<br>`spectrumui:blocks/ai-assistants/usage-meter` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__voice-input.webp" width="300"> | **Voice Input**<br>`spectrumui:blocks/ai-assistants/voice-input` | IA & Chat | spectrumui · Apache-2.0 | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__ai-assistants__web-search.webp" width="300"> | **Web Search**<br>`spectrumui:blocks/ai-assistants/web-search` | IA & Chat | spectrumui · Apache-2.0 · ⚠needs-props | clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/systaliko/blocks__ai-conversation-loop.webp" width="300"> | **Ai Conversation Loop**<br>`systaliko:blocks/ai-conversation-loop` | IA & Chat | systaliko · MIT | @radix-ui/react-slot, class-variance-authority, lucide-react, motion |
+| <img src="../../previews/threeui/brand-orbs__openai.webp" width="300"> | **Brand Orbs · OpenAI**<br>`threeui:brand-orbs/openai` | IA & Chat | threeui · MIT | — |
+| <img src="../../previews/threeui/star-portal__thinking-button.webp" width="300"> | **Shader Buttons · Thinking**<br>`threeui:star-portal/thinking-button` | IA & Chat | threeui · MIT | — |
+| <img src="../../previews/uitripled/components__chat__ai-chat-interface.webp" width="300"> | **Ai Chat Interface**<br>`uitripled:components/chat/ai-chat-interface` | IA & Chat | uitripled · MIT | @radix-ui/react-slot, class-variance-authority, framer-motion, lucide-react |
+| <img src="../../previews/uitripled/motion-core__ai-glow-input.webp" width="300"> | **Ai Glow Input**<br>`uitripled:motion-core/ai-glow-input` | IA & Chat | uitripled · MIT | framer-motion |
+| <img src="../../previews/uitripled/motion-core__ai-response-typing.webp" width="300"> | **Ai Response Typing**<br>`uitripled:motion-core/ai-response-typing` | IA & Chat | uitripled · MIT | framer-motion |
+| <img src="../../previews/uitripled/motion-core__ai-unlock-animation.webp" width="300"> | **Ai Unlock Animation**<br>`uitripled:motion-core/ai-unlock-animation` | IA & Chat | uitripled · MIT | framer-motion |
+| <img src="../../previews/uitripled/components__chat__chat-app.webp" width="300"> | **Chat App**<br>`uitripled:components/chat/chat-app` | IA & Chat | uitripled · MIT | @radix-ui/react-slot, class-variance-authority, framer-motion, lucide-react |
+| <img src="../../previews/uitripled/components__chat__floating-chat-widget.webp" width="300"> | **Floating Chat Widget**<br>`uitripled:components/chat/floating-chat-widget` | IA & Chat | uitripled · MIT | @radix-ui/react-avatar, @radix-ui/react-select, @radix-ui/react-slot, class-variance-authority, framer-motion, lucide-react |
+| <img src="../../previews/uitripled/components__chat__messenger.webp" width="300"> | **Messenger**<br>`uitripled:components/chat/messenger` | IA & Chat | uitripled · MIT | @radix-ui/react-avatar, @radix-ui/react-slot, class-variance-authority, framer-motion, lucide-react |

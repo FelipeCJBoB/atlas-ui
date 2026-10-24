@@ -1,0 +1,141 @@
+# Folhas de prévias (por função)
+
+Cada folha mostra até 24 componentes com o cursor em cima, numerados. O `.md` de cada folha liga número → uid.
+
+- [Hero · folha 1](hero-01.md) — itens 1–24
+- [Hero · folha 2](hero-02.md) — itens 25–30
+- [Pricing · folha 1](pricing-01.md) — itens 1–17
+- [Depoimentos & Avaliações · folha 1](depoimentos-e-avaliacoes-01.md) — itens 1–20
+- [CTA & Banner · folha 1](cta-e-banner-01.md) — itens 1–19
+- [Footer · folha 1](footer-01.md) — itens 1–21
+- [Equipe & Logos · folha 1](equipe-e-logos-01.md) — itens 1–24
+- [Equipe & Logos · folha 2](equipe-e-logos-02.md) — itens 25–39
+- [Features & Bento · folha 1](features-e-bento-01.md) — itens 1–24
+- [Features & Bento · folha 2](features-e-bento-02.md) — itens 25–48
+- [Features & Bento · folha 3](features-e-bento-03.md) — itens 49–55
+- [FAQ · folha 1](faq-01.md) — itens 1–8
+- [Navbar & Header · folha 1](navbar-e-header-01.md) — itens 1–24
+- [Navbar & Header · folha 2](navbar-e-header-02.md) — itens 25–43
+- [Sidebar & Menu · folha 1](sidebar-e-menu-01.md) — itens 1–7
+- [Dropdown & Menu · folha 1](dropdown-e-menu-01.md) — itens 1–24
+- [Tabs & Accordion · folha 1](tabs-e-accordion-01.md) — itens 1–19
+- [Paginação & Breadcrumb · folha 1](paginacao-e-breadcrumb-01.md) — itens 1–10
+- [Tabela & Data grid · folha 1](tabela-e-data-grid-01.md) — itens 1–20
+- [Gráfico · folha 1](grafico-01.md) — itens 1–17
+- [Stats & KPI · folha 1](stats-e-kpi-01.md) — itens 1–22
+- [Calendário & Data · folha 1](calendario-e-data-01.md) — itens 1–7
+- [Formulário · folha 1](formulario-01.md) — itens 1–22
+- [Input · folha 1](input-01.md) — itens 1–24
+- [Input · folha 2](input-02.md) — itens 25–48
+- [Input · folha 3](input-03.md) — itens 49–72
+- [Input · folha 4](input-04.md) — itens 73–92
+- [Botão · folha 1](botao-01.md) — itens 1–24
+- [Botão · folha 2](botao-02.md) — itens 25–48
+- [Botão · folha 3](botao-03.md) — itens 49–72
+- [Botão · folha 4](botao-04.md) — itens 73–96
+- [Botão · folha 5](botao-05.md) — itens 97–120
+- [Botão · folha 6](botao-06.md) — itens 121–144
+- [Botão · folha 7](botao-07.md) — itens 145–168
+- [Botão · folha 8](botao-08.md) — itens 169–192
+- [Botão · folha 9](botao-09.md) — itens 193–208
+- [Toggle & Checkbox · folha 1](toggle-e-checkbox-01.md) — itens 1–24
+- [Toggle & Checkbox · folha 2](toggle-e-checkbox-02.md) — itens 25–48
+- [Toggle & Checkbox · folha 3](toggle-e-checkbox-03.md) — itens 49–49
+- [Modal & Overlay · folha 1](modal-e-overlay-01.md) — itens 1–24
+- [Modal & Overlay · folha 2](modal-e-overlay-02.md) — itens 25–48
+- [Modal & Overlay · folha 3](modal-e-overlay-03.md) — itens 49–51
+- [Alerta & Toast · folha 1](alerta-e-toast-01.md) — itens 1–22
+- [Badge & Avatar · folha 1](badge-e-avatar-01.md) — itens 1–21
+- [Card · folha 1](card-01.md) — itens 1–24
+- [Card · folha 2](card-02.md) — itens 25–48
+- [Card · folha 3](card-03.md) — itens 49–72
+- [Card · folha 4](card-04.md) — itens 73–96
+- [Card · folha 5](card-05.md) — itens 97–120
+- [Card · folha 6](card-06.md) — itens 121–144
+- [Card · folha 7](card-07.md) — itens 145–168
+- [Card · folha 8](card-08.md) — itens 169–192
+- [Card · folha 9](card-09.md) — itens 193–216
+- [Card · folha 10](card-10.md) — itens 217–226
+- [Mídia & Galeria · folha 1](midia-e-galeria-01.md) — itens 1–24
+- [Mídia & Galeria · folha 2](midia-e-galeria-02.md) — itens 25–48
+- [Mídia & Galeria · folha 3](midia-e-galeria-03.md) — itens 49–72
+- [Mídia & Galeria · folha 4](midia-e-galeria-04.md) — itens 73–96
+- [Mídia & Galeria · folha 5](midia-e-galeria-05.md) — itens 97–114
+- [Lista & Timeline · folha 1](lista-e-timeline-01.md) — itens 1–24
+- [Lista & Timeline · folha 2](lista-e-timeline-02.md) — itens 25–48
+- [Lista & Timeline · folha 3](lista-e-timeline-03.md) — itens 49–72
+- [Chat & IA · folha 1](chat-e-ia-01.md) — itens 1–24
+- [Chat & IA · folha 2](chat-e-ia-02.md) — itens 25–48
+- [Chat & IA · folha 3](chat-e-ia-03.md) — itens 49–72
+- [Chat & IA · folha 4](chat-e-ia-04.md) — itens 73–87
+- [Loader & Progresso · folha 1](loader-e-progresso-01.md) — itens 1–24
+- [Loader & Progresso · folha 2](loader-e-progresso-02.md) — itens 25–48
+- [Loader & Progresso · folha 3](loader-e-progresso-03.md) — itens 49–72
+- [Loader & Progresso · folha 4](loader-e-progresso-04.md) — itens 73–96
+- [Loader & Progresso · folha 5](loader-e-progresso-05.md) — itens 97–120
+- [Loader & Progresso · folha 6](loader-e-progresso-06.md) — itens 121–144
+- [Loader & Progresso · folha 7](loader-e-progresso-07.md) — itens 145–168
+- [Loader & Progresso · folha 8](loader-e-progresso-08.md) — itens 169–192
+- [Loader & Progresso · folha 9](loader-e-progresso-09.md) — itens 193–216
+- [Loader & Progresso · folha 10](loader-e-progresso-10.md) — itens 217–240
+- [Loader & Progresso · folha 11](loader-e-progresso-11.md) — itens 241–264
+- [Loader & Progresso · folha 12](loader-e-progresso-12.md) — itens 265–288
+- [Loader & Progresso · folha 13](loader-e-progresso-13.md) — itens 289–305
+- [Texto & Tipografia · folha 1](texto-e-tipografia-01.md) — itens 1–24
+- [Texto & Tipografia · folha 2](texto-e-tipografia-02.md) — itens 25–48
+- [Texto & Tipografia · folha 3](texto-e-tipografia-03.md) — itens 49–72
+- [Texto & Tipografia · folha 4](texto-e-tipografia-04.md) — itens 73–96
+- [Texto & Tipografia · folha 5](texto-e-tipografia-05.md) — itens 97–120
+- [Texto & Tipografia · folha 6](texto-e-tipografia-06.md) — itens 121–144
+- [Texto & Tipografia · folha 7](texto-e-tipografia-07.md) — itens 145–168
+- [Texto & Tipografia · folha 8](texto-e-tipografia-08.md) — itens 169–192
+- [Texto & Tipografia · folha 9](texto-e-tipografia-09.md) — itens 193–216
+- [Texto & Tipografia · folha 10](texto-e-tipografia-10.md) — itens 217–240
+- [Texto & Tipografia · folha 11](texto-e-tipografia-11.md) — itens 241–251
+- [Fundo & Efeito · folha 1](fundo-e-efeito-01.md) — itens 1–24
+- [Fundo & Efeito · folha 2](fundo-e-efeito-02.md) — itens 25–48
+- [Fundo & Efeito · folha 3](fundo-e-efeito-03.md) — itens 49–72
+- [Fundo & Efeito · folha 4](fundo-e-efeito-04.md) — itens 73–96
+- [Fundo & Efeito · folha 5](fundo-e-efeito-05.md) — itens 97–120
+- [Fundo & Efeito · folha 6](fundo-e-efeito-06.md) — itens 121–144
+- [Fundo & Efeito · folha 7](fundo-e-efeito-07.md) — itens 145–168
+- [Fundo & Efeito · folha 8](fundo-e-efeito-08.md) — itens 169–192
+- [Fundo & Efeito · folha 9](fundo-e-efeito-09.md) — itens 193–196
+- [Interação & Cursor · folha 1](interacao-e-cursor-01.md) — itens 1–24
+- [Interação & Cursor · folha 2](interacao-e-cursor-02.md) — itens 25–48
+- [Interação & Cursor · folha 3](interacao-e-cursor-03.md) — itens 49–72
+- [Interação & Cursor · folha 4](interacao-e-cursor-04.md) — itens 73–89
+- [Ícone · folha 1](icone-01.md) — itens 1–24
+- [Ícone · folha 2](icone-02.md) — itens 25–48
+- [Ícone · folha 3](icone-03.md) — itens 49–72
+- [Ícone · folha 4](icone-04.md) — itens 73–96
+- [Ícone · folha 5](icone-05.md) — itens 97–120
+- [Ícone · folha 6](icone-06.md) — itens 121–144
+- [Ícone · folha 7](icone-07.md) — itens 145–168
+- [Ícone · folha 8](icone-08.md) — itens 169–192
+- [Ícone · folha 9](icone-09.md) — itens 193–216
+- [Ícone · folha 10](icone-10.md) — itens 217–240
+- [Ícone · folha 11](icone-11.md) — itens 241–264
+- [Ícone · folha 12](icone-12.md) — itens 265–288
+- [Ícone · folha 13](icone-13.md) — itens 289–312
+- [Ícone · folha 14](icone-14.md) — itens 313–336
+- [Ícone · folha 15](icone-15.md) — itens 337–360
+- [Ícone · folha 16](icone-16.md) — itens 361–384
+- [Ícone · folha 17](icone-17.md) — itens 385–408
+- [Ícone · folha 18](icone-18.md) — itens 409–432
+- [Ícone · folha 19](icone-19.md) — itens 433–456
+- [Ícone · folha 20](icone-20.md) — itens 457–467
+- [Mockup · folha 1](mockup-01.md) — itens 1–14
+- [Layout · folha 1](layout-01.md) — itens 1–6
+- [Código & Terminal · folha 1](codigo-e-terminal-01.md) — itens 1–24
+- [Código & Terminal · folha 2](codigo-e-terminal-02.md) — itens 25–27
+- [Estado vazio · folha 1](estado-vazio-01.md) — itens 1–24
+- [Estado vazio · folha 2](estado-vazio-02.md) — itens 25–27
+- [Outros · folha 1](outros-01.md) — itens 1–24
+- [Outros · folha 2](outros-02.md) — itens 25–48
+- [Outros · folha 3](outros-03.md) — itens 49–72
+- [Outros · folha 4](outros-04.md) — itens 73–96
+- [Outros · folha 5](outros-05.md) — itens 97–120
+- [Outros · folha 6](outros-06.md) — itens 121–144
+- [Outros · folha 7](outros-07.md) — itens 145–168
+- [Outros · folha 8](outros-08.md) — itens 169–177

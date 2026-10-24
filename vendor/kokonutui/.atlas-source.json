@@ -1,0 +1,11 @@
+{
+  "id": "kokonutui",
+  "name": "Kokonut UI",
+  "repo": "https://github.com/kokonut-labs/kokonutui.git",
+  "commit": "83eec6d982d400a18438001a8efdbac1f159dd43",
+  "license": "MIT",
+  "declared": "MIT",
+  "status": "OK",
+  "copyright": "Copyright (c) 2025 kokonutUI",
+  "files": 193
+}

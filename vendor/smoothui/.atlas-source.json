@@ -1,0 +1,11 @@
+{
+  "id": "smoothui",
+  "name": "SmoothUI",
+  "repo": "https://github.com/educlopez/smoothui.git",
+  "commit": "b6312bce2b6f2ed95d8a6e98a592857884f5ea9e",
+  "license": "MIT",
+  "declared": "MIT",
+  "status": "OK",
+  "copyright": "Copyright (c) 2024 Eduardo Calvo",
+  "files": 1416
+}

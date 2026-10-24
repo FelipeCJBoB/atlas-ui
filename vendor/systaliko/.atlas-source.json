@@ -1,0 +1,11 @@
+{
+  "id": "systaliko",
+  "name": "Systaliko UI",
+  "repo": "https://github.com/YoucefBnm/systaliko-ui.git",
+  "commit": "ed82dae1ed03605ceea1415f92a45399eb76b111",
+  "license": "MIT",
+  "declared": "MIT",
+  "status": "OK",
+  "copyright": "Copyright (c) 2025 Youcef Benmessabih",
+  "files": 390
+}

@@ -10,7 +10,7 @@ const ROOT = resolve(import.meta.dirname, '..');
 // entrada: catálogo completo ANTES da curadoria (out/catalog.todos.json, gravado pelo build full); na 1ª vez, o índice
 const TODOS = join(ROOT, 'out/catalog.todos.json');
 const rows = existsSync(TODOS) ? JSON.parse(readFileSync(TODOS, 'utf8'))
-  : readFileSync(resolve(ROOT, '../atlas-index/catalog.jsonl'), 'utf8').trim().split('\n').map((l) => JSON.parse(l));
+  : readFileSync(join(ROOT, 'catalogo/catalog.jsonl'), 'utf8').trim().split('\n').map((l) => JSON.parse(l));
 
 const LIBS_HTML_GENERICAS = ['daisyui', 'flowbite', 'hyperui', 'materialtailwind'];
 const ICONES = { manter: 'lucideanimated', sair: ['itshover'] };

@@ -1,0 +1,1982 @@
+{
+ "click-spark": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/ClickSparkDemo",
+  "arquivos": [
+   "vendor/reactbits/content/Animations/ClickSpark/ClickSpark.jsx",
+   "vendor/reactbits/demo/Animations/ClickSparkDemo.jsx"
+  ]
+ },
+ "spotlight-card": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/SpotlightCardDemo",
+  "arquivos": [
+   "vendor/reactbits/content/Components/SpotlightCard/SpotlightCard.jsx",
+   "vendor/reactbits/demo/Components/SpotlightCardDemo.jsx"
+  ]
+ },
+ "decrypted-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/DecryptedTextDemo",
+  "arquivos": [
+   "vendor/reactbits/content/TextAnimations/DecryptedText/DecryptedText.jsx",
+   "vendor/reactbits/demo/TextAnimations/DecryptedTextDemo.jsx"
+  ]
+ },
+ "dock": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/DockDemo",
+  "arquivos": [
+   "vendor/reactbits/content/Components/Dock/Dock.jsx",
+   "vendor/reactbits/demo/Components/DockDemo.jsx"
+  ]
+ },
+ "elastic-slider": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/ElasticSliderDemo",
+  "arquivos": [
+   "vendor/reactbits/content/Components/ElasticSlider/ElasticSlider.jsx",
+   "vendor/reactbits/demo/Components/ElasticSliderDemo.jsx"
+  ]
+ },
+ "pixel-card": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/PixelCardDemo",
+  "arquivos": [
+   "vendor/reactbits/content/Components/PixelCard/PixelCard.jsx",
+   "vendor/reactbits/demo/Components/PixelCardDemo.jsx"
+  ]
+ },
+ "liquid-button": {
+  "lib": "animateui",
+  "uid": "animateui:components/buttons/liquid",
+  "arquivos": [
+   "vendor/animateui/registry/components/buttons/liquid/index.tsx",
+   "vendor/animateui/registry/primitives/buttons/liquid/index.tsx",
+   "vendor/animateui/registry/demo/components/buttons/liquid/index.tsx"
+  ]
+ },
+ "sliding-number": {
+  "lib": "animateui",
+  "uid": "animateui:primitives/texts/sliding-number",
+  "arquivos": [
+   "vendor/animateui/registry/primitives/texts/sliding-number/index.tsx",
+   "vendor/animateui/registry/demo/primitives/texts/sliding-number/index.tsx"
+  ]
+ },
+ "gravity-stars": {
+  "lib": "animateui",
+  "uid": "animateui:components/backgrounds/gravity-stars",
+  "arquivos": [
+   "vendor/animateui/registry/components/backgrounds/gravity-stars/index.tsx",
+   "vendor/animateui/registry/demo/components/backgrounds/gravity-stars/index.tsx"
+  ]
+ },
+ "radial-menu": {
+  "lib": "animateui",
+  "uid": "animateui:components/community/radial-menu",
+  "arquivos": [
+   "vendor/animateui/registry/components/community/radial-menu/index.tsx",
+   "vendor/animateui/registry/demo/components/community/radial-menu/index.tsx"
+  ]
+ },
+ "avatar-group": {
+  "lib": "animateui",
+  "uid": "animateui:components/animate/avatar-group",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/animate/avatar-group/index.tsx",
+   "vendor/animateui/registry/components/animate/avatar-group/index.tsx",
+   "vendor/animateui/packages-ui/components/ui/avatar.tsx"
+  ]
+ },
+ "code": {
+  "lib": "animateui",
+  "uid": "animateui:components/animate/code",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/animate/code/index.tsx",
+   "vendor/animateui/registry/components/animate/code/index.tsx",
+   "vendor/animateui/packages-ui/components/icons/react-icon.tsx"
+  ]
+ },
+ "code-tabs": {
+  "lib": "animateui",
+  "uid": "animateui:components/animate/code-tabs",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/animate/code-tabs/index.tsx",
+   "vendor/animateui/registry/components/animate/code-tabs/index.tsx"
+  ]
+ },
+ "cursor": {
+  "lib": "animateui",
+  "uid": "animateui:components/animate/cursor",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/animate/cursor/index.tsx",
+   "vendor/animateui/registry/components/animate/cursor/index.tsx"
+  ]
+ },
+ "github-stars-wheel": {
+  "lib": "animateui",
+  "uid": "animateui:components/animate/github-stars-wheel",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/animate/github-stars-wheel/index.tsx",
+   "vendor/animateui/registry/components/animate/github-stars-wheel/index.tsx"
+  ]
+ },
+ "tabs": {
+  "lib": "animateui",
+  "uid": "animateui:components/animate/tabs",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/animate/tabs/index.tsx",
+   "vendor/animateui/registry/components/animate/tabs/index.tsx",
+   "vendor/animateui/packages-ui/components/ui/button.tsx",
+   "vendor/animateui/packages-ui/components/ui/card.tsx",
+   "vendor/animateui/packages-ui/components/ui/input.tsx",
+   "vendor/animateui/packages-ui/components/ui/label.tsx"
+  ]
+ },
+ "tooltip": {
+  "lib": "animateui",
+  "uid": "animateui:components/animate/tooltip",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/animate/tooltip/index.tsx",
+   "vendor/animateui/registry/components/animate/tooltip/index.tsx",
+   "vendor/animateui/packages-ui/components/ui/button.tsx"
+  ]
+ },
+ "bubble": {
+  "lib": "animateui",
+  "uid": "animateui:components/backgrounds/bubble",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/backgrounds/bubble/index.tsx",
+   "vendor/animateui/registry/components/backgrounds/bubble/index.tsx"
+  ]
+ },
+ "fireworks": {
+  "lib": "animateui",
+  "uid": "animateui:components/backgrounds/fireworks",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/backgrounds/fireworks/index.tsx",
+   "vendor/animateui/registry/components/backgrounds/fireworks/index.tsx"
+  ]
+ },
+ "fireworks-circle": {
+  "lib": "animateui",
+  "uid": "animateui:components/backgrounds/fireworks-circle",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/backgrounds/fireworks-circle/index.tsx",
+   "vendor/animateui/registry/components/backgrounds/fireworks/index.tsx"
+  ]
+ },
+ "hexagon": {
+  "lib": "animateui",
+  "uid": "animateui:components/backgrounds/hexagon",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/backgrounds/hexagon/index.tsx",
+   "vendor/animateui/registry/components/backgrounds/hexagon/index.tsx"
+  ]
+ },
+ "hole": {
+  "lib": "animateui",
+  "uid": "animateui:components/backgrounds/hole",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/backgrounds/hole/index.tsx",
+   "vendor/animateui/registry/components/backgrounds/hole/index.tsx"
+  ]
+ },
+ "stars": {
+  "lib": "animateui",
+  "uid": "animateui:components/backgrounds/stars",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/backgrounds/stars/index.tsx",
+   "vendor/animateui/registry/components/backgrounds/stars/index.tsx",
+   "vendor/animateui/packages-ui/lib/utils.ts"
+  ]
+ },
+ "button": {
+  "lib": "animateui",
+  "uid": "animateui:components/buttons/button",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/buttons/button/index.tsx",
+   "vendor/animateui/registry/components/buttons/button/index.tsx"
+  ]
+ },
+ "copy": {
+  "lib": "animateui",
+  "uid": "animateui:components/buttons/copy",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/buttons/copy/index.tsx",
+   "vendor/animateui/registry/components/buttons/copy/index.tsx"
+  ]
+ },
+ "flip": {
+  "lib": "animateui",
+  "uid": "animateui:components/buttons/flip",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/buttons/flip/index.tsx",
+   "vendor/animateui/registry/components/buttons/flip/index.tsx"
+  ]
+ },
+ "github-stars": {
+  "lib": "animateui",
+  "uid": "animateui:components/buttons/github-stars",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/buttons/github-stars/index.tsx",
+   "vendor/animateui/registry/components/buttons/github-stars/index.tsx"
+  ]
+ },
+ "icon": {
+  "lib": "animateui",
+  "uid": "animateui:components/buttons/icon",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/buttons/icon/index.tsx",
+   "vendor/animateui/registry/components/buttons/icon/index.tsx"
+  ]
+ },
+ "ripple": {
+  "lib": "animateui",
+  "uid": "animateui:components/buttons/ripple",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/buttons/ripple/index.tsx",
+   "vendor/animateui/registry/components/buttons/ripple/index.tsx"
+  ]
+ },
+ "theme-toggler": {
+  "lib": "animateui",
+  "uid": "animateui:components/buttons/theme-toggler",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/buttons/theme-toggler/index.tsx",
+   "vendor/animateui/registry/components/buttons/theme-toggler/index.tsx"
+  ]
+ },
+ "flip-card": {
+  "lib": "animateui",
+  "uid": "animateui:components/community/flip-card",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/community/flip-card/index.tsx",
+   "vendor/animateui/registry/components/community/flip-card/index.tsx"
+  ]
+ },
+ "management-bar": {
+  "lib": "animateui",
+  "uid": "animateui:components/community/management-bar",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/community/management-bar/index.tsx",
+   "vendor/animateui/registry/components/community/management-bar/index.tsx"
+  ]
+ },
+ "motion-carousel": {
+  "lib": "animateui",
+  "uid": "animateui:components/community/motion-carousel",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/community/motion-carousel/index.tsx",
+   "vendor/animateui/registry/components/community/motion-carousel/index.tsx"
+  ]
+ },
+ "notification-list": {
+  "lib": "animateui",
+  "uid": "animateui:components/community/notification-list",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/community/notification-list/index.tsx",
+   "vendor/animateui/registry/components/community/notification-list/index.tsx"
+  ]
+ },
+ "pin-list": {
+  "lib": "animateui",
+  "uid": "animateui:components/community/pin-list",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/community/pin-list/index.tsx",
+   "vendor/animateui/registry/components/community/pin-list/index.tsx"
+  ]
+ },
+ "playful-todolist": {
+  "lib": "animateui",
+  "uid": "animateui:components/community/playful-todolist",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/community/playful-todolist/index.tsx",
+   "vendor/animateui/registry/components/community/playful-todolist/index.tsx"
+  ]
+ },
+ "radial-intro": {
+  "lib": "animateui",
+  "uid": "animateui:components/community/radial-intro",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/community/radial-intro/index.tsx",
+   "vendor/animateui/registry/components/community/radial-intro/index.tsx"
+  ]
+ },
+ "radial-nav": {
+  "lib": "animateui",
+  "uid": "animateui:components/community/radial-nav",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/community/radial-nav/index.tsx",
+   "vendor/animateui/registry/components/community/radial-nav/index.tsx"
+  ]
+ },
+ "share-button": {
+  "lib": "animateui",
+  "uid": "animateui:components/community/share-button",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/community/share-button/index.tsx",
+   "vendor/animateui/registry/components/community/share-button/index.tsx"
+  ]
+ },
+ "user-presence-avatar": {
+  "lib": "animateui",
+  "uid": "animateui:components/community/user-presence-avatar",
+  "arquivos": [
+   "vendor/animateui/registry/demo/components/community/user-presence-avatar/index.tsx",
+   "vendor/animateui/registry/components/community/user-presence-avatar/index.tsx"
+  ]
+ },
+ "animated-content": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/AnimatedContentDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/AnimatedContentDemo.jsx",
+   "vendor/reactbits/content/Animations/AnimatedContent/AnimatedContent.jsx"
+  ]
+ },
+ "antigravity": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/AntigravityDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/AntigravityDemo.jsx"
+  ]
+ },
+ "blob-cursor": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/BlobCursorDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/BlobCursorDemo.jsx"
+  ]
+ },
+ "crosshair": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/CrosshairDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/CrosshairDemo.jsx",
+   "vendor/reactbits/content/Animations/Crosshair/Crosshair.jsx"
+  ]
+ },
+ "cubes": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/CubesDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/CubesDemo.jsx",
+   "vendor/reactbits/content/Animations/Cubes/Cubes.jsx"
+  ]
+ },
+ "cursor-grid": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/CursorGridDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/CursorGridDemo.jsx",
+   "vendor/reactbits/content/Animations/CursorGrid/CursorGrid.jsx"
+  ]
+ },
+ "dither-veil": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/DitherVeilDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/DitherVeilDemo.jsx",
+   "vendor/reactbits/content/Animations/DitherVeil/DitherVeil.jsx"
+  ]
+ },
+ "elastic-mesh": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/ElasticMeshDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/ElasticMeshDemo.jsx",
+   "vendor/reactbits/content/Animations/ElasticMesh/ElasticMesh.jsx"
+  ]
+ },
+ "electric-border": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/ElectricBorderDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/ElectricBorderDemo.jsx",
+   "vendor/reactbits/content/Animations/ElectricBorder/ElectricBorder.jsx"
+  ]
+ },
+ "electric-logo": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/ElectricLogoDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/ElectricLogoDemo.jsx",
+   "vendor/reactbits/content/Animations/ElectricLogo/ElectricLogo.jsx"
+  ]
+ },
+ "fade-content": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/FadeContentDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/FadeContentDemo.jsx",
+   "vendor/reactbits/content/Animations/FadeContent/FadeContent.jsx"
+  ]
+ },
+ "ghost-cursor": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/GhostCursorDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/GhostCursorDemo.jsx",
+   "vendor/reactbits/content/Animations/GhostCursor/GhostCursor.jsx"
+  ]
+ },
+ "glare-hover": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/GlareHoverDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/GlareHoverDemo.jsx",
+   "vendor/reactbits/content/Animations/GlareHover/GlareHover.jsx"
+  ]
+ },
+ "glow-cursor": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/GlowCursorDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/GlowCursorDemo.jsx",
+   "vendor/reactbits/content/Animations/GlowCursor/GlowCursor.jsx"
+  ]
+ },
+ "gradual-blur": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/GradualBlurDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/GradualBlurDemo.jsx",
+   "vendor/reactbits/content/Animations/GradualBlur/GradualBlur.jsx"
+  ]
+ },
+ "halftone-reveal": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/HalftoneRevealDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/HalftoneRevealDemo.jsx",
+   "vendor/reactbits/content/Animations/HalftoneReveal/HalftoneReveal.jsx"
+  ]
+ },
+ "image-trail": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/ImageTrailDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/ImageTrailDemo.jsx",
+   "vendor/reactbits/content/Animations/ImageTrail/ImageTrail.jsx"
+  ]
+ },
+ "laser-flow": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/LaserFlowDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/LaserFlowDemo.jsx",
+   "vendor/reactbits/content/Animations/LaserFlow/LaserFlow.jsx"
+  ]
+ },
+ "logo-loop": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/LogoLoopDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/LogoLoopDemo.jsx",
+   "vendor/reactbits/content/Animations/LogoLoop/LogoLoop.jsx"
+  ]
+ },
+ "magic-rings": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/MagicRingsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/MagicRingsDemo.jsx",
+   "vendor/reactbits/content/Animations/MagicRings/MagicRings.jsx"
+  ]
+ },
+ "magnet": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/MagnetDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/MagnetDemo.jsx",
+   "vendor/reactbits/content/Animations/Magnet/Magnet.jsx"
+  ]
+ },
+ "magnet-lines": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/MagnetLinesDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/MagnetLinesDemo.jsx",
+   "vendor/reactbits/content/Animations/MagnetLines/MagnetLines.jsx"
+  ]
+ },
+ "meta-balls": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/MetaBallsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/MetaBallsDemo.jsx",
+   "vendor/reactbits/content/Animations/MetaBalls/MetaBalls.jsx"
+  ]
+ },
+ "metallic-paint": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/MetallicPaintDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/MetallicPaintDemo.jsx",
+   "vendor/reactbits/content/Animations/MetallicPaint/MetallicPaint.jsx"
+  ]
+ },
+ "noise": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/NoiseDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/NoiseDemo.jsx",
+   "vendor/reactbits/content/Animations/Noise/Noise.jsx"
+  ]
+ },
+ "orbit-images": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/OrbitImagesDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/OrbitImagesDemo.jsx",
+   "vendor/reactbits/content/Animations/OrbitImages/OrbitImages.jsx"
+  ]
+ },
+ "pixel-swap": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/PixelSwapDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/PixelSwapDemo.jsx",
+   "vendor/reactbits/content/Animations/PixelSwap/PixelSwap.jsx"
+  ]
+ },
+ "pixel-trail": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/PixelTrailDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/PixelTrailDemo.jsx",
+   "vendor/reactbits/content/Animations/PixelTrail/PixelTrail.jsx"
+  ]
+ },
+ "pixel-transition": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/PixelTransitionDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/PixelTransitionDemo.jsx",
+   "vendor/reactbits/content/Animations/PixelTransition/PixelTransition.jsx"
+  ]
+ },
+ "ribbons": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/RibbonsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/RibbonsDemo.jsx",
+   "vendor/reactbits/content/Animations/Ribbons/Ribbons.jsx"
+  ]
+ },
+ "ripple-distortion": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/RippleDistortionDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/RippleDistortionDemo.jsx",
+   "vendor/reactbits/content/Animations/RippleDistortion/RippleDistortion.jsx"
+  ]
+ },
+ "scroll-expand": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/ScrollExpandDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/ScrollExpandDemo.jsx",
+   "vendor/reactbits/content/Animations/ScrollExpand/ScrollExpand.jsx"
+  ]
+ },
+ "shape-blur": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/ShapeBlurDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/ShapeBlurDemo.jsx",
+   "vendor/reactbits/content/Animations/ShapeBlur/ShapeBlur.jsx"
+  ]
+ },
+ "splash-cursor": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/SplashCursorDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/SplashCursorDemo.jsx",
+   "vendor/reactbits/content/Animations/SplashCursor/SplashCursor.jsx"
+  ]
+ },
+ "star-border": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/StarBorderDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/StarBorderDemo.jsx",
+   "vendor/reactbits/content/Animations/StarBorder/StarBorder.jsx"
+  ]
+ },
+ "sticker-peel": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/StickerPeelDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/StickerPeelDemo.jsx",
+   "vendor/reactbits/content/Animations/StickerPeel/StickerPeel.jsx"
+  ]
+ },
+ "strands": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/StrandsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/StrandsDemo.jsx",
+   "vendor/reactbits/content/Animations/Strands/Strands.jsx"
+  ]
+ },
+ "swarm-cursor": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/SwarmCursorDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/SwarmCursorDemo.jsx",
+   "vendor/reactbits/content/Animations/SwarmCursor/SwarmCursor.jsx"
+  ]
+ },
+ "target-cursor": {
+  "lib": "reactbits",
+  "uid": "reactbits:Animations/TargetCursorDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Animations/TargetCursorDemo.jsx",
+   "vendor/reactbits/content/Animations/TargetCursor/TargetCursor.jsx"
+  ]
+ },
+ "acid-squares": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/AcidSquaresDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/AcidSquaresDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/AcidSquares/AcidSquares.jsx"
+  ]
+ },
+ "aero-shards": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/AeroShardsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/AeroShardsDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/AeroShards/AeroShards.jsx"
+  ]
+ },
+ "aurora": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/AuroraDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/AuroraDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Aurora/Aurora.jsx"
+  ]
+ },
+ "balatro": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/BalatroDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/BalatroDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Balatro/Balatro.jsx"
+  ]
+ },
+ "ballpit": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/BallpitDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/BallpitDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Ballpit/Ballpit.jsx"
+  ]
+ },
+ "beams": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/BeamsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/BeamsDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Beams/Beams.jsx"
+  ]
+ },
+ "crtwarp": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/CRTWarpDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/CRTWarpDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/CRTWarp/CRTWarp.jsx"
+  ]
+ },
+ "color-bends": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/ColorBendsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/ColorBendsDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/ColorBends/ColorBends.jsx"
+  ]
+ },
+ "dark-veil": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/DarkVeilDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/DarkVeilDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/DarkVeil/DarkVeil.jsx"
+  ]
+ },
+ "dither": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/DitherDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/DitherDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Dither/Dither.jsx"
+  ]
+ },
+ "dot-field": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/DotFieldDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/DotFieldDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/DotField/DotField.jsx"
+  ]
+ },
+ "dot-grid": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/DotGridDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/DotGridDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/DotGrid/DotGrid.jsx"
+  ]
+ },
+ "evil-eye": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/EvilEyeDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/EvilEyeDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/EvilEye/EvilEye.jsx"
+  ]
+ },
+ "faulty-terminal": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/FaultyTerminalDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/FaultyTerminalDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/FaultyTerminal/FaultyTerminal.jsx"
+  ]
+ },
+ "ferrofluid": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/FerrofluidDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/FerrofluidDemo.jsx"
+  ]
+ },
+ "floating-lines": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/FloatingLinesDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/FloatingLinesDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/FloatingLines/FloatingLines.jsx"
+  ]
+ },
+ "galaxy": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/GalaxyDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/GalaxyDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Galaxy/Galaxy.jsx"
+  ]
+ },
+ "ghost-fibers": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/GhostFibersDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/GhostFibersDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/GhostFibers/GhostFibers.jsx"
+  ]
+ },
+ "gradient-blinds": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/GradientBlindsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/GradientBlindsDemo.jsx"
+  ]
+ },
+ "gradient-waves": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/GradientWavesDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/GradientWavesDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/GradientWaves/GradientWaves.jsx"
+  ]
+ },
+ "grainient": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/GrainientDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/GrainientDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Grainient/Grainient.jsx"
+  ]
+ },
+ "grid-distortion": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/GridDistortionDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/GridDistortionDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/GridDistortion/GridDistortion.jsx"
+  ]
+ },
+ "grid-motion": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/GridMotionDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/GridMotionDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/GridMotion/GridMotion.jsx"
+  ]
+ },
+ "grid-scan": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/GridScanDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/GridScanDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/GridScan/GridScan.jsx"
+  ]
+ },
+ "hyperspeed": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/HyperspeedDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/HyperspeedDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Hyperspeed/HyperSpeedPresets.js",
+   "vendor/reactbits/content/Backgrounds/Hyperspeed/Hyperspeed.jsx"
+  ]
+ },
+ "iridescence": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/IridescenceDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/IridescenceDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Iridescence/Iridescence.jsx"
+  ]
+ },
+ "letter-glitch": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/LetterGlitchDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/LetterGlitchDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/LetterGlitch/LetterGlitch.jsx"
+  ]
+ },
+ "light-pillar": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/LightPillarDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/LightPillarDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/LightPillar/LightPillar.jsx"
+  ]
+ },
+ "light-rays": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/LightRaysDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/LightRaysDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/LightRays/LightRays.jsx"
+  ]
+ },
+ "light-tunnel": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/LightTunnelDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/LightTunnelDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/LightTunnel/LightTunnel.jsx"
+  ]
+ },
+ "lightfall": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/LightfallDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/LightfallDemo.jsx"
+  ]
+ },
+ "lightning": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/LightningDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/LightningDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Lightning/Lightning.jsx"
+  ]
+ },
+ "line-waves": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/LineWavesDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/LineWavesDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/LineWaves/LineWaves.jsx"
+  ]
+ },
+ "liquid-chrome": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/LiquidChromeDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/LiquidChromeDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/LiquidChrome/LiquidChrome.jsx"
+  ]
+ },
+ "liquid-ether": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/LiquidEtherDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/LiquidEtherDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/LiquidEther/LiquidEther.jsx"
+  ]
+ },
+ "micro-slats": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/MicroSlatsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/MicroSlatsDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/MicroSlats/MicroSlats.jsx"
+  ]
+ },
+ "molten-metal": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/MoltenMetalDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/MoltenMetalDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/MoltenMetal/MoltenMetal.jsx"
+  ]
+ },
+ "orb": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/OrbDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/OrbDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Orb/Orb.jsx"
+  ]
+ },
+ "particles": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/ParticlesDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/ParticlesDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Particles/Particles.jsx"
+  ]
+ },
+ "pattern-waves": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/PatternWavesDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/PatternWavesDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/PatternWaves/PatternWaves.jsx"
+  ]
+ },
+ "pixel-blast": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/PixelBlastDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/PixelBlastDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/PixelBlast/PixelBlast.jsx"
+  ]
+ },
+ "pixel-snow": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/PixelSnowDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/PixelSnowDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/PixelSnow/PixelSnow.jsx"
+  ]
+ },
+ "plasma": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/PlasmaDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/PlasmaDemo.jsx"
+  ]
+ },
+ "plasma-wave": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/PlasmaWaveDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/PlasmaWaveDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/PlasmaWave/PlasmaWave.jsx"
+  ]
+ },
+ "prism": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/PrismDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/PrismDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Prism/Prism.jsx"
+  ]
+ },
+ "prismatic-burst": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/PrismaticBurstDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/PrismaticBurstDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/PrismaticBurst/PrismaticBurst.jsx"
+  ]
+ },
+ "radar": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/RadarDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/RadarDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Radar/Radar.jsx"
+  ]
+ },
+ "ripple-grid": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/RippleGridDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/RippleGridDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/RippleGrid/RippleGrid.jsx"
+  ]
+ },
+ "scanner": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/ScannerDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/ScannerDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Scanner/Scanner.jsx"
+  ]
+ },
+ "shape-grid": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/ShapeGridDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/ShapeGridDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/ShapeGrid/ShapeGrid.jsx"
+  ]
+ },
+ "shape-waves": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/ShapeWavesDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/ShapeWavesDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/ShapeWaves/ShapeWaves.jsx"
+  ]
+ },
+ "side-rays": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/SideRaysDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/SideRaysDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/SideRays/SideRays.jsx"
+  ]
+ },
+ "silk": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/SilkDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/SilkDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Silk/Silk.jsx"
+  ]
+ },
+ "sliced-waves": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/SlicedWavesDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/SlicedWavesDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/SlicedWaves/SlicedWaves.jsx"
+  ]
+ },
+ "soft-aurora": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/SoftAuroraDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/SoftAuroraDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/SoftAurora/SoftAurora.jsx"
+  ]
+ },
+ "threads": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/ThreadsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/ThreadsDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Threads/Threads.jsx"
+  ]
+ },
+ "topography": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/TopographyDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/TopographyDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Topography/Topography.jsx"
+  ]
+ },
+ "waves": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/WavesDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/WavesDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/Waves/Waves.jsx"
+  ]
+ },
+ "web-threads": {
+  "lib": "reactbits",
+  "uid": "reactbits:Backgrounds/WebThreadsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Backgrounds/WebThreadsDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/WebThreads/WebThreads.jsx"
+  ]
+ },
+ "accordion-gallery": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/AccordionGalleryDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/AccordionGalleryDemo.jsx",
+   "vendor/reactbits/content/Components/AccordionGallery/AccordionGallery.jsx"
+  ]
+ },
+ "animated-list": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/AnimatedListDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/AnimatedListDemo.jsx",
+   "vendor/reactbits/content/Components/AnimatedList/AnimatedList.jsx"
+  ]
+ },
+ "border-glow": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/BorderGlowDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/BorderGlowDemo.jsx",
+   "vendor/reactbits/content/Components/BorderGlow/BorderGlow.jsx"
+  ]
+ },
+ "bounce-cards": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/BounceCardsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/BounceCardsDemo.jsx",
+   "vendor/reactbits/content/Components/BounceCards/BounceCards.jsx"
+  ]
+ },
+ "bubble-menu": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/BubbleMenuDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/BubbleMenuDemo.jsx",
+   "vendor/reactbits/content/Components/BubbleMenu/BubbleMenu.jsx"
+  ]
+ },
+ "card-nav": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/CardNavDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/CardNavDemo.jsx",
+   "vendor/reactbits/content/Components/CardNav/CardNav.jsx"
+  ]
+ },
+ "card-swap": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/CardSwapDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/CardSwapDemo.jsx",
+   "vendor/reactbits/content/Components/CardSwap/CardSwap.jsx"
+  ]
+ },
+ "carousel": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/CarouselDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/CarouselDemo.jsx",
+   "vendor/reactbits/content/Components/Carousel/Carousel.jsx"
+  ]
+ },
+ "chroma-grid": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/ChromaGridDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/ChromaGridDemo.jsx",
+   "vendor/reactbits/content/Components/ChromaGrid/ChromaGrid.jsx"
+  ]
+ },
+ "circular-carousel": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/CircularCarouselDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/CircularCarouselDemo.jsx",
+   "vendor/reactbits/content/Components/CircularCarousel/CircularCarousel.jsx"
+  ]
+ },
+ "circular-gallery": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/CircularGalleryDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/CircularGalleryDemo.jsx",
+   "vendor/reactbits/content/Components/CircularGallery/CircularGallery.jsx"
+  ]
+ },
+ "counter": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/CounterDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/CounterDemo.jsx",
+   "vendor/reactbits/content/Components/Counter/Counter.jsx"
+  ]
+ },
+ "curved-input": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/CurvedInputDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/CurvedInputDemo.jsx",
+   "vendor/reactbits/content/Components/CurvedInput/CurvedInput.jsx"
+  ]
+ },
+ "decay-card": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/DecayCardDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/DecayCardDemo.jsx",
+   "vendor/reactbits/content/Components/DecayCard/DecayCard.jsx"
+  ]
+ },
+ "depth-carousel": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/DepthCarouselDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/DepthCarouselDemo.jsx",
+   "vendor/reactbits/content/Components/DepthCarousel/DepthCarousel.jsx"
+  ]
+ },
+ "dome-gallery": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/DomeGalleryDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/DomeGalleryDemo.jsx",
+   "vendor/reactbits/content/Components/DomeGallery/DomeGallery.jsx"
+  ]
+ },
+ "drift-wall": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/DriftWallDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/DriftWallDemo.jsx",
+   "vendor/reactbits/content/Components/DriftWall/DriftWall.jsx"
+  ]
+ },
+ "flex-carousel": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/FlexCarouselDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/FlexCarouselDemo.jsx",
+   "vendor/reactbits/content/Components/FlexCarousel/FlexCarousel.jsx"
+  ]
+ },
+ "flowing-menu": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/FlowingMenuDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/FlowingMenuDemo.jsx",
+   "vendor/reactbits/content/Components/FlowingMenu/FlowingMenu.jsx"
+  ]
+ },
+ "fluid-glass": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/FluidGlassDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/FluidGlassDemo.jsx",
+   "vendor/reactbits/content/Components/FluidGlass/FluidGlass.jsx"
+  ]
+ },
+ "flying-posters": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/FlyingPostersDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/FlyingPostersDemo.jsx",
+   "vendor/reactbits/content/Components/FlyingPosters/FlyingPosters.jsx"
+  ]
+ },
+ "folder": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/FolderDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/FolderDemo.jsx",
+   "vendor/reactbits/content/Components/Folder/Folder.jsx"
+  ]
+ },
+ "glass-icons": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/GlassIconsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/GlassIconsDemo.jsx",
+   "vendor/reactbits/content/Components/GlassIcons/GlassIcons.jsx"
+  ]
+ },
+ "glass-surface": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/GlassSurfaceDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/GlassSurfaceDemo.jsx",
+   "vendor/reactbits/content/Backgrounds/LiquidEther/LiquidEther.jsx",
+   "vendor/reactbits/content/Components/GlassSurface/GlassSurface.jsx"
+  ]
+ },
+ "gooey-nav": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/GooeyNavDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/GooeyNavDemo.jsx",
+   "vendor/reactbits/content/Components/GooeyNav/GooeyNav.jsx"
+  ]
+ },
+ "infinite-menu": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/InfiniteMenuDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/InfiniteMenuDemo.jsx",
+   "vendor/reactbits/content/Components/InfiniteMenu/InfiniteMenu.jsx"
+  ]
+ },
+ "infinite-spiral": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/InfiniteSpiralDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/InfiniteSpiralDemo.jsx"
+  ]
+ },
+ "lanyard": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/LanyardDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/LanyardDemo.jsx",
+   "vendor/reactbits/content/Components/Lanyard/Lanyard.jsx"
+  ]
+ },
+ "line-sidebar": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/LineSidebarDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/LineSidebarDemo.jsx",
+   "vendor/reactbits/content/Components/LineSidebar/LineSidebar.jsx"
+  ]
+ },
+ "magic-bento": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/MagicBentoDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/MagicBentoDemo.jsx",
+   "vendor/reactbits/content/Components/MagicBento/MagicBento.jsx"
+  ]
+ },
+ "masonry": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/MasonryDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/MasonryDemo.jsx",
+   "vendor/reactbits/content/Components/Masonry/Masonry.jsx"
+  ]
+ },
+ "model-viewer": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/ModelViewerDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/ModelViewerDemo.jsx",
+   "vendor/reactbits/content/Components/ModelViewer/ModelViewer.jsx"
+  ]
+ },
+ "morph-slider": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/MorphSliderDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/MorphSliderDemo.jsx",
+   "vendor/reactbits/content/Components/MorphSlider/MorphSlider.jsx"
+  ]
+ },
+ "option-wheel": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/OptionWheelDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/OptionWheelDemo.jsx",
+   "vendor/reactbits/content/Components/OptionWheel/OptionWheel.jsx"
+  ]
+ },
+ "pill-nav": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/PillNavDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/PillNavDemo.jsx",
+   "vendor/reactbits/content/Components/PillNav/PillNav.jsx"
+  ]
+ },
+ "profile-card": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/ProfileCardDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/ProfileCardDemo.jsx",
+   "vendor/reactbits/content/Components/ProfileCard/ProfileCard.jsx"
+  ]
+ },
+ "reflective-card": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/ReflectiveCardDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/ReflectiveCardDemo.jsx",
+   "vendor/reactbits/content/Components/ReflectiveCard/ReflectiveCard.jsx"
+  ]
+ },
+ "scroll-stack": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/ScrollStackDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/ScrollStackDemo.jsx",
+   "vendor/reactbits/content/Components/ScrollStack/ScrollStack.jsx"
+  ]
+ },
+ "specular-button": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/SpecularButtonDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/SpecularButtonDemo.jsx",
+   "vendor/reactbits/content/Components/SpecularButton/SpecularButton.jsx"
+  ]
+ },
+ "stack": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/StackDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/StackDemo.jsx",
+   "vendor/reactbits/content/Components/Stack/Stack.jsx"
+  ]
+ },
+ "staggered-menu": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/StaggeredMenuDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/StaggeredMenuDemo.jsx",
+   "vendor/reactbits/content/Components/StaggeredMenu/StaggeredMenu.jsx"
+  ]
+ },
+ "stepper": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/StepperDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/StepperDemo.jsx",
+   "vendor/reactbits/content/Components/Stepper/Stepper.jsx"
+  ]
+ },
+ "tilted-card": {
+  "lib": "reactbits",
+  "uid": "reactbits:Components/TiltedCardDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Components/TiltedCardDemo.jsx",
+   "vendor/reactbits/content/Components/TiltedCard/TiltedCard.jsx"
+  ]
+ },
+ "bell-toggle": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/BellToggleDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/BellToggleDemo.jsx",
+   "vendor/reactbits/content/Micro/BellToggle/BellToggle.jsx"
+  ]
+ },
+ "branched-menu": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/BranchedMenuDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/BranchedMenuDemo.jsx",
+   "vendor/reactbits/content/Micro/BranchedMenu/BranchedMenu.jsx"
+  ]
+ },
+ "call-chip": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/CallChipDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/CallChipDemo.jsx",
+   "vendor/reactbits/content/Micro/CallChip/CallChip.jsx"
+  ]
+ },
+ "code-slots": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/CodeSlotsDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/CodeSlotsDemo.jsx",
+   "vendor/reactbits/content/Micro/CodeSlots/CodeSlots.jsx"
+  ]
+ },
+ "comet-dial": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/CometDialDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/CometDialDemo.jsx",
+   "vendor/reactbits/content/Micro/CometDial/CometDial.jsx"
+  ]
+ },
+ "dodge-field": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/DodgeFieldDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/DodgeFieldDemo.jsx",
+   "vendor/reactbits/content/Micro/DodgeField/DodgeField.jsx"
+  ]
+ },
+ "flip-card-reactbits-micro": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/FlipCardDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/FlipCardDemo.jsx",
+   "vendor/reactbits/content/Micro/FlipCard/FlipCard.jsx"
+  ]
+ },
+ "folder-float": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/FolderFloatDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/FolderFloatDemo.jsx",
+   "vendor/reactbits/content/Micro/FolderFloat/FolderFloat.jsx"
+  ]
+ },
+ "fuse-button": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/FuseButtonDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/FuseButtonDemo.jsx",
+   "vendor/reactbits/content/Micro/FuseButton/FuseButton.jsx"
+  ]
+ },
+ "glide-select": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/GlideSelectDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/GlideSelectDemo.jsx",
+   "vendor/reactbits/content/Micro/GlideSelect/GlideSelect.jsx"
+  ]
+ },
+ "hold-button": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/HoldButtonDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/HoldButtonDemo.jsx",
+   "vendor/reactbits/content/Micro/HoldButton/HoldButton.jsx"
+  ]
+ },
+ "jelly-radio": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/JellyRadioDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/JellyRadioDemo.jsx",
+   "vendor/reactbits/content/Micro/JellyRadio/JellyRadio.jsx"
+  ]
+ },
+ "lattice-loader": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/LatticeLoaderDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/LatticeLoaderDemo.jsx",
+   "vendor/reactbits/content/Micro/LatticeLoader/LatticeLoader.jsx"
+  ]
+ },
+ "paper-crumple": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/PaperCrumpleDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/PaperCrumpleDemo.jsx",
+   "vendor/reactbits/content/Micro/PaperCrumple/PaperCrumple.jsx"
+  ]
+ },
+ "peek-rating": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/PeekRatingDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/PeekRatingDemo.jsx",
+   "vendor/reactbits/content/Micro/PeekRating/PeekRating.jsx"
+  ]
+ },
+ "prompt-bar": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/PromptBarDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/PromptBarDemo.jsx",
+   "vendor/reactbits/content/Micro/PromptBar/PromptBar.jsx"
+  ]
+ },
+ "pulse-heart": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/PulseHeartDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/PulseHeartDemo.jsx",
+   "vendor/reactbits/content/Micro/PulseHeart/PulseHeart.jsx"
+  ]
+ },
+ "refine-frame": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/RefineFrameDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/RefineFrameDemo.jsx",
+   "vendor/reactbits/content/Micro/RefineFrame/RefineFrame.jsx"
+  ]
+ },
+ "rubber-segment": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/RubberSegmentDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/RubberSegmentDemo.jsx",
+   "vendor/reactbits/content/Micro/RubberSegment/RubberSegment.jsx"
+  ]
+ },
+ "scrub-field": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/ScrubFieldDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/ScrubFieldDemo.jsx",
+   "vendor/reactbits/content/Micro/ScrubField/ScrubField.jsx"
+  ]
+ },
+ "shredder": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/ShredderDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/ShredderDemo.jsx",
+   "vendor/reactbits/content/Micro/Shredder/Shredder.jsx"
+  ]
+ },
+ "slide-commit": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/SlideCommitDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/SlideCommitDemo.jsx",
+   "vendor/reactbits/content/Micro/SlideCommit/SlideCommit.jsx"
+  ]
+ },
+ "sling-button": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/SlingButtonDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/SlingButtonDemo.jsx",
+   "vendor/reactbits/content/Micro/SlingButton/SlingButton.jsx"
+  ]
+ },
+ "slosh-gauge": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/SloshGaugeDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/SloshGaugeDemo.jsx",
+   "vendor/reactbits/content/Micro/SloshGauge/SloshGauge.jsx"
+  ]
+ },
+ "spring-check": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/SpringCheckDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/SpringCheckDemo.jsx",
+   "vendor/reactbits/content/Micro/SpringCheck/SpringCheck.jsx"
+  ]
+ },
+ "squish-switch": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/SquishSwitchDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/SquishSwitchDemo.jsx",
+   "vendor/reactbits/content/Micro/SquishSwitch/SquishSwitch.jsx"
+  ]
+ },
+ "status-mark": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/StatusMarkDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/StatusMarkDemo.jsx",
+   "vendor/reactbits/content/Micro/StatusMark/StatusMark.jsx"
+  ]
+ },
+ "swipe-row": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/SwipeRowDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/SwipeRowDemo.jsx",
+   "vendor/reactbits/content/Micro/SwipeRow/SwipeRow.jsx"
+  ]
+ },
+ "swipe-toast": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/SwipeToastDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/SwipeToastDemo.jsx",
+   "vendor/reactbits/content/Micro/SwipeToast/SwipeToast.jsx"
+  ]
+ },
+ "tear-ticket": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/TearTicketDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/TearTicketDemo.jsx",
+   "vendor/reactbits/content/Micro/TearTicket/TearTicket.jsx"
+  ]
+ },
+ "thought-line": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/ThoughtLineDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/ThoughtLineDemo.jsx",
+   "vendor/reactbits/content/Micro/ThoughtLine/ThoughtLine.jsx"
+  ]
+ },
+ "voice-pill": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/VoicePillDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/VoicePillDemo.jsx",
+   "vendor/reactbits/content/Micro/VoicePill/VoicePill.jsx"
+  ]
+ },
+ "wake-slider": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/WakeSliderDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/WakeSliderDemo.jsx",
+   "vendor/reactbits/content/Micro/WakeSlider/WakeSlider.jsx"
+  ]
+ },
+ "warm-tooltip": {
+  "lib": "reactbits",
+  "uid": "reactbits:Micro/WarmTooltipDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/Micro/WarmTooltipDemo.jsx",
+   "vendor/reactbits/content/Micro/WarmTooltip/WarmTooltip.jsx"
+  ]
+ },
+ "asciitext": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/ASCIITextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/ASCIITextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/ASCIIText/ASCIIText.jsx"
+  ]
+ },
+ "blur-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/BlurTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/BlurTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/BlurText/BlurText.jsx"
+  ]
+ },
+ "circular-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/CircularTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/CircularTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/CircularText/CircularText.jsx"
+  ]
+ },
+ "count-up": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/CountUpDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/CountUpDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/CountUp/CountUp.jsx"
+  ]
+ },
+ "curved-loop": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/CurvedLoopDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/CurvedLoopDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/CurvedLoop/CurvedLoop.jsx"
+  ]
+ },
+ "depth-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/DepthTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/DepthTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/DepthText/DepthText.jsx"
+  ]
+ },
+ "echo-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/EchoTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/EchoTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/EchoText/EchoText.jsx"
+  ]
+ },
+ "falling-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/FallingTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/FallingTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/FallingText/FallingText.jsx"
+  ]
+ },
+ "fold-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/FoldTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/FoldTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/FoldText/FoldText.jsx"
+  ]
+ },
+ "fuzzy-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/FuzzyTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/FuzzyTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/FuzzyText/FuzzyText.jsx"
+  ]
+ },
+ "glitch-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/GlitchTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/GlitchTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/GlitchText/GlitchText.jsx"
+  ]
+ },
+ "gradient-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/GradientTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/GradientTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/GradientText/GradientText.jsx"
+  ]
+ },
+ "masked-heading": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/MaskedHeadingDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/MaskedHeadingDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/MaskedHeading/MaskedHeading.jsx"
+  ]
+ },
+ "particle-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/ParticleTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/ParticleTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/ParticleText/ParticleText.jsx"
+  ]
+ },
+ "rotating-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/RotatingTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/RotatingTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/RotatingText/RotatingText.jsx"
+  ]
+ },
+ "scrambled-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/ScrambledTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/ScrambledTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/ScrambledText/ScrambledText.jsx"
+  ]
+ },
+ "scroll-float": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/ScrollFloatDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/ScrollFloatDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/ScrollFloat/ScrollFloat.jsx"
+  ]
+ },
+ "scroll-reveal": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/ScrollRevealDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/ScrollRevealDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/ScrollReveal/ScrollReveal.jsx"
+  ]
+ },
+ "scroll-velocity": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/ScrollVelocityDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/ScrollVelocityDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/ScrollVelocity/ScrollVelocity.jsx"
+  ]
+ },
+ "shiny-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/ShinyTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/ShinyTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/ShinyText/ShinyText.jsx"
+  ]
+ },
+ "shuffle": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/ShuffleDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/ShuffleDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/Shuffle/Shuffle.jsx"
+  ]
+ },
+ "split-flap-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/SplitFlapTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/SplitFlapTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/SplitFlapText/SplitFlapText.jsx"
+  ]
+ },
+ "split-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/SplitTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/SplitTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/SplitText/SplitText.jsx"
+  ]
+ },
+ "stroke-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/StrokeTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/StrokeTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/StrokeText/StrokeText.jsx"
+  ]
+ },
+ "tech-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/TechTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/TechTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/TechText/TechText.jsx"
+  ]
+ },
+ "text-cursor": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/TextCursorDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/TextCursorDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/TextCursor/TextCursor.jsx"
+  ]
+ },
+ "text-loop": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/TextLoopDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/TextLoopDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/TextLoop/TextLoop.jsx"
+  ]
+ },
+ "text-pressure": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/TextPressureDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/TextPressureDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/TextPressure/TextPressure.jsx"
+  ]
+ },
+ "text-type": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/TextTypeDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/TextTypeDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/TextType/TextType.jsx"
+  ]
+ },
+ "true-focus": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/TrueFocusDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/TrueFocusDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/TrueFocus/TrueFocus.jsx"
+  ]
+ },
+ "variable-proximity": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/VariableProximityDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/VariableProximityDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/VariableProximity/VariableProximity.jsx"
+  ]
+ },
+ "warp-text": {
+  "lib": "reactbits",
+  "uid": "reactbits:TextAnimations/WarpTextDemo",
+  "arquivos": [
+   "vendor/reactbits/demo/TextAnimations/WarpTextDemo.jsx",
+   "vendor/reactbits/content/TextAnimations/WarpText/WarpText.jsx"
+  ]
+ }
+}

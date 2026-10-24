@@ -10,6 +10,12 @@ legacy/atlas1/main.css
 legacy/atlas1/fonts.gen.css
 legacy/atlas1/src/catalog.gen.tsx
 src/gen/
-vendor/
-cache/images.json
+# vendor/ é versionado (cópia própria e podada). Fora do repositório público:
+.vendor-completo/
+vendor/reactbits/
+vendor/animateui/
+.atlas/
 legacy/
+reescrita/quarentena/
+reescrita/similaridade*.txt
+reescrita/comparacao-*.webp

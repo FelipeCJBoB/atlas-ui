@@ -1,0 +1,11 @@
+{
+  "id": "animata",
+  "name": "Animata",
+  "repo": "https://github.com/codse/animata.git",
+  "commit": "36674e4e9cfdc0f237693d8b736a2bf41065ca1d",
+  "license": "MIT",
+  "declared": "MIT",
+  "status": "OK",
+  "copyright": "Copyright (c) Animata",
+  "files": 565
+}

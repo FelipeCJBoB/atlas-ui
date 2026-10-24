@@ -1,0 +1,11 @@
+{
+  "id": "fancy",
+  "name": "Fancy Components",
+  "repo": "https://github.com/danielpetho/fancy.git",
+  "commit": "f9f62c61207b2dd3210476dd98af3c9a5be24094",
+  "license": "MIT",
+  "declared": "MIT",
+  "status": "OK",
+  "copyright": "Copyright (c) 2024 Daniel Petho",
+  "files": 198
+}

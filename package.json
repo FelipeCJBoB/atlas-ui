@@ -5,13 +5,12 @@
   "type": "module",
   "description": "Atlas 2 — biblioteca pessoal offline de componentes UI (React + Tailwind + Motion) em um único HTML",
   "scripts": {
-    "sync": "node scripts/sync.mjs",
     "build": "node build/build.mjs --profile=full",
     "build:lite": "node build/build.mjs --profile=lite",
-    "build:compartilhavel": "node build/build.mjs --profile=compartilhavel",
     "qa": "node build/qa.mjs",
     "index": "node scripts/make-index.mjs",
-    "find": "node scripts/atlas-find.mjs"
+    "find": "node scripts/atlas-find.mjs",
+    "previas": "node build/previas.mjs"
   },
   "dependencies": {
     "@base-ui-components/react": "^1.0.0-beta.4",

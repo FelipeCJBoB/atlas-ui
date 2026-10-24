@@ -1,0 +1,11 @@
+{
+  "id": "uiverse",
+  "name": "Uiverse (Galaxy)",
+  "repo": "https://github.com/uiverse-io/galaxy.git",
+  "commit": "adbd2adde0a299a3956ea288fb444ec01891ca41",
+  "license": "MIT",
+  "declared": "MIT",
+  "status": "OK",
+  "copyright": "Copyright (c) 2023 Uiverse.io",
+  "files": 3804
+}

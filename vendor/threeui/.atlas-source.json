@@ -1,0 +1,11 @@
+{
+  "id": "threeui",
+  "name": "ThreeUI (Community)",
+  "repo": "https://github.com/MengTo/threeui.git",
+  "commit": "68802d5428071ada5c20db8094b1649e6bb770ed",
+  "license": "MIT",
+  "declared": "MIT",
+  "status": "OK",
+  "copyright": "Copyright (c) 2026 Meng To",
+  "files": 316
+}

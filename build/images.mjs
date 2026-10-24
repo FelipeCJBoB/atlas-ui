@@ -50,3 +50,10 @@ export async function ensureImages(urlMap, { offline = false } = {}) {
   if (todo.length) writeFileSync(CACHE, JSON.stringify(cache));
   return { cache, ok, fail, fetched: todo.length };
 }
+
+// Mantém no cache só as imagens que o build full usa (o cache é versionado: o build não depende de rede).
+export function podarCache(cache, chaves) {
+  const out = {}; for (const k of chaves) if (k in cache) out[k] = cache[k];
+  writeFileSync(CACHE, JSON.stringify(out));
+  return Object.keys(out).length;
+}

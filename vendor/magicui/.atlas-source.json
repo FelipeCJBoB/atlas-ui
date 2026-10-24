@@ -1,0 +1,11 @@
+{
+  "id": "magicui",
+  "name": "Magic UI",
+  "repo": "https://github.com/magicuidesign/magicui.git",
+  "commit": "cdb348cb4c72a9b54b554d8617801e479fbc8714",
+  "license": "MIT",
+  "declared": "MIT",
+  "status": "OK",
+  "copyright": "Copyright (c) Magic UI",
+  "files": 351
+}

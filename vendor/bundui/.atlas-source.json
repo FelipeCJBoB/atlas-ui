@@ -1,0 +1,11 @@
+{
+  "id": "bundui",
+  "name": "Bundui",
+  "repo": "https://github.com/bundui/components.git",
+  "commit": "c07468613dfe7db776f1749a0921a1e5e7bd33d5",
+  "license": "MIT",
+  "declared": "MIT",
+  "status": "OK",
+  "copyright": "Copyright (c) 2024 Bundui",
+  "files": 146
+}

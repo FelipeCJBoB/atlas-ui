@@ -1,0 +1,11 @@
+{
+  "id": "kibo",
+  "name": "Kibo UI",
+  "repo": "https://github.com/haydenbleasel/kibo.git",
+  "commit": "3d63cdb15b79d972e3dc38a10997987672f9b263",
+  "license": "MIT",
+  "declared": "MIT",
+  "status": "OK",
+  "copyright": "Copyright (c) 2023 — Present shadcnblocks",
+  "files": 1472
+}

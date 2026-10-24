@@ -1,0 +1,57 @@
+# Modal & Overlay (51)
+
+Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
+
+| prévia | componente | tipo de aplicação | biblioteca · licença | dependências npm |
+|---|---|---|---|---|
+| <img src="../../previews/motiq/catalog__mobile-filter-sheet.webp" width="300"> | **Mobile Filter Sheet**<br>`motiq:catalog/mobile-filter-sheet` | Mobile & App | motiq · MIT | motion |
+| <img src="../../previews/motiq/mobile-filter-sheet.webp" width="300"> | **Mobile Filter Sheet**<br>`motiq:mobile-filter-sheet` | Mobile & App | motiq · MIT | motion |
+| <img src="../../previews/uitripled/native__native-dialog-shadcnui.webp" width="300"> | **Native Dialog Shadcnui**<br>`uitripled:native/native-dialog-shadcnui` | Mobile & App | uitripled · MIT | @radix-ui/react-dialog, framer-motion, lucide-react |
+| <img src="../../previews/uitripled/native__demo__native-hover-card-demo.webp" width="300"> | **Native Hover Card**<br>`uitripled:native/demo/native-hover-card-demo` | Mobile & App | uitripled · MIT | @radix-ui/react-slot, class-variance-authority, lucide-react |
+| <img src="../../previews/animata/overlay__modal.webp" width="300"> | **Modal**<br>`animata:overlay/modal` | UI base | animata · MIT | lucide-react, motion |
+| <img src="../../previews/atlas/Interactions__SharedTooltip.webp" width="300"> | **SharedTooltip**<br>`atlas:Interactions/SharedTooltip` | UI base | atlas (própria) · Proprietária (Atlas) | motion |
+| <img src="../../previews/cultui/family-drawer-demo.webp" width="300"> | **Family Drawer**<br>`cultui:family-drawer-demo` | UI base | cultui · MIT | @radix-ui/react-slot, lucide-react, motion, react-use-measure, vaul |
+| <img src="../../previews/cultui/floating-panel-demo.webp" width="300"> | **Floating Panel**<br>`cultui:floating-panel-demo` | UI base | cultui · MIT | lucide-react, motion |
+| <img src="../../previews/cultui/popover-demo.webp" width="300"> | **Popover**<br>`cultui:popover-demo` | UI base | cultui · MIT | lucide-react, motion |
+| <img src="../../previews/cultui/side-panel-demo.webp" width="300"> | **Side Panel**<br>`cultui:side-panel-demo` | UI base | cultui · MIT | motion, react-player, react-use-measure |
+| <img src="../../previews/eldoraui/card-flip-hover-demo.webp" width="300"> | **Card Flip Hover**<br>`eldoraui:card-flip-hover-demo` | UI base | eldoraui · MIT | — |
+| <img src="../../previews/kibo/dialog-stack.webp" width="300"> | **Dialog Stack**<br>`kibo:dialog-stack` | UI base | kibo · MIT | @radix-ui/react-use-controllable-state, @repo/dialog-stack, @repo/shadcn-ui, class-variance-authority, radix-ui |
+| <img src="../../previews/kokonutui/smooth-drawer.webp" width="300"> | **Smooth Drawer**<br>`kokonutui:smooth-drawer` | UI base | kokonutui · MIT | @radix-ui/react-slot, class-variance-authority, lucide-react, motion, vaul |
+| <img src="../../previews/motionprimitives/dialog__dialog-basic.webp" width="300"> | **Dialog Basic**<br>`motionprimitives:dialog/dialog-basic` | UI base | motionprimitives · MIT | lucide-react, motion |
+| <img src="../../previews/motionprimitives/dialog__dialog-controlled.webp" width="300"> | **Dialog Controlled**<br>`motionprimitives:dialog/dialog-controlled` | UI base | motionprimitives · MIT | lucide-react, motion |
+| <img src="../../previews/motionprimitives/dialog__dialog-custom-backdrop.webp" width="300"> | **Dialog Custom Backdrop**<br>`motionprimitives:dialog/dialog-custom-backdrop` | UI base | motionprimitives · MIT | lucide-react, motion |
+| <img src="../../previews/motionprimitives/dialog__dialog-custom-exit.webp" width="300"> | **Dialog Custom Exit**<br>`motionprimitives:dialog/dialog-custom-exit` | UI base | motionprimitives · MIT | lucide-react, motion |
+| <img src="../../previews/motionprimitives/dialog__dialog-custom-variants-transtion.webp" width="300"> | **Dialog Custom Variants Transtion**<br>`motionprimitives:dialog/dialog-custom-variants-transtion` | UI base | motionprimitives · MIT | lucide-react, motion |
+| <img src="../../previews/motionprimitives/transition-panel__transition-panel-card.webp" width="300"> | **Transition Panel Card**<br>`motionprimitives:transition-panel/transition-panel-card` | UI base | motionprimitives · MIT | motion, react-use-measure |
+| <img src="../../previews/motiq/aurora-panel.webp" width="300"> | **Aurora Panel**<br>`motiq:aurora-panel` | UI base | motiq · MIT | — |
+| <img src="../../previews/motiq/border-beam-panel.webp" width="300"> | **Border Beam Panel**<br>`motiq:border-beam-panel` | UI base | motiq · MIT | — |
+| <img src="../../previews/motiq/glass-refraction-panel.webp" width="300"> | **Glass Refraction Panel**<br>`motiq:glass-refraction-panel` | UI base | motiq · MIT | — |
+| <img src="../../previews/smoothui/animated-tooltip.webp" width="300"> | **Animated Tooltip**<br>`smoothui:animated-tooltip` | UI base | smoothui · MIT | @radix-ui/react-slot, @repo/shadcn-ui, @repo/smoothui, class-variance-authority, motion |
+| <img src="../../previews/smoothui/basic-modal.webp" width="300"> | **Basic Modal**<br>`smoothui:basic-modal` | UI base | smoothui · MIT | @radix-ui/react-slot, @repo/shadcn-ui, @repo/smoothui, class-variance-authority, lucide-react, motion, usehooks-ts |
+| <img src="../../previews/smoothui/country-dialog.webp" width="300"> | **Country Dialog**<br>`smoothui:country-dialog` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/dialog.webp" width="300"> | **Dialog**<br>`smoothui:dialog` | UI base | smoothui · MIT | @radix-ui/react-slot, @repo/shadcn-ui, @repo/smoothui, class-variance-authority, lucide-react, motion, radix-ui |
+| <img src="../../previews/smoothui/drawer.webp" width="300"> | **Drawer**<br>`smoothui:drawer` | UI base | smoothui · MIT | @radix-ui/react-slot, @repo/shadcn-ui, @repo/smoothui, class-variance-authority, motion |
+| <img src="../../previews/smoothui/glow-hover-card.webp" width="300"> | **Glow Hover Card**<br>`smoothui:glow-hover-card` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/gooey-popover.webp" width="300"> | **Gooey Popover**<br>`smoothui:gooey-popover` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, gsap |
+| <img src="../../previews/smoothui/image-generation-panel.webp" width="300"> | **Image Generation Panel**<br>`smoothui:image-generation-panel` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, @smoothui/data, lucide-react, motion |
+| <img src="../../previews/smoothui/rich-popover.webp" width="300"> | **Rich Popover**<br>`smoothui:rich-popover` | UI base | smoothui · MIT | @radix-ui/react-popover, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/social-hover-card.webp" width="300"> | **Social Hover Card**<br>`smoothui:social-hover-card` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, @smoothui/data, lucide-react, motion |
+| <img src="../../previews/smoothui/swap-panel.webp" width="300"> | **Swap Panel**<br>`smoothui:swap-panel` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/video-modal.webp" width="300"> | **Video Modal**<br>`smoothui:video-modal` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/threeui/diagnostics-panel__flow.webp" width="300"> | **Diagnostics Panel · Flowing Mesh**<br>`threeui:diagnostics-panel/flow` | UI base | threeui · MIT · ⚠needs-network | — |
+| <img src="../../previews/threeui/diagnostics-panel__layers.webp" width="300"> | **Diagnostics Panel · Layered Planes**<br>`threeui:diagnostics-panel/layers` | UI base | threeui · MIT · ⚠needs-network | — |
+| <img src="../../previews/threeui/diagnostics-panel__nodes.webp" width="300"> | **Diagnostics Panel · Node Cubes**<br>`threeui:diagnostics-panel/nodes` | UI base | threeui · MIT · ⚠needs-network | — |
+| <img src="../../previews/uitripled/modals__animated-dialog.webp" width="300"> | **Animated Dialog**<br>`uitripled:modals/animated-dialog` | UI base | uitripled · MIT | @radix-ui/react-slot, class-variance-authority, framer-motion, lucide-react |
+| <img src="../../previews/uitripled/tooltips__animated-tooltip.webp" width="300"> | **Animated Tooltip**<br>`uitripled:tooltips/animated-tooltip` | UI base | uitripled · MIT | framer-motion, lucide-react |
+| <img src="../../previews/uitripled/modals__bottom-modal.webp" width="300"> | **Bottom Modal**<br>`uitripled:modals/bottom-modal` | UI base | uitripled · MIT | @radix-ui/react-slot, class-variance-authority, framer-motion, lucide-react |
+| <img src="../../previews/uitripled/components__modal__fade-slide.webp" width="300"> | **Fade Slide**<br>`uitripled:components/modal/fade-slide` | UI base | uitripled · MIT | framer-motion, lucide-react |
+| <img src="../../previews/uitripled/motion-core__fluid-modal-transition.webp" width="300"> | **Fluid Modal Transition**<br>`uitripled:motion-core/fluid-modal-transition` | UI base | uitripled · MIT | framer-motion, lucide-react |
+| <img src="../../previews/uitripled/motion-core__smart-hover-card.webp" width="300"> | **Smart Hover Card**<br>`uitripled:motion-core/smart-hover-card` | UI base | uitripled · MIT | framer-motion |
+| <img src="../../previews/uiverse/Tooltips__iammar99_angry-dragonfly-22.webp" width="300"> | **Angry Dragonfly · iammar99**<br>`uiverse:Tooltips/iammar99_angry-dragonfly-22` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Tooltips__Yaya12085_average-earwig-11.webp" width="300"> | **Average Earwig · Yaya12085**<br>`uiverse:Tooltips/Yaya12085_average-earwig-11` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Tooltips__Mohammad-Rahme-576_hard-starfish-64.webp" width="300"> | **Hard Starfish · Mohammad-Rahme-576**<br>`uiverse:Tooltips/Mohammad-Rahme-576_hard-starfish-64` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Tooltips__barisdogansutcu_plastic-dolphin-67.webp" width="300"> | **Plastic Dolphin · barisdogansutcu**<br>`uiverse:Tooltips/barisdogansutcu_plastic-dolphin-67` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Tooltips__Cobp_serious-termite-83.webp" width="300"> | **Serious Termite · Cobp**<br>`uiverse:Tooltips/Cobp_serious-termite-83` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Tooltips__Lakshay-art_sour-dragon-56.webp" width="300"> | **Sour Dragon · Lakshay-art**<br>`uiverse:Tooltips/Lakshay-art_sour-dragon-56` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Tooltips__escannord_spotty-jellyfish-36.webp" width="300"> | **Spotty Jellyfish · escannord**<br>`uiverse:Tooltips/escannord_spotty-jellyfish-36` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Tooltips__neerajbaniwal_sweet-sloth-99.webp" width="300"> | **Sweet Sloth · neerajbaniwal**<br>`uiverse:Tooltips/neerajbaniwal_sweet-sloth-99` | UI base | uiverse · MIT | — |

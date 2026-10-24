@@ -276,9 +276,7 @@
       "repo": "https://github.com/imskyleen/animate-ui.git",
       "commit": "efeb96ffd7a3b7a4868667e4ac3c346620fb3044",
       "license": "MIT + Commons Clause",
-      "profile": [
-        "pessoal"
-      ],
+      "profile": [],
       "root": "apps/www",
       "licenseFile": "LICENSE.md",
       "globals": "app/globals.css",
@@ -324,7 +322,8 @@
       },
       "pkgAlias": {
         "react-resizable-panels": "react-resizable-panels-v2"
-      }
+      },
+      "nota": "Fora do build: MIT + Commons Clause. Código só local (gitignored), usado como referência para a reescrita em sala limpa (reescrita/)."
     },
     "smoothui": {
       "name": "SmoothUI",
@@ -410,9 +409,7 @@
       "repo": "https://github.com/DavidHDev/react-bits.git",
       "commit": "ca44b3f9ee180676a06d7de8ec6bea84cddff85b",
       "license": "MIT + Commons Clause",
-      "profile": [
-        "pessoal"
-      ],
+      "profile": [],
       "root": "src",
       "licenseFile": "LICENSE.md",
       "globals": "@atlas/stubs/reactbits/globals.css",
@@ -462,7 +459,8 @@
           "content/"
         ]
       },
-      "viteAssets": true
+      "viteAssets": true,
+      "nota": "Fora do build: MIT + Commons Clause. Código só local (gitignored), usado como referência para a reescrita em sala limpa (reescrita/)."
     },
     "eldoraui": {
       "name": "Eldora UI",
@@ -812,10 +810,7 @@
       "repo": "https://github.com/Aryan-205/itshover.git",
       "commit": "0e21481bc2b22570056f7cc299e9ec10989855f5",
       "license": "Apache-2.0",
-      "profile": [
-        "pessoal",
-        "compartilhavel"
-      ],
+      "profile": [],
       "root": "",
       "licenseFile": "LICENSE",
       "globals": "app/globals.css",
@@ -1043,10 +1038,7 @@
       "repo": "https://github.com/markmead/hyperui.git",
       "commit": "2b5aebbc50d2c9ac89650f51b554f53895b4803c",
       "license": "MIT",
-      "profile": [
-        "pessoal",
-        "compartilhavel"
-      ],
+      "profile": [],
       "root": "",
       "licenseFile": "LICENSE",
       "globals": "@atlas/stubs/hyperui/globals.css",
@@ -1101,10 +1093,7 @@
       "repo": "https://github.com/saadeghi/daisyui.git",
       "commit": "9adbeaa259816be46b98bf497a09cd2ab127e3cf",
       "license": "MIT",
-      "profile": [
-        "pessoal",
-        "compartilhavel"
-      ],
+      "profile": [],
       "root": "",
       "licenseFile": "LICENSE",
       "globals": "@atlas/stubs/daisyui/globals.css",
@@ -1127,10 +1116,7 @@
       "repo": "https://github.com/themesberg/flowbite.git",
       "commit": "232ebdb33a9e37b31b293b9988d89b862ee121e5",
       "license": "MIT",
-      "profile": [
-        "pessoal",
-        "compartilhavel"
-      ],
+      "profile": [],
       "root": "",
       "licenseFile": "LICENSE.md",
       "globals": "@atlas/stubs/flowbite/globals.css",
@@ -1162,10 +1148,7 @@
       "repo": "https://github.com/creativetimofficial/material-tailwind.git",
       "commit": "1a343ad13d3caaa29032b653ee17b7f61c14f3a6",
       "license": "MIT",
-      "profile": [
-        "pessoal",
-        "compartilhavel"
-      ],
+      "profile": [],
       "root": "",
       "licenseFile": "LICENSE.md",
       "globals": "@atlas/stubs/materialtailwind/globals.css",
@@ -1189,6 +1172,43 @@
         "kind": "custom"
       },
       "stack": "html"
+    },
+    "atlas": {
+      "name": "Atlas",
+      "repo": "https://github.com/FelipeCJBoB/atlas-ui",
+      "commit": "",
+      "license": "Proprietária (Atlas)",
+      "profile": [
+        "pessoal",
+        "compartilhavel"
+      ],
+      "own": true,
+      "stack": "react",
+      "globals": "styles/globals.css",
+      "cssSources": [
+        "componentes",
+        "demo"
+      ],
+      "aliases": [
+        [
+          "@/",
+          ""
+        ]
+      ],
+      "adapter": {
+        "kind": "demos",
+        "demos": [
+          {
+            "dir": "demo",
+            "category": "subdir",
+            "layout": "fill",
+            "wide": true
+          }
+        ],
+        "related": [
+          "componentes/"
+        ]
+      }
     }
   }
 }

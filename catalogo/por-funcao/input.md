@@ -1,0 +1,98 @@
+# Input (92)
+
+Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
+
+| prévia | componente | tipo de aplicação | biblioteca · licença | dependências npm |
+|---|---|---|---|---|
+| <img src="../../previews/smoothui/auth-form.webp" width="300"> | **Auth Form**<br>`smoothui:auth-form` | Login & Conta | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/threeui/structure-flow__data-field.webp" width="300"> | **Structure Flow · Data Field**<br>`threeui:structure-flow/data-field` | Login & Conta | threeui · MIT | — |
+| <img src="../../previews/threeui/structure-flow__dimensional-field.webp" width="300"> | **Structure Flow · Dimensional Field**<br>`threeui:structure-flow/dimensional-field` | Login & Conta | threeui · MIT | — |
+| <img src="../../previews/threeui/structure-flow__expanse-field.webp" width="300"> | **Structure Flow · Expanse Field**<br>`threeui:structure-flow/expanse-field` | Login & Conta | threeui · MIT · ⚠needs-network | — |
+| <img src="../../previews/threeui/structure-flow__fluid-field.webp" width="300"> | **Structure Flow · Fluid Field**<br>`threeui:structure-flow/fluid-field` | Login & Conta | threeui · MIT | — |
+| <img src="../../previews/threeui/structure-flow__topology-field.webp" width="300"> | **Structure Flow · Topology Field**<br>`threeui:structure-flow/topology-field` | Login & Conta | threeui · MIT | — |
+| <img src="../../previews/threeui/warp-field__hyperspace.webp" width="300"> | **Warp Field · Hyperspace**<br>`threeui:warp-field/hyperspace` | Login & Conta | threeui · MIT | — |
+| <img src="../../previews/threeui/warp-field__keycaps.webp" width="300"> | **Warp Field · Keycap Drift**<br>`threeui:warp-field/keycaps` | Login & Conta | threeui · MIT | — |
+| <img src="../../previews/threeui/warp-field__letters.webp" width="300"> | **Warp Field · Letter Storm**<br>`threeui:warp-field/letters` | Login & Conta | threeui · MIT | — |
+| <img src="../../previews/threeui/warp-field__streaks.webp" width="300"> | **Warp Field · Warp Field**<br>`threeui:warp-field/streaks` | Login & Conta | threeui · MIT | — |
+| <img src="../../previews/uitripled/inputs__password-input.webp" width="300"> | **Password Input**<br>`uitripled:inputs/password-input` | Login & Conta | uitripled · MIT | framer-motion, lucide-react |
+| <img src="../../previews/atlas/Inputs__RubberBandSlider.webp" width="300"> | **RubberBandSlider**<br>`atlas:Inputs/RubberBandSlider` | UI base | atlas (própria) · Proprietária (Atlas) | motion |
+| <img src="../../previews/cultui/border-beam-input-demo.webp" width="300"> | **Border Beam Input**<br>`cultui:border-beam-input-demo` | UI base | cultui · MIT | @base-ui/react, border-beam, lucide-react |
+| <img src="../../previews/cultui/color-picker-demo.webp" width="300"> | **Color Picker**<br>`cultui:color-picker-demo` | UI base | cultui · MIT | lucide-react, motion, poline |
+| <img src="../../previews/cultui/dither-image-demo-upload.webp" width="300"> | **Dither Image Demo Upload**<br>`cultui:dither-image-demo-upload` | UI base | cultui · MIT | — |
+| <img src="../../previews/cultui/halo-dropzone-demo.webp" width="300"> | **Halo Dropzone**<br>`cultui:halo-dropzone-demo` | UI base | cultui · MIT | lucide-react, motion |
+| <img src="../../previews/cultui/halo-field-demo.webp" width="300"> | **Halo Field**<br>`cultui:halo-field-demo` | UI base | cultui · MIT | @base-ui/react, lucide-react, motion |
+| <img src="../../previews/cultui/halo-input-demo.webp" width="300"> | **Halo Input**<br>`cultui:halo-input-demo` | UI base | cultui · MIT | @base-ui/react, motion |
+| <img src="../../previews/cultui/halo-search-demo.webp" width="300"> | **Halo Search**<br>`cultui:halo-search-demo` | UI base | cultui · MIT | @paper-design/shaders-react, motion |
+| <img src="../../previews/cultui/halo-select-demo.webp" width="300"> | **Halo Select**<br>`cultui:halo-select-demo` | UI base | cultui · MIT | @base-ui/react, lucide-react, motion |
+| <img src="../../previews/cultui/popover-form-demo.webp" width="300"> | **Popover Form**<br>`cultui:popover-form-demo` | UI base | cultui · MIT | lucide-react, motion |
+| <img src="../../previews/kibo/calendar.webp" width="300"> | **Calendar**<br>`kibo:calendar` | UI base | kibo · MIT | @faker-js/faker, @repo/calendar, date-fns, jotai, lucide-react |
+| <img src="../../previews/kibo/color-picker.webp" width="300"> | **Color Picker**<br>`kibo:color-picker` | UI base | kibo · MIT | @repo/color-picker, color, lucide-react, radix-ui |
+| <img src="../../previews/kibo/dropzone.webp" width="300"> | **Dropzone**<br>`kibo:dropzone` | UI base | kibo · MIT | @repo/dropzone, lucide-react, react-dropzone |
+| <img src="../../previews/kibo/editor.webp" width="300"> | **Editor**<br>`kibo:editor` | UI base | kibo · MIT | @repo/editor, @tiptap/core, @tiptap/extension-code-block-lowlight, @tiptap/extension-list, @tiptap/extension-subscript, @tiptap/extension-superscript, @tiptap/extension-table, @tiptap/extension-text-style, @tiptap/extension-typography, @tiptap/extensions, @tiptap/pm, @tiptap/react, @tiptap/starter-kit, @tiptap/suggestion, fuse.js, lowlight, lucide-react, tippy.js |
+| <img src="../../previews/kibo/mini-calendar.webp" width="300"> | **Mini Calendar**<br>`kibo:mini-calendar` | UI base | kibo · MIT | @radix-ui/react-use-controllable-state, @repo/mini-calendar, date-fns, lucide-react, radix-ui |
+| <img src="../../previews/kokonutui/action-search-bar.webp" width="300"> | **Action Search Bar**<br>`kokonutui:action-search-bar` | UI base | kokonutui · MIT | lucide-react, motion |
+| <img src="../../previews/kokonutui/avatar-picker.webp" width="300"> | **Avatar Picker**<br>`kokonutui:avatar-picker` | UI base | kokonutui · MIT | @radix-ui/react-slot, class-variance-authority, clsx, lucide-react, motion, tailwind-merge |
+| <img src="../../previews/kokonutui/file-upload.webp" width="300"> | **File Upload**<br>`kokonutui:file-upload` | UI base | kokonutui · MIT | clsx, lucide-react, motion, tailwind-merge |
+| <img src="../../previews/kokonutui/switch-button.webp" width="300"> | **Switch Button**<br>`kokonutui:switch-button` | UI base | kokonutui · MIT | @radix-ui/react-slot, class-variance-authority, clsx, lucide-react, next-themes, tailwind-merge |
+| <img src="../../previews/kokonutui/team-selector.webp" width="300"> | **Team Selector**<br>`kokonutui:team-selector` | UI base | kokonutui · MIT | lucide-react, motion |
+| <img src="../../previews/magicui/animated-beam-multiple-inputs.webp" width="300"> | **Animated Beam Multiple Inputs**<br>`magicui:animated-beam-multiple-inputs` | UI base | magicui · MIT | motion |
+| <img src="../../previews/motionprimitives/border-trail__border-trail-textarea.webp" width="300"> | **Border Trail Textarea**<br>`motionprimitives:border-trail/border-trail-textarea` | UI base | motionprimitives · MIT | motion |
+| <img src="../../previews/motionprimitives/image-comparison__image-comparison-custom-slider.webp" width="300"> | **Image Comparison Custom Slider**<br>`motionprimitives:image-comparison/image-comparison-custom-slider` | UI base | motionprimitives · MIT | motion |
+| <img src="../../previews/motionprimitives/infinite-slider__infinite-slider-basic.webp" width="300"> | **Infinite Slider Basic**<br>`motionprimitives:infinite-slider/infinite-slider-basic` | UI base | motionprimitives · MIT | motion, react-use-measure |
+| <img src="../../previews/motionprimitives/infinite-slider__infinite-slider-hover-speed.webp" width="300"> | **Infinite Slider Hover Speed**<br>`motionprimitives:infinite-slider/infinite-slider-hover-speed` | UI base | motionprimitives · MIT | motion, react-use-measure |
+| <img src="../../previews/motionprimitives/infinite-slider__infinite-slider-vertical.webp" width="300"> | **Infinite Slider Vertical**<br>`motionprimitives:infinite-slider/infinite-slider-vertical` | UI base | motionprimitives · MIT | motion, react-use-measure |
+| <img src="../../previews/motionprimitives/morphing-popover__morphing-popover-textarea.webp" width="300"> | **Morphing Popover Textarea**<br>`motionprimitives:morphing-popover/morphing-popover-textarea` | UI base | motionprimitives · MIT | lucide-react, motion |
+| <img src="../../previews/motionprimitives/progressive-blur__progressive-blur-slider.webp" width="300"> | **Progressive Blur Slider**<br>`motionprimitives:progressive-blur/progressive-blur-slider` | UI base | motionprimitives · MIT | motion, react-use-measure |
+| <img src="../../previews/motionprimitives/sliding-number__sliding-slider.webp" width="300"> | **Sliding Slider**<br>`motionprimitives:sliding-number/sliding-slider` | UI base | motionprimitives · MIT | motion, react-use-measure |
+| <img src="../../previews/motionprimitives/text-morph__text-morph-input.webp" width="300"> | **Text Morph Input**<br>`motionprimitives:text-morph/text-morph-input` | UI base | motionprimitives · MIT | motion |
+| <img src="../../previews/motiq/catalog__file-upload-pipeline.webp" width="300"> | **File Upload Pipeline**<br>`motiq:catalog/file-upload-pipeline` | UI base | motiq · MIT | motion |
+| <img src="../../previews/motiq/file-upload-pipeline.webp" width="300"> | **File Upload Pipeline**<br>`motiq:file-upload-pipeline` | UI base | motiq · MIT | motion |
+| <img src="../../previews/motiq/catalog__workflow-topology-field.webp" width="300"> | **Workflow Topology Field**<br>`motiq:catalog/workflow-topology-field` | UI base | motiq · MIT | — |
+| <img src="../../previews/motiq/workflow-topology-field.webp" width="300"> | **Workflow Topology Field**<br>`motiq:workflow-topology-field` | UI base | motiq · MIT | — |
+| <img src="../../previews/reui/attachment__c-attachment-1.webp" width="300"> | **Attachment 1**<br>`reui:attachment/c-attachment-1` | UI base | reui · MIT | class-variance-authority, cn, radix-ui |
+| <img src="../../previews/reui/file-upload__c-file-upload-1.webp" width="300"> | **File Upload 1**<br>`reui:file-upload/c-file-upload-1` | UI base | reui · MIT | class-variance-authority, cn, radix-ui |
+| <img src="../../previews/reui/file-upload__c-file-upload-6.webp" width="300"> | **File Upload 6**<br>`reui:file-upload/c-file-upload-6` | UI base | reui · MIT | class-variance-authority, cn, radix-ui |
+| <img src="../../previews/reui/signature-pad__c-signature-pad-1.webp" width="300"> | **Signature Pad 1**<br>`reui:signature-pad/c-signature-pad-1` | UI base | reui · MIT | cn |
+| <img src="../../previews/smoothui/animated-file-upload.webp" width="300"> | **Animated File Upload**<br>`smoothui:animated-file-upload` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/animated-input.webp" width="300"> | **Animated Input**<br>`smoothui:animated-input` | UI base | smoothui · MIT | @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/animated-number-input.webp" width="300"> | **Animated Number Input**<br>`smoothui:animated-number-input` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/animated-o-t-p-input.webp" width="300"> | **Animated O T P Input**<br>`smoothui:animated-o-t-p-input` | UI base | smoothui · MIT | @radix-ui/react-slot, @repo/shadcn-ui, @repo/smoothui, class-variance-authority, input-otp, lucide-react, motion |
+| <img src="../../previews/smoothui/checkbox.webp" width="300"> | **Checkbox**<br>`smoothui:checkbox` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion, radix-ui |
+| <img src="../../previews/smoothui/duration-picker.webp" width="300"> | **Duration Picker**<br>`smoothui:duration-picker` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/exposure-slider.webp" width="300"> | **Exposure Slider**<br>`smoothui:exposure-slider` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/favicon-search.webp" width="300"> | **Favicon Search**<br>`smoothui:favicon-search` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/form.webp" width="300"> | **Form**<br>`smoothui:form` | UI base | smoothui · MIT | @radix-ui/react-slot, @repo/shadcn-ui, @repo/smoothui, class-variance-authority, lucide-react, motion, radix-ui |
+| <img src="../../previews/smoothui/infinite-slider.webp" width="300"> | **Infinite Slider**<br>`smoothui:infinite-slider` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion, react-use-measure |
+| <img src="../../previews/smoothui/interactive-image-selector.webp" width="300"> | **Interactive Image Selector**<br>`smoothui:interactive-image-selector` | UI base | smoothui · MIT | @repo/smoothui, @smoothui/data, lucide-react, motion |
+| <img src="../../previews/smoothui/magnetic-field.webp" width="300"> | **Magnetic Field**<br>`smoothui:magnetic-field` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/radio-group.webp" width="300"> | **Radio Group**<br>`smoothui:radio-group` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion, radix-ui |
+| <img src="../../previews/smoothui/searchable-dropdown.webp" width="300"> | **Searchable Dropdown**<br>`smoothui:searchable-dropdown` | UI base | smoothui · MIT | @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/select.webp" width="300"> | **Select**<br>`smoothui:select` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/social-selector.webp" width="300"> | **Social Selector**<br>`smoothui:social-selector` | UI base | smoothui · MIT | @repo/smoothui, motion |
+| <img src="../../previews/smoothui/switchboard-card.webp" width="300"> | **Switchboard Card**<br>`smoothui:switchboard-card` | UI base | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui |
+| <img src="../../previews/smoothui/vector-editor-toolbar.webp" width="300"> | **Vector Editor Toolbar**<br>`smoothui:vector-editor-toolbar` | UI base | smoothui · MIT | @radix-ui/react-slot, @repo/shadcn-ui, @repo/smoothui, class-variance-authority, lucide-react, motion |
+| <img src="../../previews/spectrumui/animated-switch.webp" width="300"> | **Animated Switch**<br>`spectrumui:animated-switch` | UI base | spectrumui · Apache-2.0 | clsx, framer-motion, tailwind-merge |
+| <img src="../../previews/spectrumui/beam-search.webp" width="300"> | **Beam Search**<br>`spectrumui:beam-search` | UI base | spectrumui · Apache-2.0 | border-beam, clsx, lucide-react, tailwind-merge |
+| <img src="../../previews/spectrumui/command-search.webp" width="300"> | **Command Search**<br>`spectrumui:command-search` | UI base | spectrumui · Apache-2.0 | clsx, lucide-react, motion, tailwind-merge |
+| <img src="../../previews/spectrumui/form.webp" width="300"> | **Form**<br>`spectrumui:form` | UI base | spectrumui · Apache-2.0 | @radix-ui/react-checkbox, @radix-ui/react-label, @radix-ui/react-radio-group, @radix-ui/react-slider, class-variance-authority, emoji-picker-react, lucide-react |
+| <img src="../../previews/spectrumui/blocks__footers__link-search-footer.webp" width="300"> | **Link Search Footer**<br>`spectrumui:blocks/footers/link-search-footer` | UI base | spectrumui · Apache-2.0 · ⚠needs-props | clsx, tailwind-merge |
+| <img src="../../previews/spectrumui/blocks__footers__region-picker-footer.webp" width="300"> | **Region Picker Footer**<br>`spectrumui:blocks/footers/region-picker-footer` | UI base | spectrumui · Apache-2.0 · ⚠needs-props | @radix-ui/react-popover, clsx, tailwind-merge |
+| <img src="../../previews/spectrumui/task-checkbox.webp" width="300"> | **Task Checkbox**<br>`spectrumui:task-checkbox` | UI base | spectrumui · Apache-2.0 | clsx, framer-motion, tailwind-merge |
+| <img src="../../previews/systaliko/components__checkbox-field.webp" width="300"> | **Checkbox Field**<br>`systaliko:components/checkbox-field` | UI base | systaliko · MIT | class-variance-authority, lucide-react, radix-ui |
+| <img src="../../previews/threeui/engraved-certificate.webp" width="300"> | **Engraved Certificate**<br>`threeui:engraved-certificate` | UI base | threeui · MIT | — |
+| <img src="../../previews/uitripled/components__sliders__cards-slider.webp" width="300"> | **Cards Slider**<br>`uitripled:components/sliders/cards-slider` | UI base | uitripled · MIT | @radix-ui/react-avatar, class-variance-authority, framer-motion, lucide-react |
+| <img src="../../previews/uitripled/motion-core__drag-to-confirm-slider.webp" width="300"> | **Drag To Confirm Slider**<br>`uitripled:motion-core/drag-to-confirm-slider` | UI base | uitripled · MIT | framer-motion, lucide-react |
+| <img src="../../previews/uitripled/components__cards__image-slider-card.webp" width="300"> | **Image Slider Card**<br>`uitripled:components/cards/image-slider-card` | UI base | uitripled · MIT | framer-motion, lucide-react |
+| <img src="../../previews/uitripled/search__mac-searchbar.webp" width="300"> | **Mac Searchbar**<br>`uitripled:search/mac-searchbar` | UI base | uitripled · MIT | framer-motion, lucide-react |
+| <img src="../../previews/uitripled/components__sliders__volume-component.webp" width="300"> | **Volume Component**<br>`uitripled:components/sliders/volume-component` | UI base | uitripled · MIT | framer-motion |
+| <img src="../../previews/uiverse/Inputs__JaydipPrajapati1910_black-impala-70.webp" width="300"> | **Black Impala · JaydipPrajapati1910**<br>`uiverse:Inputs/JaydipPrajapati1910_black-impala-70` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Inputs__0xnihilism_calm-baboon-55.webp" width="300"> | **Calm Baboon · 0xnihilism**<br>`uiverse:Inputs/0xnihilism_calm-baboon-55` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Inputs__Spacious74_cold-goose-63.webp" width="300"> | **Cold Goose · Spacious74**<br>`uiverse:Inputs/Spacious74_cold-goose-63` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Inputs__Lakshay-art_curvy-earwig-22.webp" width="300"> | **Curvy Earwig · Lakshay-art**<br>`uiverse:Inputs/Lakshay-art_curvy-earwig-22` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Inputs__marcelodolza_grumpy-eel-20.webp" width="300"> | **Grumpy Eel · marcelodolza**<br>`uiverse:Inputs/marcelodolza_grumpy-eel-20` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Inputs__MijailVillegas_grumpy-horse-85.webp" width="300"> | **Grumpy Horse · MijailVillegas**<br>`uiverse:Inputs/MijailVillegas_grumpy-horse-85` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Inputs__MijailVillegas_shaggy-husky-62.webp" width="300"> | **Shaggy Husky · MijailVillegas**<br>`uiverse:Inputs/MijailVillegas_shaggy-husky-62` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Inputs__LeonKohli_silly-dragonfly-82.webp" width="300"> | **Silly Dragonfly · LeonKohli**<br>`uiverse:Inputs/LeonKohli_silly-dragonfly-82` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Inputs__0xnihilism_silly-quail-9.webp" width="300"> | **Silly Quail · 0xnihilism**<br>`uiverse:Inputs/0xnihilism_silly-quail-9` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Inputs__absoluteSTrange_smart-turtle-82.webp" width="300"> | **Smart Turtle · absoluteSTrange**<br>`uiverse:Inputs/absoluteSTrange_smart-turtle-82` | UI base | uiverse · MIT | — |
+| <img src="../../previews/uiverse/Inputs__PhanDangKhoa96_swift-warthog-78.webp" width="300"> | **Swift Warthog · PhanDangKhoa96**<br>`uiverse:Inputs/PhanDangKhoa96_swift-warthog-78` | UI base | uiverse · MIT | — |

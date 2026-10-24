@@ -1,0 +1,95 @@
+# Interação & Cursor (89)
+
+Prévia: estado normal | com o cursor em cima. Código: `node scripts/atlas-find.mjs code <uid>` ou os arquivos em `catalog.jsonl → files`.
+
+| prévia | componente | tipo de aplicação | biblioteca · licença | dependências npm |
+|---|---|---|---|---|
+| <img src="../../previews/animata/container__animated-border-trail.webp" width="300"> | **Animated Border Trail**<br>`animata:container/animated-border-trail` | Efeitos & Animação | animata · MIT | — |
+| <img src="../../previews/animata/container__cursor-tracker.webp" width="300"> | **Cursor Tracker**<br>`animata:container/cursor-tracker` | Efeitos & Animação | animata · MIT | — |
+| <img src="../../previews/animata/icon__icon-ripple.webp" width="300"> | **Icon Ripple**<br>`animata:icon/icon-ripple` | Efeitos & Animação | animata · MIT | lucide-react |
+| <img src="../../previews/atlas/Interactions__BlobCursor.webp" width="300"> | **BlobCursor**<br>`atlas:Interactions/BlobCursor` | Efeitos & Animação | atlas (própria) · Proprietária (Atlas) | — |
+| <img src="../../previews/atlas/Interactions__ClickBurst.webp" width="300"> | **ClickBurst**<br>`atlas:Interactions/ClickBurst` | Efeitos & Animação | atlas (própria) · Proprietária (Atlas) | — |
+| <img src="../../previews/atlas/Interactions__CrosshairCursor.webp" width="300"> | **CrosshairCursor**<br>`atlas:Interactions/CrosshairCursor` | Efeitos & Animação | atlas (própria) · Proprietária (Atlas) | — |
+| <img src="../../previews/atlas/Interactions__CustomCursor.webp" width="300"> | **CustomCursor**<br>`atlas:Interactions/CustomCursor` | Efeitos & Animação | atlas (própria) · Proprietária (Atlas) | motion |
+| <img src="../../previews/atlas/Interactions__GhostTrail.webp" width="300"> | **GhostTrail**<br>`atlas:Interactions/GhostTrail` | Efeitos & Animação | atlas (própria) · Proprietária (Atlas) | ogl |
+| <img src="../../previews/atlas/Interactions__PixelTrail.webp" width="300"> | **PixelTrail**<br>`atlas:Interactions/PixelTrail` | Efeitos & Animação | atlas (própria) · Proprietária (Atlas) | — |
+| <img src="../../previews/cultui/illustration-cursor-demo.webp" width="300"> | **Illustration Cursor**<br>`cultui:illustration-cursor-demo` | Efeitos & Animação | cultui · MIT | — |
+| <img src="../../previews/eldoraui/svg-ripple-effect-demo.webp" width="300"> | **Svg Ripple Effect**<br>`eldoraui:svg-ripple-effect-demo` | Efeitos & Animação | eldoraui · MIT | clsx, motion |
+| <img src="../../previews/eldoraui/svg-ripple-effect-demo-2.webp" width="300"> | **Svg Ripple Effect Demo 2**<br>`eldoraui:svg-ripple-effect-demo-2` | Efeitos & Animação | eldoraui · MIT | clsx, motion |
+| <img src="../../previews/fancy/blocks__css-box-scroll-demo.webp" width="300"> | **Css Box Scroll**<br>`fancy:blocks/css-box-scroll-demo` | Efeitos & Animação | fancy · MIT | clsx, motion, tailwind-merge |
+| <img src="../../previews/fancy/physics__cursor-attractor-and-gravity-demo.webp" width="300"> | **Cursor Attractor And Gravity**<br>`fancy:physics/cursor-attractor-and-gravity-demo` | Efeitos & Animação | fancy · MIT | lodash, matter-js, motion, poly-decomp |
+| <img src="../../previews/fancy/physics__cursor-attractor-and-gravity-svg-demo.webp" width="300"> | **Cursor Attractor And Gravity Svg**<br>`fancy:physics/cursor-attractor-and-gravity-svg-demo` | Efeitos & Animação | fancy · MIT | lodash, matter-js, poly-decomp |
+| <img src="../../previews/fancy/physics__elastic-line-demo.webp" width="300"> | **Elastic Line**<br>`fancy:physics/elastic-line-demo` | Efeitos & Animação | fancy · MIT | motion |
+| <img src="../../previews/fancy/blocks__float-demo.webp" width="300"> | **Float**<br>`fancy:blocks/float-demo` | Efeitos & Animação | fancy · MIT | motion |
+| <img src="../../previews/fancy/blocks__float-offset-demo.webp" width="300"> | **Float Offset**<br>`fancy:blocks/float-offset-demo` | Efeitos & Animação | fancy · MIT | clsx, motion, tailwind-merge |
+| <img src="../../previews/fancy/filter__gooey-svg-filter-pixel-trail-demo.webp" width="300"> | **Gooey Svg Filter Pixel Trail**<br>`fancy:filter/gooey-svg-filter-pixel-trail-demo` | Efeitos & Animação | fancy · MIT | motion, uuid |
+| <img src="../../previews/fancy/physics__gravity-demo.webp" width="300"> | **Gravity**<br>`fancy:physics/gravity-demo` | Efeitos & Animação | fancy · MIT | lodash, matter-js, poly-decomp |
+| <img src="../../previews/fancy/physics__gravity-body-types-demo.webp" width="300"> | **Gravity Body Types**<br>`fancy:physics/gravity-body-types-demo` | Efeitos & Animação | fancy · MIT | lodash, lucide-react, matter-js, poly-decomp |
+| <img src="../../previews/fancy/physics__gravity-svg-bodies-demo.webp" width="300"> | **Gravity Svg Bodies**<br>`fancy:physics/gravity-svg-bodies-demo` | Efeitos & Animação | fancy · MIT | lodash, matter-js, poly-decomp |
+| <img src="../../previews/fancy/background__pixel-trail-demo.webp" width="300"> | **Pixel Trail**<br>`fancy:background/pixel-trail-demo` | Efeitos & Animação | fancy · MIT | motion, uuid |
+| <img src="../../previews/fancy/background__pixel-trail-custom-pixel-demo.webp" width="300"> | **Pixel Trail Custom Pixel**<br>`fancy:background/pixel-trail-custom-pixel-demo` | Efeitos & Animação | fancy · MIT | motion, uuid |
+| <img src="../../previews/fancy/background__pixel-trail-no-fade-demo.webp" width="300"> | **Pixel Trail No Fade**<br>`fancy:background/pixel-trail-no-fade-demo` | Efeitos & Animação | fancy · MIT | motion, uuid |
+| <img src="../../previews/kibo/cursor.webp" width="300"> | **Cursor**<br>`kibo:cursor` | Efeitos & Animação | kibo · MIT | @repo/cursor |
+| <img src="../../previews/magicui/blur-fade-demo.webp" width="300"> | **Blur Fade**<br>`magicui:blur-fade-demo` | Efeitos & Animação | magicui · MIT | motion |
+| <img src="../../previews/magicui/confetti-demo.webp" width="300"> | **Confetti**<br>`magicui:confetti-demo` | Efeitos & Animação | magicui · MIT | canvas-confetti |
+| <img src="../../previews/magicui/confetti-basic-cannon.webp" width="300"> | **Confetti Basic Cannon**<br>`magicui:confetti-basic-cannon` | Efeitos & Animação | magicui · MIT | canvas-confetti |
+| <img src="../../previews/magicui/confetti-custom-shapes.webp" width="300"> | **Confetti Custom Shapes**<br>`magicui:confetti-custom-shapes` | Efeitos & Animação | magicui · MIT | canvas-confetti |
+| <img src="../../previews/magicui/confetti-emoji.webp" width="300"> | **Confetti Emoji**<br>`magicui:confetti-emoji` | Efeitos & Animação | magicui · MIT | canvas-confetti |
+| <img src="../../previews/magicui/confetti-fireworks.webp" width="300"> | **Confetti Fireworks**<br>`magicui:confetti-fireworks` | Efeitos & Animação | magicui · MIT | canvas-confetti |
+| <img src="../../previews/magicui/confetti-random-direction.webp" width="300"> | **Confetti Random Direction**<br>`magicui:confetti-random-direction` | Efeitos & Animação | magicui · MIT | canvas-confetti |
+| <img src="../../previews/magicui/confetti-side-cannons.webp" width="300"> | **Confetti Side Cannons**<br>`magicui:confetti-side-cannons` | Efeitos & Animação | magicui · MIT | canvas-confetti |
+| <img src="../../previews/magicui/confetti-stars.webp" width="300"> | **Confetti Stars**<br>`magicui:confetti-stars` | Efeitos & Animação | magicui · MIT | canvas-confetti |
+| <img src="../../previews/magicui/pointer-demo-1.webp" width="300"> | **Pointer 1**<br>`magicui:pointer-demo-1` | Efeitos & Animação | magicui · MIT | motion |
+| <img src="../../previews/magicui/scroll-based-velocity-demo.webp" width="300"> | **Scroll Based Velocity**<br>`magicui:scroll-based-velocity-demo` | Efeitos & Animação | magicui · MIT | motion |
+| <img src="../../previews/magicui/smooth-cursor-demo.webp" width="300"> | **Smooth Cursor Demo**<br>`magicui:smooth-cursor-demo` | Efeitos & Animação | magicui · MIT | motion |
+| <img src="../../previews/motionprimitives/animated-number__animated-number-in-view.webp" width="300"> | **Animated Number In View**<br>`motionprimitives:animated-number/animated-number-in-view` | Efeitos & Animação | motionprimitives · MIT | motion |
+| <img src="../../previews/motionprimitives/cursor__cursor-1.webp" width="300"> | **Cursor 1**<br>`motionprimitives:cursor/cursor-1` | Efeitos & Animação | motionprimitives · MIT | lucide-react, motion |
+| <img src="../../previews/motionprimitives/cursor__cursor-2.webp" width="300"> | **Cursor 2**<br>`motionprimitives:cursor/cursor-2` | Efeitos & Animação | motionprimitives · MIT | motion |
+| <img src="../../previews/motionprimitives/cursor__cursor-3.webp" width="300"> | **Cursor 3**<br>`motionprimitives:cursor/cursor-3` | Efeitos & Animação | motionprimitives · MIT | motion |
+| <img src="../../previews/motionprimitives/in-view__in-view-basic.webp" width="300"> | **In View Basic**<br>`motionprimitives:in-view/in-view-basic` | Efeitos & Animação | motionprimitives · MIT | motion |
+| <img src="../../previews/motionprimitives/in-view__in-view-basic-multiple.webp" width="300"> | **In View Basic Multiple**<br>`motionprimitives:in-view/in-view-basic-multiple` | Efeitos & Animação | motionprimitives · MIT | motion |
+| <img src="../../previews/motionprimitives/magnetic__magnetic-basic.webp" width="300"> | **Magnetic Basic**<br>`motionprimitives:magnetic/magnetic-basic` | Efeitos & Animação | motionprimitives · MIT | motion |
+| <img src="../../previews/motionprimitives/magnetic__magnetic-nested.webp" width="300"> | **Magnetic Nested**<br>`motionprimitives:magnetic/magnetic-nested` | Efeitos & Animação | motionprimitives · MIT | motion |
+| <img src="../../previews/motiq/cursor-comet.webp" width="300"> | **Cursor Comet**<br>`motiq:cursor-comet` | Efeitos & Animação | motiq · MIT | — |
+| <img src="../../previews/motiq/depth-parallax-scene.webp" width="300"> | **Depth Parallax Scene**<br>`motiq:depth-parallax-scene` | Efeitos & Animação | motiq · MIT | — |
+| <img src="../../previews/motiq/catalog__filter-result-transition.webp" width="300"> | **Filter Result Transition**<br>`motiq:catalog/filter-result-transition` | Efeitos & Animação | motiq · MIT | motion |
+| <img src="../../previews/motiq/filter-result-transition.webp" width="300"> | **Filter Result Transition**<br>`motiq:filter-result-transition` | Efeitos & Animação | motiq · MIT | motion |
+| <img src="../../previews/smoothui/aperture-blur-transition.webp" width="300"> | **Aperture Blur Transition**<br>`smoothui:aperture-blur-transition` | Efeitos & Animação | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/chroma-blur-transition.webp" width="300"> | **Chroma Blur Transition**<br>`smoothui:chroma-blur-transition` | Efeitos & Animação | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/cursor-follow.webp" width="300"> | **Cursor Follow**<br>`smoothui:cursor-follow` | Efeitos & Animação | smoothui · MIT | @repo/smoothui, @smoothui/data, motion |
+| <img src="../../previews/smoothui/drawing-cursor.webp" width="300"> | **Drawing Cursor**<br>`smoothui:drawing-cursor` | Efeitos & Animação | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/kinetic-type-scroll.webp" width="300"> | **Kinetic Type Scroll**<br>`smoothui:kinetic-type-scroll` | Efeitos & Animação | smoothui · MIT | @radix-ui/react-slot, @repo/shadcn-ui, @repo/smoothui, class-variance-authority, lucide-react, motion |
+| <img src="../../previews/smoothui/organic-merge-transition.webp" width="300"> | **Organic Merge Transition**<br>`smoothui:organic-merge-transition` | Efeitos & Animação | smoothui · MIT | @repo/smoothui |
+| <img src="../../previews/smoothui/parallax-layers.webp" width="300"> | **Parallax Layers**<br>`smoothui:parallax-layers` | Efeitos & Animação | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/smoothui/prism-sweep-transition.webp" width="300"> | **Prism Sweep Transition**<br>`smoothui:prism-sweep-transition` | Efeitos & Animação | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, motion |
+| <img src="../../previews/smoothui/radial-circles-transition.webp" width="300"> | **Radial Circles Transition**<br>`smoothui:radial-circles-transition` | Efeitos & Animação | smoothui · MIT | @repo/smoothui |
+| <img src="../../previews/smoothui/sdf-circle-transition.webp" width="300"> | **Sdf Circle Transition**<br>`smoothui:sdf-circle-transition` | Efeitos & Animação | smoothui · MIT | @repo/smoothui |
+| <img src="../../previews/smoothui/shared-axis-x.webp" width="300"> | **Shared Axis X**<br>`smoothui:shared-axis-x` | Efeitos & Animação | smoothui · MIT | @repo/smoothui, motion |
+| <img src="../../previews/smoothui/shared-axis-y.webp" width="300"> | **Shared Axis Y**<br>`smoothui:shared-axis-y` | Efeitos & Animação | smoothui · MIT | @repo/smoothui, motion |
+| <img src="../../previews/smoothui/shared-axis-z.webp" width="300"> | **Shared Axis Z**<br>`smoothui:shared-axis-z` | Efeitos & Animação | smoothui · MIT | @repo/smoothui, motion |
+| <img src="../../previews/smoothui/svg-draw-on-scroll.webp" width="300"> | **Svg Draw On Scroll**<br>`smoothui:svg-draw-on-scroll` | Efeitos & Animação | smoothui · MIT | @repo/shadcn-ui, @repo/smoothui, lucide-react, motion |
+| <img src="../../previews/systaliko/components__cursor-trail.webp" width="300"> | **Cursor Trail**<br>`systaliko:components/cursor-trail` | Efeitos & Animação | systaliko · MIT | lucide-react, motion |
+| <img src="../../previews/systaliko/components__custom-cursor.webp" width="300"> | **Custom Cursor**<br>`systaliko:components/custom-cursor` | Efeitos & Animação | systaliko · MIT | @radix-ui/react-slot, class-variance-authority, lucide-react, motion |
+| <img src="../../previews/systaliko/components__custom-cursor-2.webp" width="300"> | **Custom Cursor 2**<br>`systaliko:components/custom-cursor-2` | Efeitos & Animação | systaliko · MIT | motion |
+| <img src="../../previews/systaliko/blocks__floating-elements.webp" width="300"> | **Floating Elements**<br>`systaliko:blocks/floating-elements` | Efeitos & Animação | systaliko · MIT | @radix-ui/react-slider, motion, radix-ui |
+| <img src="../../previews/systaliko/blocks__floating-elements-infinite.webp" width="300"> | **Floating Elements Infinite**<br>`systaliko:blocks/floating-elements-infinite` | Efeitos & Animação | systaliko · MIT | @radix-ui/react-slider, motion, radix-ui |
+| <img src="../../previews/systaliko/ecommerce__infinite-scroll.webp" width="300"> | **Infinite Scroll**<br>`systaliko:ecommerce/infinite-scroll` | Efeitos & Animação | systaliko · MIT · ⚠needs-network | motion |
+| <img src="../../previews/systaliko/blocks__magnetic-grid.webp" width="300"> | **Magnetic Grid**<br>`systaliko:blocks/magnetic-grid` | Efeitos & Animação | systaliko · MIT | @radix-ui/react-slider, class-variance-authority, motion, react-aria-components |
+| <img src="../../previews/systaliko/scroll-animations__parallax.webp" width="300"> | **Parallax**<br>`systaliko:scroll-animations/parallax` | Efeitos & Animação | systaliko · MIT | motion |
+| <img src="../../previews/systaliko/scroll-animations__scroll-animation-combo.webp" width="300"> | **Scroll Animation Combo**<br>`systaliko:scroll-animations/scroll-animation-combo` | Efeitos & Animação | systaliko · MIT | motion |
+| <img src="../../previews/systaliko/scroll-animations__scroll-animation-inset.webp" width="300"> | **Scroll Animation Inset**<br>`systaliko:scroll-animations/scroll-animation-inset` | Efeitos & Animação | systaliko · MIT · ⚠needs-network | motion |
+| <img src="../../previews/systaliko/scroll-animations__scroll-animation-inset-x.webp" width="300"> | **Scroll Animation Inset X**<br>`systaliko:scroll-animations/scroll-animation-inset-x` | Efeitos & Animação | systaliko · MIT · ⚠needs-network | motion |
+| <img src="../../previews/systaliko/scroll-animations__scroll-animation-inset-y.webp" width="300"> | **Scroll Animation Inset Y**<br>`systaliko:scroll-animations/scroll-animation-inset-y` | Efeitos & Animação | systaliko · MIT · ⚠needs-network | motion |
+| <img src="../../previews/systaliko/scroll-animations__scroll-animation-radius.webp" width="300"> | **Scroll Animation Radius**<br>`systaliko:scroll-animations/scroll-animation-radius` | Efeitos & Animação | systaliko · MIT | motion |
+| <img src="../../previews/systaliko/scroll-animations__scroll-animation-rotate.webp" width="300"> | **Scroll Animation Rotate**<br>`systaliko:scroll-animations/scroll-animation-rotate` | Efeitos & Animação | systaliko · MIT | motion |
+| <img src="../../previews/systaliko/scroll-animations__scroll-animation-rotate-x.webp" width="300"> | **Scroll Animation Rotate X**<br>`systaliko:scroll-animations/scroll-animation-rotate-x` | Efeitos & Animação | systaliko · MIT | motion |
+| <img src="../../previews/systaliko/scroll-animations__scroll-animation-rotate-y.webp" width="300"> | **Scroll Animation Rotate Y**<br>`systaliko:scroll-animations/scroll-animation-rotate-y` | Efeitos & Animação | systaliko · MIT · ⚠needs-network | motion |
+| <img src="../../previews/systaliko/scroll-animations__scroll-animation-scale.webp" width="300"> | **Scroll Animation Scale**<br>`systaliko:scroll-animations/scroll-animation-scale` | Efeitos & Animação | systaliko · MIT | motion |
+| <img src="../../previews/systaliko/scroll-animations__scroll-animation-translate-x.webp" width="300"> | **Scroll Animation Translate X**<br>`systaliko:scroll-animations/scroll-animation-translate-x` | Efeitos & Animação | systaliko · MIT | motion |
+| <img src="../../previews/systaliko/scroll-animations__scroll-autoplay.webp" width="300"> | **Scroll Autoplay**<br>`systaliko:scroll-animations/scroll-autoplay` | Efeitos & Animação | systaliko · MIT | motion |
+| <img src="../../previews/systaliko/scroll-animations__scroll-reverse-scale-animation.webp" width="300"> | **Scroll Reverse Scale Animation**<br>`systaliko:scroll-animations/scroll-reverse-scale-animation` | Efeitos & Animação | systaliko · MIT | @radix-ui/react-slot, class-variance-authority, motion |
+| <img src="../../previews/systaliko/scroll-animations__wavy-block.webp" width="300"> | **Wavy Block**<br>`systaliko:scroll-animations/wavy-block` | Efeitos & Animação | systaliko · MIT | motion |
+| <img src="../../previews/systaliko/scroll-animations__wavy-block-y.webp" width="300"> | **Wavy Block Y**<br>`systaliko:scroll-animations/wavy-block-y` | Efeitos & Animação | systaliko · MIT | motion |
+| <img src="../../previews/uitripled/decorative__background__floating-gradient.webp" width="300"> | **Floating Gradient**<br>`uitripled:decorative/background/floating-gradient` | Efeitos & Animação | uitripled · MIT | framer-motion |
+| <img src="../../previews/uitripled/liquid-cursor.webp" width="300"> | **Liquid Cursor**<br>`uitripled:liquid-cursor` | Efeitos & Animação | uitripled · MIT | — |
+| <img src="../../previews/uitripled/native__demo__native-magnetic-demo.webp" width="300"> | **Native Magnetic**<br>`uitripled:native/demo/native-magnetic-demo` | Efeitos & Animação | uitripled · MIT | @radix-ui/react-slot, class-variance-authority |

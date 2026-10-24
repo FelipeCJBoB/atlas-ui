@@ -9,7 +9,7 @@ import { gzipSync } from 'node:zlib';
 import { ROOT, TMP, lock, vendorDir, patchUsed } from './common.mjs';
 import { compileAll } from './css.mjs';
 import { atlasPlugin, fontsUsed } from './plugins.mjs';
-import { ensureImages } from './images.mjs';
+import { ensureImages, podarCache } from './images.mjs';
 import { classify } from './taxonomy.mjs';
 import { curadoriaAtiva, foraDaCuradoria } from './curadoria.mjs';
 import sharp from 'sharp';
@@ -110,9 +110,10 @@ const sharedReact = {
 const shellRes = await build({ ...common, entryPoints: [join(ROOT, 'src/shell/main.tsx')], plugins: [atlasPlugin({ urls, libIds: ids })] });
 let shellJs = shellRes.outputFiles[0].text;
 const libRes = await build({
-  ...common, entryPoints: ids.map((id) => ({ in: join(ROOT, `src/gen/${id}.lib.tsx`), out: id })), outdir: join(TMP, 'libs'),
+  ...common, metafile: !!process.env.ATLAS_TRACE, entryPoints: ids.map((id) => ({ in: join(ROOT, `src/gen/${id}.lib.tsx`), out: id })), outdir: join(TMP, 'libs'),
   plugins: [sharedReact, atlasPlugin({ urls, libIds: ids })],
 });
+if (process.env.ATLAS_TRACE) writeFileSync(process.env.ATLAS_TRACE + '.esbuild.json', JSON.stringify(Object.keys(libRes.metafile.inputs)));   // build/rastrear.mjs
 const libJs = Object.fromEntries(libRes.outputFiles.map((f) => [f.path.split(/[\\/]/).pop().replace(/\.js$/, ''), f.text]));
 
 // fontes pedidas via next/font/google → @fontsource (se instalado) embutido em base64
@@ -136,6 +137,7 @@ for (const id of ids) for (const u of learnedBy[id]) {
   else if (!allUrls.has(u)) allUrls.set(u, allUrls.size);
 }
 const { cache: imgCache, ok, fail } = await ensureImages(allUrls, { offline });
+if (profile === 'full' && !only.length) console.log(`  cache de imagens: ${podarCache(imgCache, allUrls.keys())} imagens usadas (cache/images.json)`);
 // lite: reencoda imagens raster em 400px / qualidade menor (o resto do arquivo é código, que comprime bem)
 if (lite) {
   const keys = Object.keys(imgCache).filter((k) => imgCache[k] && imgCache[k].mime !== 'image/svg+xml' && imgCache[k].b64.length > 24000);

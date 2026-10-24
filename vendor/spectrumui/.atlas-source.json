@@ -1,0 +1,11 @@
+{
+  "id": "spectrumui",
+  "name": "Spectrum UI",
+  "repo": "https://github.com/arihantcodes/spectrum-ui.git",
+  "commit": "acdc998c64829f8ae037be48e3c273ccc8d71f60",
+  "license": "Apache-2.0",
+  "declared": "Apache-2.0",
+  "status": "OK",
+  "copyright": "copyright owner or entity authorized by",
+  "files": 309
+}

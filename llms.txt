@@ -1,0 +1,21 @@
+# Atlas UI
+
+> Biblioteca curada de componentes de UI (React + Tailwind + Motion e HTML/CSS) para uma IA escolher componentes para clientes. Contém só o que é difícil de fazer sem referência (efeitos, animações, 3D, componentes compostos), com prévia visual de cada componente, licença e dependências. Autocontida: código, licenças, catálogo e prévias estão neste repositório.
+
+Leia primeiro [AGENTS.md](AGENTS.md): passo a passo para buscar, ver, escolher e adaptar.
+
+## Catálogo
+- [catalogo/README.md](catalogo/README.md): visão geral, tipos de aplicação e funções
+- [catalogo/catalog.jsonl](catalogo/catalog.jsonl): um componente por linha (uid, função, tipo de aplicação, tags, licença, prévia, arquivos, dependências)
+- [catalogo/por-funcao/README.md](catalogo/por-funcao/README.md): páginas por função com miniaturas
+- [catalogo/folhas/README.md](catalogo/folhas/README.md): folhas de prévias numeradas para comparar visualmente
+- [catalogo/libs.md](catalogo/libs.md): licença e forma de uso de cada biblioteca
+
+## Ferramentas
+- `node scripts/atlas-find.mjs survey "<necessidade 1>; <necessidade 2>"`: busca em todos os tipos de aplicação
+- `node scripts/atlas-find.mjs find "<termos>" [--fn=…] [--app=…] [--profile=compartilhavel]`
+- `node scripts/atlas-find.mjs code <uid>`: metadados, licença, prévia, dependências e código-fonte
+
+## Opcional
+- [curadoria/LEIA-ME.md](curadoria/LEIA-ME.md): critérios da curadoria
+- [reescrita/CONVENCOES.md](reescrita/CONVENCOES.md): como os componentes de autoria própria são escritos
